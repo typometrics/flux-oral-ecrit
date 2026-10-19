@@ -1,0 +1,327 @@
+# sent_id = Rhap_D2006-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# macrosyntax = $L1 le programme ( monsieur le premier ministre ) comporte { un certain nombre de projets ( d'autant plus intéressants à nos yeux que nous les proposons depuis longtemps ) | { relèvement du Smic | amnistie pour { les commerçants | ^et les artisans } | aide aux chômeurs partiels | égalisation des salaires { féminins | ^et masculins } | participation accrue des cadres aux conseils d'administration des sociétés | réforme du droit de licenciement | nomination d'un médiateur entre { l'administration | ^et le public } | contrôle des dépenses électorales } | toutes mesures { qui dormaient dans vos cartons | que vos prédécesseurs avaient énergiquement refusées | ^et que l'on retrouve dans le programme commun de la gauche } } //
+# text = le programme, monsieur le premier ministre, comporte un certain nombre de projets, d'autant plus intéressants à nos yeux que nous les proposons depuis longtemps: relèvement du Smic, amnistie pour les commerçants et les artisans, aide aux chômeurs partiels, égalisation des salaires féminins et masculins, participation accrue des cadres aux conseils d'administration des sociétés, réforme du droit de licenciement, nomination d'un médiateur entre l'administration et le public, contrôle des dépenses électorales, toutes mesures qui dormaient dans vos cartons, que vos prédécesseurs avaient énergiquement refusées, et que l'on retrouve dans le programme commun de la gauche.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=0|WordAlignmentEnd=95
+2	programme	programme	NOUN	_	_	9	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=95|WordAlignmentEnd=637
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=637|WordAlignmentEnd=637
+4	monsieur	monsieur	NOUN	_	_	9	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=637|WordAlignmentEnd=960
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=960|WordAlignmentEnd=1085
+6	premier	premier	ADJ	_	Gender=Masc	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=1085|WordAlignmentEnd=1366
+7	ministre	ministre	NOUN	_	_	4	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=1366|WordAlignmentEnd=1825
+8	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=1825|WordAlignmentEnd=2677
+9	comporte	comporter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=2677|WordAlignmentEnd=3222
+10	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	WordAlignmentBegin=3222|WordAlignmentEnd=3372
+11	certain	certain	ADJ	_	Gender=Masc	12	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=3372|WordAlignmentEnd=3682
+12	nombre	nombre	NOUN	_	_	9	comp:obj	_	cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=3682|WordAlignmentEnd=3972
+13	de	de	ADP	_	_	12	udep	_	WordAlignmentBegin=3972|WordAlignmentEnd=4072
+14	projets	projet	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=4072|WordAlignmentEnd=4562
+15	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=4562|WordAlignmentEnd=0
+16	d'autant	d'autant	ADV	_	_	17	mod	_	WordAlignmentBegin=4562|WordAlignmentEnd=4842
+17	plus	plus	ADV	_	_	18	mod	_	WordAlignmentBegin=4842|WordAlignmentEnd=5022
+18	intéressants	intéressant	ADJ	_	Gender=Masc	14	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=5022|WordAlignmentEnd=5602
+19	à	à	ADP	_	_	18	mod	_	WordAlignmentBegin=5602|WordAlignmentEnd=5682
+20	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=5682|WordAlignmentEnd=5822
+21	yeux	œil	NOUN	_	Number=Plur	19	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|WordAlignmentBegin=5822|WordAlignmentEnd=6152
+22	que	que	SCONJ	_	_	17	comp:obj	_	WordAlignmentBegin=6743|WordAlignmentEnd=6868
+23	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	25	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=6868|WordAlignmentEnd=6978
+24	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	25	comp:obj	_	Person[lex]=3|WordAlignmentBegin=6978|WordAlignmentEnd=7108
+25	proposons	proposer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	comp	_	WordAlignmentBegin=7108|WordAlignmentEnd=7558
+26	depuis	depuis	ADP	_	_	25	mod	_	WordAlignmentBegin=7558|WordAlignmentEnd=7798
+27	longtemps	longtemps	ADV	_	_	26	comp	_	SpaceAfter=No|WordAlignmentBegin=7798|WordAlignmentEnd=8109
+28	:	:	PUNCT	_	_	29	punct	_	WordAlignmentBegin=8109|WordAlignmentEnd=9598
+29	relèvement	relèvement	NOUN	_	_	12	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=9598|WordAlignmentEnd=10403
+30	du	du	ADP	_	_	29	udep	_	WordAlignmentBegin=10403|WordAlignmentEnd=10513
+31	Smic	Smic	PROPN	_	_	30	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=10513|WordAlignmentEnd=10952
+32	,	,	PUNCT	_	_	33	punct	_	WordAlignmentBegin=10952|WordAlignmentEnd=11933
+33	amnistie	amnistie	NOUN	_	_	29	conj:coord	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=11933|WordAlignmentEnd=12608
+34	pour	pour	ADP	_	_	33	udep	_	WordAlignmentBegin=12608|WordAlignmentEnd=12718
+35	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	36	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=12718|WordAlignmentEnd=12818
+36	commerçants	commerçant	NOUN	_	_	34	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=12818|WordAlignmentEnd=13428
+37	et	et	CCONJ	_	_	39	cc	_	WordAlignmentBegin=13428|WordAlignmentEnd=13518
+38	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	39	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=13518|WordAlignmentEnd=13718
+39	artisans	artisan	NOUN	_	_	36	conj:coord	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=13718|WordAlignmentEnd=14228
+40	,	,	PUNCT	_	_	41	punct	_	WordAlignmentBegin=14228|WordAlignmentEnd=14908
+41	aide	aide	NOUN	_	_	33	conj:coord	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=14908|WordAlignmentEnd=15213
+42	aux	au	ADP	_	_	41	udep	_	WordAlignmentBegin=15213|WordAlignmentEnd=15333
+43	chômeurs	chômeur	NOUN	_	_	42	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=15333|WordAlignmentEnd=15843
+44	partiels	partiel	ADJ	_	_	43	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=15843|WordAlignmentEnd=16409
+45	,	,	PUNCT	_	_	46	punct	_	WordAlignmentBegin=16409|WordAlignmentEnd=16947
+46	égalisation	égalisation	NOUN	_	_	41	conj:coord	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=16947|WordAlignmentEnd=17692
+47	des	de	ADP	_	_	46	udep	_	WordAlignmentBegin=17692|WordAlignmentEnd=17802
+48	salaires	salaire	NOUN	_	_	47	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=17802|WordAlignmentEnd=18142
+49	féminins	féminin	ADJ	_	Gender=Masc	48	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=18142|WordAlignmentEnd=18742
+50	et	et	CCONJ	_	_	51	cc	_	WordAlignmentBegin=18742|WordAlignmentEnd=18842
+51	masculins	masculin	ADJ	_	Gender=Masc	49	conj:coord	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=18842|WordAlignmentEnd=19308
+52	,	,	PUNCT	_	_	53	punct	_	WordAlignmentBegin=19308|WordAlignmentEnd=19952
+53	participation	participation	NOUN	_	_	46	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=19952|WordAlignmentEnd=20757
+54	accrue	accru	ADJ	_	_	53	mod	_	Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=20757|WordAlignmentEnd=21087
+55	des	de	ADP	_	_	53	udep	_	WordAlignmentBegin=21087|WordAlignmentEnd=21217
+56	cadres	cadre	NOUN	_	_	55	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=21217|WordAlignmentEnd=21537
+57	aux	au	ADP	_	_	53	udep	_	WordAlignmentBegin=21537|WordAlignmentEnd=21587
+58	conseils	conseil	NOUN	_	_	57	comp	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=21587|WordAlignmentEnd=21937
+59	d'	de	ADP	_	_	58	udep	_	SpaceAfter=No|WordAlignmentBegin=21937|WordAlignmentEnd=21967
+60	administration	administration	NOUN	_	_	59	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=21967|WordAlignmentEnd=22687
+61	des	de	ADP	_	_	58	udep	_	WordAlignmentBegin=22687|WordAlignmentEnd=22817
+62	sociétés	société	NOUN	_	_	61	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=22817|WordAlignmentEnd=23380
+63	,	,	PUNCT	_	_	64	punct	_	WordAlignmentBegin=23380|WordAlignmentEnd=24266
+64	réforme	réforme	NOUN	_	_	53	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=24266|WordAlignmentEnd=24871
+65	du	du	ADP	_	_	64	udep	_	WordAlignmentBegin=24871|WordAlignmentEnd=25001
+66	droit	droit	NOUN	_	_	65	comp	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=25001|WordAlignmentEnd=25234
+67	de	de	ADP	_	_	66	udep	_	WordAlignmentBegin=25234|WordAlignmentEnd=25345
+68	licenciement	licenciement	NOUN	_	_	67	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=25345|WordAlignmentEnd=25986
+69	,	,	PUNCT	_	_	70	punct	_	WordAlignmentBegin=25986|WordAlignmentEnd=26567
+70	nomination	nomination	NOUN	_	_	64	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=26567|WordAlignmentEnd=27262
+71	d'	de	ADP	_	_	70	udep	_	SpaceAfter=No|WordAlignmentBegin=27262|WordAlignmentEnd=27292
+72	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	73	det	_	WordAlignmentBegin=27292|WordAlignmentEnd=27402
+73	médiateur	médiateur	NOUN	_	_	71	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=27402|WordAlignmentEnd=28002
+74	entre	entre	ADP	_	_	73	udep	_	WordAlignmentBegin=28002|WordAlignmentEnd=28278
+75	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	76	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=28278|WordAlignmentEnd=28300
+76	administration	administration	NOUN	_	_	74	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=28300|WordAlignmentEnd=28982
+77	et	et	CCONJ	_	_	79	cc	_	WordAlignmentBegin=28982|WordAlignmentEnd=29072
+78	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	79	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=29072|WordAlignmentEnd=29142
+79	public	public	NOUN	_	_	76	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=29142|WordAlignmentEnd=29507
+80	,	,	PUNCT	_	_	81	punct	_	WordAlignmentBegin=29507|WordAlignmentEnd=30141
+81	contrôle	contrôle	NOUN	_	_	70	conj:coord	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=30141|WordAlignmentEnd=30786
+82	des	de	ADP	_	_	81	udep	_	WordAlignmentBegin=30786|WordAlignmentEnd=30894
+83	dépenses	dépense	NOUN	_	_	82	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=30894|WordAlignmentEnd=31296
+84	électorales	électoral	ADJ	_	_	83	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=31296|WordAlignmentEnd=31942
+85	,	,	PUNCT	_	_	87	punct	_	WordAlignmentBegin=31942|WordAlignmentEnd=32144
+86	toutes	tout	ADJ	_	Gender=Fem	87	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=32144|WordAlignmentEnd=32409
+87	mesures	mesure	NOUN	_	_	81	conj:appos	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=32409|WordAlignmentEnd=33050
+88	qui	qui	PRON	_	PronType=Rel	89	subj	_	WordAlignmentBegin=33656|WordAlignmentEnd=33861
+89	dormaient	dormir	VERB	_	Mood=Ind|Person=3|Shared=Yes|Tense=Imp|VerbForm=Fin	87	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=33861|WordAlignmentEnd=34461
+90	dans	dans	ADP	_	_	89	mod	_	WordAlignmentBegin=34461|WordAlignmentEnd=34722
+91	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	92	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=34722|WordAlignmentEnd=34981
+92	cartons	carton	NOUN	_	_	90	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=34981|WordAlignmentEnd=35433
+93	,	,	PUNCT	_	_	97	punct	_	WordAlignmentBegin=35433|WordAlignmentEnd=36050
+94	que	que	PRON	_	PronType=Rel	99	comp:obj	_	WordAlignmentBegin=36050|WordAlignmentEnd=36195
+95	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	96	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=36195|WordAlignmentEnd=36375
+96	prédécesseurs	prédécesseur	NOUN	_	_	97	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=36375|WordAlignmentEnd=37245
+97	avaient	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	89	conj:coord	_	WordAlignmentBegin=37245|WordAlignmentEnd=37595
+98	énergiquement	énergiquement	ADV	_	_	97	mod	_	WordAlignmentBegin=37595|WordAlignmentEnd=38525
+99	refusées	refuser	VERB	_	VerbForm=Part|Voice=Act	97	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=38525|WordAlignmentEnd=38967
+100	,	,	PUNCT	_	_	104	punct	_	WordAlignmentBegin=38967|WordAlignmentEnd=39480
+101	et	et	CCONJ	_	_	104	cc	_	WordAlignmentBegin=39480|WordAlignmentEnd=39575
+102	que	que	PRON	_	PronType=Rel	104	comp:obj	_	WordAlignmentBegin=39575|WordAlignmentEnd=39735
+103	l'on	on	PRON	_	PronType=Ind	104	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=39735|WordAlignmentEnd=39985
+104	retrouve	retrouver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	97	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=39985|WordAlignmentEnd=40609
+105	dans	dans	ADP	_	_	104	mod	_	WordAlignmentBegin=40907|WordAlignmentEnd=41042
+106	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	107	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=41042|WordAlignmentEnd=41162
+107	programme	programme	NOUN	_	_	105	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=41162|WordAlignmentEnd=41602
+108	commun	commun	ADJ	_	Gender=Masc	107	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=41602|WordAlignmentEnd=42142
+109	de	de	ADP	_	_	107	udep	_	WordAlignmentBegin=42142|WordAlignmentEnd=42262
+110	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	111	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=42262|WordAlignmentEnd=42434
+111	gauche	gauche	NOUN	_	_	109	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=42434|WordAlignmentEnd=42709
+112	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=42709|WordAlignmentEnd=42709
+
+# sent_id = Rhap_D2006-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# macrosyntax = lorsque vous semblez mettre en doute notre amour des libertés <+ c'est un outrage que nous n'acceptons pas //
+# text = lorsque vous semblez mettre en doute notre amour des libertés, c'est un outrage que nous n'acceptons pas.
+1	lorsque	lorsque	SCONJ	_	_	13	mod	_	WordAlignmentBegin=47292|WordAlignmentEnd=47807
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=47807|WordAlignmentEnd=47937
+3	semblez	sembler	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	1	comp	_	WordAlignmentBegin=47937|WordAlignmentEnd=48477
+4	mettre	mettre	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=48477|WordAlignmentEnd=48787
+5	en	en	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=48787|WordAlignmentEnd=48987
+6	doute	doute	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=48987|WordAlignmentEnd=49298
+7	notre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=50005|WordAlignmentEnd=50270
+8	amour	amour	NOUN	_	_	4	comp:obj	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=50270|WordAlignmentEnd=50800
+9	des	de	ADP	_	_	8	udep	_	WordAlignmentBegin=50800|WordAlignmentEnd=50940
+10	libertés	liberté	NOUN	_	_	9	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=50940|WordAlignmentEnd=51444
+11	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=51444|WordAlignmentEnd=52604
+12	c'	ce	PRON	_	PronType=Dem	13	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=52604|WordAlignmentEnd=52749
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=52749|WordAlignmentEnd=53009
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	LiaisonAfter=Yes|WordAlignmentBegin=53009|WordAlignmentEnd=53287
+15	outrage	outrage	NOUN	_	_	13	comp:pred	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=53287|WordAlignmentEnd=53911
+16	que	que	PRON	_	PronType=Rel	19	comp:obj	_	WordAlignmentBegin=54672|WordAlignmentEnd=54829
+17	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=54829|WordAlignmentEnd=54978
+18	n'	ne	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No|WordAlignmentBegin=54978|WordAlignmentEnd=55024
+19	acceptons	accepter	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	WordAlignmentBegin=55024|WordAlignmentEnd=55607
+20	pas	pas	ADV	_	Polarity=Neg	19	mod	_	SpaceAfter=No|WordAlignmentBegin=55607|WordAlignmentEnd=55821
+21	.	.	PUNCT	_	_	13	punct	_	WordAlignmentBegin=55821|WordAlignmentEnd=55821
+
+# sent_id = Rhap_D2006-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# macrosyntax = nous sommes les héritiers de la tradition qui a instauré dans ce pays la démocratie { politique | ^et sociale } //
+# text = nous sommes les héritiers de la tradition qui a instauré dans ce pays la démocratie politique et sociale.
+1	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=57698|WordAlignmentEnd=57853
+2	sommes	être	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=57853|WordAlignmentEnd=58163
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=58163|WordAlignmentEnd=58483
+4	héritiers	héritier	NOUN	_	_	2	comp:pred	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=58483|WordAlignmentEnd=59143
+5	de	de	ADP	_	_	4	udep	_	WordAlignmentBegin=59143|WordAlignmentEnd=59213
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=59213|WordAlignmentEnd=59353
+7	tradition	tradition	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=59353|WordAlignmentEnd=60099
+8	qui	qui	PRON	_	PronType=Rel	9	subj	_	WordAlignmentBegin=60099|WordAlignmentEnd=60289
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	WordAlignmentBegin=60289|WordAlignmentEnd=60431
+10	instauré	instaurer	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=60431|WordAlignmentEnd=60999
+11	dans	dans	ADP	_	_	9	mod	_	WordAlignmentBegin=60999|WordAlignmentEnd=61159
+12	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=61159|WordAlignmentEnd=61339
+13	pays	pays	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=61339|WordAlignmentEnd=61764
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=62286|WordAlignmentEnd=62501
+15	démocratie	démocratie	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=62501|WordAlignmentEnd=63151
+16	politique	politique	ADJ	_	_	15	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=63151|WordAlignmentEnd=63561
+17	et	et	CCONJ	_	_	18	cc	_	WordAlignmentBegin=63561|WordAlignmentEnd=63641
+18	sociale	sociale	NOUN	_	_	16	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=63641|WordAlignmentEnd=64079
+19	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=64079|WordAlignmentEnd=64079
+
+# sent_id = Rhap_D2006-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# macrosyntax = { toujours | toujours } contre les droites coalisées <+ nos combats pour la conquête du droit jalonnent l'histoire des deux derniers siècles //
+# text = toujours, toujours contre les droites coalisées, nos combats pour la conquête du droit jalonnent l'histoire des deux derniers siècles.
+1	toujours	toujours	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=65110|WordAlignmentEnd=65776
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=65776|WordAlignmentEnd=66341
+3	toujours	toujours	ADV	_	_	1	conj:coord	_	WordAlignmentBegin=66341|WordAlignmentEnd=66963
+4	contre	contre	ADP	_	_	16	mod	_	WordAlignmentBegin=67318|WordAlignmentEnd=67623
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=67623|WordAlignmentEnd=67813
+6	droites	droite	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=67813|WordAlignmentEnd=68084
+7	coalisées	coaliser	VERB	_	VerbForm=Part	6	mod	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=68240|WordAlignmentEnd=69015
+8	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=69015|WordAlignmentEnd=70398
+9	nos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=1|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=70398|WordAlignmentEnd=70620
+10	combats	combat	NOUN	_	_	16	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=70620|WordAlignmentEnd=70986
+11	pour	pour	ADP	_	_	10	udep	_	WordAlignmentBegin=70986|WordAlignmentEnd=71130
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=71130|WordAlignmentEnd=71325
+13	conquête	conquête	NOUN	_	_	11	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=71325|WordAlignmentEnd=71908
+14	du	du	ADP	_	_	13	udep	_	WordAlignmentBegin=72052|WordAlignmentEnd=72217
+15	droit	droit	NOUN	_	_	14	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=72217|WordAlignmentEnd=72696
+16	jalonnent	jalonner	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|WordAlignmentBegin=72902|WordAlignmentEnd=73437
+17	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=73437|WordAlignmentEnd=73477
+18	histoire	histoire	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=73477|WordAlignmentEnd=74017
+19	des	de	ADP	_	_	18	udep	_	WordAlignmentBegin=74017|WordAlignmentEnd=74127
+20	deux	deux	NUM	_	ExtPos=DET	22	det	_	Number[lex]=Plur|WordAlignmentBegin=74127|WordAlignmentEnd=74257
+21	derniers	dernier	ADJ	_	Gender=Masc	22	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=74257|WordAlignmentEnd=74587
+22	siècles	siècle	NOUN	_	_	19	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=74587|WordAlignmentEnd=74808
+23	.	.	PUNCT	_	_	16	punct	_	WordAlignmentBegin=74808|WordAlignmentEnd=74808
+
+# sent_id = Rhap_D2006-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# macrosyntax = c'est à ceux de votre tradition { que nous avons arraché { le suffrage universel | la liberté d'association } | que nous avons arraché la liberté d'association | que nous avons arraché { la liberté de la presse | le droit de grève | le droit à l'instruction } } //
+# text = c'est à ceux de votre tradition que nous avons arraché le suffrage universel, la liberté d'association, que nous avons arraché la liberté d'association, que nous avons arraché la liberté de la presse, le droit de grève, le droit à l'instruction.
+1	c'	ce	PRON	_	PronType=Dem	2	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=75626|WordAlignmentEnd=75786
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=75786|WordAlignmentEnd=75966
+3	à	à	ADP	_	_	2	comp:pred	_	WordAlignmentBegin=75966|WordAlignmentEnd=76086
+4	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	3	comp	_	Person[lex]=3|WordAlignmentBegin=76086|WordAlignmentEnd=76506
+5	de	de	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=76686|WordAlignmentEnd=76890
+6	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=76890|WordAlignmentEnd=77501
+7	tradition	tradition	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=77501|WordAlignmentEnd=78130
+8	que	que	SCONJ	_	_	2	comp:cleft	_	WordAlignmentBegin=78714|WordAlignmentEnd=78819
+9	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=78819|WordAlignmentEnd=78969
+10	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	comp	_	Filler=obl|WordAlignmentBegin=78969|WordAlignmentEnd=79259
+11	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	10	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=79259|WordAlignmentEnd=79869
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=79869|WordAlignmentEnd=79949
+13	suffrage	suffrage	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=79949|WordAlignmentEnd=80389
+14	universel	universel	ADJ	_	_	13	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=80389|WordAlignmentEnd=81070
+15	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=81070|WordAlignmentEnd=81760
+16	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=81760|WordAlignmentEnd=81955
+17	liberté	liberté	NOUN	_	_	13	conj:coord	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=81955|WordAlignmentEnd=82548
+18	d'	de	ADP	_	_	17	udep	_	SpaceAfter=No|WordAlignmentBegin=82548|WordAlignmentEnd=82589
+19	association	association	NOUN	_	_	18	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=82589|WordAlignmentEnd=83354
+20	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=83354|WordAlignmentEnd=91622
+21	que	que	SCONJ	_	_	8	conj:coord	_	Filler=mod|WordAlignmentBegin=91622|WordAlignmentEnd=91697
+22	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	23	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=91697|WordAlignmentEnd=91927
+23	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	comp	_	WordAlignmentBegin=91927|WordAlignmentEnd=92197
+24	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	23	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=92197|WordAlignmentEnd=92857
+25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=92857|WordAlignmentEnd=92947
+26	liberté	liberté	NOUN	_	_	24	comp:obj	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=92947|WordAlignmentEnd=93414
+27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No|WordAlignmentBegin=93414|WordAlignmentEnd=93447
+28	association	association	NOUN	_	_	27	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=93447|WordAlignmentEnd=94210
+29	,	,	PUNCT	_	_	30	punct	_	WordAlignmentBegin=94210|WordAlignmentEnd=97617
+30	que	que	SCONJ	_	_	21	conj:coord	_	WordAlignmentBegin=97617|WordAlignmentEnd=97762
+31	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	32	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=97762|WordAlignmentEnd=97942
+32	avons	avoir	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	comp	_	WordAlignmentBegin=97942|WordAlignmentEnd=98212
+33	arraché	arracher	VERB	_	VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=98212|WordAlignmentEnd=99023
+34	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	35	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=99536|WordAlignmentEnd=99681
+35	liberté	liberté	NOUN	_	_	33	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=99681|WordAlignmentEnd=100151
+36	de	de	ADP	_	_	35	udep	_	WordAlignmentBegin=100151|WordAlignmentEnd=100181
+37	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=100181|WordAlignmentEnd=100361
+38	presse	presse	NOUN	_	_	36	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=100361|WordAlignmentEnd=100861
+39	,	,	PUNCT	_	_	41	punct	_	WordAlignmentBegin=100861|WordAlignmentEnd=102292
+40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=102292|WordAlignmentEnd=102500
+41	droit	droit	NOUN	_	_	35	conj:coord	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=102500|WordAlignmentEnd=102736
+42	de	de	ADP	_	_	41	udep	_	WordAlignmentBegin=102736|WordAlignmentEnd=102830
+43	grève	grève	NOUN	_	_	42	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=102830|WordAlignmentEnd=103195
+44	,	,	PUNCT	_	_	46	punct	_	WordAlignmentBegin=103195|WordAlignmentEnd=105170
+45	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	46	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=105170|WordAlignmentEnd=105380
+46	droit	droit	NOUN	_	_	41	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=105380|WordAlignmentEnd=105605
+47	à	à	ADP	_	_	46	udep	_	WordAlignmentBegin=105605|WordAlignmentEnd=105745
+48	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	49	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=105745|WordAlignmentEnd=105785
+49	instruction	instruction	NOUN	_	_	47	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=105785|WordAlignmentEnd=106571
+50	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=106571|WordAlignmentEnd=106571
+
+# sent_id = Rhap_D2006-6
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM21
+# macrosyntax = $L2 { seconde | une seconde | une seconde } //
+# text = seconde, une seconde, une seconde.
+1	seconde	seconde	NOUN	_	_	4	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=107933|WordAlignmentEnd=108270
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=108270|WordAlignmentEnd=108577
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	WordAlignmentBegin=108577|WordAlignmentEnd=108832
+4	seconde	seconde	NOUN	_	_	7	reparandum	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=108832|WordAlignmentEnd=109128
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=109128|WordAlignmentEnd=109128
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	WordAlignmentBegin=109128|WordAlignmentEnd=109323
+7	seconde	seconde	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=109323|WordAlignmentEnd=109636
+8	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=109636|WordAlignmentEnd=109636
+
+# sent_id = Rhap_D2006-7
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM21
+# macrosyntax = monsieur Mitterrand < une seconde //
+# text = monsieur Mitterrand, une seconde.
+1	monsieur	monsieur	NOUN	_	_	5	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=109636|WordAlignmentEnd=109861
+2	Mitterrand	Mitterrand	PROPN	_	_	1	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=109861|WordAlignmentEnd=110342
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=110342|WordAlignmentEnd=110574
+4	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	WordAlignmentBegin=110574|WordAlignmentEnd=110649
+5	seconde	seconde	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=110649|WordAlignmentEnd=110902
+6	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=110902|WordAlignmentEnd=110902
+
+# sent_id = Rhap_D2006-8
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM21
+# macrosyntax = monsieur Mitterrand < voulez-vous continuer //
+# text = monsieur Mitterrand, voulez-vous continuer ?
+1	monsieur	monsieur	NOUN	_	_	4	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=111673|WordAlignmentEnd=111988
+2	Mitterrand	Mitterrand	PROPN	_	_	1	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=111988|WordAlignmentEnd=112334
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=112334|WordAlignmentEnd=112334
+4	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=112334|WordAlignmentEnd=112499
+5	-vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|WordAlignmentBegin=112499|WordAlignmentEnd=112639
+6	continuer	continuer	VERB	_	VerbForm=Inf	4	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=112639|WordAlignmentEnd=113115
+7	?	?	PUNCT	_	_	4	punct	_	WordAlignmentBegin=113115|WordAlignmentEnd=113115
+
+# sent_id = Rhap_D2006-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM20
+# macrosyntax = $L1 ^mais monsieur le président < il est naturel que la majorité se montre telle qu'elle est //
+# text = mais monsieur le président, il est naturel que la majorité se montre telle qu'elle est.
+1	mais	mais	CCONJ	_	_	7	cc	_	WordAlignmentBegin=114842|WordAlignmentEnd=115067
+2	monsieur	monsieur	NOUN	_	_	7	vocative	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=115067|WordAlignmentEnd=115366
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=115366|WordAlignmentEnd=115487
+4	président	président	NOUN	_	_	2	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=115487|WordAlignmentEnd=116190
+5	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=116190|WordAlignmentEnd=116698
+6	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj@expl	_	Person[lex]=3|WordAlignmentBegin=116698|WordAlignmentEnd=116861
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=116861|WordAlignmentEnd=116963
+8	naturel	naturel	ADJ	_	_	7	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=116963|WordAlignmentEnd=117533
+9	que	que	SCONJ	_	_	8	comp:obj@agent	_	WordAlignmentBegin=117533|WordAlignmentEnd=117655
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=117655|WordAlignmentEnd=117763
+11	majorité	majorité	NOUN	_	_	13	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=117763|WordAlignmentEnd=118323
+12	se	soi	PRON	_	PronType=Prs|Reflex=Yes	13	comp:obj	_	Person[lex]=3|WordAlignmentBegin=118323|WordAlignmentEnd=118483
+13	montre	montrer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=118483|WordAlignmentEnd=118892
+14	telle	tel	ADJ	_	_	13	comp:pred	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=119041|WordAlignmentEnd=119216
+15	qu'	que	SCONJ	_	_	17	comp:pred	_	SpaceAfter=No|WordAlignmentBegin=119216|WordAlignmentEnd=119246
+16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	17	subj	_	Person[lex]=3|WordAlignmentBegin=119246|WordAlignmentEnd=119447
+17	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	mod@relcl	_	SpaceAfter=No|WordAlignmentBegin=119447|WordAlignmentEnd=119627
+18	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=119627|WordAlignmentEnd=119627
+

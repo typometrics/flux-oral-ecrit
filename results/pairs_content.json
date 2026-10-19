@@ -1,0 +1,11166 @@
+{
+ "GSD": {
+  "positions": 58822,
+  "pos_pct": {
+   "NN": 2.942776512189317,
+   "VV": 1.3685355819251301,
+   "NV": 9.018734487096664
+  },
+  "pairs": {
+   "NN": 1887,
+   "NV": 5807,
+   "VV": 804
+  },
+  "NV_expected_pct": 4.013623981682695,
+  "ratio": 2.2470302470426233,
+  "triples": {
+   "positions": 0,
+   "triples": 0
+  },
+  "examples": {
+   "NN": [
+    {
+     "sent_id": "fr-ud-dev_00005#0",
+     "forms": [
+      "Travail",
+      "très",
+      "grande",
+      "qualité",
+      "exécuté",
+      "imprimeur",
+      "artisan",
+      "passionné"
+     ],
+     "upos": [
+      "NOUN",
+      "ADV",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      0,
+      3,
+      4,
+      1,
+      1,
+      5,
+      6,
+      6
+     ],
+     "rel": [
+      "root",
+      "mod",
+      "mod",
+      "udep",
+      "mod",
+      "comp:obl",
+      "mod",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00006#3",
+     "forms": [
+      "secrétaire",
+      "général",
+      "responsable",
+      "projets",
+      "politiques",
+      "renouveau",
+      "intellectuel",
+      "formation",
+      "relations",
+      "internationales"
+     ],
+     "upos": [
+      "NOUN",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      4,
+      4,
+      6,
+      4,
+      4,
+      9
+     ],
+     "rel": [
+      "root",
+      "mod",
+      "mod",
+      "comp:obl",
+      "mod",
+      "conj:coord",
+      "mod",
+      "conj:coord",
+      "conj:coord",
+      "mod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       8,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00006#3",
+     "forms": [
+      "secrétaire",
+      "général",
+      "responsable",
+      "projets",
+      "politiques",
+      "renouveau",
+      "intellectuel",
+      "formation",
+      "relations",
+      "internationales"
+     ],
+     "upos": [
+      "NOUN",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      4,
+      4,
+      6,
+      4,
+      4,
+      9
+     ],
+     "rel": [
+      "root",
+      "mod",
+      "mod",
+      "comp:obl",
+      "mod",
+      "conj:coord",
+      "mod",
+      "conj:coord",
+      "conj:coord",
+      "mod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       9,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00012#0",
+     "forms": [
+      "Abime",
+      "abime",
+      "Vladimir",
+      "Holan",
+      "Maison",
+      "Arrêt",
+      "Avignon",
+      "2001"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "NUM"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      5,
+      5,
+      1
+     ],
+     "rel": [
+      "root",
+      "udep",
+      "udep",
+      "flat",
+      "udep",
+      "udep",
+      "udep",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00012#0",
+     "forms": [
+      "Abime",
+      "abime",
+      "Vladimir",
+      "Holan",
+      "Maison",
+      "Arrêt",
+      "Avignon",
+      "2001"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "NUM"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      5,
+      5,
+      1
+     ],
+     "rel": [
+      "root",
+      "udep",
+      "udep",
+      "flat",
+      "udep",
+      "udep",
+      "udep",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       8,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00012#0",
+     "forms": [
+      "Abime",
+      "abime",
+      "Vladimir",
+      "Holan",
+      "Maison",
+      "Arrêt",
+      "Avignon",
+      "2001"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "NUM"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      5,
+      5,
+      1
+     ],
+     "rel": [
+      "root",
+      "udep",
+      "udep",
+      "flat",
+      "udep",
+      "udep",
+      "udep",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       8,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00012#0",
+     "forms": [
+      "Abime",
+      "abime",
+      "Vladimir",
+      "Holan",
+      "Maison",
+      "Arrêt",
+      "Avignon",
+      "2001"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "NUM"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      5,
+      5,
+      1
+     ],
+     "rel": [
+      "root",
+      "udep",
+      "udep",
+      "flat",
+      "udep",
+      "udep",
+      "udep",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       7,
+       5
+      ],
+      [
+       8,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00012#0",
+     "forms": [
+      "Abime",
+      "abime",
+      "Vladimir",
+      "Holan",
+      "Maison",
+      "Arrêt",
+      "Avignon",
+      "2001"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "NUM"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      5,
+      5,
+      1
+     ],
+     "rel": [
+      "root",
+      "udep",
+      "udep",
+      "flat",
+      "udep",
+      "udep",
+      "udep",
+      "mod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       5
+      ],
+      [
+       8,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00024#0",
+     "forms": [
+      "Adam",
+      "berceau",
+      "tribu",
+      "Al",
+      "Bu",
+      "Said",
+      "dont",
+      "issu",
+      "actuel",
+      "sultan",
+      "Qabus",
+      "ibn",
+      "Said"
+     ],
+     "upos": [
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "PROPN",
+      "X",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      4,
+      8,
+      2,
+      10,
+      8,
+      10,
+      11,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "conj:appos",
+      "flat",
+      "flat",
+      "comp:obl",
+      "mod",
+      "mod",
+      "subj",
+      "conj:appos",
+      "flat",
+      "flat"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00024#0",
+     "forms": [
+      "Adam",
+      "berceau",
+      "tribu",
+      "Al",
+      "Bu",
+      "Said",
+      "dont",
+      "issu",
+      "actuel",
+      "sultan",
+      "Qabus",
+      "ibn",
+      "Said"
+     ],
+     "upos": [
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "PROPN",
+      "X",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      4,
+      8,
+      2,
+      10,
+      8,
+      10,
+      11,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "conj:appos",
+      "flat",
+      "flat",
+      "comp:obl",
+      "mod",
+      "mod",
+      "subj",
+      "conj:appos",
+      "flat",
+      "flat"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00024#0",
+     "forms": [
+      "Adam",
+      "berceau",
+      "tribu",
+      "Al",
+      "Bu",
+      "Said",
+      "dont",
+      "issu",
+      "actuel",
+      "sultan",
+      "Qabus",
+      "ibn",
+      "Said"
+     ],
+     "upos": [
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "PROPN",
+      "X",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      4,
+      8,
+      2,
+      10,
+      8,
+      10,
+      11,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "conj:appos",
+      "flat",
+      "flat",
+      "comp:obl",
+      "mod",
+      "mod",
+      "subj",
+      "conj:appos",
+      "flat",
+      "flat"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00024#0",
+     "forms": [
+      "Adam",
+      "berceau",
+      "tribu",
+      "Al",
+      "Bu",
+      "Said",
+      "dont",
+      "issu",
+      "actuel",
+      "sultan",
+      "Qabus",
+      "ibn",
+      "Said"
+     ],
+     "upos": [
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "PROPN",
+      "X",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      4,
+      8,
+      2,
+      10,
+      8,
+      10,
+      11,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "conj:appos",
+      "flat",
+      "flat",
+      "comp:obl",
+      "mod",
+      "mod",
+      "subj",
+      "conj:appos",
+      "flat",
+      "flat"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00067#0",
+     "forms": [
+      "On",
+      "en",
+      "vue",
+      "dizaine",
+      "premier",
+      "contrôle",
+      "pas",
+      "celle",
+      "là"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "ADV",
+      "PRON",
+      "ADV"
+     ],
+     "heads": [
+      3,
+      4,
+      0,
+      3,
+      6,
+      3,
+      8,
+      4,
+      8
+     ],
+     "rel": [
+      "subj",
+      "udep",
+      "root",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod",
+      "conj:coord",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       5,
+       6
+      ],
+      [
+       8,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00082#0",
+     "forms": [
+      "Douarnenez",
+      "accueillera",
+      "spectacle",
+      "clôture",
+      "trois",
+      "représentations",
+      "vendredi",
+      "28",
+      "samedi",
+      "29",
+      "20",
+      "h",
+      "30"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NUM",
+      "NUM",
+      "NOUN",
+      "NUM"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      2,
+      6,
+      7,
+      7,
+      9,
+      12,
+      6,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "udep",
+      "det",
+      "mod",
+      "mod",
+      "mod",
+      "conj:coord",
+      "mod",
+      "mod",
+      "udep",
+      "mod"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       12,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00082#0",
+     "forms": [
+      "Douarnenez",
+      "accueillera",
+      "spectacle",
+      "clôture",
+      "trois",
+      "représentations",
+      "vendredi",
+      "28",
+      "samedi",
+      "29",
+      "20",
+      "h",
+      "30"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NUM",
+      "NUM",
+      "NOUN",
+      "NUM"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      2,
+      6,
+      7,
+      7,
+      9,
+      12,
+      6,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "udep",
+      "det",
+      "mod",
+      "mod",
+      "mod",
+      "conj:coord",
+      "mod",
+      "mod",
+      "udep",
+      "mod"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       9,
+       7
+      ],
+      [
+       12,
+       6
+      ]
+     ]
+    }
+   ],
+   "NV": [
+    {
+     "sent_id": "fr-ud-dev_00008#0",
+     "forms": [
+      "compagnies",
+      "aériennes",
+      "bas",
+      "coût",
+      "ne",
+      "connaissent",
+      "pas",
+      "crise"
+     ],
+     "upos": [
+      "NOUN",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "ADV",
+      "VERB",
+      "ADV",
+      "NOUN"
+     ],
+     "heads": [
+      6,
+      1,
+      4,
+      1,
+      6,
+      0,
+      6,
+      6
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "mod",
+      "udep",
+      "mod",
+      "root",
+      "mod",
+      "comp:obj"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       6
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00009#0",
+     "forms": [
+      "C'",
+      "véritablement",
+      "futur",
+      "baptisé",
+      "changement",
+      "cap"
+     ],
+     "upos": [
+      "PRON",
+      "ADV",
+      "ADJ",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      5,
+      5,
+      4,
+      5,
+      0,
+      5
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "mod",
+      "mod",
+      "root",
+      "udep"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       5
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00009#0",
+     "forms": [
+      "C'",
+      "véritablement",
+      "futur",
+      "baptisé",
+      "changement",
+      "cap"
+     ],
+     "upos": [
+      "PRON",
+      "ADV",
+      "ADJ",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      5,
+      5,
+      4,
+      5,
+      0,
+      5
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "mod",
+      "mod",
+      "root",
+      "udep"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       5
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00018#1",
+     "forms": [
+      "réfutation",
+      "immatérialisme",
+      "George",
+      "Berkeley",
+      "restée",
+      "célèbre"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "VERB",
+      "ADJ"
+     ],
+     "heads": [
+      5,
+      1,
+      2,
+      3,
+      0,
+      5
+     ],
+     "rel": [
+      "subj",
+      "udep",
+      "udep",
+      "flat",
+      "root",
+      "comp:pred"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       5
+      ],
+      [
+       3,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00018#1",
+     "forms": [
+      "réfutation",
+      "immatérialisme",
+      "George",
+      "Berkeley",
+      "restée",
+      "célèbre"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "VERB",
+      "ADJ"
+     ],
+     "heads": [
+      5,
+      1,
+      2,
+      3,
+      0,
+      5
+     ],
+     "rel": [
+      "subj",
+      "udep",
+      "udep",
+      "flat",
+      "root",
+      "comp:pred"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       5
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00021#0",
+     "forms": [
+      "jeune",
+      "Marian",
+      "contraction",
+      "Mary",
+      "Anne",
+      "se",
+      "révèle",
+      "caractère",
+      "obstiné",
+      "ombrageux"
+     ],
+     "upos": [
+      "ADJ",
+      "PROPN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      7,
+      2,
+      3,
+      4,
+      7,
+      0,
+      7,
+      8,
+      9
+     ],
+     "rel": [
+      "mod",
+      "subj",
+      "conj:appos",
+      "udep",
+      "flat",
+      "comp:obj",
+      "root",
+      "comp:obl",
+      "mod",
+      "conj:coord"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00021#0",
+     "forms": [
+      "jeune",
+      "Marian",
+      "contraction",
+      "Mary",
+      "Anne",
+      "se",
+      "révèle",
+      "caractère",
+      "obstiné",
+      "ombrageux"
+     ],
+     "upos": [
+      "ADJ",
+      "PROPN",
+      "NOUN",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      7,
+      2,
+      3,
+      4,
+      7,
+      0,
+      7,
+      8,
+      9
+     ],
+     "rel": [
+      "mod",
+      "subj",
+      "conj:appos",
+      "udep",
+      "flat",
+      "comp:obj",
+      "root",
+      "comp:obl",
+      "mod",
+      "conj:coord"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       5,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00032#0",
+     "forms": [
+      "cuisinières",
+      "apparaissent",
+      "début",
+      "XIXe",
+      "siècle",
+      "gaz",
+      "manufacturés"
+     ],
+     "upos": [
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      2,
+      6
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "mod",
+      "mod",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       5,
+       3
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00032#0",
+     "forms": [
+      "cuisinières",
+      "apparaissent",
+      "début",
+      "XIXe",
+      "siècle",
+      "gaz",
+      "manufacturés"
+     ],
+     "upos": [
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      2,
+      6
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "mod",
+      "mod",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00032#0",
+     "forms": [
+      "cuisinières",
+      "apparaissent",
+      "début",
+      "XIXe",
+      "siècle",
+      "gaz",
+      "manufacturés"
+     ],
+     "upos": [
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      2,
+      6
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "mod",
+      "mod",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       3
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00034#0",
+     "forms": [
+      "Il",
+      "autorisa",
+      "installation",
+      "pompes",
+      "feu",
+      "approvisionner",
+      "Paris",
+      "eau",
+      "manière",
+      "régulière"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      2,
+      6,
+      6,
+      6,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "udep",
+      "udep",
+      "mod",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00034#0",
+     "forms": [
+      "Il",
+      "autorisa",
+      "installation",
+      "pompes",
+      "feu",
+      "approvisionner",
+      "Paris",
+      "eau",
+      "manière",
+      "régulière"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      2,
+      6,
+      6,
+      6,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "udep",
+      "udep",
+      "mod",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00037#0",
+     "forms": [
+      "Thionville",
+      "Congerville",
+      "créée",
+      "1793",
+      "nom",
+      "actuel",
+      "fusionnèrent",
+      "1973"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "VERB",
+      "NUM",
+      "NOUN",
+      "ADJ",
+      "VERB",
+      "NUM"
+     ],
+     "heads": [
+      3,
+      1,
+      0,
+      3,
+      3,
+      5,
+      3,
+      7
+     ],
+     "rel": [
+      "subj",
+      "conj:coord",
+      "root",
+      "mod",
+      "mod",
+      "mod",
+      "conj:coord",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       7,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00040#0",
+     "forms": [
+      "Tarzan",
+      "homme",
+      "singe",
+      "règne",
+      "maître",
+      "domaine",
+      "jungle"
+     ],
+     "upos": [
+      "PROPN",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      1,
+      2,
+      0,
+      4,
+      4,
+      6
+     ],
+     "rel": [
+      "subj",
+      "conj:appos",
+      "mod",
+      "root",
+      "mod",
+      "mod",
+      "conj:appos"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       4
+      ],
+      [
+       3,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00044#0",
+     "forms": [
+      "Il",
+      "verra",
+      "puits",
+      "plus",
+      "profond",
+      "France",
+      "porter",
+      "nom"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADV",
+      "ADJ",
+      "PROPN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      3,
+      2,
+      7
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "mod",
+      "udep",
+      "comp:pred",
+      "comp:obj"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       5,
+       3
+      ],
+      [
+       7,
+       2
+      ]
+     ]
+    }
+   ],
+   "VV": [
+    {
+     "sent_id": "fr-ud-dev_00051#0",
+     "forms": [
+      "gardien",
+      "algérien",
+      "lui",
+      "aussi",
+      "laissé",
+      "filer",
+      "ballon",
+      "buts"
+     ],
+     "upos": [
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "ADV",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      5,
+      1,
+      5,
+      3,
+      0,
+      5,
+      5,
+      6
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "mod",
+      "mod",
+      "root",
+      "comp:pred",
+      "comp:obj",
+      "mod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       5
+      ],
+      [
+       8,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00053#0",
+     "forms": [
+      "élargissement",
+      "activités",
+      "orchestre",
+      "décide",
+      "abandonner",
+      "système",
+      "1933"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "NUM"
+     ],
+     "heads": [
+      4,
+      1,
+      4,
+      0,
+      4,
+      5,
+      4
+     ],
+     "rel": [
+      "mod",
+      "udep",
+      "subj",
+      "root",
+      "comp:obj",
+      "comp:obj",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       7,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00054#0",
+     "forms": [
+      "24e",
+      "RIC",
+      "créé",
+      "décret",
+      "16",
+      "décembre",
+      "1902",
+      "mis",
+      "pied",
+      "Perpignan"
+     ],
+     "upos": [
+      "ADJ",
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NUM",
+      "VERB",
+      "NOUN",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      8,
+      2,
+      3,
+      4,
+      5,
+      6,
+      0,
+      8,
+      8
+     ],
+     "rel": [
+      "mod",
+      "subj",
+      "mod",
+      "mod",
+      "udep",
+      "mod",
+      "mod",
+      "root",
+      "mod",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       8
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00124#0",
+     "forms": [
+      "pointe",
+      "nord",
+      "île",
+      "balisant",
+      "Grande",
+      "Passe",
+      "plonge",
+      "récif",
+      "corallien"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      7,
+      1,
+      1,
+      1,
+      6,
+      4,
+      0,
+      7,
+      8
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "udep",
+      "mod",
+      "mod",
+      "comp:obj",
+      "root",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       6,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00124#0",
+     "forms": [
+      "pointe",
+      "nord",
+      "île",
+      "balisant",
+      "Grande",
+      "Passe",
+      "plonge",
+      "récif",
+      "corallien"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      7,
+      1,
+      1,
+      1,
+      6,
+      4,
+      0,
+      7,
+      8
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "udep",
+      "mod",
+      "mod",
+      "comp:obj",
+      "root",
+      "mod",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       6,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00126#0",
+     "forms": [
+      "Ils",
+      "atterrissent",
+      "sortie",
+      "non-surveillée",
+      "Black",
+      "Mesa",
+      "prennent",
+      "SUV",
+      "quittent",
+      "Black",
+      "Mesa"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PROPN",
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "PROPN",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      3,
+      5,
+      2,
+      7,
+      2,
+      9,
+      10
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "mod",
+      "udep",
+      "flat",
+      "conj:coord",
+      "comp:obj",
+      "conj:coord",
+      "comp:obj",
+      "flat"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       9,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00148#0",
+     "forms": [
+      "elle",
+      "s'",
+      "attaquer",
+      "immigration",
+      "clandestine",
+      "c'",
+      "aussi",
+      "s'",
+      "attaquer",
+      "misère",
+      "humaine"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      9,
+      3,
+      9,
+      3,
+      4,
+      9,
+      9,
+      9,
+      0,
+      9,
+      10
+     ],
+     "rel": [
+      "mod",
+      "comp",
+      "dislocated",
+      "comp:obl",
+      "mod",
+      "subj",
+      "mod",
+      "comp",
+      "root",
+      "comp:obl",
+      "mod"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       9
+      ],
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00148#0",
+     "forms": [
+      "elle",
+      "s'",
+      "attaquer",
+      "immigration",
+      "clandestine",
+      "c'",
+      "aussi",
+      "s'",
+      "attaquer",
+      "misère",
+      "humaine"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      9,
+      3,
+      9,
+      3,
+      4,
+      9,
+      9,
+      9,
+      0,
+      9,
+      10
+     ],
+     "rel": [
+      "mod",
+      "comp",
+      "dislocated",
+      "comp:obl",
+      "mod",
+      "subj",
+      "mod",
+      "comp",
+      "root",
+      "comp:obl",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       9
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       3,
+       11
+      ],
+      [
+       5,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       5,
+       6
+      ],
+      [
+       11,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       3,
+       11
+      ],
+      [
+       7,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       11,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       3,
+       11
+      ],
+      [
+       8,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       3,
+       11
+      ],
+      [
+       9,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "fr-ud-dev_00165#0",
+     "forms": [
+      "Alexis",
+      "exige",
+      "prince",
+      "croisé",
+      "qui",
+      "entend",
+      "traverser",
+      "Constantinople",
+      "armée",
+      "lui",
+      "prête",
+      "serment",
+      "hommage"
+     ],
+     "upos": [
+      "PROPN",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "VERB",
+      "VERB",
+      "PROPN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      11,
+      3,
+      6,
+      3,
+      6,
+      7,
+      7,
+      11,
+      2,
+      11,
+      12
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "mod",
+      "subj",
+      "mod",
+      "comp:obj",
+      "comp:obj",
+      "mod",
+      "comp:obl",
+      "comp:obj",
+      "comp:obj",
+      "comp:obl"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       11,
+       2
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "Sequoia": {
+  "positions": 8365,
+  "pos_pct": {
+   "NN": 3.359234907352062,
+   "VV": 1.9844590555887627,
+   "NV": 9.025702331141662
+  },
+  "pairs": {
+   "NV": 829,
+   "NN": 362,
+   "VV": 166
+  },
+  "NV_expected_pct": 5.163821891484902,
+  "ratio": 1.7478725100927606,
+  "triples": {
+   "positions": 0,
+   "triples": 0
+  },
+  "examples": {
+   "VV": [
+    {
+     "sent_id": "Europar.550_00018#1",
+     "forms": [
+      "ce",
+      "qui",
+      "traduit",
+      "argent",
+      "constitue",
+      "économie",
+      "250",
+      "millions",
+      "euros",
+      "an"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      5,
+      5,
+      3,
+      1,
+      5,
+      8,
+      6,
+      8,
+      6
+     ],
+     "rel": [
+      "root",
+      "subj",
+      "mod",
+      "comp:obl",
+      "mod",
+      "comp:obj",
+      "det",
+      "udep",
+      "udep",
+      "udep"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       5
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00025#1",
+     "forms": [
+      "je",
+      "recommande",
+      "l'",
+      "convenu",
+      "groupes",
+      "soutien",
+      "adoption",
+      "tous"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PRON"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      2,
+      6,
+      7
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "subj",
+      "comp:obj",
+      "conj:coord",
+      "udep"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00025#1",
+     "forms": [
+      "je",
+      "recommande",
+      "l'",
+      "convenu",
+      "groupes",
+      "soutien",
+      "adoption",
+      "tous"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PRON"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      2,
+      6,
+      7
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "subj",
+      "comp:obj",
+      "conj:coord",
+      "udep"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00028#1",
+     "forms": [
+      "récemment",
+      "encore",
+      "on",
+      "faisait",
+      "allusion",
+      "bout",
+      "lèvres",
+      "il",
+      "est",
+      "vrai",
+      "principe",
+      "subsidiarité"
+     ],
+     "upos": [
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      1,
+      4,
+      0,
+      4,
+      4,
+      6,
+      4,
+      8,
+      9,
+      4,
+      11
+     ],
+     "rel": [
+      "mod",
+      "mod",
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "udep",
+      "mod",
+      "unk",
+      "unk",
+      "comp:obl",
+      "udep"
+     ],
+     "position": 9,
+     "pair": [
+      [
+       10,
+       9
+      ],
+      [
+       11,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00033#1",
+     "forms": [
+      "j'",
+      "dû",
+      "m'",
+      "abstenir",
+      "parce",
+      "que",
+      "cela",
+      "suivait",
+      "condamnation",
+      "xénophobie",
+      "racisme",
+      "etc."
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "ADV",
+      "SCONJ",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "ADV"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      2,
+      5,
+      8,
+      5,
+      8,
+      9,
+      9,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp",
+      "comp:obj",
+      "mod",
+      "unk",
+      "subj",
+      "comp:obj",
+      "comp:obj",
+      "udep",
+      "udep",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       5,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00042#0",
+     "forms": [
+      "Nous",
+      "devons",
+      "considérer",
+      "personnes",
+      "qui",
+      "votent",
+      "partis",
+      "comprendre",
+      "pourquoi",
+      "situation",
+      "voit",
+      "jour"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      4,
+      6,
+      3,
+      11,
+      11,
+      8,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obl",
+      "conj:coord",
+      "mod",
+      "subj",
+      "comp:obj",
+      "comp:obj"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       5,
+       6
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00042#0",
+     "forms": [
+      "Nous",
+      "devons",
+      "considérer",
+      "personnes",
+      "qui",
+      "votent",
+      "partis",
+      "comprendre",
+      "pourquoi",
+      "situation",
+      "voit",
+      "jour"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      4,
+      6,
+      3,
+      11,
+      11,
+      8,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obl",
+      "conj:coord",
+      "mod",
+      "subj",
+      "comp:obj",
+      "comp:obj"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00064#0",
+     "forms": [
+      "Parlement",
+      "s'",
+      "efforcé",
+      "en",
+      "tenir",
+      "compte",
+      "propre",
+      "recommandation"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      5,
+      3,
+      5,
+      8,
+      3
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "root",
+      "comp:obl",
+      "comp:obl",
+      "comp:obj",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00064#0",
+     "forms": [
+      "Parlement",
+      "s'",
+      "efforcé",
+      "en",
+      "tenir",
+      "compte",
+      "propre",
+      "recommandation"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      5,
+      3,
+      5,
+      8,
+      3
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "root",
+      "comp:obl",
+      "comp:obl",
+      "comp:obj",
+      "mod",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00101#0",
+     "forms": [
+      "Je",
+      "sais",
+      "où",
+      "ils",
+      "sont",
+      "prison",
+      "serbe",
+      "raison"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      2,
+      6,
+      2
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "subj",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       5
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00101#0",
+     "forms": [
+      "Je",
+      "sais",
+      "où",
+      "ils",
+      "sont",
+      "prison",
+      "serbe",
+      "raison"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      2,
+      6,
+      2
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "subj",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       5
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00101#0",
+     "forms": [
+      "Je",
+      "sais",
+      "où",
+      "ils",
+      "sont",
+      "prison",
+      "serbe",
+      "raison"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      2,
+      6,
+      2
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "subj",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       3,
+       5
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00101#0",
+     "forms": [
+      "Je",
+      "sais",
+      "où",
+      "ils",
+      "sont",
+      "prison",
+      "serbe",
+      "raison"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      2,
+      6,
+      2
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "subj",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       3,
+       5
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00101#0",
+     "forms": [
+      "Je",
+      "sais",
+      "où",
+      "ils",
+      "sont",
+      "prison",
+      "serbe",
+      "raison"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      2,
+      6,
+      2
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "subj",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00101#0",
+     "forms": [
+      "Je",
+      "sais",
+      "où",
+      "ils",
+      "sont",
+      "prison",
+      "serbe",
+      "raison"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      2,
+      6,
+      2
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obl",
+      "subj",
+      "comp:obj",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    }
+   ],
+   "NV": [
+    {
+     "sent_id": "Europar.550_00018#1",
+     "forms": [
+      "ce",
+      "qui",
+      "traduit",
+      "argent",
+      "constitue",
+      "économie",
+      "250",
+      "millions",
+      "euros",
+      "an"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      5,
+      5,
+      3,
+      1,
+      5,
+      8,
+      6,
+      8,
+      6
+     ],
+     "rel": [
+      "root",
+      "subj",
+      "mod",
+      "comp:obl",
+      "mod",
+      "comp:obj",
+      "det",
+      "udep",
+      "udep",
+      "udep"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00019#1",
+     "forms": [
+      "nous",
+      "réalisons",
+      "objectifs",
+      "proposés",
+      "industrie",
+      "aura",
+      "temps",
+      "suffisamment",
+      "long",
+      "se",
+      "restructurer"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "ADV",
+      "ADJ",
+      "PRON",
+      "VERB"
+     ],
+     "heads": [
+      2,
+      6,
+      2,
+      3,
+      6,
+      0,
+      6,
+      9,
+      7,
+      11,
+      7
+     ],
+     "rel": [
+      "subj",
+      "mod",
+      "comp:obj",
+      "mod",
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "mod",
+      "comp:obj",
+      "udep"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       6
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00028#1",
+     "forms": [
+      "récemment",
+      "encore",
+      "on",
+      "faisait",
+      "allusion",
+      "bout",
+      "lèvres",
+      "il",
+      "est",
+      "vrai",
+      "principe",
+      "subsidiarité"
+     ],
+     "upos": [
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      1,
+      4,
+      0,
+      4,
+      4,
+      6,
+      4,
+      8,
+      9,
+      4,
+      11
+     ],
+     "rel": [
+      "mod",
+      "mod",
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "udep",
+      "mod",
+      "unk",
+      "unk",
+      "comp:obl",
+      "udep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       8,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00028#1",
+     "forms": [
+      "récemment",
+      "encore",
+      "on",
+      "faisait",
+      "allusion",
+      "bout",
+      "lèvres",
+      "il",
+      "est",
+      "vrai",
+      "principe",
+      "subsidiarité"
+     ],
+     "upos": [
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      1,
+      4,
+      0,
+      4,
+      4,
+      6,
+      4,
+      8,
+      9,
+      4,
+      11
+     ],
+     "rel": [
+      "mod",
+      "mod",
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "udep",
+      "mod",
+      "unk",
+      "unk",
+      "comp:obl",
+      "udep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       11,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00028#1",
+     "forms": [
+      "récemment",
+      "encore",
+      "on",
+      "faisait",
+      "allusion",
+      "bout",
+      "lèvres",
+      "il",
+      "est",
+      "vrai",
+      "principe",
+      "subsidiarité"
+     ],
+     "upos": [
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      1,
+      4,
+      0,
+      4,
+      4,
+      6,
+      4,
+      8,
+      9,
+      4,
+      11
+     ],
+     "rel": [
+      "mod",
+      "mod",
+      "subj",
+      "root",
+      "comp:obj",
+      "mod",
+      "udep",
+      "mod",
+      "unk",
+      "unk",
+      "comp:obl",
+      "udep"
+     ],
+     "position": 8,
+     "pair": [
+      [
+       9,
+       8
+      ],
+      [
+       11,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       5,
+       8
+      ],
+      [
+       10,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       8,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       10,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       5,
+       8
+      ],
+      [
+       10,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       8,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       10,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       5,
+       8
+      ],
+      [
+       10,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00042#0",
+     "forms": [
+      "Nous",
+      "devons",
+      "considérer",
+      "personnes",
+      "qui",
+      "votent",
+      "partis",
+      "comprendre",
+      "pourquoi",
+      "situation",
+      "voit",
+      "jour"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      4,
+      6,
+      3,
+      11,
+      11,
+      8,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obl",
+      "conj:coord",
+      "mod",
+      "subj",
+      "comp:obj",
+      "comp:obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00042#0",
+     "forms": [
+      "Nous",
+      "devons",
+      "considérer",
+      "personnes",
+      "qui",
+      "votent",
+      "partis",
+      "comprendre",
+      "pourquoi",
+      "situation",
+      "voit",
+      "jour"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      4,
+      6,
+      3,
+      11,
+      11,
+      8,
+      11
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obl",
+      "conj:coord",
+      "mod",
+      "subj",
+      "comp:obj",
+      "comp:obj"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00043#0",
+     "forms": [
+      "C'",
+      "état",
+      "fait",
+      "que",
+      "plupart",
+      "personnes",
+      "Parlement",
+      "ne",
+      "veulent",
+      "pas"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "VERB",
+      "ADV"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      9,
+      9,
+      5,
+      6,
+      9,
+      2,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "comp:obj",
+      "subj",
+      "udep",
+      "udep",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       4,
+       9
+      ],
+      [
+       6,
+       5
+      ]
+     ]
+    }
+   ],
+   "NN": [
+    {
+     "sent_id": "Europar.550_00018#1",
+     "forms": [
+      "ce",
+      "qui",
+      "traduit",
+      "argent",
+      "constitue",
+      "économie",
+      "250",
+      "millions",
+      "euros",
+      "an"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      5,
+      5,
+      3,
+      1,
+      5,
+      8,
+      6,
+      8,
+      6
+     ],
+     "rel": [
+      "root",
+      "subj",
+      "mod",
+      "comp:obl",
+      "mod",
+      "comp:obj",
+      "det",
+      "udep",
+      "udep",
+      "udep"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       7,
+       8
+      ],
+      [
+       10,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00018#1",
+     "forms": [
+      "ce",
+      "qui",
+      "traduit",
+      "argent",
+      "constitue",
+      "économie",
+      "250",
+      "millions",
+      "euros",
+      "an"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      5,
+      5,
+      3,
+      1,
+      5,
+      8,
+      6,
+      8,
+      6
+     ],
+     "rel": [
+      "root",
+      "subj",
+      "mod",
+      "comp:obl",
+      "mod",
+      "comp:obj",
+      "det",
+      "udep",
+      "udep",
+      "udep"
+     ],
+     "position": 8,
+     "pair": [
+      [
+       9,
+       8
+      ],
+      [
+       10,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00032#0",
+     "forms": [
+      "Je",
+      "me",
+      "finalement",
+      "abstenue",
+      "ce",
+      "qui",
+      "concerne",
+      "vote",
+      "certain",
+      "nombre",
+      "raisons"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "ADV",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      0,
+      8,
+      5,
+      6,
+      4,
+      10,
+      4,
+      10
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "mod",
+      "root",
+      "unk",
+      "unk",
+      "unk",
+      "mod",
+      "mod",
+      "mod",
+      "udep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       5,
+       8
+      ],
+      [
+       7,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00043#0",
+     "forms": [
+      "C'",
+      "état",
+      "fait",
+      "que",
+      "plupart",
+      "personnes",
+      "Parlement",
+      "ne",
+      "veulent",
+      "pas"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "VERB",
+      "ADV"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      9,
+      9,
+      5,
+      6,
+      9,
+      2,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "comp:obj",
+      "subj",
+      "udep",
+      "udep",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       9,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00043#0",
+     "forms": [
+      "C'",
+      "état",
+      "fait",
+      "que",
+      "plupart",
+      "personnes",
+      "Parlement",
+      "ne",
+      "veulent",
+      "pas"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "VERB",
+      "ADV"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      9,
+      9,
+      5,
+      6,
+      9,
+      2,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "udep",
+      "comp:obj",
+      "subj",
+      "udep",
+      "udep",
+      "mod",
+      "mod",
+      "mod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       9,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00065#0",
+     "forms": [
+      "EN",
+      "J'",
+      "voté",
+      "faveur",
+      "rapport",
+      "Mme",
+      "Stenzel",
+      "initiative",
+      "EQUAL"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "NOUN",
+      "PROPN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      5,
+      6,
+      5,
+      8
+     ],
+     "rel": [
+      "mod",
+      "subj",
+      "root",
+      "comp:obl",
+      "udep",
+      "udep",
+      "flat",
+      "udep",
+      "mod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       8,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00084#0",
+     "forms": [
+      "Monsieur",
+      "Président",
+      "chers",
+      "collègues",
+      "Monsieur",
+      "Sakellariou",
+      "je",
+      "ne",
+      "soutiens",
+      "pas",
+      "M.",
+      "Dupuis"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "PROPN",
+      "PRON",
+      "ADV",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "PROPN"
+     ],
+     "heads": [
+      9,
+      1,
+      4,
+      1,
+      1,
+      5,
+      9,
+      9,
+      0,
+      9,
+      9,
+      11
+     ],
+     "rel": [
+      "vocative",
+      "mod",
+      "mod",
+      "conj:coord",
+      "conj:coord",
+      "flat",
+      "subj",
+      "mod",
+      "root",
+      "mod",
+      "comp:obj",
+      "flat"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00187#0",
+     "forms": [
+      "sensibilité",
+      "il",
+      "faut",
+      "en",
+      "outre",
+      "envisager",
+      "nouveaux",
+      "droits",
+      "bafoués",
+      "que",
+      "processus",
+      "mondialisation",
+      "mettent",
+      "exergue"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADP",
+      "ADP",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "PRON",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      3,
+      8,
+      6,
+      8,
+      13,
+      13,
+      11,
+      8,
+      13
+     ],
+     "rel": [
+      "mod",
+      "subj",
+      "root",
+      "mod",
+      "unk",
+      "comp:obj",
+      "mod",
+      "comp:obj",
+      "mod",
+      "comp:obj",
+      "subj",
+      "udep",
+      "mod",
+      "comp:obl"
+     ],
+     "position": 11,
+     "pair": [
+      [
+       12,
+       11
+      ],
+      [
+       13,
+       8
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00203#0",
+     "forms": [
+      "Nous",
+      "considéré",
+      "âge",
+      "14",
+      "ans",
+      "solution",
+      "adéquate"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NUM",
+      "NOUN",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      6,
+      5,
+      3,
+      2,
+      6
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "subj",
+      "det",
+      "udep",
+      "comp:obj",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       3,
+       6
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00233#0",
+     "forms": [
+      "Ils",
+      "se",
+      "assurés",
+      "Irak",
+      "ne",
+      "dispose",
+      "fusée",
+      "longue",
+      "portée",
+      "pouvant",
+      "menacer",
+      "voisins"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "PROPN",
+      "ADV",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      6,
+      6,
+      3,
+      6,
+      9,
+      7,
+      7,
+      10,
+      11
+     ],
+     "rel": [
+      "subj",
+      "comp",
+      "root",
+      "subj",
+      "mod",
+      "comp:obl",
+      "comp:obl",
+      "mod",
+      "udep",
+      "mod",
+      "comp:obj",
+      "comp:obj"
+     ],
+     "position": 8,
+     "pair": [
+      [
+       8,
+       9
+      ],
+      [
+       10,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00307#0",
+     "forms": [
+      "grand",
+      "merci",
+      "également",
+      "commissaire",
+      "Barnier",
+      "compréhension"
+     ],
+     "upos": [
+      "ADJ",
+      "NOUN",
+      "ADV",
+      "NOUN",
+      "PROPN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      2,
+      4,
+      2
+     ],
+     "rel": [
+      "mod",
+      "root",
+      "mod",
+      "udep",
+      "mod",
+      "udep"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00307#1",
+     "forms": [
+      "merci",
+      "également",
+      "collègue",
+      "Vitorino",
+      "particulier",
+      "point",
+      "que",
+      "je",
+      "souhaiterais",
+      "exposer",
+      "présent"
+     ],
+     "upos": [
+      "NOUN",
+      "ADV",
+      "NOUN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      1,
+      10,
+      9,
+      6,
+      9,
+      10
+     ],
+     "rel": [
+      "root",
+      "mod",
+      "udep",
+      "mod",
+      "mod",
+      "udep",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obj",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00307#1",
+     "forms": [
+      "merci",
+      "également",
+      "collègue",
+      "Vitorino",
+      "particulier",
+      "point",
+      "que",
+      "je",
+      "souhaiterais",
+      "exposer",
+      "présent"
+     ],
+     "upos": [
+      "NOUN",
+      "ADV",
+      "NOUN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      1,
+      1,
+      3,
+      1,
+      1,
+      10,
+      9,
+      6,
+      9,
+      10
+     ],
+     "rel": [
+      "root",
+      "mod",
+      "udep",
+      "mod",
+      "mod",
+      "udep",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obj",
+      "mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       6,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00314#0",
+     "forms": [
+      "Ceci",
+      "présente",
+      "avantage",
+      "solde",
+      "résultant",
+      "comptes",
+      "peut",
+      "reporté",
+      "année",
+      "suivante"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      7,
+      4,
+      5,
+      3,
+      7,
+      8,
+      9
+     ],
+     "rel": [
+      "subj",
+      "root",
+      "comp:obj",
+      "subj",
+      "mod",
+      "comp:obl",
+      "mod",
+      "comp:obj",
+      "comp:obl",
+      "mod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       7,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Europar.550_00335#0",
+     "forms": [
+      "Bien",
+      "sûr",
+      "heure",
+      "c'",
+      "simplement",
+      "appel",
+      "population",
+      "qui",
+      "souffre",
+      "nous",
+      "devons",
+      "entendre"
+     ],
+     "upos": [
+      "ADV",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "ADV",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "VERB"
+     ],
+     "heads": [
+      6,
+      1,
+      6,
+      6,
+      6,
+      0,
+      6,
+      9,
+      7,
+      11,
+      6,
+      11
+     ],
+     "rel": [
+      "mod",
+      "unk",
+      "mod",
+      "subj",
+      "mod",
+      "root",
+      "udep",
+      "subj",
+      "mod",
+      "subj",
+      "comp:cleft",
+      "comp:obj"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       9,
+       7
+      ],
+      [
+       11,
+       6
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "ParisStories": {
+  "positions": 8452,
+  "pos_pct": {
+   "NN": 1.171320397539044,
+   "VV": 3.5376242309512542,
+   "NV": 6.862281116895409
+  },
+  "pairs": {
+   "NV": 680,
+   "VV": 333,
+   "NN": 112
+  },
+  "NV_expected_pct": 4.071211819859821,
+  "ratio": 1.6855622896898765,
+  "triples": {
+   "positions": 1,
+   "triples": 1
+  },
+  "examples": {
+   "NV": [
+    {
+     "sent_id": "ParisStories_2019_patisserieFine_10",
+     "forms": [
+      "il",
+      "avait",
+      "plateau",
+      "frites",
+      "main"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "nmod",
+      "obl:mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       3
+      ],
+      [
+       5,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_2_générationsXY__10",
+     "forms": [
+      "genre",
+      "il",
+      "y",
+      "avait",
+      "on",
+      "on",
+      "l'",
+      "opérait",
+      "cerveau"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      4,
+      4,
+      4,
+      8,
+      6,
+      8,
+      8,
+      0,
+      8
+     ],
+     "rel": [
+      "discourse",
+      "expl:subj",
+      "expl:comp",
+      "reparandum",
+      "reparandum",
+      "nsubj",
+      "obj",
+      "root",
+      "obl:arg"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       4,
+       8
+      ],
+      [
+       5,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_10",
+     "forms": [
+      "coup",
+      "euh",
+      "il",
+      "y",
+      "a",
+      "plein",
+      "monde",
+      "qui",
+      "court",
+      "métro",
+      "euh"
+     ],
+     "upos": [
+      "NOUN",
+      "INTJ",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "INTJ"
+     ],
+     "heads": [
+      5,
+      5,
+      5,
+      5,
+      0,
+      5,
+      6,
+      9,
+      7,
+      9,
+      5
+     ],
+     "rel": [
+      "discourse",
+      "discourse:filler",
+      "expl:subj",
+      "expl:comp",
+      "root",
+      "obj",
+      "obl:arg",
+      "nsubj",
+      "acl:relcl",
+      "obl:mod",
+      "discourse:filler"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       9,
+       7
+      ],
+      [
+       11,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_10",
+     "forms": [
+      "coup",
+      "euh",
+      "il",
+      "y",
+      "a",
+      "plein",
+      "monde",
+      "qui",
+      "court",
+      "métro",
+      "euh"
+     ],
+     "upos": [
+      "NOUN",
+      "INTJ",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "INTJ"
+     ],
+     "heads": [
+      5,
+      5,
+      5,
+      5,
+      0,
+      5,
+      6,
+      9,
+      7,
+      9,
+      5
+     ],
+     "rel": [
+      "discourse",
+      "discourse:filler",
+      "expl:subj",
+      "expl:comp",
+      "root",
+      "obj",
+      "obl:arg",
+      "nsubj",
+      "acl:relcl",
+      "obl:mod",
+      "discourse:filler"
+     ],
+     "position": 8,
+     "pair": [
+      [
+       9,
+       7
+      ],
+      [
+       11,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_discussionSansAbris_10",
+     "forms": [
+      "donc",
+      "ça",
+      "fait",
+      "pas",
+      "mal",
+      "changements",
+      "coup",
+      "donc",
+      "passer",
+      "lycée",
+      "fac"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADV",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      4,
+      3,
+      9,
+      6,
+      9,
+      9
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "obj",
+      "fixed",
+      "nmod",
+      "obl:mod",
+      "discourse",
+      "appos",
+      "obl:arg",
+      "obl:arg"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       3
+      ],
+      [
+       9,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_rencontreMourinho_11",
+     "forms": [
+      "euh",
+      "ils",
+      "pris",
+      "temps",
+      "tout",
+      "monde",
+      "etc",
+      "ensuite",
+      "arrivent",
+      "autres",
+      "joueurs"
+     ],
+     "upos": [
+      "INTJ",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "ADV",
+      "ADV",
+      "VERB",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      6,
+      3,
+      6,
+      9,
+      3,
+      11,
+      9
+     ],
+     "rel": [
+      "discourse:filler",
+      "nsubj",
+      "root",
+      "obj:lvc",
+      "amod",
+      "obl:mod",
+      "conj",
+      "advmod",
+      "conj",
+      "amod",
+      "nsubj"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       5,
+       6
+      ],
+      [
+       9,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_rencontreMourinho_11",
+     "forms": [
+      "euh",
+      "ils",
+      "pris",
+      "temps",
+      "tout",
+      "monde",
+      "etc",
+      "ensuite",
+      "arrivent",
+      "autres",
+      "joueurs"
+     ],
+     "upos": [
+      "INTJ",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "ADV",
+      "ADV",
+      "VERB",
+      "ADJ",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      6,
+      3,
+      6,
+      9,
+      3,
+      11,
+      9
+     ],
+     "rel": [
+      "discourse:filler",
+      "nsubj",
+      "root",
+      "obj:lvc",
+      "amod",
+      "obl:mod",
+      "conj",
+      "advmod",
+      "conj",
+      "amod",
+      "nsubj"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       9,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_1_rencontreSolfège__11",
+     "forms": [
+      "euh",
+      "bah",
+      "euh",
+      "-ce",
+      "tu",
+      "fait",
+      "autres",
+      "activités",
+      "sportives",
+      "pas"
+     ],
+     "upos": [
+      "INTJ",
+      "INTJ",
+      "INTJ",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "ADV"
+     ],
+     "heads": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      0,
+      8,
+      6,
+      8,
+      6
+     ],
+     "rel": [
+      "discourse:filler",
+      "discourse",
+      "discourse:filler",
+      "expl:subj",
+      "nsubj",
+      "root",
+      "amod",
+      "obj",
+      "amod",
+      "conj"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       7,
+       8
+      ],
+      [
+       10,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_1_rencontreSolfège__11",
+     "forms": [
+      "euh",
+      "bah",
+      "euh",
+      "-ce",
+      "tu",
+      "fait",
+      "autres",
+      "activités",
+      "sportives",
+      "pas"
+     ],
+     "upos": [
+      "INTJ",
+      "INTJ",
+      "INTJ",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "ADJ",
+      "ADV"
+     ],
+     "heads": [
+      6,
+      6,
+      6,
+      6,
+      6,
+      0,
+      8,
+      6,
+      8,
+      6
+     ],
+     "rel": [
+      "discourse:filler",
+      "discourse",
+      "discourse:filler",
+      "expl:subj",
+      "nsubj",
+      "root",
+      "amod",
+      "obj",
+      "amod",
+      "conj"
+     ],
+     "position": 8,
+     "pair": [
+      [
+       9,
+       8
+      ],
+      [
+       10,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_vacancesEte_11",
+     "forms": [
+      "et",
+      "euh",
+      "mois",
+      "juillet",
+      "il",
+      "avait",
+      "exposition",
+      "euh",
+      "château",
+      "Javarzay"
+     ],
+     "upos": [
+      "CCONJ",
+      "INTJ",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "INTJ",
+      "NOUN",
+      "PROPN"
+     ],
+     "heads": [
+      6,
+      1,
+      6,
+      3,
+      6,
+      0,
+      6,
+      9,
+      6,
+      9
+     ],
+     "rel": [
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "nmod",
+      "nsubj",
+      "root",
+      "obj",
+      "discourse:filler",
+      "obl:mod",
+      "nmod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       6
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_neesLeMemeMois_11",
+     "forms": [
+      "euh",
+      "après",
+      "bah",
+      "Maud",
+      "on",
+      "devenue",
+      "très",
+      "proches"
+     ],
+     "upos": [
+      "INTJ",
+      "ADV",
+      "INTJ",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      6,
+      6,
+      4,
+      8,
+      6,
+      0,
+      8,
+      6
+     ],
+     "rel": [
+      "discourse:filler",
+      "advmod",
+      "discourse",
+      "obl:arg",
+      "nsubj",
+      "root",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       6
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_neesLeMemeMois_11",
+     "forms": [
+      "euh",
+      "après",
+      "bah",
+      "Maud",
+      "on",
+      "devenue",
+      "très",
+      "proches"
+     ],
+     "upos": [
+      "INTJ",
+      "ADV",
+      "INTJ",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      6,
+      6,
+      4,
+      8,
+      6,
+      0,
+      8,
+      6
+     ],
+     "rel": [
+      "discourse:filler",
+      "advmod",
+      "discourse",
+      "obl:arg",
+      "nsubj",
+      "root",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       6
+      ],
+      [
+       3,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_couruLaVoir_11",
+     "forms": [
+      "pl~",
+      "plein",
+      "enfants",
+      "classes",
+      "respectives",
+      "amis",
+      "tombés",
+      "malades"
+     ],
+     "upos": [
+      "X",
+      "ADV",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      7,
+      2,
+      3,
+      4,
+      3,
+      0,
+      7
+     ],
+     "rel": [
+      "reparandum",
+      "nsubj",
+      "obl:arg",
+      "nmod",
+      "amod",
+      "appos",
+      "root",
+      "xcomp"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_couruLaVoir_11",
+     "forms": [
+      "pl~",
+      "plein",
+      "enfants",
+      "classes",
+      "respectives",
+      "amis",
+      "tombés",
+      "malades"
+     ],
+     "upos": [
+      "X",
+      "ADV",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      7,
+      2,
+      3,
+      4,
+      3,
+      0,
+      7
+     ],
+     "rel": [
+      "reparandum",
+      "nsubj",
+      "obl:arg",
+      "nmod",
+      "amod",
+      "appos",
+      "root",
+      "xcomp"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       6,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_couruLaVoir_11",
+     "forms": [
+      "pl~",
+      "plein",
+      "enfants",
+      "classes",
+      "respectives",
+      "amis",
+      "tombés",
+      "malades"
+     ],
+     "upos": [
+      "X",
+      "ADV",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      7,
+      2,
+      3,
+      4,
+      3,
+      0,
+      7
+     ],
+     "rel": [
+      "reparandum",
+      "nsubj",
+      "obl:arg",
+      "nmod",
+      "amod",
+      "appos",
+      "root",
+      "xcomp"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       5,
+       4
+      ]
+     ]
+    }
+   ],
+   "VV": [
+    {
+     "sent_id": "ParisStories_2020_sortiesAdolescence_10",
+     "forms": [
+      "plus",
+      "jeune",
+      "âge",
+      "on",
+      "commençait",
+      "déjà",
+      "danser",
+      "euh",
+      "bon",
+      "enfin",
+      "bref"
+     ],
+     "upos": [
+      "ADV",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADV",
+      "VERB",
+      "INTJ",
+      "INTJ",
+      "ADV",
+      "INTJ"
+     ],
+     "heads": [
+      2,
+      3,
+      5,
+      5,
+      0,
+      5,
+      5,
+      7,
+      10,
+      5,
+      5
+     ],
+     "rel": [
+      "advmod",
+      "amod",
+      "obl:mod",
+      "nsubj",
+      "root",
+      "advmod",
+      "xcomp",
+      "discourse:filler",
+      "discourse",
+      "discourse",
+      "discourse"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       10,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_sortiesAdolescence_10",
+     "forms": [
+      "plus",
+      "jeune",
+      "âge",
+      "on",
+      "commençait",
+      "déjà",
+      "danser",
+      "euh",
+      "bon",
+      "enfin",
+      "bref"
+     ],
+     "upos": [
+      "ADV",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "ADV",
+      "VERB",
+      "INTJ",
+      "INTJ",
+      "ADV",
+      "INTJ"
+     ],
+     "heads": [
+      2,
+      3,
+      5,
+      5,
+      0,
+      5,
+      5,
+      7,
+      10,
+      5,
+      5
+     ],
+     "rel": [
+      "advmod",
+      "amod",
+      "obl:mod",
+      "nsubj",
+      "root",
+      "advmod",
+      "xcomp",
+      "discourse:filler",
+      "discourse",
+      "discourse",
+      "discourse"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       11,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_10",
+     "forms": [
+      "coup",
+      "euh",
+      "il",
+      "y",
+      "a",
+      "plein",
+      "monde",
+      "qui",
+      "court",
+      "métro",
+      "euh"
+     ],
+     "upos": [
+      "NOUN",
+      "INTJ",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "INTJ"
+     ],
+     "heads": [
+      5,
+      5,
+      5,
+      5,
+      0,
+      5,
+      6,
+      9,
+      7,
+      9,
+      5
+     ],
+     "rel": [
+      "discourse",
+      "discourse:filler",
+      "expl:subj",
+      "expl:comp",
+      "root",
+      "obj",
+      "obl:arg",
+      "nsubj",
+      "acl:relcl",
+      "obl:mod",
+      "discourse:filler"
+     ],
+     "position": 8,
+     "pair": [
+      [
+       8,
+       9
+      ],
+      [
+       11,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_10",
+     "forms": [
+      "coup",
+      "euh",
+      "il",
+      "y",
+      "a",
+      "plein",
+      "monde",
+      "qui",
+      "court",
+      "métro",
+      "euh"
+     ],
+     "upos": [
+      "NOUN",
+      "INTJ",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "INTJ"
+     ],
+     "heads": [
+      5,
+      5,
+      5,
+      5,
+      0,
+      5,
+      6,
+      9,
+      7,
+      9,
+      5
+     ],
+     "rel": [
+      "discourse",
+      "discourse:filler",
+      "expl:subj",
+      "expl:comp",
+      "root",
+      "obj",
+      "obl:arg",
+      "nsubj",
+      "acl:relcl",
+      "obl:mod",
+      "discourse:filler"
+     ],
+     "position": 9,
+     "pair": [
+      [
+       10,
+       9
+      ],
+      [
+       11,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_poissonsNoel_11",
+     "forms": [
+      "on",
+      "peut",
+      "les",
+      "prendre",
+      "vidéo",
+      "GoPro",
+      "elle",
+      "étanche"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "PRON",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      4,
+      8,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "xcomp",
+      "obl:mod",
+      "obl:mod",
+      "nsubj",
+      "advcl"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_poissonsNoel_11",
+     "forms": [
+      "on",
+      "peut",
+      "les",
+      "prendre",
+      "vidéo",
+      "GoPro",
+      "elle",
+      "étanche"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "PRON",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      4,
+      8,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "xcomp",
+      "obl:mod",
+      "obl:mod",
+      "nsubj",
+      "advcl"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_poissonsNoel_11",
+     "forms": [
+      "on",
+      "peut",
+      "les",
+      "prendre",
+      "vidéo",
+      "GoPro",
+      "elle",
+      "étanche"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "PRON",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      4,
+      8,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "xcomp",
+      "obl:mod",
+      "obl:mod",
+      "nsubj",
+      "advcl"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_poissonsNoel_11",
+     "forms": [
+      "on",
+      "peut",
+      "les",
+      "prendre",
+      "vidéo",
+      "GoPro",
+      "elle",
+      "étanche"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "PRON",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      4,
+      8,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "xcomp",
+      "obl:mod",
+      "obl:mod",
+      "nsubj",
+      "advcl"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_12",
+     "forms": [
+      "gens",
+      "crient",
+      "euh",
+      "se",
+      "poussent",
+      "même",
+      "parfois",
+      "s'",
+      "insultent"
+     ],
+     "upos": [
+      "NOUN",
+      "VERB",
+      "INTJ",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      9,
+      9,
+      9,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "discourse:filler",
+      "obj",
+      "conj",
+      "advmod",
+      "advmod",
+      "obj",
+      "conj"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       5
+      ],
+      [
+       9,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_12",
+     "forms": [
+      "gens",
+      "crient",
+      "euh",
+      "se",
+      "poussent",
+      "même",
+      "parfois",
+      "s'",
+      "insultent"
+     ],
+     "upos": [
+      "NOUN",
+      "VERB",
+      "INTJ",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      9,
+      9,
+      9,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "discourse:filler",
+      "obj",
+      "conj",
+      "advmod",
+      "advmod",
+      "obj",
+      "conj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       3,
+       5
+      ],
+      [
+       9,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_experienceFac_12",
+     "forms": [
+      "gens",
+      "crient",
+      "euh",
+      "se",
+      "poussent",
+      "même",
+      "parfois",
+      "s'",
+      "insultent"
+     ],
+     "upos": [
+      "NOUN",
+      "VERB",
+      "INTJ",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADV",
+      "PRON",
+      "VERB"
+     ],
+     "heads": [
+      2,
+      0,
+      5,
+      5,
+      2,
+      9,
+      9,
+      9,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "discourse:filler",
+      "obj",
+      "conj",
+      "advmod",
+      "advmod",
+      "obj",
+      "conj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       9,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_18_mocheMaisMignonne__12",
+     "forms": [
+      "cousin",
+      "il",
+      "devait",
+      "avoir",
+      "huit",
+      "ans",
+      "autre",
+      "petit",
+      "cousin",
+      "quatre"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NUM",
+      "NOUN",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "NUM"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      6,
+      4,
+      9,
+      9,
+      3,
+      9
+     ],
+     "rel": [
+      "dislocated:subj",
+      "nsubj",
+      "root",
+      "xcomp",
+      "nummod",
+      "obj",
+      "amod",
+      "amod",
+      "conj",
+      "nmod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       9,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_18_mocheMaisMignonne__12",
+     "forms": [
+      "cousin",
+      "il",
+      "devait",
+      "avoir",
+      "huit",
+      "ans",
+      "autre",
+      "petit",
+      "cousin",
+      "quatre"
+     ],
+     "upos": [
+      "NOUN",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NUM",
+      "NOUN",
+      "ADJ",
+      "ADJ",
+      "NOUN",
+      "NUM"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      6,
+      4,
+      9,
+      9,
+      3,
+      9
+     ],
+     "rel": [
+      "dislocated:subj",
+      "nsubj",
+      "root",
+      "xcomp",
+      "nummod",
+      "obj",
+      "amod",
+      "amod",
+      "conj",
+      "nmod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       4
+      ],
+      [
+       9,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_voyageItalie_12",
+     "forms": [
+      "euh",
+      "on",
+      "voulait",
+      "s'",
+      "acheter",
+      "euh",
+      "glace",
+      "genre",
+      "on",
+      "passe",
+      "glacier",
+      "et",
+      "tout"
+     ],
+     "upos": [
+      "INTJ",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "INTJ",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "CCONJ",
+      "ADV"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      5,
+      3,
+      7,
+      5,
+      10,
+      10,
+      3,
+      10,
+      3,
+      12
+     ],
+     "rel": [
+      "discourse:filler",
+      "nsubj",
+      "root",
+      "iobj",
+      "xcomp",
+      "discourse:filler",
+      "obj",
+      "discourse",
+      "nsubj",
+      "conj",
+      "obl:mod",
+      "conj",
+      "fixed"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       10,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_voyageItalie_12",
+     "forms": [
+      "euh",
+      "on",
+      "voulait",
+      "s'",
+      "acheter",
+      "euh",
+      "glace",
+      "genre",
+      "on",
+      "passe",
+      "glacier",
+      "et",
+      "tout"
+     ],
+     "upos": [
+      "INTJ",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "INTJ",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "CCONJ",
+      "ADV"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      5,
+      3,
+      7,
+      5,
+      10,
+      10,
+      3,
+      10,
+      3,
+      12
+     ],
+     "rel": [
+      "discourse:filler",
+      "nsubj",
+      "root",
+      "iobj",
+      "xcomp",
+      "discourse:filler",
+      "obj",
+      "discourse",
+      "nsubj",
+      "conj",
+      "obl:mod",
+      "conj",
+      "fixed"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       12,
+       3
+      ]
+     ]
+    }
+   ],
+   "NN": [
+    {
+     "sent_id": "ParisStories_2020_alarmeTrain_11",
+     "forms": [
+      "en",
+      "fait",
+      "il",
+      "y",
+      "a",
+      "trois",
+      "femmes",
+      "autre",
+      "homme",
+      "femme",
+      "qui",
+      "eux",
+      "deux",
+      "ensemble"
+     ],
+     "upos": [
+      "ADP",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NUM",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "NUM",
+      "ADV"
+     ],
+     "heads": [
+      5,
+      1,
+      5,
+      5,
+      0,
+      7,
+      5,
+      9,
+      7,
+      9,
+      14,
+      14,
+      12,
+      10
+     ],
+     "rel": [
+      "discourse",
+      "fixed",
+      "expl:subj",
+      "expl:comp",
+      "root",
+      "nummod",
+      "obj",
+      "amod",
+      "nmod",
+      "conj",
+      "nsubj",
+      "dislocated:obj",
+      "nmod",
+      "acl:relcl"
+     ],
+     "position": 12,
+     "pair": [
+      [
+       13,
+       12
+      ],
+      [
+       14,
+       10
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2021_couruLaVoir_11",
+     "forms": [
+      "pl~",
+      "plein",
+      "enfants",
+      "classes",
+      "respectives",
+      "amis",
+      "tombés",
+      "malades"
+     ],
+     "upos": [
+      "X",
+      "ADV",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "VERB",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      7,
+      2,
+      3,
+      4,
+      3,
+      0,
+      7
+     ],
+     "rel": [
+      "reparandum",
+      "nsubj",
+      "obl:arg",
+      "nmod",
+      "amod",
+      "appos",
+      "root",
+      "xcomp"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       6,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_16_hamacTahiti__11",
+     "forms": [
+      "Alger",
+      "Alger",
+      "grande",
+      "place",
+      "tour",
+      "là",
+      "ça"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "PRON"
+     ],
+     "heads": [
+      0,
+      1,
+      4,
+      2,
+      1,
+      5,
+      6
+     ],
+     "rel": [
+      "root",
+      "conj:reform",
+      "amod",
+      "nmod",
+      "nmod",
+      "advmod",
+      "obl:mod"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       4,
+       2
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_16_hamacTahiti__11",
+     "forms": [
+      "Alger",
+      "Alger",
+      "grande",
+      "place",
+      "tour",
+      "là",
+      "ça"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "PRON"
+     ],
+     "heads": [
+      0,
+      1,
+      4,
+      2,
+      1,
+      5,
+      6
+     ],
+     "rel": [
+      "root",
+      "conj:reform",
+      "amod",
+      "nmod",
+      "nmod",
+      "advmod",
+      "obl:mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2022_16_hamacTahiti__11",
+     "forms": [
+      "Alger",
+      "Alger",
+      "grande",
+      "place",
+      "tour",
+      "là",
+      "ça"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADV",
+      "PRON"
+     ],
+     "heads": [
+      0,
+      1,
+      4,
+      2,
+      1,
+      5,
+      6
+     ],
+     "rel": [
+      "root",
+      "conj:reform",
+      "amod",
+      "nmod",
+      "nmod",
+      "advmod",
+      "obl:mod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       4,
+       2
+      ],
+      [
+       5,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_requinReunion_11",
+     "forms": [
+      "il",
+      "s'",
+      "tuer",
+      "requin",
+      "yeux",
+      "de",
+      "euh",
+      "femme",
+      "apparemment"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "ADV"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      8,
+      8,
+      5,
+      5
+     ],
+     "rel": [
+      "nsubj",
+      "expl:pass",
+      "root",
+      "obl:arg",
+      "nmod",
+      "reparandum",
+      "discourse:filler",
+      "nmod",
+      "advmod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       6,
+       8
+      ],
+      [
+       9,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_requinReunion_11",
+     "forms": [
+      "il",
+      "s'",
+      "tuer",
+      "requin",
+      "yeux",
+      "de",
+      "euh",
+      "femme",
+      "apparemment"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "ADV"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      8,
+      8,
+      5,
+      5
+     ],
+     "rel": [
+      "nsubj",
+      "expl:pass",
+      "root",
+      "obl:arg",
+      "nmod",
+      "reparandum",
+      "discourse:filler",
+      "nmod",
+      "advmod"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       6,
+       8
+      ],
+      [
+       9,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2020_requinReunion_11",
+     "forms": [
+      "il",
+      "s'",
+      "tuer",
+      "requin",
+      "yeux",
+      "de",
+      "euh",
+      "femme",
+      "apparemment"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "ADV"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      8,
+      8,
+      5,
+      5
+     ],
+     "rel": [
+      "nsubj",
+      "expl:pass",
+      "root",
+      "obl:arg",
+      "nmod",
+      "reparandum",
+      "discourse:filler",
+      "nmod",
+      "advmod"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       7,
+       8
+      ],
+      [
+       9,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       2,
+       12
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       4,
+       12
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       2,
+       12
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       2,
+       12
+      ],
+      [
+       6,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       4,
+       12
+      ],
+      [
+       5,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       4,
+       12
+      ],
+      [
+       6,
+       7
+      ]
+     ]
+    },
+    {
+     "sent_id": "ParisStories_2019_stagePrimaire_14",
+     "forms": [
+      "elle",
+      "est",
+      "vraiment",
+      "euh",
+      "pour",
+      "euh",
+      "élèves",
+      "euh~",
+      "enfin",
+      "nous",
+      "elle",
+      "début",
+      "de",
+      "tout"
+     ],
+     "upos": [
+      "PRON",
+      "AUX",
+      "ADV",
+      "INTJ",
+      "ADP",
+      "INTJ",
+      "NOUN",
+      "X",
+      "ADV",
+      "PRON",
+      "PRON",
+      "NOUN",
+      "ADP",
+      "ADP"
+     ],
+     "heads": [
+      2,
+      12,
+      2,
+      12,
+      7,
+      7,
+      12,
+      10,
+      10,
+      7,
+      12,
+      0,
+      14,
+      12
+     ],
+     "rel": [
+      "nsubj",
+      "reparandum",
+      "advmod",
+      "discourse:filler",
+      "reparandum",
+      "discourse:filler",
+      "obl:mod",
+      "discourse",
+      "discourse",
+      "conj:reform",
+      "nsubj",
+      "root",
+      "dep:comp",
+      "dep"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       2,
+       12
+      ],
+      [
+       10,
+       7
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ "Rhapsodie": {
+  "positions": 7224,
+  "pos_pct": {
+   "NN": 1.6057585825027685,
+   "VV": 2.4501661129568104,
+   "NV": 6.326135105204872
+  },
+  "pairs": {
+   "VV": 234,
+   "NV": 474,
+   "NN": 120
+  },
+  "NV_expected_pct": 3.9670519353483873,
+  "ratio": 1.5946690913814088,
+  "triples": {
+   "positions": 3,
+   "triples": 2
+  },
+  "examples": {
+   "NV": [
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       5,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       5,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       5,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-102",
+     "forms": [
+      "j'",
+      "donc",
+      "été",
+      "école",
+      "Remington",
+      "apprendre",
+      "sténodactylo"
+     ],
+     "upos": [
+      "PRON",
+      "ADV",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      4,
+      3,
+      6
+     ],
+     "rel": [
+      "nsubj",
+      "advmod",
+      "root",
+      "obl:arg",
+      "appos",
+      "xcomp",
+      "obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       6,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2011-102",
+     "forms": [
+      "alors",
+      "ça",
+      "enlève",
+      "bien",
+      "odeurs",
+      "euh",
+      "toutes",
+      "odeurs",
+      "qu'",
+      "il",
+      "peut",
+      "y",
+      "avoir",
+      "linge"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      5,
+      8,
+      5,
+      13,
+      11,
+      8,
+      13,
+      11,
+      11
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "advmod",
+      "obj",
+      "discourse:filler",
+      "amod",
+      "conj",
+      "obj",
+      "expl:subj",
+      "acl:relcl",
+      "iobj",
+      "xcomp",
+      "obl:mod"
+     ],
+     "position": 9,
+     "pair": [
+      [
+       9,
+       13
+      ],
+      [
+       11,
+       8
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2011-102",
+     "forms": [
+      "alors",
+      "ça",
+      "enlève",
+      "bien",
+      "odeurs",
+      "euh",
+      "toutes",
+      "odeurs",
+      "qu'",
+      "il",
+      "peut",
+      "y",
+      "avoir",
+      "linge"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      5,
+      8,
+      5,
+      13,
+      11,
+      8,
+      13,
+      11,
+      11
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "advmod",
+      "obj",
+      "discourse:filler",
+      "amod",
+      "conj",
+      "obj",
+      "expl:subj",
+      "acl:relcl",
+      "iobj",
+      "xcomp",
+      "obl:mod"
+     ],
+     "position": 10,
+     "pair": [
+      [
+       9,
+       13
+      ],
+      [
+       11,
+       8
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D0004-104",
+     "forms": [
+      "bon",
+      "autre",
+      "part",
+      "il",
+      "y",
+      "a",
+      "problème",
+      "horaire",
+      "hein"
+     ],
+     "upos": [
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "INTJ"
+     ],
+     "heads": [
+      6,
+      3,
+      6,
+      6,
+      6,
+      0,
+      6,
+      7,
+      8
+     ],
+     "rel": [
+      "discourse",
+      "amod",
+      "obl:mod",
+      "expl:subj",
+      "expl:comp",
+      "root",
+      "obj",
+      "nmod",
+      "discourse"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       6
+      ],
+      [
+       2,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2008-104",
+     "forms": [
+      "ensuite",
+      "elle",
+      "dit",
+      "j'",
+      "mis",
+      "tout",
+      "Tamiflu",
+      "côté"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "PROPN",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      5,
+      3,
+      7,
+      5,
+      5
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "nsubj",
+      "ccomp",
+      "amod",
+      "obj",
+      "obl:arg"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       6,
+       7
+      ],
+      [
+       8,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2007-104",
+     "forms": [
+      "je",
+      "croyais",
+      "fait",
+      "t'",
+      "habiller",
+      "moi",
+      "te",
+      "rendrait",
+      "plus",
+      "sincère"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      8,
+      5,
+      3,
+      5,
+      8,
+      2,
+      10,
+      8
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "obj",
+      "acl",
+      "obl:mod",
+      "iobj",
+      "ccomp",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       5,
+       3
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2007-104",
+     "forms": [
+      "je",
+      "croyais",
+      "fait",
+      "t'",
+      "habiller",
+      "moi",
+      "te",
+      "rendrait",
+      "plus",
+      "sincère"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      8,
+      5,
+      3,
+      5,
+      8,
+      2,
+      10,
+      8
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "obj",
+      "acl",
+      "obl:mod",
+      "iobj",
+      "ccomp",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       3
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2003-107",
+     "forms": [
+      "Anelka",
+      "Anelka",
+      "qui",
+      "veut",
+      "donner",
+      "côté",
+      "gauche",
+      "là-bas",
+      "Thierry",
+      "Henry"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "ADV",
+      "PROPN",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      5,
+      6,
+      6,
+      4,
+      9
+     ],
+     "rel": [
+      "reparandum",
+      "root",
+      "nsubj",
+      "acl:relcl",
+      "xcomp",
+      "obl:mod",
+      "amod",
+      "advmod",
+      "obl:mod",
+      "flat:name"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       9,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2003-107",
+     "forms": [
+      "Anelka",
+      "Anelka",
+      "qui",
+      "veut",
+      "donner",
+      "côté",
+      "gauche",
+      "là-bas",
+      "Thierry",
+      "Henry"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "ADV",
+      "PROPN",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      5,
+      6,
+      6,
+      4,
+      9
+     ],
+     "rel": [
+      "reparandum",
+      "root",
+      "nsubj",
+      "acl:relcl",
+      "xcomp",
+      "obl:mod",
+      "amod",
+      "advmod",
+      "obl:mod",
+      "flat:name"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       8,
+       6
+      ],
+      [
+       9,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2003-107",
+     "forms": [
+      "Anelka",
+      "Anelka",
+      "qui",
+      "veut",
+      "donner",
+      "côté",
+      "gauche",
+      "là-bas",
+      "Thierry",
+      "Henry"
+     ],
+     "upos": [
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "ADJ",
+      "ADV",
+      "PROPN",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      2,
+      4,
+      5,
+      6,
+      6,
+      4,
+      9
+     ],
+     "rel": [
+      "reparandum",
+      "root",
+      "nsubj",
+      "acl:relcl",
+      "xcomp",
+      "obl:mod",
+      "amod",
+      "advmod",
+      "obl:mod",
+      "flat:name"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       6
+      ],
+      [
+       9,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D0004-108",
+     "forms": [
+      "moi",
+      "j'",
+      "ai",
+      "impression",
+      "ici",
+      "on",
+      "devient",
+      "un",
+      "peu",
+      "quartier",
+      "dortoir"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADV",
+      "PRON",
+      "VERB",
+      "DET",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      7,
+      4,
+      7,
+      8,
+      7,
+      10
+     ],
+     "rel": [
+      "dislocated:subj",
+      "nsubj",
+      "root",
+      "obj:lvc",
+      "advmod",
+      "nsubj",
+      "ccomp",
+      "advmod",
+      "fixed",
+      "obj",
+      "compound"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       3
+      ],
+      [
+       7,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2010-108",
+     "forms": [
+      "d'",
+      "ailleurs",
+      "quelqu'un",
+      "vous",
+      "remarquée",
+      "qui",
+      "est",
+      "grande",
+      "limousine",
+      "noire"
+     ],
+     "upos": [
+      "ADP",
+      "ADV",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "ADJ",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      5,
+      1,
+      5,
+      5,
+      0,
+      7,
+      3,
+      9,
+      7,
+      9
+     ],
+     "rel": [
+      "advmod",
+      "fixed",
+      "nsubj",
+      "obj",
+      "root",
+      "nsubj",
+      "acl:relcl",
+      "amod",
+      "obl:arg",
+      "amod"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       5
+      ],
+      [
+       7,
+       3
+      ]
+     ]
+    }
+   ],
+   "VV": [
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       1,
+       7
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       3,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2001-101",
+     "forms": [
+      "ça",
+      "quoi",
+      "qu'",
+      "il",
+      "arrive",
+      "j'",
+      "aurai",
+      "métier"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      7,
+      7,
+      5,
+      5,
+      2,
+      7,
+      0,
+      7
+     ],
+     "rel": [
+      "obl:mod",
+      "obl:mod",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "nsubj",
+      "root",
+      "obj"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       2,
+       7
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2011-102",
+     "forms": [
+      "alors",
+      "ça",
+      "enlève",
+      "bien",
+      "odeurs",
+      "euh",
+      "toutes",
+      "odeurs",
+      "qu'",
+      "il",
+      "peut",
+      "y",
+      "avoir",
+      "linge"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      5,
+      8,
+      5,
+      13,
+      11,
+      8,
+      13,
+      11,
+      11
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "advmod",
+      "obj",
+      "discourse:filler",
+      "amod",
+      "conj",
+      "obj",
+      "expl:subj",
+      "acl:relcl",
+      "iobj",
+      "xcomp",
+      "obl:mod"
+     ],
+     "position": 10,
+     "pair": [
+      [
+       9,
+       13
+      ],
+      [
+       10,
+       11
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2011-102",
+     "forms": [
+      "alors",
+      "ça",
+      "enlève",
+      "bien",
+      "odeurs",
+      "euh",
+      "toutes",
+      "odeurs",
+      "qu'",
+      "il",
+      "peut",
+      "y",
+      "avoir",
+      "linge"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      5,
+      8,
+      5,
+      13,
+      11,
+      8,
+      13,
+      11,
+      11
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "advmod",
+      "obj",
+      "discourse:filler",
+      "amod",
+      "conj",
+      "obj",
+      "expl:subj",
+      "acl:relcl",
+      "iobj",
+      "xcomp",
+      "obl:mod"
+     ],
+     "position": 11,
+     "pair": [
+      [
+       9,
+       13
+      ],
+      [
+       14,
+       11
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2011-102",
+     "forms": [
+      "alors",
+      "ça",
+      "enlève",
+      "bien",
+      "odeurs",
+      "euh",
+      "toutes",
+      "odeurs",
+      "qu'",
+      "il",
+      "peut",
+      "y",
+      "avoir",
+      "linge"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      5,
+      8,
+      5,
+      13,
+      11,
+      8,
+      13,
+      11,
+      11
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "advmod",
+      "obj",
+      "discourse:filler",
+      "amod",
+      "conj",
+      "obj",
+      "expl:subj",
+      "acl:relcl",
+      "iobj",
+      "xcomp",
+      "obl:mod"
+     ],
+     "position": 12,
+     "pair": [
+      [
+       9,
+       13
+      ],
+      [
+       14,
+       11
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2011-102",
+     "forms": [
+      "alors",
+      "ça",
+      "enlève",
+      "bien",
+      "odeurs",
+      "euh",
+      "toutes",
+      "odeurs",
+      "qu'",
+      "il",
+      "peut",
+      "y",
+      "avoir",
+      "linge"
+     ],
+     "upos": [
+      "ADV",
+      "PRON",
+      "VERB",
+      "ADV",
+      "NOUN",
+      "INTJ",
+      "ADJ",
+      "NOUN",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PRON",
+      "VERB",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      3,
+      5,
+      8,
+      5,
+      13,
+      11,
+      8,
+      13,
+      11,
+      11
+     ],
+     "rel": [
+      "advmod",
+      "nsubj",
+      "root",
+      "advmod",
+      "obj",
+      "discourse:filler",
+      "amod",
+      "conj",
+      "obj",
+      "expl:subj",
+      "acl:relcl",
+      "iobj",
+      "xcomp",
+      "obl:mod"
+     ],
+     "position": 12,
+     "pair": [
+      [
+       12,
+       13
+      ],
+      [
+       14,
+       11
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D0009-104",
+     "forms": [
+      "quitte",
+      "faire",
+      "travail",
+      "il",
+      "faut",
+      "faire",
+      "assise",
+      "accoudoirs"
+     ],
+     "upos": [
+      "ADV",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "VERB",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      5,
+      1,
+      2,
+      5,
+      0,
+      5,
+      6,
+      7
+     ],
+     "rel": [
+      "advmod",
+      "xcomp",
+      "obj",
+      "expl:subj",
+      "root",
+      "ccomp",
+      "obj",
+      "conj"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       5
+      ],
+      [
+       3,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2007-104",
+     "forms": [
+      "je",
+      "croyais",
+      "fait",
+      "t'",
+      "habiller",
+      "moi",
+      "te",
+      "rendrait",
+      "plus",
+      "sincère"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      8,
+      5,
+      3,
+      5,
+      8,
+      2,
+      10,
+      8
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "obj",
+      "acl",
+      "obl:mod",
+      "iobj",
+      "ccomp",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       3,
+       8
+      ],
+      [
+       4,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2007-104",
+     "forms": [
+      "je",
+      "croyais",
+      "fait",
+      "t'",
+      "habiller",
+      "moi",
+      "te",
+      "rendrait",
+      "plus",
+      "sincère"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      8,
+      5,
+      3,
+      5,
+      8,
+      2,
+      10,
+      8
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "obj",
+      "acl",
+      "obl:mod",
+      "iobj",
+      "ccomp",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2007-104",
+     "forms": [
+      "je",
+      "croyais",
+      "fait",
+      "t'",
+      "habiller",
+      "moi",
+      "te",
+      "rendrait",
+      "plus",
+      "sincère"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      8,
+      5,
+      3,
+      5,
+      8,
+      2,
+      10,
+      8
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "obj",
+      "acl",
+      "obl:mod",
+      "iobj",
+      "ccomp",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       3,
+       8
+      ],
+      [
+       6,
+       5
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2007-104",
+     "forms": [
+      "je",
+      "croyais",
+      "fait",
+      "t'",
+      "habiller",
+      "moi",
+      "te",
+      "rendrait",
+      "plus",
+      "sincère"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "ADV",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      8,
+      5,
+      3,
+      5,
+      8,
+      2,
+      10,
+      8
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "obj",
+      "acl",
+      "obl:mod",
+      "iobj",
+      "ccomp",
+      "advmod",
+      "xcomp"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       8,
+       2
+      ]
+     ]
+    }
+   ],
+   "NN": [
+    {
+     "sent_id": "Rhap_D2003-104",
+     "forms": [
+      "alors",
+      "dégagement",
+      "maintenant",
+      "Carrisou",
+      "euh",
+      "dégagement",
+      "argentin"
+     ],
+     "upos": [
+      "ADV",
+      "NOUN",
+      "VERB",
+      "PROPN",
+      "INTJ",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      2,
+      4,
+      2,
+      6
+     ],
+     "rel": [
+      "discourse",
+      "root",
+      "acl",
+      "nmod",
+      "discourse:filler",
+      "appos",
+      "amod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M2003-10",
+     "forms": [
+      "tout",
+      "lui",
+      "fait",
+      "compassion",
+      "non",
+      "violence",
+      "châtiment"
+     ],
+     "upos": [
+      "PRON",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADV",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      3,
+      3,
+      0,
+      3,
+      6,
+      4,
+      4
+     ],
+     "rel": [
+      "nsubj:pass",
+      "obl:mod",
+      "root",
+      "obl:arg",
+      "discourse",
+      "conj",
+      "conj"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       5,
+       6
+      ],
+      [
+       7,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D0009-10",
+     "forms": [
+      "j'",
+      "ai",
+      "quelqu'un",
+      "qui",
+      "est",
+      "Saint-Sauveur",
+      "Lorzac",
+      "qui",
+      "passe"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "PRON",
+      "PRON",
+      "VERB",
+      "PROPN",
+      "PROPN",
+      "PRON",
+      "VERB"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      5,
+      6,
+      9,
+      3
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "nsubj",
+      "acl:relcl",
+      "obl:arg",
+      "flat:name",
+      "nsubj",
+      "acl:relcl"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       9,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2008-11",
+     "forms": [
+      "vous",
+      "directeur",
+      "École",
+      "hautes",
+      "études",
+      "santé",
+      "publique",
+      "Rennes"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      5,
+      6,
+      3
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nmod",
+      "amod",
+      "nmod",
+      "nmod",
+      "amod",
+      "nmod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2008-11",
+     "forms": [
+      "vous",
+      "directeur",
+      "École",
+      "hautes",
+      "études",
+      "santé",
+      "publique",
+      "Rennes"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      5,
+      6,
+      3
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nmod",
+      "amod",
+      "nmod",
+      "nmod",
+      "amod",
+      "nmod"
+     ],
+     "position": 5,
+     "pair": [
+      [
+       6,
+       5
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2008-11",
+     "forms": [
+      "vous",
+      "directeur",
+      "École",
+      "hautes",
+      "études",
+      "santé",
+      "publique",
+      "Rennes"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "PROPN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      3,
+      5,
+      6,
+      3
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nmod",
+      "amod",
+      "nmod",
+      "nmod",
+      "amod",
+      "nmod"
+     ],
+     "position": 6,
+     "pair": [
+      [
+       7,
+       6
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M0001-11",
+     "forms": [
+      "tu",
+      "arrives",
+      "place",
+      "Herbes",
+      "une",
+      "sorte",
+      "halle",
+      "quoi",
+      "de",
+      "de",
+      "structure",
+      "métallique"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "DET",
+      "NOUN",
+      "NOUN",
+      "INTJ",
+      "ADP",
+      "ADP",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      6,
+      3,
+      11,
+      7,
+      11,
+      11,
+      6,
+      11
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "nmod",
+      "reparandum",
+      "nmod",
+      "reparandum",
+      "discourse",
+      "reparandum",
+      "reparandum",
+      "nmod",
+      "amod"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       11,
+       6
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D2010-12",
+     "forms": [
+      "alors",
+      "critique",
+      "déferlante",
+      "c'",
+      "vague",
+      "incroyable"
+     ],
+     "upos": [
+      "ADV",
+      "NOUN",
+      "ADJ",
+      "PRON",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      5,
+      5,
+      2,
+      5,
+      0,
+      5
+     ],
+     "rel": [
+      "advmod",
+      "dislocated:subj",
+      "amod",
+      "nsubj",
+      "root",
+      "amod"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       1,
+       5
+      ],
+      [
+       3,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M0007-13",
+     "forms": [
+      "vous",
+      "arrivez",
+      "entrée",
+      "Saint-Jean-de-Maurienne",
+      "euh",
+      "où",
+      "se",
+      "situe",
+      "garage",
+      "Fiat"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN",
+      "INTJ",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "PROPN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      3,
+      4,
+      8,
+      8,
+      3,
+      8,
+      9
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obl:arg",
+      "nmod",
+      "discourse:filler",
+      "obl:arg",
+      "expl:pass",
+      "acl:relcl",
+      "nsubj",
+      "appos"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       5,
+       4
+      ],
+      [
+       8,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M2002-13",
+     "forms": [
+      "c'",
+      "admettre",
+      "notion",
+      "art",
+      "euh",
+      "notion",
+      "floue"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "INTJ",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      6,
+      3,
+      4,
+      2,
+      6
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nsubj",
+      "nmod",
+      "discourse:filler",
+      "ccomp",
+      "amod"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       3,
+       6
+      ],
+      [
+       5,
+       4
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M2006-16",
+     "forms": [
+      "avenir",
+      "téléphone",
+      "mobile",
+      "heure",
+      "iPhone",
+      "baladeurs"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "ADJ",
+      "NOUN",
+      "NOUN",
+      "NOUN"
+     ],
+     "heads": [
+      0,
+      1,
+      2,
+      1,
+      4,
+      5
+     ],
+     "rel": [
+      "root",
+      "nmod",
+      "amod",
+      "nmod",
+      "nmod",
+      "conj"
+     ],
+     "position": 2,
+     "pair": [
+      [
+       3,
+       2
+      ],
+      [
+       4,
+       1
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D0001-117",
+     "forms": [
+      "on",
+      "avait",
+      "baraquements",
+      "là",
+      "j'",
+      "étais",
+      "sixième",
+      "troisième",
+      "b~",
+      "pour",
+      "lycée"
+     ],
+     "upos": [
+      "PRON",
+      "VERB",
+      "NOUN",
+      "ADV",
+      "PRON",
+      "VERB",
+      "NOUN",
+      "NOUN",
+      "X",
+      "ADP",
+      "NOUN"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      2,
+      6,
+      2,
+      6,
+      7,
+      3,
+      11,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "obj",
+      "advmod",
+      "nsubj",
+      "advcl",
+      "obl:arg",
+      "nmod",
+      "reparandum",
+      "reparandum",
+      "obl:mod"
+     ],
+     "position": 7,
+     "pair": [
+      [
+       8,
+       7
+      ],
+      [
+       9,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M2002-17",
+     "forms": [
+      "art",
+      "concept",
+      "dont",
+      "contours",
+      "changeants"
+     ],
+     "upos": [
+      "NOUN",
+      "NOUN",
+      "PRON",
+      "NOUN",
+      "ADJ"
+     ],
+     "heads": [
+      2,
+      0,
+      4,
+      5,
+      2
+     ],
+     "rel": [
+      "nsubj",
+      "root",
+      "nmod",
+      "nsubj",
+      "acl:relcl"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       3,
+       4
+      ],
+      [
+       5,
+       2
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_D0001-118",
+     "forms": [
+      "donc",
+      "euh",
+      "lycée",
+      "Arago",
+      "c'",
+      "baraquements",
+      "bon",
+      "euh"
+     ],
+     "upos": [
+      "ADV",
+      "INTJ",
+      "NOUN",
+      "PROPN",
+      "PRON",
+      "NOUN",
+      "INTJ",
+      "INTJ"
+     ],
+     "heads": [
+      6,
+      1,
+      6,
+      3,
+      6,
+      0,
+      6,
+      6
+     ],
+     "rel": [
+      "advmod",
+      "discourse:filler",
+      "obl:mod",
+      "appos",
+      "nsubj",
+      "root",
+      "discourse",
+      "discourse:filler"
+     ],
+     "position": 3,
+     "pair": [
+      [
+       1,
+       6
+      ],
+      [
+       4,
+       3
+      ]
+     ]
+    },
+    {
+     "sent_id": "Rhap_M0023-18",
+     "forms": [
+      "c'",
+      "moment",
+      "-là",
+      "le",
+      "boulanger",
+      "voit",
+      "baguette",
+      "disparu"
+     ],
+     "upos": [
+      "PRON",
+      "NOUN",
+      "ADV",
+      "DET",
+      "NOUN",
+      "VERB",
+      "NOUN",
+      "VERB"
+     ],
+     "heads": [
+      2,
+      0,
+      2,
+      5,
+      6,
+      2,
+      8,
+      6
+     ],
+     "rel": [
+      "expl:subj",
+      "root",
+      "advmod",
+      "reparandum",
+      "nsubj",
+      "advcl:cleft",
+      "nsubj",
+      "ccomp"
+     ],
+     "position": 4,
+     "pair": [
+      [
+       4,
+       5
+      ],
+      [
+       6,
+       2
+      ]
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,2182 @@
+# sent_id = Rhap_D0002-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $L1 "euh" ils avaient ESPERLUETTE //
+# text = euh, ils avaient…
+1	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=35|WordAlignmentEnd=710
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=710|WordAlignmentEnd=710
+3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	4	subj	_	Person[lex]=3|WordAlignmentBegin=710|WordAlignmentEnd=860
+4	avaient	avoir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=860|WordAlignmentEnd=1130
+5	…	…	PUNCT	_	_	4	punct	_	WordAlignmentBegin=1130|WordAlignmentEnd=1130
+
+# sent_id = Rhap_D0002-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = j'avais de la chance d'avoir des enfants qui travaillaient "euh" //
+# text = j'avais de la chance d'avoir des enfants qui travaillaient, euh.
+1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=1130|WordAlignmentEnd=1220
+2	avais	avoir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=1220|WordAlignmentEnd=1350
+3	de	de	ADP	_	ExtPos=DET	5	det	_	Idiom=Yes|WordAlignmentBegin=1350|WordAlignmentEnd=1380
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	unk	_	HasSpokenGender=OnlySingExceptWithLiaison|InIdiom=Yes|WordAlignmentBegin=1380|WordAlignmentEnd=1470
+5	chance	chance	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=1470|WordAlignmentEnd=1710
+6	d'	de	ADP	_	_	5	udep	_	SpaceAfter=No|WordAlignmentBegin=1710|WordAlignmentEnd=1740
+7	avoir	avoir	VERB	_	VerbForm=Inf	6	comp	_	Subject=SubjRaising|WordAlignmentBegin=1740|WordAlignmentEnd=1910
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	LiaisonAfter=Yes|WordAlignmentBegin=1910|WordAlignmentEnd=2050
+9	enfants	enfant	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=2050|WordAlignmentEnd=2370
+10	qui	qui	PRON	_	PronType=Rel	11	subj	_	WordAlignmentBegin=2370|WordAlignmentEnd=2430
+11	travaillaient	travailler	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	9	mod@relcl	_	Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=2430|WordAlignmentEnd=3121
+12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=3121|WordAlignmentEnd=3121
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=3121|WordAlignmentEnd=3285
+14	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=3285|WordAlignmentEnd=3285
+
+# sent_id = Rhap_D0002-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "je dirais" { c~ | c' } était ESPERLUETTE //
+# text = je dirais, c~, c'était…
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=3728|WordAlignmentEnd=3883
+2	dirais	dire	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	7	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=3883|WordAlignmentEnd=4173
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=4173|WordAlignmentEnd=4173
+4	c~	c~	X	_	_	6	reparandum	_	SpaceAfter=No|WordAlignmentBegin=4173|WordAlignmentEnd=4334
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=4334|WordAlignmentEnd=4513
+6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=4513|WordAlignmentEnd=4782
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=4782|WordAlignmentEnd=4989
+8	…	…	PUNCT	_	_	7	punct	_	WordAlignmentBegin=4989|WordAlignmentEnd=4989
+
+# sent_id = Rhap_D0002-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ils préféraient rigoler que de travailler //
+# text = ils préféraient rigoler que de travailler.
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	2	subj	_	Person[lex]=3|WordAlignmentBegin=5383|WordAlignmentEnd=5468
+2	préféraient	préférer	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|WordAlignmentBegin=5468|WordAlignmentEnd=5908
+3	rigoler	rigoler	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=5908|WordAlignmentEnd=6378
+4	que	que	SCONJ	_	_	3	comp:obj	_	WordAlignmentBegin=6378|WordAlignmentEnd=6448
+5	de	de	ADP	_	_	4	comp	_	WordAlignmentBegin=6448|WordAlignmentEnd=6478
+6	travailler	travailler	VERB	_	VerbForm=Inf	5	comp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=6478|WordAlignmentEnd=7027
+7	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=7027|WordAlignmentEnd=7027
+
+# sent_id = Rhap_D0002-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- $L1 ils étaient tout à fait normaux //
+# text = ils étaient tout à fait normaux.
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	2	subj	_	Overlap=Rhap_D0002-6|Person[lex]=3|WordAlignmentBegin=7027|WordAlignmentEnd=7172
+2	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-6|WordAlignmentBegin=7172|WordAlignmentEnd=7362
+3	tout	tout	ADV	_	ExtPos=ADV	6	mod	_	Idiom=Yes|Overlap=Rhap_D0002-6|WordAlignmentBegin=7362|WordAlignmentEnd=7482
+4	à	à	ADP	_	_	3	unk	_	InIdiom=Yes|Overlap=Rhap_D0002-6|WordAlignmentBegin=7482|WordAlignmentEnd=7572
+5	fait	fait	NOUN	_	_	4	unk	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-6|WordAlignmentBegin=7572|WordAlignmentEnd=7681
+6	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	2	comp:pred	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Overlap=Rhap_D0002-6|SpaceAfter=No|WordAlignmentBegin=7681|WordAlignmentEnd=8085
+7	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-5bis|WordAlignmentBegin=8085|WordAlignmentEnd=8085
+
+# sent_id = Rhap_D0002-6
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh mh // ) -$
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-5::2|Overlap=Rhap_D0002-5|SpaceAfter=No|WordAlignmentBegin=7027|WordAlignmentEnd=8085
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-5|WordAlignmentBegin=8085|WordAlignmentEnd=7027
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-5|SpaceAfter=No|WordAlignmentBegin=7027|WordAlignmentEnd=8085
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-5|WordAlignmentBegin=8085|WordAlignmentEnd=8085
+
+# sent_id = Rhap_D0002-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^mais "je veux dire" ils ont travaillé normalement //
+# text = mais, je veux dire, ils ont travaillé normalement.
+1	mais	mais	CCONJ	_	_	8	cc	_	SpaceAfter=No|WordAlignmentBegin=8085|WordAlignmentEnd=8370
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=8370|WordAlignmentEnd=8370
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=8370|WordAlignmentEnd=8480
+4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	discourse	_	Person[ctxt]=1|WordAlignmentBegin=8480|WordAlignmentEnd=8570
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=8570|WordAlignmentEnd=8690
+6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=8690|WordAlignmentEnd=8690
+7	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	8	subj	_	Person[lex]=3|WordAlignmentBegin=8690|WordAlignmentEnd=8910
+8	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=8910|WordAlignmentEnd=8960
+9	travaillé	travailler	VERB	_	VerbForm=Part|Voice=Act	8	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=8960|WordAlignmentEnd=9260
+10	normalement	normalement	ADV	_	_	8	mod	_	SpaceAfter=No|WordAlignmentBegin=9260|WordAlignmentEnd=9996
+11	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=9996|WordAlignmentEnd=9996
+
+# sent_id = Rhap_D0002-8
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^et c'est vrai que [ "bon" habitant dans le centre de Paris "euh" < les écoles sont de très bon niveau "hein" $- $L1 "je veux dire" ] //
+# text = et c'est vrai que, bon, habitant dans le centre de Paris, euh, les écoles sont de très bon niveau, hein, je veux dire.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=9996|WordAlignmentEnd=10160
+2	c'	ce	PRON	_	PronType=Dem	3	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=10887|WordAlignmentEnd=11002
+3	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=11002|WordAlignmentEnd=11062
+4	vrai	vrai	ADJ	_	_	3	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=11062|WordAlignmentEnd=11325
+5	que	que	SCONJ	_	_	4	comp:obj@agent	_	SpaceAfter=No|WordAlignmentBegin=11325|WordAlignmentEnd=11732
+6	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=11732|WordAlignmentEnd=12069
+7	bon	bon	INTJ	_	_	24	discourse	_	SpaceAfter=No|WordAlignmentBegin=12069|WordAlignmentEnd=12384
+8	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=12384|WordAlignmentEnd=12384
+9	habitant	habiter	VERB	_	VerbForm=Part	20	mod	_	Tense[denom]=Pres|WordAlignmentBegin=12384|WordAlignmentEnd=12944
+10	dans	dans	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=12944|WordAlignmentEnd=13064
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=13064|WordAlignmentEnd=13098
+12	centre	centre	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=13098|WordAlignmentEnd=13354
+13	de	de	ADP	_	_	12	udep	_	WordAlignmentBegin=13354|WordAlignmentEnd=13414
+14	Paris	Paris	PROPN	_	_	13	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=13414|WordAlignmentEnd=13960
+15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=13960|WordAlignmentEnd=13960
+16	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=13960|WordAlignmentEnd=14794
+17	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=14794|WordAlignmentEnd=14794
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=14794|WordAlignmentEnd=14999
+19	écoles	école	NOUN	_	_	20	subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=14999|WordAlignmentEnd=15239
+20	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp	_	WordAlignmentBegin=15239|WordAlignmentEnd=15419
+21	de	de	ADP	_	_	20	comp:obl	_	WordAlignmentBegin=15419|WordAlignmentEnd=15479
+22	très	très	ADV	_	_	23	mod	_	WordAlignmentBegin=15479|WordAlignmentEnd=15699
+23	bon	bon	ADJ	_	Gender=Masc	24	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=15699|WordAlignmentEnd=15859
+24	niveau	niveau	NOUN	_	_	21	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=15859|WordAlignmentEnd=16299
+25	,	,	PUNCT	_	_	26	punct	_	WordAlignmentBegin=16299|WordAlignmentEnd=16299
+26	hein	hein	INTJ	_	_	24	discourse	_	SpaceAfter=No|WordAlignmentBegin=16299|WordAlignmentEnd=16343
+27	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=16343|WordAlignmentEnd=16343
+28	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	29	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-9|Person[lex]=1|WordAlignmentBegin=16343|WordAlignmentEnd=16488
+29	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	26	discourse	_	Overlap=Rhap_D0002-9|Person[ctxt]=1|WordAlignmentBegin=16488|WordAlignmentEnd=16548
+30	dire	dire	VERB	_	VerbForm=Inf	29	comp:obj	_	Overlap=Rhap_D0002-9|SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=16548|WordAlignmentEnd=16896
+31	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-7bis|WordAlignmentBegin=16896|WordAlignmentEnd=16896
+
+# sent_id = Rhap_D0002-9
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh mh // ) -$
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-8::3|Overlap=Rhap_D0002-8|SpaceAfter=No|WordAlignmentBegin=16343|WordAlignmentEnd=16896
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-7|WordAlignmentBegin=16896|WordAlignmentEnd=16343
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-8|SpaceAfter=No|WordAlignmentBegin=16343|WordAlignmentEnd=16896
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-7|WordAlignmentBegin=16896|WordAlignmentEnd=16896
+
+# sent_id = Rhap_D0002-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "bon" { il | il } y a vraiment "euh" aucun problème //
+# text = bon, il, il y a vraiment, euh, aucun problème.
+1	bon	bon	INTJ	_	_	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=17153|WordAlignmentEnd=17328
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=17328|WordAlignmentEnd=17328
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	reparandum	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=17328|WordAlignmentEnd=17518
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=17518|WordAlignmentEnd=17518
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj@expl	_	Person[lex]=3|WordAlignmentBegin=17518|WordAlignmentEnd=17578
+6	y	y	PRON	_	PronType=Prs	7	comp@expl	_	Person[lex]=3|WordAlignmentBegin=17578|WordAlignmentEnd=17608
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=17608|WordAlignmentEnd=17668
+8	vraiment	vraiment	ADV	_	_	7	mod	_	SpaceAfter=No|WordAlignmentBegin=17668|WordAlignmentEnd=18004
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=18004|WordAlignmentEnd=18004
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=18004|WordAlignmentEnd=18210
+11	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=18210|WordAlignmentEnd=19191
+12	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	13	det	_	WordAlignmentBegin=19191|WordAlignmentEnd=19486
+13	problème	problème	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=19486|WordAlignmentEnd=19876
+14	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=19876|WordAlignmentEnd=19876
+
+# sent_id = Rhap_D0002-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = moi < j'ai eu aucun problème scolaire pour mes enfants //
+# text = moi, j'ai eu aucun problème scolaire pour mes enfants.
+1	moi	moi	PRON	_	Emph=Yes|PronType=Prs	4	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=19876|WordAlignmentEnd=20006
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=20006|WordAlignmentEnd=20006
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=20006|WordAlignmentEnd=20106
+4	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=20106|WordAlignmentEnd=20156
+5	eu	avoir	VERB	_	VerbForm=Part|Voice=Act	4	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=20156|WordAlignmentEnd=20286
+6	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	7	det	_	WordAlignmentBegin=20286|WordAlignmentEnd=20576
+7	problème	problème	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=20576|WordAlignmentEnd=20866
+8	scolaire	scolaire	ADJ	_	_	7	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=20866|WordAlignmentEnd=21216
+9	pour	pour	ADP	_	_	4	mod	_	WordAlignmentBegin=21216|WordAlignmentEnd=21366
+10	mes	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=1|Poss=Yes|PronType=Prs	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=21366|WordAlignmentEnd=21506
+11	enfants	enfant	NOUN	_	_	9	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=21506|WordAlignmentEnd=21881
+12	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=21881|WordAlignmentEnd=21881
+
+# sent_id = Rhap_D0002-12
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^et { j'ai | j'ai } jamais très bien compris les gens qui ESPERLUETTE //
+# text = et j'ai, j'ai jamais très bien compris les gens qui…
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=22158|WordAlignmentEnd=22283
+2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=22283|WordAlignmentEnd=22493
+3	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	reparandum	_	SpaceAfter=No|WordAlignmentBegin=22493|WordAlignmentEnd=22523
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=22523|WordAlignmentEnd=22523
+5	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=22523|WordAlignmentEnd=22663
+6	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=22663|WordAlignmentEnd=22693
+7	jamais	jamais	ADV	_	PronType=Neg	6	mod	_	WordAlignmentBegin=22693|WordAlignmentEnd=23003
+8	très	très	ADV	_	_	9	mod	_	WordAlignmentBegin=23003|WordAlignmentEnd=23173
+9	bien	bien	ADV	_	_	6	mod	_	WordAlignmentBegin=23173|WordAlignmentEnd=23303
+10	compris	comprendre	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	6	comp:aux@tense	_	PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=23303|WordAlignmentEnd=23703
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=23703|WordAlignmentEnd=23813
+12	gens	gens	NOUN	_	_	10	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=23813|WordAlignmentEnd=24131
+13	qui	qui	PRON	_	PronType=Rel	12	mod	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=24560|WordAlignmentEnd=25488
+14	…	…	PUNCT	_	_	6	punct	_	WordAlignmentBegin=25488|WordAlignmentEnd=25488
+
+# sent_id = Rhap_D0002-13
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = { j~ | je } connaissais des gens dans le septième qui mettaient leurs enfants { d'abord dans le public | ^puis dans le privé } pour { qu'ils puissent passer après éventuellement ESPERLUETTE "euh" "euh" | ^et qu'ils soient plus forts } //
+# text = j~, je connaissais des gens dans le septième qui mettaient leurs enfants d'abord dans le public, puis dans le privé pour qu'ils puissent passer après éventuellement, euh, euh, et qu'ils soient plus forts.
+1	j~	j~	X	_	ExtPos=PRON	3	reparandum	_	SpaceAfter=No|WordAlignmentBegin=25488|WordAlignmentEnd=25713
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=25713|WordAlignmentEnd=25823
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=25823|WordAlignmentEnd=25993
+4	connaissais	connaître	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=25993|WordAlignmentEnd=26493
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	WordAlignmentBegin=26493|WordAlignmentEnd=26583
+6	gens	gens	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=26583|WordAlignmentEnd=27153
+7	dans	dans	ADP	_	_	6	udep	_	WordAlignmentBegin=27153|WordAlignmentEnd=27503
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=27503|WordAlignmentEnd=27533
+9	septième	septième	NOUN	_	_	7	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=27533|WordAlignmentEnd=28066
+10	qui	qui	PRON	_	PronType=Rel	11	subj	_	WordAlignmentBegin=28534|WordAlignmentEnd=28714
+11	mettaient	mettre	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	6	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=28714|WordAlignmentEnd=28994
+12	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=28994|WordAlignmentEnd=29224
+13	enfants	enfant	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=29224|WordAlignmentEnd=29634
+14	d'	de	ADP	_	_	16	mod	_	SpaceAfter=No|WordAlignmentBegin=29634|WordAlignmentEnd=29674
+15	abord	abord	NOUN	_	_	14	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=29674|WordAlignmentEnd=30054
+16	dans	dans	ADP	_	_	11	mod	_	WordAlignmentBegin=30054|WordAlignmentEnd=30164
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=30164|WordAlignmentEnd=30194
+18	public	public	NOUN	_	_	16	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=30194|WordAlignmentEnd=30825
+19	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=30825|WordAlignmentEnd=30825
+20	puis	puis	CCONJ	_	_	21	cc	_	WordAlignmentBegin=30825|WordAlignmentEnd=31195
+21	dans	dans	ADP	_	_	16	conj:coord	_	WordAlignmentBegin=31195|WordAlignmentEnd=31365
+22	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=31365|WordAlignmentEnd=31395
+23	privé	privé	NOUN	_	_	21	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=31395|WordAlignmentEnd=32025
+24	pour	pour	ADP	_	_	11	mod	_	WordAlignmentBegin=32025|WordAlignmentEnd=32145
+25	qu'	que	SCONJ	_	_	24	comp	_	SpaceAfter=No|WordAlignmentBegin=32145|WordAlignmentEnd=32255
+26	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	27	subj	_	Person[lex]=3|WordAlignmentBegin=32255|WordAlignmentEnd=32444
+27	puissent	pouvoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	comp	_	WordAlignmentBegin=32444|WordAlignmentEnd=32725
+28	passer	passer	VERB	_	VerbForm=Inf	27	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=32725|WordAlignmentEnd=33421
+29	après	après	ADV	_	_	28	mod	_	WordAlignmentBegin=33973|WordAlignmentEnd=34418
+30	éventuellement	éventuellement	ADV	_	_	28	mod	_	SpaceAfter=No|WordAlignmentBegin=34418|WordAlignmentEnd=35258
+31	,	,	PUNCT	_	_	32	punct	_	WordAlignmentBegin=35258|WordAlignmentEnd=35258
+32	euh	euh	INTJ	_	_	30	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=35258|WordAlignmentEnd=35518
+33	,	,	PUNCT	_	_	34	punct	_	WordAlignmentBegin=35518|WordAlignmentEnd=35993
+34	euh	euh	INTJ	_	_	30	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=35993|WordAlignmentEnd=36157
+35	,	,	PUNCT	_	_	37	punct	_	WordAlignmentBegin=36157|WordAlignmentEnd=36157
+36	et	et	CCONJ	_	_	37	cc	_	WordAlignmentBegin=36157|WordAlignmentEnd=36202
+37	qu'	que	SCONJ	_	_	25	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=36202|WordAlignmentEnd=36302
+38	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	39	subj	_	Person[lex]=3|WordAlignmentBegin=36302|WordAlignmentEnd=36362
+39	soient	être	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	comp	_	WordAlignmentBegin=36362|WordAlignmentEnd=36522
+40	plus	plus	ADV	_	_	41	mod	_	WordAlignmentBegin=36522|WordAlignmentEnd=36662
+41	forts	fort	ADJ	_	Gender=Masc	39	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=36662|WordAlignmentEnd=37232
+42	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=37232|WordAlignmentEnd=37232
+
+# sent_id = Rhap_D0002-14
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^et ^puis après <+ ils étaient très étonnés parce que [ quand ils voulaient entrer en prépa <+ on les prenait après les gens qui venaient du public ] //
+# text = et puis après, ils étaient très étonnés parce que quand ils voulaient entrer en prépa, on les prenait après les gens qui venaient du public.
+1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes|WordAlignmentBegin=37232|WordAlignmentEnd=37412
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=37412|WordAlignmentEnd=37555
+3	après	après	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=37555|WordAlignmentEnd=37900
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=37900|WordAlignmentEnd=37900
+5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	subj	_	Person[lex]=3|WordAlignmentBegin=37900|WordAlignmentEnd=37960
+6	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	WordAlignmentBegin=37960|WordAlignmentEnd=38260
+7	très	très	ADV	_	_	8	mod	_	WordAlignmentBegin=38260|WordAlignmentEnd=38490
+8	étonnés	étonner	VERB	_	VerbForm=Part	6	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=38490|WordAlignmentEnd=38880
+9	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	Idiom=Yes|WordAlignmentBegin=38880|WordAlignmentEnd=39050
+10	que	que	SCONJ	_	_	9	unk	_	InIdiom=Yes|WordAlignmentBegin=39050|WordAlignmentEnd=39150
+11	quand	quand	SCONJ	_	_	20	mod	_	WordAlignmentBegin=39150|WordAlignmentEnd=39340
+12	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	13	subj	_	Person[lex]=3|WordAlignmentBegin=39340|WordAlignmentEnd=39480
+13	voulaient	vouloir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	11	comp	_	Number[ctxt]=Plur|WordAlignmentBegin=39480|WordAlignmentEnd=39650
+14	entrer	entrer	VERB	_	VerbForm=Inf	13	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=39650|WordAlignmentEnd=39880
+15	en	en	ADP	_	_	14	comp:obl	_	WordAlignmentBegin=39880|WordAlignmentEnd=40000
+16	prépa	prépa	NOUN	_	_	15	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=40000|WordAlignmentEnd=40465
+17	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=40465|WordAlignmentEnd=40465
+18	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	20	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=40465|WordAlignmentEnd=40570
+19	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	20	comp:obj	_	Person[lex]=3|WordAlignmentBegin=40570|WordAlignmentEnd=40730
+20	prenait	prendre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	9	comp:obj	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=40730|WordAlignmentEnd=41100
+21	après	après	ADP	_	_	20	comp:obl	_	WordAlignmentBegin=41100|WordAlignmentEnd=41560
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=41560|WordAlignmentEnd=41670
+23	gens	gens	NOUN	_	_	21	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=41670|WordAlignmentEnd=41860
+24	qui	qui	PRON	_	PronType=Rel	25	subj	_	WordAlignmentBegin=41860|WordAlignmentEnd=41960
+25	venaient	venir	VERB	_	Mood=Ind|Person=3|Tense=Imp|VerbForm=Fin	23	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=41960|WordAlignmentEnd=42100
+26	du	du	ADP	_	_	25	comp:obl	_	WordAlignmentBegin=42100|WordAlignmentEnd=42220
+27	public	public	NOUN	_	_	26	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=42220|WordAlignmentEnd=42609
+28	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=42609|WordAlignmentEnd=42609
+
+# sent_id = Rhap_D0002-15
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "bah" ça paraît normal //
+# text = bah, ça paraît normal.
+1	bah	bah	INTJ	_	_	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=42609|WordAlignmentEnd=43131
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=43131|WordAlignmentEnd=43731
+3	ça	ça	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=43731|WordAlignmentEnd=43826
+4	paraît	paraître	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=43826|WordAlignmentEnd=44096
+5	normal	normal	ADJ	_	Number=Sing	4	comp:obj	_	Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No|WordAlignmentBegin=44096|WordAlignmentEnd=44539
+6	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=44539|WordAlignmentEnd=44539
+
+# sent_id = Rhap_D0002-16
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- "enfin" "je veux dire" "euh" ( $L2 { "mh mh" | "mh mh" | "mh mh" } // ) -$ "euh" les lycées du ESPERLUETTE //
+# text = enfin, je veux dire, euh, euh, les lycées du…
+1	enfin	enfin	ADV	_	_	4	discourse	_	Overlap=Rhap_D0002-17|SpaceAfter=No|WordAlignmentBegin=44539|WordAlignmentEnd=44634
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-14bis|WordAlignmentBegin=45526|WordAlignmentEnd=44539
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-17|Person[lex]=1|WordAlignmentBegin=44634|WordAlignmentEnd=44744
+4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-17|Person[ctxt]=1|WordAlignmentBegin=44744|WordAlignmentEnd=44804
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	Overlap=Rhap_D0002-17|SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=44804|WordAlignmentEnd=45130
+6	,	,	PUNCT	_	_	7	punct	_	Overlap=Rhap_D0002-14bis|WordAlignmentBegin=45526|WordAlignmentEnd=44539
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	Overlap=Rhap_D0002-17|SpaceAfter=No|WordAlignmentBegin=45130|WordAlignmentEnd=45526
+8	,	,	PUNCT	_	_	9	punct	_	Overlap=Rhap_D0002-14bis|WordAlignmentBegin=45526|WordAlignmentEnd=45797
+9	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=45797|WordAlignmentEnd=46426
+10	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=46426|WordAlignmentEnd=46426
+11	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=46426|WordAlignmentEnd=46766
+12	lycées	lycée	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=46766|WordAlignmentEnd=47311
+13	du	du	ADP	_	_	12	udep	_	WordAlignmentBegin=47311|WordAlignmentEnd=47743
+14	…	…	PUNCT	_	_	4	punct	_	WordAlignmentBegin=47743|WordAlignmentEnd=47743
+
+# sent_id = Rhap_D0002-17
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $- "enfin" "je veux dire" "euh" ( $L2 { "mh mh" | "mh mh" | "mh mh" } // ) -$ "euh" les lycées du ESPERLUETTE //
+# text = mh, mh, mh, mh, mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-16::4|Overlap=Rhap_D0002-16|SpaceAfter=No|WordAlignmentBegin=44539|WordAlignmentEnd=45526
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-14|WordAlignmentBegin=45526|WordAlignmentEnd=44539
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-16|SpaceAfter=No|WordAlignmentBegin=44539|WordAlignmentEnd=45526
+4	,	,	PUNCT	_	_	5	punct	_	Overlap=Rhap_D0002-14|WordAlignmentBegin=45526|WordAlignmentEnd=44539
+5	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-16|SpaceAfter=No|WordAlignmentBegin=44539|WordAlignmentEnd=45526
+6	,	,	PUNCT	_	_	7	punct	_	Overlap=Rhap_D0002-14|WordAlignmentBegin=45526|WordAlignmentEnd=44539
+7	mh	mh	INTJ	_	_	5	conj:coord	_	Overlap=Rhap_D0002-16|SpaceAfter=No|WordAlignmentBegin=44539|WordAlignmentEnd=45526
+8	,	,	PUNCT	_	_	9	punct	_	Overlap=Rhap_D0002-14|WordAlignmentBegin=45526|WordAlignmentEnd=0
+9	mh	mh	INTJ	_	_	5	conj:coord	_	Overlap=Rhap_D0002-16|SpaceAfter=No|WordAlignmentBegin=0|WordAlignmentEnd=0
+10	,	,	PUNCT	_	_	11	punct	_	Overlap=Rhap_D0002-14|WordAlignmentBegin=0|WordAlignmentEnd=0
+11	mh	mh	INTJ	_	_	9	conj:coord	_	Overlap=Rhap_D0002-16|SpaceAfter=No|WordAlignmentBegin=83508|WordAlignmentEnd=84029
+12	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-14|WordAlignmentBegin=0|WordAlignmentEnd=0
+
+# sent_id = Rhap_D0002-18
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = je pense que [ à l'intérieur de Paris <+ "euh" globalement < "euh" { les | les } écoles { sont | sont } d'un bon niveau ] $- $L1 "voilà" //
+# text = je pense que à l'intérieur de Paris, euh, globalement, euh, les, les écoles sont, sont d'un bon niveau, voilà.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=48663|WordAlignmentEnd=48868
+2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=48868|WordAlignmentEnd=49108
+3	que	que	SCONJ	_	_	2	comp:obj	_	WordAlignmentBegin=49108|WordAlignmentEnd=49230
+4	à	à	ADP	_	_	20	mod	_	WordAlignmentBegin=49230|WordAlignmentEnd=49466
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=49466|WordAlignmentEnd=49517
+6	intérieur	intérieur	NOUN	_	_	4	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=49517|WordAlignmentEnd=49998
+7	de	de	ADP	_	_	6	udep	_	WordAlignmentBegin=49998|WordAlignmentEnd=50138
+8	Paris	Paris	PROPN	_	_	7	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=50138|WordAlignmentEnd=50695
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=50695|WordAlignmentEnd=51286
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=51286|WordAlignmentEnd=52046
+11	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=52046|WordAlignmentEnd=52046
+12	globalement	globalement	ADV	_	_	20	mod	_	SpaceAfter=No|WordAlignmentBegin=52046|WordAlignmentEnd=53007
+13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=53007|WordAlignmentEnd=53007
+14	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=53007|WordAlignmentEnd=53817
+15	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=53817|WordAlignmentEnd=54658
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=54658|WordAlignmentEnd=54963
+17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=54963|WordAlignmentEnd=54963
+18	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=54963|WordAlignmentEnd=55253
+19	écoles	école	NOUN	_	Shared=Yes	20	subj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=55253|WordAlignmentEnd=55503
+20	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	reparandum	_	SpaceAfter=No|WordAlignmentBegin=55503|WordAlignmentEnd=55950
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=55950|WordAlignmentEnd=56073
+22	sont	être	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp	_	WordAlignmentBegin=56073|WordAlignmentEnd=56263
+23	d'	de	ADP	_	_	22	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=56263|WordAlignmentEnd=56293
+24	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	WordAlignmentBegin=56293|WordAlignmentEnd=56393
+25	bon	bon	ADJ	_	Gender=Masc	26	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=56393|WordAlignmentEnd=56543
+26	niveau	niveau	NOUN	_	_	23	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=56543|WordAlignmentEnd=56798
+27	,	,	PUNCT	_	_	28	punct	_	WordAlignmentBegin=56798|WordAlignmentEnd=56967
+28	voilà	voilà	VERB	_	_	26	discourse	_	Overlap=Rhap_D0002-19|SpaceAfter=No|WordAlignmentBegin=56967|WordAlignmentEnd=57282
+29	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-15bis|WordAlignmentBegin=57282|WordAlignmentEnd=57282
+
+# sent_id = Rhap_D0002-19
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh // ) -$
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-18::2|Overlap=Rhap_D0002-18|SpaceAfter=No|WordAlignmentBegin=56967|WordAlignmentEnd=57282
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-15|WordAlignmentBegin=57282|WordAlignmentEnd=57282
+
+# sent_id = Rhap_D0002-20
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = je pense ESPERLUETTE //
+# text = je pense…
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=58573|WordAlignmentEnd=58758
+2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=58758|WordAlignmentEnd=59131
+3	…	…	PUNCT	_	_	2	punct	_	WordAlignmentBegin=59131|WordAlignmentEnd=59131
+
+# sent_id = Rhap_D0002-21
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = moi < "je vois" "euh" dans le vingtième <+ { j'ai des | il y a des } enfants { qui | qui } visiblement ESPERLUETTE //
+# text = moi, je vois, euh, dans le vingtième j'ai des, il y a des enfants qui, qui visiblement…
+1	moi	moi	PRON	_	Emph=Yes|PronType=Prs	12	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=59131|WordAlignmentEnd=59338
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=59338|WordAlignmentEnd=59338
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=59338|WordAlignmentEnd=59438
+4	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	17	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=59438|WordAlignmentEnd=59725
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=59725|WordAlignmentEnd=59725
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=59725|WordAlignmentEnd=59978
+7	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=59978|WordAlignmentEnd=59978
+8	dans	dans	ADP	_	_	17	mod	_	WordAlignmentBegin=59978|WordAlignmentEnd=60148
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=60148|WordAlignmentEnd=60178
+10	vingtième	vingtième	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=60178|WordAlignmentEnd=60838
+11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs|Shared=Yes	12	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=61291|WordAlignmentEnd=61615
+12	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	reparandum	_	WordAlignmentBegin=61291|WordAlignmentEnd=61615
+13	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	12	comp:obj	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=61615|WordAlignmentEnd=62103
+14	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=62103|WordAlignmentEnd=62103
+15	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	17	subj@expl	_	Person[lex]=3|WordAlignmentBegin=62103|WordAlignmentEnd=62152
+16	y	y	PRON	_	PronType=Prs	17	comp@expl	_	Person[lex]=3|WordAlignmentBegin=62152|WordAlignmentEnd=62199
+17	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=62199|WordAlignmentEnd=62260
+18	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	19	det	_	LiaisonAfter=Yes|WordAlignmentBegin=62260|WordAlignmentEnd=62466
+19	enfants	enfant	NOUN	_	_	17	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=62466|WordAlignmentEnd=62816
+20	qui	qui	PRON	_	PronType=Rel	22	reparandum	_	SpaceAfter=No|WordAlignmentBegin=62816|WordAlignmentEnd=63176
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=63176|WordAlignmentEnd=63907
+22	qui	qui	PRON	_	PronType=Rel	19	mod@relcl	_	WordAlignmentBegin=63907|WordAlignmentEnd=64067
+23	visiblement	visiblement	ADV	_	_	22	unk	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=64067|WordAlignmentEnd=64887
+24	…	…	PUNCT	_	_	17	punct	_	WordAlignmentBegin=64887|WordAlignmentEnd=64887
+
+# sent_id = Rhap_D0002-22
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = le lycée Voltaire est un bon lycée //
+# text = le lycée Voltaire est un bon lycée.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=64887|WordAlignmentEnd=64977
+2	lycée	lycée	NOUN	_	_	4	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=64977|WordAlignmentEnd=65277
+3	Voltaire	Voltaire	PROPN	_	_	2	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=65277|WordAlignmentEnd=65737
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=65737|WordAlignmentEnd=65877
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	WordAlignmentBegin=65877|WordAlignmentEnd=65967
+6	bon	bon	ADJ	_	Gender=Masc	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=65967|WordAlignmentEnd=66147
+7	lycée	lycée	NOUN	_	_	4	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=66147|WordAlignmentEnd=66980
+8	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=66980|WordAlignmentEnd=66980
+
+# sent_id = Rhap_D0002-23
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = { il y a | il y a | il y a | il y a | il y a } des bons établissements //=
+# text = il y a, il y a, il y a, il y a, il y a des bons établissements.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3|WordAlignmentBegin=66980|WordAlignmentEnd=67051
+2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3|WordAlignmentBegin=67051|WordAlignmentEnd=67093
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	reparandum	_	SpaceAfter=No|WordAlignmentBegin=67093|WordAlignmentEnd=67211
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=67211|WordAlignmentEnd=67211
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj@expl	_	Person[lex]=3|WordAlignmentBegin=67211|WordAlignmentEnd=67288
+6	y	y	PRON	_	PronType=Prs	7	comp@expl	_	Person[lex]=3|WordAlignmentBegin=67288|WordAlignmentEnd=67327
+7	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	reparandum	_	SpaceAfter=No|WordAlignmentBegin=67327|WordAlignmentEnd=67439
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=67439|WordAlignmentEnd=67439
+9	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	11	subj@expl	_	Person[lex]=3|WordAlignmentBegin=67439|WordAlignmentEnd=67502
+10	y	y	PRON	_	PronType=Prs	11	comp@expl	_	Person[lex]=3|WordAlignmentBegin=67502|WordAlignmentEnd=67533
+11	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	reparandum	_	SpaceAfter=No|WordAlignmentBegin=67533|WordAlignmentEnd=67603
+12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=67603|WordAlignmentEnd=67603
+13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	15	subj@expl	_	Person[lex]=3|WordAlignmentBegin=67603|WordAlignmentEnd=67680
+14	y	y	PRON	_	PronType=Prs	15	comp@expl	_	Person[lex]=3|WordAlignmentBegin=67680|WordAlignmentEnd=67717
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	reparandum	_	SpaceAfter=No|WordAlignmentBegin=67717|WordAlignmentEnd=67794
+16	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=67794|WordAlignmentEnd=67794
+17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	19	subj@expl	_	Person[lex]=3|WordAlignmentBegin=67794|WordAlignmentEnd=67857
+18	y	y	PRON	_	PronType=Prs	19	comp@expl	_	Person[lex]=3|WordAlignmentBegin=67857|WordAlignmentEnd=67899
+19	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=67899|WordAlignmentEnd=67958
+20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	22	det	_	WordAlignmentBegin=67958|WordAlignmentEnd=68103
+21	bons	bon	ADJ	_	Gender=Masc|Number=Plur	22	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=68103|WordAlignmentEnd=68353
+22	établissements	établissement	NOUN	_	_	19	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=68353|WordAlignmentEnd=68874
+23	.	.	PUNCT	_	_	19	punct	_	WordAlignmentBegin=68874|WordAlignmentEnd=68874
+
+# sent_id = Rhap_D0002-24
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = il y en a des moins bons //
+# text = il y en a des moins bons.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj@expl	_	Person[lex]=3|WordAlignmentBegin=68874|WordAlignmentEnd=68919
+2	y	y	PRON	_	PronType=Prs	4	comp@expl	_	Person[lex]=3|WordAlignmentBegin=68919|WordAlignmentEnd=69029
+3	en	en	PRON	_	PronType=Prs	7	comp:obl	_	Person[lex]=3|WordAlignmentBegin=69029|WordAlignmentEnd=69059
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=parataxis:conj::Rhap_D0002-23::19|WordAlignmentBegin=69059|WordAlignmentEnd=69179
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	WordAlignmentBegin=69179|WordAlignmentEnd=69329
+6	moins	moins	ADV	_	_	7	mod	_	WordAlignmentBegin=69329|WordAlignmentEnd=69559
+7	bons	bon	ADJ	_	Gender=Masc	4	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=69559|WordAlignmentEnd=69706
+8	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=69706|WordAlignmentEnd=69706
+
+# sent_id = Rhap_D0002-25
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^alors le problème ( si vous voulez ) { qui se pose "euh" à Paris | "enfin" que je vois dans le vingtième } < c'est le problème des écoles { maternelles | ^et primaires } dans lequel [ quand vous avez effectivement un certain nombre d'enfants { qui ne sont pas ESPERLUETTE | qui ne parlent pas couramment $- $L1 français } <+ ( $L2 mh // ) -$ "euh" pour les enseignants <+ { c'est | c'est } pas facile ] //
+# text = alors le problème, si vous voulez, qui se pose, euh, à Paris, enfin, que je vois dans le vingtième, c'est le problème des écoles maternelles et primaires dans lequel quand vous avez effectivement un certain nombre d'enfants qui ne sont pas, qui ne parlent pas couramment français, euh, pour les enseignants, c'est, c'est pas facile.
+1	alors	alors	ADV	_	_	28	mod	_	WordAlignmentBegin=70090|WordAlignmentEnd=70325
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=70325|WordAlignmentEnd=70485
+3	problème	problème	NOUN	_	_	28	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=70485|WordAlignmentEnd=70975
+4	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=70975|WordAlignmentEnd=70975
+5	si	si	SCONJ	_	_	3	discourse	_	WordAlignmentBegin=70975|WordAlignmentEnd=71145
+6	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=71145|WordAlignmentEnd=71358
+7	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	5	comp	_	SpaceAfter=No|WordAlignmentBegin=71358|WordAlignmentEnd=71535
+8	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=71535|WordAlignmentEnd=71535
+9	qui	qui	PRON	_	PronType=Rel	11	subj	_	WordAlignmentBegin=71535|WordAlignmentEnd=71655
+10	se	soi	PRON	_	PronType=Prs|Reflex=Yes	11	comp@pass	_	Person[lex]=3|WordAlignmentBegin=71655|WordAlignmentEnd=71835
+11	pose	poser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=71835|WordAlignmentEnd=72220
+12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=72220|WordAlignmentEnd=72220
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=72220|WordAlignmentEnd=72707
+14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=72707|WordAlignmentEnd=72707
+15	à	à	ADP	_	_	11	mod	_	WordAlignmentBegin=72707|WordAlignmentEnd=72853
+16	Paris	Paris	PROPN	_	_	15	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=72853|WordAlignmentEnd=73323
+17	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=73323|WordAlignmentEnd=73323
+18	enfin	enfin	ADV	_	_	22	discourse	_	SpaceAfter=No|WordAlignmentBegin=73323|WordAlignmentEnd=73483
+19	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=73483|WordAlignmentEnd=73483
+20	que	que	PRON	_	PronType=Rel	22	comp:obj	_	WordAlignmentBegin=73483|WordAlignmentEnd=73663
+21	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	22	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=73663|WordAlignmentEnd=73773
+22	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	conj:reform	_	Person[ctxt]=1|WordAlignmentBegin=73773|WordAlignmentEnd=73903
+23	dans	dans	ADP	_	_	22	mod	_	WordAlignmentBegin=73903|WordAlignmentEnd=74023
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=74023|WordAlignmentEnd=74193
+25	vingtième	vingtième	NOUN	_	_	23	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=74193|WordAlignmentEnd=74646
+26	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=74646|WordAlignmentEnd=74961
+27	c'	ce	PRON	_	PronType=Dem	28	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=74961|WordAlignmentEnd=75086
+28	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=75086|WordAlignmentEnd=75126
+29	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=75126|WordAlignmentEnd=75156
+30	problème	problème	NOUN	_	_	28	comp:pred	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=75156|WordAlignmentEnd=75476
+31	des	de	ADP	_	_	30	udep	_	WordAlignmentBegin=75476|WordAlignmentEnd=75646
+32	écoles	école	NOUN	_	_	31	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=75646|WordAlignmentEnd=76151
+33	maternelles	maternel	ADJ	_	_	32	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=76151|WordAlignmentEnd=76776
+34	et	et	CCONJ	_	_	35	cc	_	WordAlignmentBegin=76776|WordAlignmentEnd=76866
+35	primaires	primaire	NOUN	_	_	33	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=76866|WordAlignmentEnd=77433
+36	dans	dans	ADP	_	_	69	mod	_	WordAlignmentBegin=77871|WordAlignmentEnd=77996
+37	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	36	comp	_	WordAlignmentBegin=77996|WordAlignmentEnd=78396
+38	quand	quand	SCONJ	_	_	69	mod	_	WordAlignmentBegin=78396|WordAlignmentEnd=78476
+39	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	40	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=78476|WordAlignmentEnd=78746
+40	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	38	comp	_	WordAlignmentBegin=78746|WordAlignmentEnd=79056
+41	effectivement	effectivement	ADV	_	_	40	mod	_	WordAlignmentBegin=79056|WordAlignmentEnd=79655
+42	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	44	det	_	WordAlignmentBegin=79796|WordAlignmentEnd=79951
+43	certain	certain	ADJ	_	Gender=Masc	44	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=79951|WordAlignmentEnd=80331
+44	nombre	nombre	NOUN	_	_	40	comp:obj	_	cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=80331|WordAlignmentEnd=80621
+45	d'	de	ADP	_	_	44	udep	_	SpaceAfter=No|WordAlignmentBegin=80621|WordAlignmentEnd=80661
+46	enfants	enfant	NOUN	_	_	45	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=80661|WordAlignmentEnd=81200
+47	qui	qui	PRON	_	PronType=Rel	49	subj	_	WordAlignmentBegin=81200|WordAlignmentEnd=81440
+48	ne	ne	ADV	_	Polarity=Neg	49	mod	_	WordAlignmentBegin=81440|WordAlignmentEnd=81570
+49	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	54	reparandum	_	WordAlignmentBegin=81570|WordAlignmentEnd=81860
+50	pas	pas	ADV	_	Polarity=Neg	49	mod	_	SpaceAfter=No|WordAlignmentBegin=81860|WordAlignmentEnd=82136
+51	,	,	PUNCT	_	_	49	punct	_	WordAlignmentBegin=82136|WordAlignmentEnd=82443
+52	qui	qui	PRON	_	PronType=Rel	54	subj	_	WordAlignmentBegin=82443|WordAlignmentEnd=82563
+53	ne	ne	ADV	_	Polarity=Neg	54	mod	_	WordAlignmentBegin=82563|WordAlignmentEnd=82593
+54	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	46	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=82593|WordAlignmentEnd=82913
+55	pas	pas	ADV	_	Polarity=Neg	54	mod	_	WordAlignmentBegin=82913|WordAlignmentEnd=83073
+56	couramment	couramment	ADV	_	_	54	mod	_	WordAlignmentBegin=83073|WordAlignmentEnd=83508
+57	français	français	ADJ	_	Gender=Masc	54	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-26|SpaceAfter=No|WordAlignmentBegin=83508|WordAlignmentEnd=84029
+58	,	,	PUNCT	_	_	59	punct	_	WordAlignmentBegin=84029|WordAlignmentEnd=84772
+59	euh	euh	INTJ	_	_	57	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=84772|WordAlignmentEnd=85833
+60	,	,	PUNCT	_	_	38	punct	_	WordAlignmentBegin=85833|WordAlignmentEnd=85982
+61	pour	pour	ADP	_	_	69	mod	_	WordAlignmentBegin=85982|WordAlignmentEnd=86147
+62	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	63	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=86147|WordAlignmentEnd=86297
+63	enseignants	enseignant	NOUN	_	_	61	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=86297|WordAlignmentEnd=86677
+64	,	,	PUNCT	_	_	61	punct	_	WordAlignmentBegin=86677|WordAlignmentEnd=86677
+65	c'	ce	PRON	_	PronType=Dem	66	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=86677|WordAlignmentEnd=86817
+66	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	69	reparandum	_	SpaceAfter=No|WordAlignmentBegin=86677|WordAlignmentEnd=86857
+67	,	,	PUNCT	_	_	66	punct	_	WordAlignmentBegin=86857|WordAlignmentEnd=86977
+68	c'	ce	PRON	_	PronType=Dem	69	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=86977|WordAlignmentEnd=87087
+69	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	mod@relcl	_	WordAlignmentBegin=87087|WordAlignmentEnd=87127
+70	pas	pas	ADV	_	Polarity=Neg	69	mod	_	WordAlignmentBegin=87127|WordAlignmentEnd=87247
+71	facile	facile	ADJ	_	_	69	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=87247|WordAlignmentEnd=87655
+72	.	.	PUNCT	_	_	28	punct	_	WordAlignmentBegin=87655|WordAlignmentEnd=87655
+
+# sent_id = Rhap_D0002-26
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ^alors le problème ( si vous voulez ) { qui se pose "euh" à Paris | "enfin" que je vois dans le vingtième } < c'est le problème des écoles { maternelles | ^et primaires } dans lequel [ quand vous avez effectivement un certain nombre d'enfants { qui ne sont pas ESPERLUETTE | qui ne parlent pas couramment $- $ L1 français } <+ ( $L2 mh // ) -$ "euh" pour les enseignants <+ { c'est | c'est } pas facile ] //
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-25::28|Overlap=Rhap_D0002-25|SpaceAfter=No|WordAlignmentBegin=88136|WordAlignmentEnd=88331
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-23|WordAlignmentBegin=88331|WordAlignmentEnd=88331
+
+# sent_id = Rhap_D0002-27
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh mh // )
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-25::71|SpaceAfter=No|WordAlignmentBegin=88331|WordAlignmentEnd=88609
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=88609|WordAlignmentEnd=0
+3	mh	mh	INTJ	_	_	1	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=107436|WordAlignmentEnd=107769
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=0|WordAlignmentEnd=0
+
+# sent_id = Rhap_D0002-28
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $ L1 ^et moi < "je vois" les mamans que je fais travailler dans le vingtième <
+# text = et moi, je vois, les mamans que je fais travailler dans le vingtième, il faudrait…
+1	et	et	CCONJ	_	_	18	cc	_	WordAlignmentBegin=88731|WordAlignmentEnd=89406
+2	moi	moi	PRON	_	Emph=Yes|PronType=Prs	18	dislocated:mod	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=89406|WordAlignmentEnd=89936
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=89936|WordAlignmentEnd=89936
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=89936|WordAlignmentEnd=90086
+5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	18	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=90086|WordAlignmentEnd=90466
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=90466|WordAlignmentEnd=90466
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=90466|WordAlignmentEnd=90576
+8	mamans	maman	NOUN	_	_	18	dislocated:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=90576|WordAlignmentEnd=90846
+9	que	que	PRON	_	PronType=Rel	12	comp:obj	_	WordAlignmentBegin=90846|WordAlignmentEnd=90876
+10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj@caus	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=90876|WordAlignmentEnd=90986
+11	fais	faire	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	WordAlignmentBegin=90986|WordAlignmentEnd=91176
+12	travailler	travailler	VERB	_	VerbForm=Inf	11	comp:aux@caus	_	Subject=ObjRaising|WordAlignmentBegin=91176|WordAlignmentEnd=91546
+13	dans	dans	ADP	_	_	18	mod	_	WordAlignmentBegin=91546|WordAlignmentEnd=91656
+14	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=91656|WordAlignmentEnd=91686
+15	vingtième	vingtième	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=91686|WordAlignmentEnd=92289
+16	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=92289|WordAlignmentEnd=92770
+17	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	18	subj@expl	_	Person[lex]=3|WordAlignmentBegin=92770|WordAlignmentEnd=92935
+18	faudrait	falloir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=92935|WordAlignmentEnd=94225
+19	…	…	PUNCT	_	_	18	punct	_	WordAlignmentBegin=94225|WordAlignmentEnd=94225
+
+# sent_id = Rhap_D0002-29
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = si j'étais ministre de l'Éducation nationale < je mettrais beaucoup plus d'enseignants dans les maternelles pour qu'un enfant qui sorte de maternelle parle obligatoirement français //
+# text = si j'étais ministre de l'Éducation nationale, je mettrais beaucoup plus d'enseignants dans les maternelles pour qu'un enfant qui sorte de maternelle parle obligatoirement français.
+1	si	si	SCONJ	_	_	11	mod	_	WordAlignmentBegin=94837|WordAlignmentEnd=94932
+2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=94932|WordAlignmentEnd=95102
+3	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	comp	_	WordAlignmentBegin=95102|WordAlignmentEnd=95442
+4	ministre	ministre	NOUN	_	_	3	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=95632|WordAlignmentEnd=95942
+5	de	de	ADP	_	_	4	udep	_	WordAlignmentBegin=95942|WordAlignmentEnd=96002
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=96002|WordAlignmentEnd=96032
+7	Éducation	Éducation	PROPN	_	_	5	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=96032|WordAlignmentEnd=96482
+8	nationale	national	ADJ	_	_	7	mod	_	Gender[ctxt]=Fem|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=96482|WordAlignmentEnd=96957
+9	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=96957|WordAlignmentEnd=97509
+10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=97509|WordAlignmentEnd=98360
+11	mettrais	mettre	VERB	_	Mood=Cnd|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=98360|WordAlignmentEnd=99280
+12	beaucoup	beaucoup	ADV	_	_	13	mod	_	WordAlignmentBegin=99280|WordAlignmentEnd=99774
+13	plus	plus	ADV	_	_	11	comp:obj	_	WordAlignmentBegin=99774|WordAlignmentEnd=100034
+14	d'	de	ADP	_	_	13	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=100034|WordAlignmentEnd=100104
+15	enseignants	enseignant	NOUN	_	_	14	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=100104|WordAlignmentEnd=101010
+16	dans	dans	ADP	_	_	11	comp:obl	_	WordAlignmentBegin=101010|WordAlignmentEnd=101165
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=101165|WordAlignmentEnd=101275
+18	maternelles	maternelle	NOUN	_	_	16	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=101275|WordAlignmentEnd=101865
+19	pour	pour	ADP	_	_	11	mod	_	WordAlignmentBegin=102666|WordAlignmentEnd=102901
+20	qu'	que	SCONJ	_	_	19	comp	_	SpaceAfter=No|WordAlignmentBegin=102901|WordAlignmentEnd=102981
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	LiaisonAfter=Yes|WordAlignmentBegin=102981|WordAlignmentEnd=103101
+22	enfant	enfant	NOUN	_	_	27	subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=103101|WordAlignmentEnd=103611
+23	qui	qui	PRON	_	PronType=Rel	24	subj	_	WordAlignmentBegin=103611|WordAlignmentEnd=103691
+24	sorte	sortir	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	22	mod@relcl	_	Person[ctxt]=3|WordAlignmentBegin=103691|WordAlignmentEnd=104101
+25	de	de	ADP	_	_	24	comp:obl	_	WordAlignmentBegin=104101|WordAlignmentEnd=104191
+26	maternelle	maternelle	NOUN	_	_	25	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=104191|WordAlignmentEnd=104829
+27	parle	parler	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	20	comp	_	Person[ctxt]=3|WordAlignmentBegin=104996|WordAlignmentEnd=105322
+28	obligatoirement	obligatoirement	ADV	_	_	27	mod	_	WordAlignmentBegin=105515|WordAlignmentEnd=106290
+29	français	français	ADJ	_	Gender=Masc	27	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=106290|WordAlignmentEnd=106753
+30	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=106753|WordAlignmentEnd=106753
+
+# sent_id = Rhap_D0002-30
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh mh // )
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-29::11|SpaceAfter=No|WordAlignmentBegin=111177|WordAlignmentEnd=111344
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=107436|WordAlignmentEnd=107436
+3	mh	mh	INTJ	_	_	1	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=111344|WordAlignmentEnd=111607
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=107769|WordAlignmentEnd=107769
+
+# sent_id = Rhap_D0002-31
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $L1 ^parce ^que tous ces petits enfants qui arrivent < ils vont en maternelle //
+# text = parce que tous ces petits enfants qui arrivent, ils vont en maternelle.
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::Rhap_D0002-30::1|Idiom=Yes|WordAlignmentBegin=107944|WordAlignmentEnd=108149
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=108149|WordAlignmentEnd=108239
+3	tous	tout	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=108239|WordAlignmentEnd=108389
+4	ces	ce	DET	_	Number=Plur|PronType=Dem	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=108389|WordAlignmentEnd=108619
+5	petits	petit	ADJ	_	Gender=Masc|Number=Plur	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=108619|WordAlignmentEnd=108749
+6	enfants	enfant	NOUN	_	_	11	dislocated:subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=108749|WordAlignmentEnd=109199
+7	qui	qui	PRON	_	PronType=Rel	8	subj	_	WordAlignmentBegin=109199|WordAlignmentEnd=109269
+8	arrivent	arriver	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=109269|WordAlignmentEnd=109675
+9	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=109675|WordAlignmentEnd=109802
+10	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	11	subj	_	Person[lex]=3|WordAlignmentBegin=109802|WordAlignmentEnd=109967
+11	vont	aller	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	WordAlignmentBegin=109967|WordAlignmentEnd=110236
+12	en	en	ADP	_	_	11	comp:obl	_	WordAlignmentBegin=110236|WordAlignmentEnd=110337
+13	maternelle	maternelle	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=110337|WordAlignmentEnd=110867
+14	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=110867|WordAlignmentEnd=110867
+
+# sent_id = Rhap_D0002-32
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh mh // )
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-31::1|SpaceAfter=No|WordAlignmentBegin=111177|WordAlignmentEnd=111344
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=111344|WordAlignmentEnd=111344
+3	mh	mh	INTJ	_	_	1	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=111344|WordAlignmentEnd=111607
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=111607|WordAlignmentEnd=111607
+
+# sent_id = Rhap_D0002-33
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = donc < c'est pas normal qu'ils arrivent en CP ne parlant pas français //
+# text = donc, c'est pas normal qu'ils arrivent en CP ne parlant pas français.
+1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=111633|WordAlignmentEnd=111748
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=111748|WordAlignmentEnd=111748
+3	c'	ce	PRON	_	PronType=Dem	4	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=111748|WordAlignmentEnd=111828
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=111828|WordAlignmentEnd=111948
+5	pas	pas	ADV	_	Polarity=Neg	4	mod	_	WordAlignmentBegin=111948|WordAlignmentEnd=112108
+6	normal	normal	ADJ	_	Number=Sing	4	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|WordAlignmentBegin=112108|WordAlignmentEnd=112568
+7	qu'	que	SCONJ	_	_	6	comp:obj@agent	_	SpaceAfter=No|WordAlignmentBegin=112568|WordAlignmentEnd=112608
+8	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	9	subj	_	Person[lex]=3|WordAlignmentBegin=112608|WordAlignmentEnd=112788
+9	arrivent	arriver	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	Number[ctxt]=Plur|WordAlignmentBegin=112788|WordAlignmentEnd=113227
+10	en	en	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=113380|WordAlignmentEnd=113705
+11	CP	CP	PROPN	_	_	10	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=113705|WordAlignmentEnd=114245
+12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	WordAlignmentBegin=114245|WordAlignmentEnd=114375
+13	parlant	parler	VERB	_	VerbForm=Part	9	mod	_	Tense[denom]=Pres|WordAlignmentBegin=114375|WordAlignmentEnd=114715
+14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	WordAlignmentBegin=114715|WordAlignmentEnd=114815
+15	français	français	ADJ	_	Gender=Masc	13	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=114815|WordAlignmentEnd=115217
+16	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=115217|WordAlignmentEnd=115217
+
+# sent_id = Rhap_D0002-34
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^mais ils arrivent en CP ne parlant pas français parce que [ comme ils sont beaucoup trop nombreux en maternelle < on ne peut pas leur apprendre le français ] //=
+# text = mais ils arrivent en CP ne parlant pas français parce que comme ils sont beaucoup trop nombreux en maternelle, on ne peut pas leur apprendre le français.
+1	mais	mais	CCONJ	_	_	3	cc	_	WordAlignmentBegin=115322|WordAlignmentEnd=115473
+2	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	subj	_	Person[lex]=3|WordAlignmentBegin=115473|WordAlignmentEnd=115627
+3	arrivent	arriver	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|WordAlignmentBegin=115627|WordAlignmentEnd=115847
+4	en	en	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=115847|WordAlignmentEnd=115927
+5	CP	CP	PROPN	_	_	4	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=115927|WordAlignmentEnd=116247
+6	ne	ne	ADV	_	Polarity=Neg	7	mod	_	WordAlignmentBegin=116247|WordAlignmentEnd=116367
+7	parlant	parler	VERB	_	VerbForm=Part	3	mod	_	Tense[denom]=Pres|WordAlignmentBegin=116367|WordAlignmentEnd=116597
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	WordAlignmentBegin=116597|WordAlignmentEnd=116707
+9	français	français	ADJ	_	Gender=Masc	7	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=116707|WordAlignmentEnd=117097
+10	parce	parce	ADV	_	ExtPos=SCONJ	3	mod	_	Idiom=Yes|WordAlignmentBegin=117097|WordAlignmentEnd=117247
+11	que	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|WordAlignmentBegin=117247|WordAlignmentEnd=117347
+12	comme	comme	SCONJ	_	_	23	mod	_	WordAlignmentBegin=117347|WordAlignmentEnd=117537
+13	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	14	subj	_	Person[lex]=3|WordAlignmentBegin=117537|WordAlignmentEnd=117619
+14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp	_	WordAlignmentBegin=117619|WordAlignmentEnd=117829
+15	beaucoup	beaucoup	ADV	_	_	16	mod	_	WordAlignmentBegin=117829|WordAlignmentEnd=118107
+16	trop	trop	ADV	_	_	17	mod	_	WordAlignmentBegin=118107|WordAlignmentEnd=118297
+17	nombreux	nombreux	ADJ	_	Gender=Masc	14	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=118297|WordAlignmentEnd=118567
+18	en	en	ADP	_	_	14	mod	_	WordAlignmentBegin=118567|WordAlignmentEnd=118647
+19	maternelle	maternelle	NOUN	_	_	18	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=118647|WordAlignmentEnd=119149
+20	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=119149|WordAlignmentEnd=119482
+21	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	23	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=119482|WordAlignmentEnd=119627
+22	ne	ne	ADV	_	Polarity=Neg	23	mod	_	WordAlignmentBegin=119627|WordAlignmentEnd=119717
+23	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	comp:obj	_	Person[ctxt]=3|WordAlignmentBegin=119717|WordAlignmentEnd=119867
+24	pas	pas	ADV	_	Polarity=Neg	23	mod	_	WordAlignmentBegin=119867|WordAlignmentEnd=120137
+25	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|PronType=Prs	26	comp:obl	_	Person[lex]=3|WordAlignmentBegin=120137|WordAlignmentEnd=120277
+26	apprendre	apprendre	VERB	_	VerbForm=Inf	23	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=120277|WordAlignmentEnd=120607
+27	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=120607|WordAlignmentEnd=120667
+28	français	français	NOUN	_	_	26	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=120667|WordAlignmentEnd=121009
+29	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=121009|WordAlignmentEnd=121009
+
+# sent_id = Rhap_D0002-35
+# prosodic_annotation = no
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- $L1 ^et comme les mamans ne parlent pas français ESPERLUETTE //
+# text = et comme les mamans ne parlent pas français…
+1	et	et	CCONJ	_	_	2	cc	_	Overlap=Rhap_D0002-36|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+2	comme	comme	SCONJ	_	_	0	root	_	Overlap=Rhap_D0002-36|Scrap=Yes|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0002-36|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+4	mamans	maman	NOUN	_	_	6	subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|Overlap=Rhap_D0002-36|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+5	ne	ne	ADV	_	Polarity=Neg	6	mod	_	Overlap=Rhap_D0002-36|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+6	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	comp	_	Number[ctxt]=Plur|Overlap=Rhap_D0002-36|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+7	pas	pas	ADV	_	Polarity=Neg	6	mod	_	Overlap=Rhap_D0002-36|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+8	français	français	NOUN	_	_	6	comp:obj	_	Gender[lex]=Masc|Overlap=Rhap_D0002-36|SpaceAfter=No|WordAlignmentBegin=121625|WordAlignmentEnd=123304
+9	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-33|WordAlignmentBegin=123304|WordAlignmentEnd=123304
+
+# sent_id = Rhap_D0002-36
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 on pourrait imaginer des mélanges // -$
+# text = on pourrait imaginer des mélanges.
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Overlap=Rhap_D0002-35|Person[lex]=3|WordAlignmentBegin=121625|WordAlignmentEnd=121690
+2	pourrait	pouvoir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Overlap=Rhap_D0002-35|Person[ctxt]=3|WordAlignmentBegin=121690|WordAlignmentEnd=121811
+3	imaginer	imaginer	VERB	_	VerbForm=Inf	2	comp:obj	_	Overlap=Rhap_D0002-35|Subject=SubjRaising|WordAlignmentBegin=121811|WordAlignmentEnd=122500
+4	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	5	det	_	Overlap=Rhap_D0002-35|WordAlignmentBegin=122500|WordAlignmentEnd=122630
+5	mélanges	mélange	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|Overlap=Rhap_D0002-35|SpaceAfter=No|WordAlignmentBegin=122630|WordAlignmentEnd=123304
+6	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-32|WordAlignmentBegin=123304|WordAlignmentEnd=123304
+
+# sent_id = Rhap_D0002-37
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 on pourrait imaginer du busing //
+# text = on pourrait imaginer du busing.
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=124145|WordAlignmentEnd=124220
+2	pourrait	pouvoir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=124220|WordAlignmentEnd=124550
+3	imaginer	imaginer	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=124550|WordAlignmentEnd=125068
+4	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	WordAlignmentBegin=125068|WordAlignmentEnd=125196
+5	busing	busing	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=125196|WordAlignmentEnd=125669
+6	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=125669|WordAlignmentEnd=125669
+
+# sent_id = Rhap_D0002-38
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L1 oui //
+# text = oui.
+1	oui	oui	INTJ	_	_	0	root	_	Coconstruct=parataxis:answer::Rhap_D0002-37::2|SpaceAfter=No|WordAlignmentBegin=125774|WordAlignmentEnd=126130
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=126130|WordAlignmentEnd=126130
+
+# sent_id = Rhap_D0002-39
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "oui" d'abord c'est ESPERLUETTE //
+# text = oui, d'abord c'est…
+1	oui	oui	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=126380|WordAlignmentEnd=126695
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=126695|WordAlignmentEnd=126695
+3	d'	de	ADP	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=126695|WordAlignmentEnd=126735
+4	abord	abord	NOUN	_	_	3	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=126735|WordAlignmentEnd=127005
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=127005|WordAlignmentEnd=127085
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=127085|WordAlignmentEnd=127155
+7	…	…	PUNCT	_	_	6	punct	_	WordAlignmentBegin=127155|WordAlignmentEnd=127155
+
+# sent_id = Rhap_D0002-40
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = beh $- { j~ | j' } ai vu ( $L2 mh mh // ) -$ que ça commençait à se faire //
+# text = beh j~, j'ai vu que ça commençait à se faire.
+1	beh	beh	INTJ	_	_	5	discourse	_	WordAlignmentBegin=127155|WordAlignmentEnd=127424
+2	j~	j~	X	_	ExtPos=PRON	4	reparandum	_	SpaceAfter=No|WordAlignmentBegin=127424|WordAlignmentEnd=127739
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=128095|WordAlignmentEnd=127424
+4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-41|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=127739|WordAlignmentEnd=127859
+5	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-41|WordAlignmentBegin=127859|WordAlignmentEnd=127949
+6	vu	voir	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0002-41|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=127949|WordAlignmentEnd=128095
+7	que	que	SCONJ	_	_	6	comp:obj	_	WordAlignmentBegin=128095|WordAlignmentEnd=128140
+8	ça	ça	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=128140|WordAlignmentEnd=128280
+9	commençait	commencer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	7	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=128280|WordAlignmentEnd=128620
+10	à	à	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=128620|WordAlignmentEnd=128690
+11	se	soi	PRON	_	PronType=Prs|Reflex=Yes	12	comp@expl	_	Person[lex]=3|WordAlignmentBegin=128690|WordAlignmentEnd=128800
+12	faire	faire	VERB	_	VerbForm=Inf	10	comp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=128800|WordAlignmentEnd=129020
+13	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=129020|WordAlignmentEnd=129020
+
+# sent_id = Rhap_D0002-41
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh mh // )
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-40::5|Overlap=Rhap_D0002-40|SpaceAfter=No|WordAlignmentBegin=129020|WordAlignmentEnd=129637
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-36|WordAlignmentBegin=129637|WordAlignmentEnd=129020
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-40|SpaceAfter=No|WordAlignmentBegin=129020|WordAlignmentEnd=129637
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-36|WordAlignmentBegin=129637|WordAlignmentEnd=129637
+
+# sent_id = Rhap_D0002-42
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- "hein" "je veux dire" ( $L2 { mh | mh } ) -$ ça < { c'est un | c'est une { des | des } | c'est une des } mesures du plan banlieue > $- le busing //
+# text = hein, je veux dire, ça, c'est un, c'est une des, des, c'est une des mesures du plan banlieue le busing.
+1	hein	hein	INTJ	_	_	21	discourse	_	Overlap=Rhap_D0002-43|SpaceAfter=No|WordAlignmentBegin=129020|WordAlignmentEnd=129240
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-37bis|WordAlignmentBegin=129637|WordAlignmentEnd=129020
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-43|Person[lex]=1|WordAlignmentBegin=129240|WordAlignmentEnd=129390
+4	veux	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	discourse	_	Overlap=Rhap_D0002-43|Person[ctxt]=1|WordAlignmentBegin=129390|WordAlignmentEnd=129450
+5	dire	dire	VERB	_	VerbForm=Inf	4	comp:obj	_	Overlap=Rhap_D0002-43|SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=129020|WordAlignmentEnd=129637
+6	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-37bis|WordAlignmentBegin=129637|WordAlignmentEnd=129637
+7	ça	ça	PRON	_	PronType=Dem	21	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=129637|WordAlignmentEnd=129772
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=129772|WordAlignmentEnd=129772
+9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=129772|WordAlignmentEnd=129912
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	WordAlignmentBegin=129912|WordAlignmentEnd=130112
+11	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	10	comp:pred	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=130112|WordAlignmentEnd=130182
+12	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=130182|WordAlignmentEnd=130182
+13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=130182|WordAlignmentEnd=130302
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	reparandum	_	WordAlignmentBegin=130302|WordAlignmentEnd=130412
+15	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	14	comp:pred	_	Person[lex]=3|WordAlignmentBegin=130412|WordAlignmentEnd=130508
+16	des	de	ADP	_	_	18	reparandum	_	WordAlignmentBegin=130508|WordAlignmentEnd=131042
+17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=131042|WordAlignmentEnd=131210
+18	des	de	ADP	_	_	15	comp:obl	_	WordAlignmentBegin=131210|WordAlignmentEnd=132165
+19	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=132165|WordAlignmentEnd=132944
+20	c'	ce	PRON	_	PronType=Dem	21	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=132944|WordAlignmentEnd=132999
+21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=132999|WordAlignmentEnd=133159
+22	une	un	PRON	_	Gender=Fem|Number=Sing|PronType=Ind	21	comp:pred	_	Person[lex]=3|WordAlignmentBegin=133159|WordAlignmentEnd=133479
+23	des	de	ADP	_	_	22	comp:obl	_	WordAlignmentBegin=133479|WordAlignmentEnd=133739
+24	mesures	mesure	NOUN	_	_	23	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=133739|WordAlignmentEnd=134149
+25	du	du	ADP	_	_	24	udep	_	WordAlignmentBegin=134149|WordAlignmentEnd=134249
+26	plan	plan	NOUN	_	_	25	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=134249|WordAlignmentEnd=134469
+27	banlieue	banlieue	NOUN	_	_	26	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=134469|WordAlignmentEnd=134823
+28	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0002-42|WordAlignmentBegin=134823|WordAlignmentEnd=134938
+29	busing	busing	NOUN	_	_	21	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0002-44|SpaceAfter=No|WordAlignmentBegin=134938|WordAlignmentEnd=135379
+30	.	.	PUNCT	_	_	21	punct	_	Overlap=Rhap_D0002-37ter|WordAlignmentBegin=135379|WordAlignmentEnd=135379
+
+# sent_id = Rhap_D0002-43
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $- "hein" "je veux dire" ( $L2 { mh | mh } ) -$ ça < { c'est un | c'est une { des | des } | c'est une des } mesures du plan banlieue > $- le busing //
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-42::4|Overlap=Rhap_D0002-42|SpaceAfter=No|WordAlignmentBegin=134823|WordAlignmentEnd=135379
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-37|WordAlignmentBegin=135379|WordAlignmentEnd=134823
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-42|SpaceAfter=No|WordAlignmentBegin=134823|WordAlignmentEnd=135379
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-37|WordAlignmentBegin=135379|WordAlignmentEnd=135379
+
+# sent_id = Rhap_D0002-44
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 { mh | mh } ) -$
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-42::21|Overlap=Rhap_D0002-42|SpaceAfter=No|WordAlignmentBegin=0|WordAlignmentEnd=0
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-37|WordAlignmentBegin=0|WordAlignmentEnd=0
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-42|SpaceAfter=No|WordAlignmentBegin=0|WordAlignmentEnd=0
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-37|WordAlignmentBegin=0|WordAlignmentEnd=0
+
+# sent_id = Rhap_D0002-45
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $L1 ^mais je pense surtout que "euh" [ dans le sixième arrondissement <+ les maternelles "euh" < il y a suffisamment d'enseignants ] //+ $- { ^mais que | ^mais que } ( $L3 "oui" il faudrait qu'ils puissent parler plus // ) -$
+# text = mais je pense surtout que, euh, dans le sixième arrondissement, les maternelles, euh, il y a suffisamment d'enseignants mais que, mais que…
+1	mais	mais	CCONJ	_	_	3	cc	_	WordAlignmentBegin=135738|WordAlignmentEnd=136197
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=136403|WordAlignmentEnd=136698
+3	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=136698|WordAlignmentEnd=136928
+4	surtout	surtout	ADV	_	_	3	mod	_	WordAlignmentBegin=136928|WordAlignmentEnd=137388
+5	que	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=137388|WordAlignmentEnd=137478
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=137478|WordAlignmentEnd=137478
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=137478|WordAlignmentEnd=138646
+8	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=138646|WordAlignmentEnd=138646
+9	dans	dans	ADP	_	_	21	mod	_	WordAlignmentBegin=138646|WordAlignmentEnd=138903
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=138903|WordAlignmentEnd=139241
+11	sixième	sixième	ADJ	_	Number=Sing	12	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=139241|WordAlignmentEnd=139601
+12	arrondissement	arrondissement	NOUN	_	_	9	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=139601|WordAlignmentEnd=140261
+13	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=140261|WordAlignmentEnd=140261
+14	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=140261|WordAlignmentEnd=140371
+15	maternelles	maternelle	NOUN	_	_	21	dislocated:mod	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=140371|WordAlignmentEnd=141056
+16	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=141056|WordAlignmentEnd=141056
+17	euh	euh	INTJ	_	_	15	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=141056|WordAlignmentEnd=141642
+18	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=141642|WordAlignmentEnd=141642
+19	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	21	subj@expl	_	Person[lex]=3|WordAlignmentBegin=141642|WordAlignmentEnd=141727
+20	y	y	PRON	_	PronType=Prs	21	comp@expl	_	Person[lex]=3|WordAlignmentBegin=141727|WordAlignmentEnd=141787
+21	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp	_	WordAlignmentBegin=141787|WordAlignmentEnd=141869
+22	suffisamment	suffisamment	ADV	_	_	21	comp:obj	_	WordAlignmentBegin=141869|WordAlignmentEnd=142377
+23	d'	de	ADP	_	_	22	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=142377|WordAlignmentEnd=142407
+24	enseignants	enseignant	NOUN	_	_	23	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=142407|WordAlignmentEnd=142807
+25	mais	mais	CCONJ	_	_	26	cc	_	Overlap=Rhap_D0002-46|WordAlignmentBegin=142807|WordAlignmentEnd=142997
+26	que	que	SCONJ	_	_	29	reparandum	_	Overlap=Rhap_D0002-46|SpaceAfter=No|WordAlignmentBegin=142997|WordAlignmentEnd=143433
+27	,	,	PUNCT	_	_	26	punct	_	Overlap=Rhap_D0002-38bis|WordAlignmentBegin=144826|WordAlignmentEnd=142807
+28	mais	mais	CCONJ	_	_	29	cc	_	Overlap=Rhap_D0002-46|WordAlignmentBegin=143792|WordAlignmentEnd=143924
+29	que	que	SCONJ	_	_	21	conj:coord	_	Overlap=Rhap_D0002-46|SpaceAfter=No|WordAlignmentBegin=143924|WordAlignmentEnd=144492
+30	…	…	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-38bis|WordAlignmentBegin=144826|WordAlignmentEnd=144826
+
+# sent_id = Rhap_D0002-46
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = "oui" il faudrait qu'ils puissent parler plus //
+# text = oui, il faudrait qu'ils puissent parler plus.
+1	oui	oui	INTJ	_	_	4	discourse	_	Overlap=Rhap_D0002-45|SpaceAfter=No|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-38|WordAlignmentBegin=144826|WordAlignmentEnd=142807
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj@expl	_	Overlap=Rhap_D0002-45|Person[lex]=3|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+4	faudrait	falloir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Overlap=Rhap_D0002-45|Person[ctxt]=3|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+5	qu'	que	SCONJ	_	_	4	comp:obj	_	Overlap=Rhap_D0002-45|SpaceAfter=No|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	7	subj	_	Overlap=Rhap_D0002-45|Person[lex]=3|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+7	puissent	pouvoir	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp	_	Overlap=Rhap_D0002-45|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+8	parler	parler	VERB	_	VerbForm=Inf	7	comp:obj	_	Overlap=Rhap_D0002-45|Subject=SubjRaising|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+9	plus	plus	ADV	_	_	8	mod	_	Overlap=Rhap_D0002-45|SpaceAfter=No|WordAlignmentBegin=142807|WordAlignmentEnd=144826
+10	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-38|WordAlignmentBegin=144826|WordAlignmentEnd=144826
+
+# sent_id = Rhap_D0002-47
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- dans le ( $L2 oui // ) -$ vingtième <+ il faudrait { qu'il y ait ESPERLUETTE | qu'on sépare ESPERLUETTE | "enfin" qu'il y ait des cours de français pour les petits enfants { qui parlent pas français | # c'est pas compliqué quand même // c'est pas très difficile d'apprendre le français à des petits enfants de cet âge-là // { ça | ça | ça } se fait assez facilement // ##  dont les mamans ne parlent pas français } } //
+# text = dans le vingtième, il faudrait qu'il y ait, qu'on sépare, enfin, qu'il y ait des cours de français pour les petits enfants qui parlent pas français, c'est pas compliqué quand même, c'est pas très difficile d'apprendre le français à des petits enfants de cet âge-là, ça, ça, ça se fait assez facilement, dont les mamans ne parlent pas français.
+1	dans	dans	ADP	_	_	6	discourse	_	Overlap=Rhap_D0002-48|WordAlignmentBegin=144826|WordAlignmentEnd=145081
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|Overlap=Rhap_D0002-48|WordAlignmentBegin=145081|WordAlignmentEnd=145541
+3	vingtième	vingtième	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=145541|WordAlignmentEnd=145946
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=145946|WordAlignmentEnd=145946
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	subj@expl	_	Person[lex]=3|WordAlignmentBegin=145946|WordAlignmentEnd=146116
+6	faudrait	falloir	VERB	_	Mood=Cnd|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=146116|WordAlignmentEnd=146422
+7	qu'	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=146422|WordAlignmentEnd=146566
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs|Shared=No	10	subj	_	Person[lex]=3|WordAlignmentBegin=146566|WordAlignmentEnd=146616
+9	y	y	PRON	_	PronType=Prs	10	mod	_	Person[lex]=3|WordAlignmentBegin=146616|WordAlignmentEnd=146646
+10	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=146646|WordAlignmentEnd=147286
+11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=147286|WordAlignmentEnd=147286
+12	qu'	que	SCONJ	_	_	7	conj:reform	_	SpaceAfter=No|WordAlignmentBegin=147286|WordAlignmentEnd=147336
+13	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	14	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=147336|WordAlignmentEnd=147656
+14	sépare	séparer	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	12	comp	_	Person[ctxt]=3|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=147656|WordAlignmentEnd=148535
+15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=148535|WordAlignmentEnd=148535
+16	enfin	enfin	ADV	_	_	18	discourse	_	SpaceAfter=No|WordAlignmentBegin=148535|WordAlignmentEnd=148707
+17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=148707|WordAlignmentEnd=148707
+18	qu'	que	SCONJ	_	_	12	conj:reform	_	SpaceAfter=No|WordAlignmentBegin=148707|WordAlignmentEnd=148775
+19	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	21	subj	_	Person[lex]=3|WordAlignmentBegin=148775|WordAlignmentEnd=148880
+20	y	y	PRON	_	PronType=Prs	21	mod	_	Person[lex]=3|WordAlignmentBegin=148880|WordAlignmentEnd=148910
+21	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	comp	_	WordAlignmentBegin=148910|WordAlignmentEnd=148940
+22	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	23	det	_	WordAlignmentBegin=148940|WordAlignmentEnd=149130
+23	cours	cours	NOUN	_	_	21	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=149130|WordAlignmentEnd=149370
+24	de	de	ADP	_	_	23	udep	_	WordAlignmentBegin=149370|WordAlignmentEnd=149450
+25	français	français	NOUN	_	_	24	comp	_	Gender[lex]=Masc|WordAlignmentBegin=149450|WordAlignmentEnd=149920
+26	pour	pour	ADP	_	_	21	mod	_	WordAlignmentBegin=149920|WordAlignmentEnd=150010
+27	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=150010|WordAlignmentEnd=150150
+28	petits	petit	ADJ	_	Gender=Masc|Number=Plur	29	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=150150|WordAlignmentEnd=150360
+29	enfants	enfant	NOUN	_	_	26	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=150360|WordAlignmentEnd=150600
+30	qui	qui	PRON	_	PronType=Rel	31	subj	_	WordAlignmentBegin=150600|WordAlignmentEnd=150760
+31	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=150760|WordAlignmentEnd=150880
+32	pas	pas	ADV	_	Polarity=Neg	31	mod	_	WordAlignmentBegin=150880|WordAlignmentEnd=151040
+33	français	français	ADJ	_	Gender=Masc	31	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=151040|WordAlignmentEnd=151371
+34	,	,	PUNCT	_	_	74	punct	_	WordAlignmentBegin=151371|WordAlignmentEnd=151371
+35	c'	ce	PRON	_	PronType=Dem	36	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=151371|WordAlignmentEnd=151480
+36	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	parataxis:parenth	_	WordAlignmentBegin=151480|WordAlignmentEnd=151551
+37	pas	pas	ADV	_	Polarity=Neg	36	mod	_	WordAlignmentBegin=151551|WordAlignmentEnd=151631
+38	compliqué	compliqué	ADJ	_	_	36	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=151631|WordAlignmentEnd=152161
+39	quand	quand	SCONJ	_	ExtPos=ADV	38	discourse	_	Idiom=Yes|WordAlignmentBegin=152161|WordAlignmentEnd=152271
+40	même	même	ADV	_	_	39	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=152271|WordAlignmentEnd=152451
+41	,	,	PUNCT	_	_	36	punct	_	WordAlignmentBegin=152451|WordAlignmentEnd=152451
+42	c'	ce	PRON	_	PronType=Dem	43	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=152451|WordAlignmentEnd=152541
+43	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	parataxis:parenth	_	WordAlignmentBegin=152541|WordAlignmentEnd=152581
+44	pas	pas	ADV	_	Polarity=Neg	43	mod	_	WordAlignmentBegin=152581|WordAlignmentEnd=152711
+45	très	très	ADV	_	_	46	mod	_	WordAlignmentBegin=152711|WordAlignmentEnd=152881
+46	difficile	difficile	ADJ	_	_	43	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=152881|WordAlignmentEnd=153281
+47	d'	de	ADP	_	_	43	mod	_	SpaceAfter=No|WordAlignmentBegin=153281|WordAlignmentEnd=153311
+48	apprendre	apprendre	VERB	_	VerbForm=Inf	47	comp	_	Subject=NoRaising|WordAlignmentBegin=153311|WordAlignmentEnd=153519
+49	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	50	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=153519|WordAlignmentEnd=153651
+50	français	français	NOUN	_	_	48	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=153651|WordAlignmentEnd=153901
+51	à	à	ADP	_	_	48	comp:obl	_	WordAlignmentBegin=153901|WordAlignmentEnd=153931
+52	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	54	det	_	WordAlignmentBegin=153931|WordAlignmentEnd=154001
+53	petits	petit	ADJ	_	Gender=Masc|Number=Plur	54	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=154001|WordAlignmentEnd=154191
+54	enfants	enfant	NOUN	_	_	51	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=154191|WordAlignmentEnd=154381
+55	de	de	ADP	_	_	54	udep	_	WordAlignmentBegin=154381|WordAlignmentEnd=154411
+56	cet	ce	DET	_	Number=Sing|PronType=Dem	57	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=154411|WordAlignmentEnd=154501
+57	âge	âge	NOUN	_	_	55	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=154501|WordAlignmentEnd=154631
+58	-là	là	ADV	_	_	57	mod	_	SpaceAfter=No|WordAlignmentBegin=154631|WordAlignmentEnd=154700
+59	,	,	PUNCT	_	_	43	punct	_	WordAlignmentBegin=154700|WordAlignmentEnd=154700
+60	ça	ça	PRON	_	PronType=Dem	62	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=154700|WordAlignmentEnd=154810
+61	,	,	PUNCT	_	_	60	punct	_	WordAlignmentBegin=154810|WordAlignmentEnd=154810
+62	ça	ça	PRON	_	PronType=Dem	64	reparandum	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=154810|WordAlignmentEnd=154920
+63	,	,	PUNCT	_	_	62	punct	_	WordAlignmentBegin=154920|WordAlignmentEnd=154920
+64	ça	ça	PRON	_	PronType=Dem	66	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=154920|WordAlignmentEnd=155090
+65	se	soi	PRON	_	PronType=Prs|Reflex=Yes	66	comp@pass	_	Person[lex]=3|WordAlignmentBegin=155090|WordAlignmentEnd=155220
+66	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	74	parataxis:parenth	_	Person[ctxt]=3|WordAlignmentBegin=155220|WordAlignmentEnd=155310
+67	assez	assez	ADV	_	_	68	mod	_	WordAlignmentBegin=155310|WordAlignmentEnd=155550
+68	facilement	facilement	ADV	_	_	66	mod	_	SpaceAfter=No|WordAlignmentBegin=155550|WordAlignmentEnd=156111
+69	,	,	PUNCT	_	_	66	punct	_	WordAlignmentBegin=156111|WordAlignmentEnd=156434
+70	dont	dont	PRON	_	PronType=Rel	72	mod	_	WordAlignmentBegin=156434|WordAlignmentEnd=156529
+71	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	72	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=156529|WordAlignmentEnd=156619
+72	mamans	maman	NOUN	_	_	74	subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=156619|WordAlignmentEnd=156896
+73	ne	ne	ADV	_	Polarity=Neg	74	mod	_	WordAlignmentBegin=156896|WordAlignmentEnd=156979
+74	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	31	conj:reform	_	Number[ctxt]=Plur|WordAlignmentBegin=156979|WordAlignmentEnd=157139
+75	pas	pas	ADV	_	Polarity=Neg	74	mod	_	WordAlignmentBegin=157139|WordAlignmentEnd=157229
+76	français	français	NOUN	_	_	74	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No|WordAlignmentBegin=157229|WordAlignmentEnd=157596
+77	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=157596|WordAlignmentEnd=157596
+
+# sent_id = Rhap_D0002-48
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $- dans le ( $L2 oui // ) -$ vingtième <+ il faudrait { qu'il y ait ESPERLUETTE | qu'on sépare ESPERLUETTE | "enfin" qu'il y ait des cours de français pour les petits enfants { qui parlent pas français | # c'est pas compliqué quand même // c'est pas très difficile d'apprendre le français à des petits enfants de cet âge-là // { ça | ça | ça } se fait assez facilement // ##  dont les mamans ne parlent pas français } } //
+# text = oui.
+1	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-46::4|Overlap=Rhap_D0002-47|SpaceAfter=No|WordAlignmentBegin=144826|WordAlignmentEnd=145541
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-39|WordAlignmentBegin=145541|WordAlignmentEnd=145541
+
+# sent_id = Rhap_D0002-49
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = donc < ils ne voient pas souvent leur papa //
+# text = donc, ils ne voient pas souvent leur papa.
+1	donc	donc	ADV	_	_	5	mod	_	SpaceAfter=No|WordAlignmentBegin=157674|WordAlignmentEnd=157885
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=157885|WordAlignmentEnd=157885
+3	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	5	subj	_	Person[lex]=3|WordAlignmentBegin=157885|WordAlignmentEnd=157960
+4	ne	ne	ADV	_	Polarity=Neg	5	mod	_	WordAlignmentBegin=157960|WordAlignmentEnd=158020
+5	voient	voir	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|WordAlignmentBegin=158020|WordAlignmentEnd=158180
+6	pas	pas	ADV	_	Polarity=Neg	5	mod	_	WordAlignmentBegin=158180|WordAlignmentEnd=158270
+7	souvent	souvent	ADV	_	_	5	mod	_	WordAlignmentBegin=158270|WordAlignmentEnd=158530
+8	leur	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=158530|WordAlignmentEnd=158690
+9	papa	papa	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=158690|WordAlignmentEnd=158970
+10	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=158970|WordAlignmentEnd=158970
+
+# sent_id = Rhap_D0002-50
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = donc < $- par définition < ( $L3 mh // ) -$ ils ne parlent pas français //=
+# text = donc, par définition, ils ne parlent pas français.
+1	donc	donc	ADV	_	_	8	mod	_	SpaceAfter=No|WordAlignmentBegin=158970|WordAlignmentEnd=159099
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=159099|WordAlignmentEnd=159099
+3	par	par	ADP	_	_	8	mod	_	Overlap=Rhap_D0002-51|WordAlignmentBegin=159099|WordAlignmentEnd=159269
+4	définition	définition	NOUN	_	_	3	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D0002-51|SpaceAfter=No|WordAlignmentBegin=159269|WordAlignmentEnd=159731
+5	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-41bis|WordAlignmentBegin=159731|WordAlignmentEnd=160041
+6	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	8	subj	_	Person[lex]=3|WordAlignmentBegin=160041|WordAlignmentEnd=160156
+7	ne	ne	ADV	_	Polarity=Neg	8	mod	_	WordAlignmentBegin=160156|WordAlignmentEnd=160276
+8	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|WordAlignmentBegin=160276|WordAlignmentEnd=160426
+9	pas	pas	ADV	_	Polarity=Neg	8	mod	_	WordAlignmentBegin=160426|WordAlignmentEnd=160546
+10	français	français	ADJ	_	Gender=Masc	8	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=160546|WordAlignmentEnd=160999
+11	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=160999|WordAlignmentEnd=160999
+
+# sent_id = Rhap_D0002-51
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = donc < $- par définition < ( $L3 mh // ) -$ ils ne parlent pas français //=
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-50::8|Overlap=Rhap_D0002-50|SpaceAfter=No|WordAlignmentBegin=159099|WordAlignmentEnd=159731
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-41|WordAlignmentBegin=159731|WordAlignmentEnd=159731
+
+# sent_id = Rhap_D0002-52
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ils ne parlent jamais français //=
+# text = ils ne parlent jamais français.
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	3	subj	_	Person[lex]=3|WordAlignmentBegin=161261|WordAlignmentEnd=161336
+2	ne	ne	ADV	_	Polarity=Neg	3	mod	_	WordAlignmentBegin=161336|WordAlignmentEnd=161406
+3	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=parataxis:conj::Rhap_D0002-50::8|Number[ctxt]=Plur|WordAlignmentBegin=161406|WordAlignmentEnd=161566
+4	jamais	jamais	ADV	_	PronType=Neg	3	mod	_	WordAlignmentBegin=161566|WordAlignmentEnd=161766
+5	français	français	ADJ	_	Gender=Masc	3	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=161766|WordAlignmentEnd=162172
+6	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=162172|WordAlignmentEnd=162172
+
+# sent_id = Rhap_D0002-53
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ils parlent pas français à la maison //
+# text = ils parlent pas français à la maison.
+1	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	2	subj	_	Person[lex]=3|WordAlignmentBegin=162909|WordAlignmentEnd=163004
+2	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=parataxis:conj::Rhap_D0002-50::8|Number[ctxt]=Plur|WordAlignmentBegin=163004|WordAlignmentEnd=163154
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	WordAlignmentBegin=163154|WordAlignmentEnd=163244
+4	français	français	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|WordAlignmentBegin=163244|WordAlignmentEnd=163514
+5	à	à	ADP	_	_	2	mod	_	WordAlignmentBegin=163514|WordAlignmentEnd=163554
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=163554|WordAlignmentEnd=163630
+7	maison	maison	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=163630|WordAlignmentEnd=164056
+8	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=164056|WordAlignmentEnd=164056
+
+# sent_id = Rhap_D0002-54
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^alors nous < nous essayons d'apprendre le français aux mamans pour que elles apprennent le français à leurs enfants //
+# text = alors nous, nous essayons d'apprendre le français aux mamans pour que elles apprennent le français à leurs enfants.
+1	alors	alors	ADV	_	_	5	discourse	_	WordAlignmentBegin=164634|WordAlignmentEnd=165214
+2	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	dislocated:subj	_	Number[lex]=Plur|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=165214|WordAlignmentEnd=165424
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=165424|WordAlignmentEnd=165424
+4	nous	nous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=165424|WordAlignmentEnd=165524
+5	essayons	essayer	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=165524|WordAlignmentEnd=165954
+6	d'	de	ADP	_	_	5	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=165954|WordAlignmentEnd=165984
+7	apprendre	apprendre	VERB	_	VerbForm=Inf	6	comp	_	Subject=SubjRaising|WordAlignmentBegin=165984|WordAlignmentEnd=166226
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=166226|WordAlignmentEnd=166323
+9	français	français	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=166323|WordAlignmentEnd=166624
+10	aux	au	ADP	_	_	7	comp:obl	_	WordAlignmentBegin=166624|WordAlignmentEnd=166674
+11	mamans	maman	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=166674|WordAlignmentEnd=166997
+12	pour	pour	ADP	_	_	5	mod	_	WordAlignmentBegin=167093|WordAlignmentEnd=167328
+13	que	que	SCONJ	_	_	12	comp	_	WordAlignmentBegin=167328|WordAlignmentEnd=167599
+14	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	15	subj	_	Person[lex]=3|WordAlignmentBegin=167599|WordAlignmentEnd=168138
+15	apprennent	apprendre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	comp	_	WordAlignmentBegin=168138|WordAlignmentEnd=168538
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=168538|WordAlignmentEnd=168598
+17	français	français	NOUN	_	_	15	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=168598|WordAlignmentEnd=168978
+18	à	à	ADP	_	_	15	comp:obl	_	WordAlignmentBegin=168978|WordAlignmentEnd=169048
+19	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=169048|WordAlignmentEnd=169238
+20	enfants	enfant	NOUN	_	_	18	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=169238|WordAlignmentEnd=169563
+21	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=169563|WordAlignmentEnd=169563
+
+# sent_id = Rhap_D0002-55
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = chose que ne fait aucun organisme d'Etat //
+# text = chose que ne fait aucun organisme d'Etat.
+1	chose	chose	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=170045|WordAlignmentEnd=170400
+2	que	que	PRON	_	PronType=Rel	4	comp:obj	_	WordAlignmentBegin=170400|WordAlignmentEnd=170570
+3	ne	ne	ADV	_	Polarity=Neg	4	mod	_	WordAlignmentBegin=170570|WordAlignmentEnd=170730
+4	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	mod@relcl	_	Person[ctxt]=3|WordAlignmentBegin=170730|WordAlignmentEnd=171048
+5	aucun	aucun	DET	_	Gender=Masc|Number=Sing|PronType=Neg	6	det	_	LiaisonAfter=Yes|WordAlignmentBegin=171148|WordAlignmentEnd=171493
+6	organisme	organisme	NOUN	_	_	4	subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=171493|WordAlignmentEnd=171993
+7	d'	de	ADP	_	_	6	udep	_	SpaceAfter=No|WordAlignmentBegin=171993|WordAlignmentEnd=172053
+8	Etat	Etat	PROPN	_	_	7	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=172053|WordAlignmentEnd=172453
+9	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=172453|WordAlignmentEnd=172453
+
+# sent_id = Rhap_D0002-56
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^car "euh" les formations linguistiques qui sont données aux immigrés qui arrivent ne sont pas faites pour les gens { qui ne parlent pas du tout | ^ni qui n'ont jamais été à l'école } //
+# text = car, euh, les formations linguistiques qui sont données aux immigrés qui arrivent ne sont pas faites pour les gens qui ne parlent pas du tout, ni qui n'ont jamais été à l'école.
+1	car	car	CCONJ	_	_	16	cc	_	SpaceAfter=No|WordAlignmentBegin=172453|WordAlignmentEnd=172743
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=172743|WordAlignmentEnd=172743
+3	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=172743|WordAlignmentEnd=173770
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=173770|WordAlignmentEnd=173770
+5	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=173770|WordAlignmentEnd=173955
+6	formations	formation	NOUN	_	_	16	subj@pass	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=173955|WordAlignmentEnd=174702
+7	linguistiques	linguistique	ADJ	_	_	6	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=174702|WordAlignmentEnd=175355
+8	qui	qui	PRON	_	PronType=Rel	9	subj@pass	_	WordAlignmentBegin=175355|WordAlignmentEnd=175465
+9	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	mod@relcl	_	WordAlignmentBegin=175465|WordAlignmentEnd=175675
+10	données	donner	VERB	_	VerbForm=Part|Voice=Pass	9	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=175675|WordAlignmentEnd=176145
+11	aux	au	ADP	_	_	10	comp:obl	_	WordAlignmentBegin=176145|WordAlignmentEnd=176695
+12	immigrés	immigré	NOUN	_	_	11	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=176695|WordAlignmentEnd=177185
+13	qui	qui	PRON	_	PronType=Rel	14	subj	_	WordAlignmentBegin=177185|WordAlignmentEnd=177255
+14	arrivent	arriver	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=177255|WordAlignmentEnd=177705
+15	ne	ne	ADV	_	Polarity=Neg	16	mod	_	WordAlignmentBegin=178922|WordAlignmentEnd=179097
+16	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=179097|WordAlignmentEnd=179337
+17	pas	pas	ADV	_	Polarity=Neg	16	mod	_	WordAlignmentBegin=179337|WordAlignmentEnd=179487
+18	faites	faire	VERB	_	Gender=Fem|VerbForm=Part|Voice=Pass	16	comp:aux@pass	_	Number[ctxt]=Plur|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=179487|WordAlignmentEnd=179757
+19	pour	pour	ADP	_	_	18	comp:obl	_	WordAlignmentBegin=179757|WordAlignmentEnd=179887
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=179887|WordAlignmentEnd=180007
+21	gens	gens	NOUN	_	_	19	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=180007|WordAlignmentEnd=180257
+22	qui	qui	PRON	_	PronType=Rel	24	subj	_	WordAlignmentBegin=180257|WordAlignmentEnd=180377
+23	ne	ne	ADV	_	Polarity=Neg	24	mod	_	WordAlignmentBegin=180377|WordAlignmentEnd=180477
+24	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	21	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=180477|WordAlignmentEnd=180766
+25	pas	pas	ADV	_	Polarity=Neg	24	mod	_	WordAlignmentBegin=180910|WordAlignmentEnd=181100
+26	du	du	ADP	_	_	25	mod	_	WordAlignmentBegin=181100|WordAlignmentEnd=181466
+27	tout	tout	NOUN	_	_	26	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=181466|WordAlignmentEnd=181814
+28	,	,	PUNCT	_	_	32	punct	_	WordAlignmentBegin=181814|WordAlignmentEnd=182603
+29	ni	ni	CCONJ	_	_	32	cc	_	WordAlignmentBegin=182603|WordAlignmentEnd=182868
+30	qui	qui	PRON	_	PronType=Rel	32	subj	_	WordAlignmentBegin=182868|WordAlignmentEnd=182968
+31	n'	ne	ADV	_	Polarity=Neg	32	mod	_	SpaceAfter=No|WordAlignmentBegin=182968|WordAlignmentEnd=183058
+32	ont	avoir	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	conj:coord	_	WordAlignmentBegin=183058|WordAlignmentEnd=183158
+33	jamais	jamais	ADV	_	PronType=Neg	32	mod	_	WordAlignmentBegin=183158|WordAlignmentEnd=183617
+34	été	être	VERB	_	VerbForm=Part|Voice=Act	32	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=183740|WordAlignmentEnd=184239
+35	à	à	ADP	_	_	34	comp:obl	_	WordAlignmentBegin=184458|WordAlignmentEnd=184583
+36	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	37	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=184583|WordAlignmentEnd=184613
+37	école	école	NOUN	_	_	35	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=184613|WordAlignmentEnd=185169
+38	.	.	PUNCT	_	_	16	punct	_	WordAlignmentBegin=185169|WordAlignmentEnd=185169
+
+# sent_id = Rhap_D0002-57
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^parce ^que ça < personne n'en veut //
+# text = parce que ça, personne n'en veut.
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::Rhap_D0002-56::16|Idiom=Yes|SingleSpeaker=Yes|WordAlignmentBegin=185502|WordAlignmentEnd=185697
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=185697|WordAlignmentEnd=185767
+3	ça	ça	PRON	_	PronType=Dem	8	dislocated:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=185767|WordAlignmentEnd=186007
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=186007|WordAlignmentEnd=186007
+5	personne	personne	PRON	_	PronType=Neg	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|WordAlignmentBegin=186007|WordAlignmentEnd=186287
+6	n'	ne	ADV	_	Polarity=Neg	8	mod	_	SpaceAfter=No|WordAlignmentBegin=186287|WordAlignmentEnd=186317
+7	en	en	PRON	_	PronType=Prs	8	comp:obj	_	Person[lex]=3|WordAlignmentBegin=186317|WordAlignmentEnd=186427
+8	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp:obj	_	Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=186427|WordAlignmentEnd=186579
+9	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=186579|WordAlignmentEnd=186579
+
+# sent_id = Rhap_D0002-58
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $- ( $L2 mh mh // )
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-57::1|Overlap=Rhap_D0002-59|SpaceAfter=No|WordAlignmentBegin=187030|WordAlignmentEnd=187195
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-47ter|WordAlignmentBegin=187411|WordAlignmentEnd=187030
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-59|SpaceAfter=No|WordAlignmentBegin=187195|WordAlignmentEnd=187411
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-47ter|WordAlignmentBegin=187411|WordAlignmentEnd=187411
+
+# sent_id = Rhap_D0002-59
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = ( $L3 mh mh // ) -$
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-57::1|Overlap=Rhap_D0002-58|SpaceAfter=No|WordAlignmentBegin=187030|WordAlignmentEnd=187411
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-47bis|WordAlignmentBegin=187411|WordAlignmentEnd=187030
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-58|SpaceAfter=No|WordAlignmentBegin=187030|WordAlignmentEnd=187411
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-47bis|WordAlignmentBegin=187411|WordAlignmentEnd=187411
+
+# sent_id = Rhap_D0002-60
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^parce ^que faut dire qu' [ apprendre { à lire | à écrire } à quelqu'un de trente cinq $- ans qui a ( $L3 ouais // ) -$ jamais tenu $- un crayon <+ ( $L3 ouais ) -$ ça se fait pas en deux cents heures ] //
+# text = parce que faut dire qu'apprendre à lire, à écrire à quelqu'un de trente cinq ans qui a jamais tenu un crayon, ça se fait pas en deux cents heures.
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::Rhap_D0002-59::1|Idiom=Yes|WordAlignmentBegin=188173|WordAlignmentEnd=188368
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=188368|WordAlignmentEnd=188448
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp:obj	_	Person[ctxt]=3|WordAlignmentBegin=188448|WordAlignmentEnd=188618
+4	dire	dire	VERB	_	VerbForm=Inf	3	comp:obj	_	Subject=NoRaising|WordAlignmentBegin=188618|WordAlignmentEnd=188838
+5	qu'	que	SCONJ	_	_	4	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=188838|WordAlignmentEnd=188938
+6	apprendre	apprendre	VERB	_	VerbForm=Inf	27	dislocated:subj	_	Subject=NoRaising|WordAlignmentBegin=188938|WordAlignmentEnd=189338
+7	à	à	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=189338|WordAlignmentEnd=189488
+8	lire	lire	VERB	_	VerbForm=Inf	7	comp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=189488|WordAlignmentEnd=189678
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=189678|WordAlignmentEnd=189678
+10	à	à	ADP	_	_	7	conj:coord	_	WordAlignmentBegin=189678|WordAlignmentEnd=189748
+11	écrire	écrire	VERB	_	VerbForm=Inf	10	comp	_	Subject=NoRaising|WordAlignmentBegin=189748|WordAlignmentEnd=190108
+12	à	à	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=190108|WordAlignmentEnd=190168
+13	quelqu'un	quelqu'un	PRON	_	PronType=Ind	12	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=190168|WordAlignmentEnd=190578
+14	de	de	ADP	_	_	13	comp:obl	_	WordAlignmentBegin=190578|WordAlignmentEnd=190828
+15	trente	trente	NUM	_	ExtPos=DET	17	det	_	Number[lex]=Plur|WordAlignmentBegin=191143|WordAlignmentEnd=191330
+16	cinq	cinq	NUM	_	ExtPos=DET	15	flat	_	Number[lex]=Plur|WordAlignmentBegin=191330|WordAlignmentEnd=191590
+17	ans	an	NOUN	_	_	14	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|Overlap=Rhap_D0002-61|WordAlignmentBegin=191590|WordAlignmentEnd=191901
+18	qui	qui	PRON	_	PronType=Rel	19	subj	_	Overlap=Rhap_D0002-61|WordAlignmentBegin=191590|WordAlignmentEnd=191901
+19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	mod@relcl	_	Overlap=Rhap_D0002-61|WordAlignmentBegin=191590|WordAlignmentEnd=191901
+20	jamais	jamais	ADV	_	PronType=Neg	19	mod	_	WordAlignmentBegin=191901|WordAlignmentEnd=192176
+21	tenu	tenir	VERB	_	VerbForm=Part|Voice=Act	19	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=192176|WordAlignmentEnd=192396
+22	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	23	det	_	Overlap=Rhap_D0002-62|WordAlignmentBegin=192396|WordAlignmentEnd=192561
+23	crayon	crayon	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0002-62|SpaceAfter=No|WordAlignmentBegin=192561|WordAlignmentEnd=192991
+24	,	,	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0002-48ter|WordAlignmentBegin=192991|WordAlignmentEnd=193525
+25	ça	ça	PRON	_	PronType=Dem	27	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=193525|WordAlignmentEnd=193650
+26	se	soi	PRON	_	PronType=Prs|Reflex=Yes	27	comp@pass	_	Person[lex]=3|WordAlignmentBegin=193650|WordAlignmentEnd=193780
+27	fait	faire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp	_	Person[ctxt]=3|WordAlignmentBegin=193780|WordAlignmentEnd=194010
+28	pas	pas	ADV	_	Polarity=Neg	27	mod	_	WordAlignmentBegin=194050|WordAlignmentEnd=194344
+29	en	en	ADP	_	_	27	mod	_	WordAlignmentBegin=194423|WordAlignmentEnd=194558
+30	deux	deux	NUM	_	ExtPos=DET	32	det	_	Number[lex]=Plur|WordAlignmentBegin=194558|WordAlignmentEnd=194648
+31	cents	cent	NUM	_	ExtPos=DET	30	flat	_	Number[lex]=Plur|WordAlignmentBegin=194648|WordAlignmentEnd=194915
+32	heures	heure	NOUN	_	_	29	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=194915|WordAlignmentEnd=195207
+33	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=195207|WordAlignmentEnd=195207
+
+# sent_id = Rhap_D0002-61
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = ^parce ^que faut dire qu' [ apprendre { à lire | à écrire } à quelqu'un de trente cinq $- ans qui a ( $L3 ouais // ) -$ jamais tenu $- un crayon <+ ( $L3 ouais ) -$ ça se fait pas en deux cents heures ] //
+# text = ouais.
+1	ouais	ouais	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-60::1|Overlap=Rhap_D0002-60|SpaceAfter=No|WordAlignmentBegin=191590|WordAlignmentEnd=191901
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-48|WordAlignmentBegin=191901|WordAlignmentEnd=191901
+
+# sent_id = Rhap_D0002-62
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = $- ( $L2 mh mh // ) ( $L3 mh mh // ) -$ ^parce ^que faut dire qu' [ apprendre { à lire | à écrire } à quelqu'un de trente cinq $- ans qui a ( $L3 ouais // ) -$ jamais tenu $- un crayon <+ ( $L3 ouais ) -$ ça se fait pas en deux cents heures ] //
+# text = ouais.
+1	ouais	ouais	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-60::1|Overlap=Rhap_D0002-60|SpaceAfter=No|WordAlignmentBegin=192396|WordAlignmentEnd=192991
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-48|WordAlignmentBegin=192991|WordAlignmentEnd=192991
+
+# sent_id = Rhap_D0002-63
+# prosodic_annotation = yes
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = $L3 bien sûr //
+# text = bien sûr.
+1	bien	bien	ADV	_	_	2	mod	_	InIdiom=Yes|WordAlignmentBegin=195338|WordAlignmentEnd=195440
+2	sûr	sûr	ADJ	_	ExtPos=ADJ	0	root	_	Backchannel=Rhap_D0002-60::1|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=195440|WordAlignmentEnd=195773
+3	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=195773|WordAlignmentEnd=195773
+
+# sent_id = Rhap_D0002-64
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 certes < oui //
+# text = certes, oui.
+1	certes	certes	ADV	_	_	0	root	_	Coconstruct=mod::Rhap_D0002-60::19|SpaceAfter=No|WordAlignmentBegin=195820|WordAlignmentEnd=196119
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=196119|WordAlignmentEnd=196347
+3	oui	oui	INTJ	_	_	1	discourse	_	SpaceAfter=No|WordAlignmentBegin=196347|WordAlignmentEnd=196547
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=196547|WordAlignmentEnd=196547
+
+# sent_id = Rhap_D0002-65
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $L1 non //
+# text = non.
+1	non	non	ADV	_	Polarity=Neg	0	root	_	SpaceAfter=No|WordAlignmentBegin=196547|WordAlignmentEnd=196736
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=196736|WordAlignmentEnd=196736
+
+# sent_id = Rhap_D0002-66
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 mh mh //
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-65::1|SpaceAfter=No|WordAlignmentBegin=196855|WordAlignmentEnd=196990
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=196990|WordAlignmentEnd=196990
+3	mh	mh	INTJ	_	_	1	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=196990|WordAlignmentEnd=197166
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=197166|WordAlignmentEnd=197166
+
+# sent_id = Rhap_D0002-67
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $L1 donc < "euh" "non" { je | je } pense que le problème ESPERLUETTE //
+# text = donc, euh, non, je, je pense que le problème…
+1	donc	donc	ADV	_	_	10	mod	_	SpaceAfter=No|WordAlignmentBegin=198049|WordAlignmentEnd=198484
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=198484|WordAlignmentEnd=198484
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=198484|WordAlignmentEnd=198961
+4	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=198961|WordAlignmentEnd=199303
+5	non	non	ADV	_	Polarity=Neg	1	discourse	_	SpaceAfter=No|WordAlignmentBegin=199303|WordAlignmentEnd=199738
+6	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=199738|WordAlignmentEnd=199738
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=199738|WordAlignmentEnd=199958
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=199958|WordAlignmentEnd=199958
+9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=199958|WordAlignmentEnd=200158
+10	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=200158|WordAlignmentEnd=200418
+11	que	que	SCONJ	_	_	10	comp:obj	_	WordAlignmentBegin=200418|WordAlignmentEnd=201174
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=201174|WordAlignmentEnd=201369
+13	problème	problème	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=201369|WordAlignmentEnd=202363
+14	…	…	PUNCT	_	_	10	punct	_	WordAlignmentBegin=202363|WordAlignmentEnd=202363
+
+# sent_id = Rhap_D0002-68
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = je dis pas que tous les problèmes viennent de là //=
+# text = je dis pas que tous les problèmes viennent de là.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=203598|WordAlignmentEnd=203703
+2	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=203703|WordAlignmentEnd=203843
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	WordAlignmentBegin=203843|WordAlignmentEnd=204003
+4	que	que	SCONJ	_	_	2	comp:obj	_	WordAlignmentBegin=204003|WordAlignmentEnd=204043
+5	tous	tout	ADJ	_	Gender=Masc	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=204043|WordAlignmentEnd=204153
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=204153|WordAlignmentEnd=204273
+7	problèmes	problème	NOUN	_	_	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=204273|WordAlignmentEnd=204583
+8	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	comp	_	WordAlignmentBegin=204583|WordAlignmentEnd=204743
+9	de	de	ADP	_	_	8	comp:obl	_	WordAlignmentBegin=204743|WordAlignmentEnd=204773
+10	là	là	ADV	_	_	9	comp	_	SpaceAfter=No|WordAlignmentBegin=204773|WordAlignmentEnd=205003
+11	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=205003|WordAlignmentEnd=205003
+
+# sent_id = Rhap_D0002-69
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^mais beaucoup de problèmes viennent de là //
+# text = mais beaucoup de problèmes viennent de là.
+1	mais	mais	CCONJ	_	_	5	cc	_	WordAlignmentBegin=205003|WordAlignmentEnd=205173
+2	beaucoup	beaucoup	ADV	_	ExtPos=PRON	5	comp:pred	_	WordAlignmentBegin=205173|WordAlignmentEnd=205493
+3	de	de	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=205493|WordAlignmentEnd=205523
+4	problèmes	problème	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=205523|WordAlignmentEnd=205833
+5	viennent	venir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=parataxis:conj::Rhap_D0002-68::8|WordAlignmentBegin=205833|WordAlignmentEnd=205963
+6	de	de	ADP	_	_	5	comp:obl	_	WordAlignmentBegin=205963|WordAlignmentEnd=205993
+7	là	là	ADV	_	_	6	comp	_	SpaceAfter=No|WordAlignmentBegin=205993|WordAlignmentEnd=206086
+8	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=206086|WordAlignmentEnd=206086
+
+# sent_id = Rhap_D0002-70
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = comment voulez vous apprendre à lire à un enfant $- $L1 qui parle pas français //
+# text = comment voulez vous apprendre à lire à un enfant qui parle pas français ?
+1	comment	comment	ADV	_	PronType=Int	2	mod	_	WordAlignmentBegin=207023|WordAlignmentEnd=207218
+2	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=207218|WordAlignmentEnd=207388
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=207388|WordAlignmentEnd=207514
+4	apprendre	apprendre	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=207514|WordAlignmentEnd=207848
+5	à	à	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=207848|WordAlignmentEnd=207938
+6	lire	lire	VERB	_	VerbForm=Inf	5	comp	_	Subject=SubjRaising|WordAlignmentBegin=207938|WordAlignmentEnd=208238
+7	à	à	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=208238|WordAlignmentEnd=208338
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	LiaisonAfter=Yes|WordAlignmentBegin=208338|WordAlignmentEnd=208408
+9	enfant	enfant	NOUN	_	_	7	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=208408|WordAlignmentEnd=208640
+10	qui	qui	PRON	_	PronType=Rel	11	subj	_	Overlap=Rhap_D0002-71|WordAlignmentBegin=208640|WordAlignmentEnd=208750
+11	parle	parler	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	mod@relcl	_	Number[ctxt]=Sing|Overlap=Rhap_D0002-71|Person[ctxt]=3|WordAlignmentBegin=208750|WordAlignmentEnd=208910
+12	pas	pas	ADV	_	Polarity=Neg	11	mod	_	Overlap=Rhap_D0002-71|WordAlignmentBegin=208910|WordAlignmentEnd=209010
+13	français	français	ADJ	_	Gender=Masc	11	comp:obj	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-71|WordAlignmentBegin=209010|WordAlignmentEnd=209248
+14	?	?	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-54bis|WordAlignmentBegin=209248|WordAlignmentEnd=209248
+
+# sent_id = Rhap_D0002-71
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = ( $L3 mh // ) -$
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-70::2|Overlap=Rhap_D0002-70|SpaceAfter=No|WordAlignmentBegin=208640|WordAlignmentEnd=209248
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-54|WordAlignmentBegin=209248|WordAlignmentEnd=209248
+
+# sent_id = Rhap_D0002-72
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "bon" donc < par définition < cet enfant va perdre pied { en | en } CP //
+# text = bon, donc, par définition, cet enfant va perdre pied en, en CP.
+1	bon	bon	INTJ	_	_	10	discourse	_	SpaceAfter=No|WordAlignmentBegin=209439|WordAlignmentEnd=209528
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=209528|WordAlignmentEnd=209648
+3	donc	donc	ADV	_	_	10	mod	_	SpaceAfter=No|WordAlignmentBegin=209648|WordAlignmentEnd=209783
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=209783|WordAlignmentEnd=209783
+5	par	par	ADP	_	_	10	mod	_	WordAlignmentBegin=209783|WordAlignmentEnd=209943
+6	définition	définition	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=209943|WordAlignmentEnd=210433
+7	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=210433|WordAlignmentEnd=210433
+8	cet	ce	DET	_	Number=Sing|PronType=Dem	9	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=210433|WordAlignmentEnd=210653
+9	enfant	enfant	NOUN	_	_	10	subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=210653|WordAlignmentEnd=210973
+10	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=210973|WordAlignmentEnd=211093
+11	perdre	perdre	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=211093|WordAlignmentEnd=211353
+12	pied	pied	NOUN	_	_	11	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=211353|WordAlignmentEnd=211613
+13	en	en	ADP	_	_	11	mod	_	SpaceAfter=No|WordAlignmentBegin=211613|WordAlignmentEnd=211816
+14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=211816|WordAlignmentEnd=212131
+15	en	en	ADP	_	_	13	comp	_	WordAlignmentBegin=212131|WordAlignmentEnd=212206
+16	CP	CP	PROPN	_	_	15	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=212206|WordAlignmentEnd=212689
+17	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=212689|WordAlignmentEnd=212689
+
+# sent_id = Rhap_D0002-73
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = { ^et ^puis | ^et ^puis } voilà //
+# text = et puis, et puis voilà.
+1	et	et	CCONJ	_	ExtPos=CCONJ	4	reparandum	_	Idiom=Yes|WordAlignmentBegin=212689|WordAlignmentEnd=212896
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=212896|WordAlignmentEnd=213336
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=213336|WordAlignmentEnd=213671
+4	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes|WordAlignmentBegin=213671|WordAlignmentEnd=213716
+5	puis	puis	CCONJ	_	_	4	unk	_	InIdiom=Yes|WordAlignmentBegin=213716|WordAlignmentEnd=213806
+6	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=213806|WordAlignmentEnd=214030
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=214030|WordAlignmentEnd=214030
+
+# sent_id = Rhap_D0002-74
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- ^alors ( $L2 mh // ) -$ bien sûr qu'il y en a qui s'en sortent //
+# text = alors bien sûr qu'il y en a qui s'en sortent.
+1	alors	alors	ADV	_	_	2	mod	_	Overlap=Rhap_D0002-75|WordAlignmentBegin=214400|WordAlignmentEnd=214597
+2	bien	bien	ADV	_	ExtPos=ADV	0	root	_	Idiom=Yes|WordAlignmentBegin=215109|WordAlignmentEnd=215264
+3	sûr	sûr	ADJ	_	_	2	unk	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|InIdiom=Yes|Number[ctxt]=Sing|WordAlignmentBegin=215264|WordAlignmentEnd=215554
+4	qu'	que	SCONJ	_	_	2	mod	_	SpaceAfter=No|WordAlignmentBegin=215554|WordAlignmentEnd=215584
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	8	subj@expl	_	Person[lex]=3|WordAlignmentBegin=215584|WordAlignmentEnd=215614
+6	y	y	PRON	_	PronType=Prs	8	comp@expl	_	Person[lex]=3|WordAlignmentBegin=215614|WordAlignmentEnd=215644
+7	en	en	ADP	_	_	8	comp:obj	_	WordAlignmentBegin=215644|WordAlignmentEnd=215704
+8	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	comp	_	WordAlignmentBegin=215704|WordAlignmentEnd=215824
+9	qui	qui	PRON	_	PronType=Rel	12	subj	_	WordAlignmentBegin=215824|WordAlignmentEnd=215884
+10	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	12	comp@expl	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=215884|WordAlignmentEnd=215984
+11	en	en	PRON	_	PronType=Prs	12	comp:obj	_	Person[lex]=3|WordAlignmentBegin=215984|WordAlignmentEnd=216034
+12	sortent	sortir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	SpaceAfter=No|WordAlignmentBegin=216034|WordAlignmentEnd=216521
+13	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=216521|WordAlignmentEnd=216521
+
+# sent_id = Rhap_D0002-75
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $- ^alors ( $L2 mh // ) -$ bien sûr qu'il y en a qui s'en sortent //
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-74::2|Overlap=Rhap_D0002-74|SpaceAfter=No|WordAlignmentBegin=214400|WordAlignmentEnd=214597
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-57|WordAlignmentBegin=214597|WordAlignmentEnd=214597
+
+# sent_id = Rhap_D0002-76
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = il y a toujours des gens très intelligents quelque part //
+# text = il y a toujours des gens très intelligents quelque part.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3|WordAlignmentBegin=216851|WordAlignmentEnd=216896
+2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3|WordAlignmentBegin=216896|WordAlignmentEnd=216956
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=216956|WordAlignmentEnd=216986
+4	toujours	toujours	ADV	_	_	3	mod	_	WordAlignmentBegin=216986|WordAlignmentEnd=217316
+5	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	6	det	_	WordAlignmentBegin=217316|WordAlignmentEnd=217436
+6	gens	gens	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=217436|WordAlignmentEnd=217786
+7	très	très	ADV	_	_	8	mod	_	WordAlignmentBegin=217786|WordAlignmentEnd=217981
+8	intelligents	intelligent	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=217981|WordAlignmentEnd=218644
+9	quelque	quelque	DET	_	PronType=Ind	10	det	_	Number[lex]=Sing|WordAlignmentBegin=218749|WordAlignmentEnd=218964
+10	part	part	NOUN	_	_	3	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=218964|WordAlignmentEnd=219190
+11	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=219190|WordAlignmentEnd=219190
+
+# sent_id = Rhap_D0002-77
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^mais moi < je dis [ { les gens | la plupart des gens } < ils sont normaux // ] //
+# text = mais moi, je dis les gens, la plupart des gens, ils sont normaux.
+1	mais	mais	CCONJ	_	_	5	cc	_	WordAlignmentBegin=220285|WordAlignmentEnd=220650
+2	moi	moi	PRON	_	Emph=Yes|PronType=Prs	5	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=220650|WordAlignmentEnd=220750
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=220750|WordAlignmentEnd=220750
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=220750|WordAlignmentEnd=220810
+5	dis	dire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=220810|WordAlignmentEnd=221147
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=221322|WordAlignmentEnd=221397
+7	gens	gens	NOUN	_	_	15	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=221397|WordAlignmentEnd=221837
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=221837|WordAlignmentEnd=221992
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=221992|WordAlignmentEnd=222041
+10	plupart	plupart	NOUN	_	_	7	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=222041|WordAlignmentEnd=222218
+11	des	de	ADP	_	_	10	comp:obl	_	WordAlignmentBegin=222218|WordAlignmentEnd=222259
+12	gens	gens	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=222259|WordAlignmentEnd=222408
+13	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=222408|WordAlignmentEnd=222408
+14	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	15	subj	_	Person[lex]=3|WordAlignmentBegin=222408|WordAlignmentEnd=222442
+15	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp:obj	_	Reported=Yes|WordAlignmentBegin=222442|WordAlignmentEnd=222596
+16	normaux	normal	ADJ	_	Gender=Masc|Number=Plur	15	comp:pred	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|SpaceAfter=No|WordAlignmentBegin=222596|WordAlignmentEnd=222987
+17	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=222987|WordAlignmentEnd=222987
+
+# sent_id = Rhap_D0002-78
+# prosodic_annotation = yes
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = $L3 globalement < c'est difficile //
+# text = globalement, c'est difficile.
+1	globalement	globalement	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=223723|WordAlignmentEnd=224178
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=224178|WordAlignmentEnd=224178
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=224178|WordAlignmentEnd=224258
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=224258|WordAlignmentEnd=224358
+5	difficile	difficile	ADJ	_	_	4	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=224358|WordAlignmentEnd=224678
+6	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=224678|WordAlignmentEnd=224678
+
+# sent_id = Rhap_D0002-79
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- $L1 "bah" oui //
+# text = bah, oui.
+1	bah	bah	INTJ	_	_	3	discourse	_	Overlap=Rhap_D0002-80|SpaceAfter=No|WordAlignmentBegin=224678|WordAlignmentEnd=225048
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-61bis|WordAlignmentBegin=225265|WordAlignmentEnd=224678
+3	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-78::4|Overlap=Rhap_D0002-80|SpaceAfter=No|WordAlignmentBegin=225048|WordAlignmentEnd=225265
+4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-61bis|WordAlignmentBegin=225265|WordAlignmentEnd=225265
+
+# sent_id = Rhap_D0002-80
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 ^mais ESPERLUETTE // ) -$
+# text = mais…
+1	mais	mais	CCONJ	_	_	0	root	_	Overlap=Rhap_D0002-79|SpaceAfter=No|WordAlignmentBegin=224678|WordAlignmentEnd=225265
+2	…	…	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-61|WordAlignmentBegin=225265|WordAlignmentEnd=225265
+
+# sent_id = Rhap_D0002-81
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = globalement < c'est très $- difficile //
+# text = globalement, c'est très difficile.
+1	globalement	globalement	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=225265|WordAlignmentEnd=225690
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=225690|WordAlignmentEnd=225690
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=225690|WordAlignmentEnd=225780
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=225780|WordAlignmentEnd=225810
+5	très	très	ADV	_	_	6	mod	_	WordAlignmentBegin=225810|WordAlignmentEnd=226062
+6	difficile	difficile	ADJ	_	_	4	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-82|SpaceAfter=No|WordAlignmentBegin=226062|WordAlignmentEnd=226605
+7	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-62bis|WordAlignmentBegin=226605|WordAlignmentEnd=226605
+
+# sent_id = Rhap_D0002-82
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 oui // -$
+# text = oui.
+1	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-81::4|Overlap=Rhap_D0002-81|SpaceAfter=No|WordAlignmentBegin=226062|WordAlignmentEnd=226605
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-62|WordAlignmentBegin=226605|WordAlignmentEnd=226605
+
+# sent_id = Rhap_D0002-83
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = "euh" { quand on prend des enfants d'immigrés | ^et qu'on les mélange avec "euh" $- soixante pour cent de gamins ( $L1 "bah" "oui" ils réussissent // ) -$ qui parlent français } < ça s'installe $- $L2 { très | très } vite //
+# text = euh, quand on prend des enfants d'immigrés et qu'on les mélange avec, euh, soixante pour cent de gamins qui parlent français, ça s'installe très très vite.
+1	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=227381|WordAlignmentEnd=227651
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=227651|WordAlignmentEnd=228716
+3	quand	quand	SCONJ	_	Shared=No	30	mod	_	WordAlignmentBegin=228716|WordAlignmentEnd=228946
+4	on	on	PRON	_	Emph=No|PronType=Ind|Shared=Yes	5	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=228946|WordAlignmentEnd=229056
+5	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	3	comp	_	Person[ctxt]=3|WordAlignmentBegin=229056|WordAlignmentEnd=229731
+6	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	7	det	_	LiaisonAfter=Yes|WordAlignmentBegin=230336|WordAlignmentEnd=230581
+7	enfants	enfant	NOUN	_	_	5	comp:obj	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=230581|WordAlignmentEnd=230971
+8	d'	de	ADP	_	_	7	udep	_	SpaceAfter=No|WordAlignmentBegin=230971|WordAlignmentEnd=231041
+9	immigrés	immigré	NOUN	_	_	8	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=231041|WordAlignmentEnd=231671
+10	et	et	CCONJ	_	_	11	cc	_	WordAlignmentBegin=231671|WordAlignmentEnd=231781
+11	qu'	que	SCONJ	_	_	5	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=231781|WordAlignmentEnd=231901
+12	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind|Shared=No	14	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=231901|WordAlignmentEnd=231973
+13	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	14	comp:obj	_	Person[lex]=3|WordAlignmentBegin=231973|WordAlignmentEnd=232582
+14	mélange	mélanger	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	11	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=232582|WordAlignmentEnd=233297
+15	avec	avec	ADP	_	_	14	mod	_	SpaceAfter=No|WordAlignmentBegin=233297|WordAlignmentEnd=233797
+16	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=233797|WordAlignmentEnd=233797
+17	euh	euh	INTJ	_	_	20	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=233797|WordAlignmentEnd=234228
+18	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=234228|WordAlignmentEnd=234454
+19	soixante	soixante	NUM	_	ExtPos=DET	20	det	_	Number[lex]=Plur|Overlap=Rhap_D0002-84|WordAlignmentBegin=234454|WordAlignmentEnd=234979
+20	pour	pour	ADP	_	ExtPos=NOUN	15	comp	_	Idiom=Yes|Overlap=Rhap_D0002-84|WordAlignmentBegin=234979|WordAlignmentEnd=235123
+21	cent	cent	NUM	_	_	20	comp	_	InIdiom=Yes|Number[lex]=Sing|Overlap=Rhap_D0002-84|WordAlignmentBegin=235123|WordAlignmentEnd=235453
+22	de	de	ADP	_	_	20	comp:obj	_	Overlap=Rhap_D0002-84|WordAlignmentBegin=235453|WordAlignmentEnd=235513
+23	gamins	gamin	NOUN	_	_	22	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|Overlap=Rhap_D0002-84|WordAlignmentBegin=235513|WordAlignmentEnd=236094
+24	qui	qui	PRON	_	PronType=Rel	25	subj	_	WordAlignmentBegin=236149|WordAlignmentEnd=236384
+25	parlent	parler	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	23	mod@relcl	_	Number[ctxt]=Plur|WordAlignmentBegin=236384|WordAlignmentEnd=236564
+26	français	français	NOUN	_	_	25	comp:obj	_	Gender[lex]=Masc|SpaceAfter=No|WordAlignmentBegin=236564|WordAlignmentEnd=237094
+27	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=237094|WordAlignmentEnd=237094
+28	ça	ça	PRON	_	PronType=Dem	30	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=237094|WordAlignmentEnd=237254
+29	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	30	comp@pass	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=237254|WordAlignmentEnd=237371
+30	installe	installer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=237371|WordAlignmentEnd=237819
+31	très	très	ADV	_	_	33	mod	_	Overlap=Rhap_D0002-85|WordAlignmentBegin=237914|WordAlignmentEnd=238572
+32	très	très	ADV	_	_	31	conj:coord	_	Overlap=Rhap_D0002-85|WordAlignmentBegin=237914|WordAlignmentEnd=238572
+33	vite	vite	ADV	_	_	30	mod	_	Overlap=Rhap_D0002-85|SpaceAfter=No|WordAlignmentBegin=237914|WordAlignmentEnd=238572
+34	.	.	PUNCT	_	_	30	punct	_	Overlap=Rhap_D0002-64|WordAlignmentBegin=238572|WordAlignmentEnd=238572
+
+# sent_id = Rhap_D0002-84
+# prosodic_annotation = no
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "euh" { quand on prend des enfants d'immigrés | ^et qu'on les mélange avec "euh" $- soixante pour cent de gamins ( $L1 "bah" "oui" ils réussissent // ) -$ qui parlent français } < ça s'installe $- $L2 { très | très } vite //
+# text = bah, oui, ils réussissent.
+1	bah	bah	INTJ	_	_	6	discourse	_	Overlap=Rhap_D0002-83|SpaceAfter=No|WordAlignmentBegin=234454|WordAlignmentEnd=236094
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-63|WordAlignmentBegin=236094|WordAlignmentEnd=234454
+3	oui	oui	INTJ	_	_	6	discourse	_	Overlap=Rhap_D0002-83|SpaceAfter=No|WordAlignmentBegin=234454|WordAlignmentEnd=236094
+4	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-63|WordAlignmentBegin=236094|WordAlignmentEnd=234454
+5	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	6	subj	_	Overlap=Rhap_D0002-83|Person[lex]=3|WordAlignmentBegin=234454|WordAlignmentEnd=236094
+6	réussissent	réussir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-83|SpaceAfter=No|WordAlignmentBegin=234454|WordAlignmentEnd=236094
+7	.	.	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0002-63|WordAlignmentBegin=236094|WordAlignmentEnd=236094
+
+# sent_id = Rhap_D0002-85
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ( ^mais { bien sûr | -$ $- bien sûr } // )
+# text = mais bien sûr, bien sûr.
+1	mais	mais	CCONJ	_	_	2	cc	_	Overlap=Rhap_D0002-83|WordAlignmentBegin=237914|WordAlignmentEnd=238572
+2	bien	bien	ADV	_	_	3	mod	_	InIdiom=Yes|Overlap=Rhap_D0002-83|WordAlignmentBegin=237914|WordAlignmentEnd=238572
+3	sûr	sûr	ADJ	_	ExtPos=ADJ	6	reparandum	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-83|SpaceAfter=No|WordAlignmentBegin=237914|WordAlignmentEnd=238572
+4	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-63|WordAlignmentBegin=238572|WordAlignmentEnd=238572
+5	bien	bien	ADV	_	_	6	mod	_	InIdiom=Yes|Overlap=Rhap_D0002-86|WordAlignmentBegin=238572|WordAlignmentEnd=239168
+6	sûr	sûr	ADJ	_	ExtPos=ADJ	0	root	_	Coconstruct=Rhap_D0002-83::30|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-86|SpaceAfter=No|WordAlignmentBegin=238572|WordAlignmentEnd=239168
+7	.	.	PUNCT	_	_	6	punct	_	Overlap=Rhap_D0002-65|WordAlignmentBegin=239168|WordAlignmentEnd=239168
+
+# sent_id = Rhap_D0002-86
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 ^et -$ le français langue étrangère dans un milieu "euh" où quatre-vingt-dix pour cent de la classe est en langue étrangère < c'est beaucoup $- ( $L1 "ben" ) moins -$ $- facile malgré tout //
+# text = et le français langue étrangère dans un milieu, euh, où quatre-vingt-dix pour cent de la classe est en langue étrangère, c'est beaucoup moins facile malgré tout.
+1	et	et	CCONJ	_	_	25	cc	_	Overlap=Rhap_D0002-85|WordAlignmentBegin=238572|WordAlignmentEnd=239168
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=239168|WordAlignmentEnd=239493
+3	français	français	NOUN	_	_	25	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=239493|WordAlignmentEnd=240123
+4	langue	langue	NOUN	_	_	3	compound	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=240123|WordAlignmentEnd=240473
+5	étrangère	étranger	ADJ	_	Gender=Fem	4	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=240473|WordAlignmentEnd=241193
+6	dans	dans	ADP	_	_	25	mod	_	WordAlignmentBegin=241193|WordAlignmentEnd=241400
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	WordAlignmentBegin=241400|WordAlignmentEnd=241503
+8	milieu	milieu	NOUN	_	_	6	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=241503|WordAlignmentEnd=242059
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=242059|WordAlignmentEnd=242531
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=242531|WordAlignmentEnd=242936
+11	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=242936|WordAlignmentEnd=242986
+12	où	où	ADV	_	PronType=Rel	19	mod	_	WordAlignmentBegin=242986|WordAlignmentEnd=243226
+13	quatre-vingt-dix	quatre-vingt-dix	NUM	_	ExtPos=DET	14	det	_	Number[lex]=Plur|WordAlignmentBegin=243226|WordAlignmentEnd=243826
+14	pour	pour	ADP	_	ExtPos=NOUN	19	subj	_	Idiom=Yes|WordAlignmentBegin=243826|WordAlignmentEnd=244036
+15	cent	cent	NUM	_	_	14	comp	_	InIdiom=Yes|Number[lex]=Sing|WordAlignmentBegin=244036|WordAlignmentEnd=244366
+16	de	de	ADP	_	_	14	comp:obj	_	WordAlignmentBegin=244366|WordAlignmentEnd=244491
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=244491|WordAlignmentEnd=244596
+18	classe	classe	NOUN	_	_	16	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=244596|WordAlignmentEnd=245166
+19	est	être	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	WordAlignmentBegin=245166|WordAlignmentEnd=245406
+20	en	en	ADP	_	_	19	comp:obl	_	WordAlignmentBegin=245406|WordAlignmentEnd=245506
+21	langue	langue	NOUN	_	_	20	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=245506|WordAlignmentEnd=245776
+22	étrangère	étranger	ADJ	_	Gender=Fem	21	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=245776|WordAlignmentEnd=246266
+23	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=246266|WordAlignmentEnd=246266
+24	c'	ce	PRON	_	PronType=Dem	25	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=246266|WordAlignmentEnd=246386
+25	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=246386|WordAlignmentEnd=246426
+26	beaucoup	beaucoup	ADV	_	_	27	mod	_	WordAlignmentBegin=246426|WordAlignmentEnd=246771
+27	moins	moins	ADV	_	_	28	mod	_	Overlap=Rhap_D0002-87|WordAlignmentBegin=246771|WordAlignmentEnd=247126
+28	facile	facile	ADJ	_	_	25	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-88|WordAlignmentBegin=247126|WordAlignmentEnd=247701
+29	malgré	malgré	ADP	_	_	25	mod	_	Overlap=Rhap_D0002-88|WordAlignmentBegin=247701|WordAlignmentEnd=248136
+30	tout	tout	PRON	_	PronType=Ind	29	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0002-88|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=248136|WordAlignmentEnd=248263
+31	.	.	PUNCT	_	_	25	punct	_	Overlap=Rhap_D0002-67|WordAlignmentBegin=248263|WordAlignmentEnd=248263
+
+# sent_id = Rhap_D0002-87
+# prosodic_annotation = no
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^et -$ le français langue étrangère dans un milieu "euh" où quatre vingt dix pour cent de la classe est en langue étrangère < c'est beaucoup $- ( $L1 "ben" ) moins -$ $- facile malgré tout //
+# text = ben.
+1	ben	ben	INTJ	_	_	0	root	_	Overlap=Rhap_D0002-86|SpaceAfter=No|WordAlignmentBegin=246771|WordAlignmentEnd=247126
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-65|WordAlignmentBegin=247126|WordAlignmentEnd=247126
+
+# sent_id = Rhap_D0002-88
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ( ^mais bien sûr // ) -$
+# text = mais bien sûr.
+1	mais	mais	CCONJ	_	_	2	cc	_	Overlap=Rhap_D0002-86|WordAlignmentBegin=247126|WordAlignmentEnd=248263
+2	bien	bien	ADV	_	_	3	mod	_	InIdiom=Yes|Overlap=Rhap_D0002-86|WordAlignmentBegin=248263|WordAlignmentEnd=248448
+3	sûr	sûr	ADJ	_	ExtPos=ADJ	0	root	_	Backchannel=Rhap_D0002-86::25|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-86|SpaceAfter=No|WordAlignmentBegin=248448|WordAlignmentEnd=248828
+4	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-65|WordAlignmentBegin=248263|WordAlignmentEnd=248263
+
+# sent_id = Rhap_D0002-89
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $- donc < c'est pour ça ( $L1 { bien sûr | bien sûr } // ) -$ que je parlais $- ( $L1 oui // XXX oui // ) $L2 de mélange XXX "euh" //
+# text = donc, c'est pour ça que je parlais de mélange XXX, euh.
+1	donc	donc	ADV	_	_	4	mod	_	Overlap=Rhap_D0002-90|SpaceAfter=No|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-67ter|WordAlignmentBegin=249323|WordAlignmentEnd=248263
+3	c'	ce	PRON	_	PronType=Dem	4	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0002-90|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-90|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+5	pour	pour	ADP	_	_	4	comp:pred	_	Overlap=Rhap_D0002-90|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+6	ça	ça	PRON	_	PronType=Dem	5	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0002-90|Person[lex]=3|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+7	que	que	SCONJ	_	_	4	comp:cleft	_	WordAlignmentBegin=249364|WordAlignmentEnd=249399
+8	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=249399|WordAlignmentEnd=249499
+9	parlais	parler	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	7	comp	_	Filler=mod|Person[ctxt]=1|WordAlignmentBegin=249499|WordAlignmentEnd=249801
+10	de	de	ADP	_	_	9	comp:obl	_	Overlap=Rhap_D0002-91|WordAlignmentBegin=249801|WordAlignmentEnd=249906
+11	mélange	mélange	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|Overlap=Rhap_D0002-91|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+12	XXX	XXX	X	_	_	9	unk	_	Overlap=Rhap_D0002-91|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+13	,	,	PUNCT	_	_	14	punct	_	Overlap=Rhap_D0002-67quater|WordAlignmentBegin=252018|WordAlignmentEnd=249801
+14	euh	euh	INTJ	_	_	11	discourse:filler	_	Overlap=Rhap_D0002-91|SpaceAfter=No|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+15	.	.	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-67quater|WordAlignmentBegin=252018|WordAlignmentEnd=252018
+
+# sent_id = Rhap_D0002-90
+# prosodic_annotation = no
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = { bien sûr | bien sûr } //
+# text = bien sûr, bien sûr.
+1	bien	bien	ADV	_	_	2	mod	_	InIdiom=Yes|Overlap=Rhap_D0002-89|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+2	sûr	sûr	ADJ	_	ExtPos=ADJ	5	reparandum	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-89|SpaceAfter=No|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+3	,	,	PUNCT	_	_	4	punct	_	Overlap=Rhap_D0002-67bis|WordAlignmentBegin=249323|WordAlignmentEnd=248263
+4	bien	bien	ADV	_	_	5	mod	_	InIdiom=Yes|Overlap=Rhap_D0002-89|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+5	sûr	sûr	ADJ	_	ExtPos=ADJ	0	root	_	Backchannel=Rhap_D0002-86::25|Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Idiom=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-89|SpaceAfter=No|WordAlignmentBegin=248263|WordAlignmentEnd=249323
+6	.	.	PUNCT	_	_	5	punct	_	Overlap=Rhap_D0002-67bis|WordAlignmentBegin=249323|WordAlignmentEnd=249323
+
+# sent_id = Rhap_D0002-91
+# prosodic_annotation = no
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- donc < c'est pour ça ( $L1 { bien sûr | bien sûr } // ) -$ que je parlais $- ( $L1 oui // XXX oui // ) $L2 de mélange XXX "euh" //
+# text = oui.
+1	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-89::4|Overlap=Rhap_D0002-89|SpaceAfter=No|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-67bis|WordAlignmentBegin=252018|WordAlignmentEnd=252018
+
+# sent_id = Rhap_D0002-92
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = $- donc < c'est pour ça ( $L1 { bien sûr | bien sûr } // ) -$ que je parlais $- ( $L1 oui // XXX oui // ) $L2 de mélange XXX "euh" //
+# text = XXX oui.
+1	XXX	XXX	X	_	_	2	unk	_	Overlap=Rhap_D0002-89|Scrap=Yes|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+2	oui	oui	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-89::9|Overlap=Rhap_D0002-89|SpaceAfter=No|WordAlignmentBegin=250530|WordAlignmentEnd=250751
+3	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-67bis|WordAlignmentBegin=252018|WordAlignmentEnd=252018
+
+# sent_id = Rhap_D0002-93
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^mais je pense que vous avez raison // )
+# text = mais je pense que vous avez raison.
+1	mais	mais	CCONJ	_	_	3	cc	_	Overlap=Rhap_D0002-89|WordAlignmentBegin=250751|WordAlignmentEnd=250863
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-89|Person[lex]=1|WordAlignmentBegin=250863|WordAlignmentEnd=250996
+3	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-89|Person[ctxt]=1|WordAlignmentBegin=250996|WordAlignmentEnd=251206
+4	que	que	SCONJ	_	_	3	comp:obj	_	Overlap=Rhap_D0002-89|WordAlignmentBegin=251206|WordAlignmentEnd=251266
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Plur|Overlap=Rhap_D0002-89|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=251266|WordAlignmentEnd=251446
+6	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	4	comp	_	Overlap=Rhap_D0002-89|WordAlignmentBegin=251446|WordAlignmentEnd=251646
+7	raison	raison	NOUN	_	_	6	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D0002-89|SpaceAfter=No|WordAlignmentBegin=251646|WordAlignmentEnd=252018
+8	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-67bis|WordAlignmentBegin=252018|WordAlignmentEnd=252018
+
+# sent_id = Rhap_D0002-94
+# prosodic_annotation = no
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = je crois que là ESPERLUETTE // -$
+# text = je crois que là…
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-93|Person[lex]=1|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-93|Person[ctxt]=1|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+3	que	que	SCONJ	_	_	2	comp:obj	_	Overlap=Rhap_D0002-93|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+4	là	là	ADV	_	_	3	comp	_	Overlap=Rhap_D0002-93|Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=249801|WordAlignmentEnd=252018
+5	…	…	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-68|WordAlignmentBegin=252018|WordAlignmentEnd=252018
+
+# sent_id = Rhap_D0002-95
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = je pense que vous avez $- raison //
+# text = je pense que vous avez raison.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=252132|WordAlignmentEnd=252307
+2	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=252307|WordAlignmentEnd=252497
+3	que	que	SCONJ	_	_	2	comp:obj	_	WordAlignmentBegin=252497|WordAlignmentEnd=252557
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=252557|WordAlignmentEnd=252687
+5	avez	avoir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	3	comp	_	WordAlignmentBegin=252687|WordAlignmentEnd=252803
+6	raison	raison	NOUN	_	_	5	comp:obj@lvc	_	Gender[lex]=Fem|Number[ctxt]=Sing|Overlap=Rhap_D0002-97|SpaceAfter=No|WordAlignmentBegin=252803|WordAlignmentEnd=253368
+7	.	.	PUNCT	_	_	2	punct	_	Overlap=Rhap_D0002-71bis|WordAlignmentBegin=253368|WordAlignmentEnd=253368
+
+# sent_id = Rhap_D0002-96
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^mais ( $L2 mh // ) -$ si vous voulez < le mélange { est | est } $- difficile ( $L2 mh // ) -$  quand ils sont petits //
+# text = mais si vous voulez, le mélange est, est difficile quand ils sont petits.
+1	mais	mais	CCONJ	_	_	10	cc	_	Overlap=Rhap_D0002-97|WordAlignmentBegin=252803|WordAlignmentEnd=253368
+2	si	si	SCONJ	_	_	10	discourse	_	WordAlignmentBegin=253455|WordAlignmentEnd=253610
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=253610|WordAlignmentEnd=253730
+4	voulez	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	2	comp	_	SpaceAfter=No|WordAlignmentBegin=253730|WordAlignmentEnd=254009
+5	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=254009|WordAlignmentEnd=254009
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=254009|WordAlignmentEnd=254180
+7	mélange	mélange	NOUN	_	Shared=Yes	8	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=254180|WordAlignmentEnd=254591
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	reparandum	_	SpaceAfter=No|WordAlignmentBegin=254880|WordAlignmentEnd=255105
+9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=255105|WordAlignmentEnd=255105
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=255105|WordAlignmentEnd=255276
+11	difficile	difficile	ADJ	_	_	10	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-98|WordAlignmentBegin=255276|WordAlignmentEnd=255911
+12	quand	quand	SCONJ	_	_	10	mod	_	WordAlignmentBegin=255911|WordAlignmentEnd=256046
+13	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	14	subj	_	Person[lex]=3|WordAlignmentBegin=256046|WordAlignmentEnd=256106
+14	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	comp	_	WordAlignmentBegin=256106|WordAlignmentEnd=256346
+15	petits	petit	ADJ	_	Gender=Masc	14	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=256346|WordAlignmentEnd=256786
+16	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=256786|WordAlignmentEnd=256786
+
+# sent_id = Rhap_D0002-97
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ^mais ( $L2 mh // ) -$ si vous voulez < le mélange { est | est } $- difficile ( $L2 mh // ) -$  quand ils sont petits //
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-96::10|Overlap=Rhap_D0002-95|SpaceAfter=No|WordAlignmentBegin=261055|WordAlignmentEnd=261145
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-70|WordAlignmentBegin=253368|WordAlignmentEnd=253368
+
+# sent_id = Rhap_D0002-98
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ^mais ( $L2 mh // ) -$ si vous voulez < le mélange { est | est } $- difficile ( $L2 mh // ) -$  quand ils sont petits //
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-96::10|Overlap=Rhap_D0002-96|SpaceAfter=No|WordAlignmentBegin=261145|WordAlignmentEnd=261283
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-71|WordAlignmentBegin=255911|WordAlignmentEnd=255911
+
+# sent_id = Rhap_D0002-99
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^parce ^que $- { quand ils sont petits  "ben" "euh" ESPERLUETTE //+
+# text = parce que quand ils sont petits, ben, euh…
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::Rhap_D0002-98::1|Idiom=Yes|WordAlignmentBegin=256786|WordAlignmentEnd=256986
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=256986|WordAlignmentEnd=257125
+3	quand	quand	SCONJ	_	_	1	comp:obj	_	Overlap=Rhap_D0002-100|Scrap=Yes|WordAlignmentBegin=257464|WordAlignmentEnd=257539
+4	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	5	subj	_	Overlap=Rhap_D0002-100|Person[lex]=3|WordAlignmentBegin=257539|WordAlignmentEnd=257639
+5	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	comp	_	Overlap=Rhap_D0002-100|WordAlignmentBegin=257639|WordAlignmentEnd=257789
+6	petits	petit	ADJ	_	Gender=Masc	5	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|Overlap=Rhap_D0002-100|SpaceAfter=No|WordAlignmentBegin=257789|WordAlignmentEnd=258769
+7	,	,	PUNCT	_	_	8	punct	_	Overlap=Rhap_D0002-72bis|WordAlignmentBegin=260059|WordAlignmentEnd=257464
+8	ben	ben	INTJ	_	_	6	discourse	_	Overlap=Rhap_D0002-100|SpaceAfter=No|WordAlignmentBegin=258769|WordAlignmentEnd=259889
+9	,	,	PUNCT	_	_	10	punct	_	Overlap=Rhap_D0002-72bis|WordAlignmentBegin=260059|WordAlignmentEnd=257464
+10	euh	euh	INTJ	_	_	6	discourse:filler	_	Overlap=Rhap_D0002-100|SpaceAfter=No|WordAlignmentBegin=259889|WordAlignmentEnd=260059
+11	…	…	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-72bis|WordAlignmentBegin=260059|WordAlignmentEnd=260059
+
+# sent_id = Rhap_D0002-100
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 quand il faut les emmener | ^et que c'est pas facile } //
+# text = quand il faut les emmener et que c'est pas facile.
+1	quand	quand	SCONJ	_	_	3	mod	_	Overlap=Rhap_D0002-99|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+2	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Overlap=Rhap_D0002-99|Person[lex]=3|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+3	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=mod::Rhap_D0002-96::10|Overlap=Rhap_D0002-99|Person[ctxt]=3|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+4	les	lui	PRON	_	Case=Acc|Emph=No|Number=Plur|PronType=Prs	5	comp:obj	_	Overlap=Rhap_D0002-99|Person[lex]=3|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+5	emmener	emmener	VERB	_	VerbForm=Inf	3	comp:obj	_	Overlap=Rhap_D0002-99|Subject=NoRaising|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+6	et	et	CCONJ	_	_	7	cc	_	Overlap=Rhap_D0002-99|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+7	que	que	SCONJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-99|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0002-99|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	comp	_	Overlap=Rhap_D0002-99|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	Overlap=Rhap_D0002-99|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+11	facile	facile	ADJ	_	_	9	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-99|SpaceAfter=No|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+12	.	.	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-72|WordAlignmentBegin=260059|WordAlignmentEnd=260059
+
+# sent_id = Rhap_D0002-101
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 d'accord // -$
+# text = d'accord.
+1	d'	de	ADP	_	ExtPos=ADJ	0	root	_	Idiom=Yes|Overlap=Rhap_D0002-99|SpaceAfter=No|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+2	accord	accord	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|Overlap=Rhap_D0002-99|SpaceAfter=No|WordAlignmentBegin=257464|WordAlignmentEnd=260059
+3	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-72|WordAlignmentBegin=260059|WordAlignmentEnd=260059
+
+# sent_id = Rhap_D0002-102
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = "oui" je crois que c'est pas ( $L2 mh mh // ) tellement bon d'emmener un petit enfant de { trois | quatre } ans "euh" ( $L3 mh // ) "peuh" "vous voyez" en bus "euh" un peu plus loin //
+# text = oui, je crois que c'est pas tellement bon d'emmener un petit enfant de trois, quatre ans, euh, peuh, vous voyez, en bus, euh, un peu plus loin.
+1	oui	oui	INTJ	_	_	4	discourse	_	Overlap=Rhap_D0002-103|SpaceAfter=No|WordAlignmentBegin=260059|WordAlignmentEnd=260234
+2	,	,	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-73bis|WordAlignmentBegin=260233|WordAlignmentEnd=260233
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Overlap=Rhap_D0002-103|Person[lex]=1|WordAlignmentBegin=260234|WordAlignmentEnd=260388
+4	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Overlap=Rhap_D0002-103|Person[ctxt]=1|WordAlignmentBegin=260388|WordAlignmentEnd=260618
+5	que	que	SCONJ	_	_	4	comp:obj	_	Overlap=Rhap_D0002-103|WordAlignmentBegin=260618|WordAlignmentEnd=260648
+6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Overlap=Rhap_D0002-103|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=260648|WordAlignmentEnd=260808
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	comp	_	Overlap=Rhap_D0002-103|WordAlignmentBegin=260808|WordAlignmentEnd=260898
+8	pas	pas	ADV	_	Polarity=Neg	7	mod	_	Overlap=Rhap_D0002-103|WordAlignmentBegin=260898|WordAlignmentEnd=261055
+9	tellement	tellement	ADV	_	_	7	mod	_	WordAlignmentBegin=261283|WordAlignmentEnd=261738
+10	bon	bon	ADJ	_	Gender=Masc	7	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=261738|WordAlignmentEnd=262018
+11	d'	de	ADP	_	_	7	mod	_	SpaceAfter=No|WordAlignmentBegin=262018|WordAlignmentEnd=262048
+12	emmener	emmener	VERB	_	VerbForm=Inf	11	comp	_	Subject=NoRaising|WordAlignmentBegin=262048|WordAlignmentEnd=262368
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	WordAlignmentBegin=262368|WordAlignmentEnd=262548
+14	petit	petit	ADJ	_	Number=Sing	15	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=262548|WordAlignmentEnd=262748
+15	enfant	enfant	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=262748|WordAlignmentEnd=263098
+16	de	de	ADP	_	_	15	udep	_	WordAlignmentBegin=263098|WordAlignmentEnd=263158
+17	trois	trois	NUM	_	ExtPos=DET	20	det	_	Number[lex]=Plur|SpaceAfter=No|WordAlignmentBegin=263158|WordAlignmentEnd=263318
+18	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=263318|WordAlignmentEnd=263318
+19	quatre	quatre	NUM	_	ExtPos=DET	17	flat	_	Number[lex]=Plur|WordAlignmentBegin=263318|WordAlignmentEnd=263608
+20	ans	an	NOUN	_	_	16	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=263608|WordAlignmentEnd=263893
+21	,	,	PUNCT	_	_	22	punct	_	WordAlignmentBegin=263893|WordAlignmentEnd=263893
+22	euh	euh	INTJ	_	_	20	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=263893|WordAlignmentEnd=264166
+23	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=264166|WordAlignmentEnd=265156
+24	peuh	peuh	INTJ	_	_	20	discourse	_	SpaceAfter=No|WordAlignmentBegin=265156|WordAlignmentEnd=265908
+25	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=265908|WordAlignmentEnd=265908
+26	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=265908|WordAlignmentEnd=265945
+27	voyez	voir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	20	discourse	_	SpaceAfter=No|WordAlignmentBegin=265945|WordAlignmentEnd=266301
+28	,	,	PUNCT	_	_	29	punct	_	WordAlignmentBegin=266301|WordAlignmentEnd=266301
+29	en	en	ADP	_	_	12	mod	_	WordAlignmentBegin=266301|WordAlignmentEnd=267291
+30	bus	bus	NOUN	_	_	29	comp	_	Gender[lex]=Masc|SpaceAfter=No|WordAlignmentBegin=267291|WordAlignmentEnd=267691
+31	,	,	PUNCT	_	_	32	punct	_	WordAlignmentBegin=267691|WordAlignmentEnd=267691
+32	euh	euh	INTJ	_	_	30	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=267691|WordAlignmentEnd=267946
+33	,	,	PUNCT	_	_	37	punct	_	WordAlignmentBegin=267946|WordAlignmentEnd=267946
+34	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	35	det	_	InIdiom=Yes|WordAlignmentBegin=267946|WordAlignmentEnd=268076
+35	peu	peu	NOUN	_	ExtPos=ADV	36	mod	_	Gender[lex]=Masc|Idiom=Yes|WordAlignmentBegin=268076|WordAlignmentEnd=268216
+36	plus	plus	ADV	_	_	37	mod	_	WordAlignmentBegin=268216|WordAlignmentEnd=268416
+37	loin	loin	ADV	_	_	12	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=268416|WordAlignmentEnd=268676
+38	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=268676|WordAlignmentEnd=268676
+
+# sent_id = Rhap_D0002-103
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = "oui" je crois que c'est pas ( $L2 mh mh // ) tellement bon d'emmener un petit enfant de { trois | quatre } ans "euh" ( $L3 mh // ) "euh" "vous voyez" en bus "euh" un peu plus loin //
+# text = mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-102::4|Overlap=Rhap_D0002-102|SpaceAfter=No|WordAlignmentBegin=264699|WordAlignmentEnd=265156
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-73|WordAlignmentBegin=261145|WordAlignmentEnd=261145
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-102|SpaceAfter=No|WordAlignmentBegin=261145|WordAlignmentEnd=261283
+4	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-73|WordAlignmentBegin=261283|WordAlignmentEnd=261283
+
+# sent_id = Rhap_D0002-104
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = "oui" je crois que c'est pas ( $L2 mh mh // ) tellement bon d'emmener un petit enfant de { trois | quatre } ans "euh" ( $L3 mh // ) "euh" "vous voyez" en bus "euh" un peu plus loin //
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-102::20|SpaceAfter=No|WordAlignmentBegin=264699|WordAlignmentEnd=265156
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=265156|WordAlignmentEnd=265156
+
+# sent_id = Rhap_D0002-105
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^parce ^que déjà < c'est ESPERLUETTE //
+# text = parce que déjà, c'est…
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::Rhap_D0002-104::1|Idiom=Yes|WordAlignmentBegin=268676|WordAlignmentEnd=268836
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=268836|WordAlignmentEnd=268896
+3	déjà	déjà	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=268896|WordAlignmentEnd=269326
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=269326|WordAlignmentEnd=269326
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=269326|WordAlignmentEnd=269466
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=269466|WordAlignmentEnd=269536
+7	…	…	PUNCT	_	_	1	punct	_	WordAlignmentBegin=269536|WordAlignmentEnd=269536
+
+# sent_id = Rhap_D0002-106
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = quand même < pour eux <+ d'aller à l'école <+ c'est pas $- $L1 évident "hein" //
+# text = quand même, pour eux, d'aller à l'école, c'est pas évident, hein.
+1	quand	quand	SCONJ	_	ExtPos=ADV	14	mod	_	Idiom=Yes|WordAlignmentBegin=269536|WordAlignmentEnd=269726
+2	même	même	ADV	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=269726|WordAlignmentEnd=269966
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=269966|WordAlignmentEnd=269966
+4	pour	pour	ADP	_	_	14	mod	_	WordAlignmentBegin=269966|WordAlignmentEnd=270166
+5	eux	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Plur|PronType=Prs	4	comp	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=270166|WordAlignmentEnd=270468
+6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=270468|WordAlignmentEnd=270468
+7	d'	de	ADP	_	_	14	mod	_	SpaceAfter=No|WordAlignmentBegin=270468|WordAlignmentEnd=270691
+8	aller	aller	VERB	_	VerbForm=Inf	7	comp	_	Subject=NoRaising|WordAlignmentBegin=270468|WordAlignmentEnd=270691
+9	à	à	ADP	_	_	8	comp:obl	_	WordAlignmentBegin=270691|WordAlignmentEnd=270863
+10	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=270863|WordAlignmentEnd=271293
+11	école	école	NOUN	_	_	9	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=270893|WordAlignmentEnd=271293
+12	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=271293|WordAlignmentEnd=271293
+13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=271293|WordAlignmentEnd=271463
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=271463|WordAlignmentEnd=271503
+15	pas	pas	ADV	_	Polarity=Neg	14	mod	_	WordAlignmentBegin=271503|WordAlignmentEnd=271674
+16	évident	évident	ADJ	_	Gender=Masc	14	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|Overlap=Rhap_D0002-107|SpaceAfter=No|WordAlignmentBegin=271674|WordAlignmentEnd=272073
+17	,	,	PUNCT	_	_	18	punct	_	Overlap=Rhap_D0002-75bis|WordAlignmentBegin=272382|WordAlignmentEnd=271674
+18	hein	hein	INTJ	_	_	16	discourse	_	Overlap=Rhap_D0002-107|SpaceAfter=No|WordAlignmentBegin=272073|WordAlignmentEnd=272382
+19	.	.	PUNCT	_	_	14	punct	_	Overlap=Rhap_D0002-75bis|WordAlignmentBegin=270863|WordAlignmentEnd=270893
+
+# sent_id = Rhap_D0002-107
+# prosodic_annotation = no
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh // ) -$
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-106::16|Overlap=Rhap_D0002-106|SpaceAfter=No|WordAlignmentBegin=271674|WordAlignmentEnd=272382
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-75|WordAlignmentBegin=272382|WordAlignmentEnd=272382
+
+# sent_id = Rhap_D0002-108
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^et ^puis il faudra que les parents l'acceptent //
+# text = et puis il faudra que les parents l'acceptent.
+1	et	et	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes|WordAlignmentBegin=272785|WordAlignmentEnd=272940
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=272940|WordAlignmentEnd=273300
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj@expl	_	Person[lex]=3|WordAlignmentBegin=273300|WordAlignmentEnd=273360
+4	faudra	falloir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	WordAlignmentBegin=273360|WordAlignmentEnd=273630
+5	que	que	SCONJ	_	_	4	comp:obj	_	WordAlignmentBegin=273630|WordAlignmentEnd=273710
+6	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=273710|WordAlignmentEnd=273810
+7	parents	parent	NOUN	_	_	9	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=273810|WordAlignmentEnd=274060
+8	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	9	comp:obj	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=274060|WordAlignmentEnd=274090
+9	acceptent	accepter	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	comp	_	SpaceAfter=No|WordAlignmentBegin=274090|WordAlignmentEnd=274488
+10	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=274488|WordAlignmentEnd=274488
+
+# sent_id = Rhap_D0002-109
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = ^parce ^que les mamans africaines < elles ont beaucoup de mal à se séparer de leurs petits //=
+# text = parce que les mamans africaines, elles ont beaucoup de mal à se séparer de leurs petits.
+1	parce	parce	ADV	_	ExtPos=SCONJ	0	root	_	Automated=Yes|Coconstruct=mod::Rhap_D0002-108::4|Idiom=Yes|SingleSpeaker=Yes|WordAlignmentBegin=274488|WordAlignmentEnd=274617
+2	que	que	SCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=274617|WordAlignmentEnd=274840
+3	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=275442|WordAlignmentEnd=275687
+4	mamans	maman	NOUN	_	_	8	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=275687|WordAlignmentEnd=276163
+5	africaines	africain	ADJ	_	Gender=Fem	4	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=276163|WordAlignmentEnd=276717
+6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=276717|WordAlignmentEnd=276717
+7	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	8	subj	_	Person[lex]=3|WordAlignmentBegin=276717|WordAlignmentEnd=276867
+8	ont	avoir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	comp:obj	_	WordAlignmentBegin=276867|WordAlignmentEnd=276957
+9	beaucoup	beaucoup	ADV	_	ExtPos=PRON	8	comp:obj@lvc	_	WordAlignmentBegin=276957|WordAlignmentEnd=277147
+10	de	de	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=277147|WordAlignmentEnd=277177
+11	mal	mal	NOUN	_	Number=Sing	10	comp	_	Gender[lex]=Masc|WordAlignmentBegin=277177|WordAlignmentEnd=277377
+12	à	à	ADP	_	_	11	comp:obl	_	WordAlignmentBegin=277377|WordAlignmentEnd=277447
+13	se	soi	PRON	_	PronType=Prs|Reflex=Yes	14	comp:obj	_	Person[lex]=3|WordAlignmentBegin=277447|WordAlignmentEnd=277517
+14	séparer	séparer	VERB	_	VerbForm=Inf	12	comp	_	Subject=SubjRaising|WordAlignmentBegin=277517|WordAlignmentEnd=277917
+15	de	de	ADP	_	_	14	comp:obl	_	WordAlignmentBegin=277917|WordAlignmentEnd=277967
+16	leurs	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=277967|WordAlignmentEnd=278087
+17	petits	petit	NOUN	_	_	15	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=278087|WordAlignmentEnd=278582
+18	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=278582|WordAlignmentEnd=278582
+
+# sent_id = Rhap_D0002-110
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 mh // )
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-109::1|SpaceAfter=No|WordAlignmentBegin=278840|WordAlignmentEnd=279059
+2	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=279059|WordAlignmentEnd=279059
+
+# sent_id = Rhap_D0002-111
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = elles le font pas très volontiers //
+# text = elles le font pas très volontiers.
+1	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	3	subj	_	Person[lex]=3|WordAlignmentBegin=279786|WordAlignmentEnd=279861
+2	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	comp:obj	_	Person[lex]=3|WordAlignmentBegin=279861|WordAlignmentEnd=279961
+3	font	faire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=279961|WordAlignmentEnd=280121
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	WordAlignmentBegin=280121|WordAlignmentEnd=280281
+5	très	très	ADV	_	_	6	mod	_	WordAlignmentBegin=280281|WordAlignmentEnd=280451
+6	volontiers	volontiers	ADV	_	_	3	mod	_	SpaceAfter=No|WordAlignmentBegin=280451|WordAlignmentEnd=281021
+7	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=281021|WordAlignmentEnd=281021
+
+# sent_id = Rhap_D0002-112
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = donc < si ( en plus ) on leur explique que "euh" ça veut dire que l'enfant restera déjeuner là-bas <+ les mamans africaines < elles veulent pas //= $-
+# text = donc, si, en plus, on leur explique que, euh, ça veut dire que l'enfant restera déjeuner là-bas, les mamans africaines, elles veulent pas.
+1	donc	donc	ADV	_	_	30	mod	_	SpaceAfter=No|WordAlignmentBegin=281395|WordAlignmentEnd=281510
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=281510|WordAlignmentEnd=281510
+3	si	si	SCONJ	_	_	30	mod	_	SpaceAfter=No|WordAlignmentBegin=281510|WordAlignmentEnd=281670
+4	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=281670|WordAlignmentEnd=281670
+5	en	en	ADP	_	_	10	mod	_	WordAlignmentBegin=281670|WordAlignmentEnd=281840
+6	plus	plus	ADV	_	_	5	comp	_	SpaceAfter=No|WordAlignmentBegin=281840|WordAlignmentEnd=282040
+7	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=282040|WordAlignmentEnd=282040
+8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=282040|WordAlignmentEnd=282110
+9	leur	lui	PRON	_	Case=Dat|Emph=No|Number=Plur|PronType=Prs	10	comp:obl	_	Person[lex]=3|WordAlignmentBegin=282110|WordAlignmentEnd=282270
+10	explique	expliquer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=282270|WordAlignmentEnd=282750
+11	que	que	SCONJ	_	_	10	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=282750|WordAlignmentEnd=283343
+12	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=283343|WordAlignmentEnd=283843
+13	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=283843|WordAlignmentEnd=284656
+14	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=284656|WordAlignmentEnd=284656
+15	ça	ça	PRON	_	PronType=Dem	16	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=284656|WordAlignmentEnd=284811
+16	veut	vouloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	comp	_	Person[ctxt]=3|WordAlignmentBegin=284811|WordAlignmentEnd=284881
+17	dire	dire	VERB	_	VerbForm=Inf	16	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=284881|WordAlignmentEnd=285041
+18	que	que	SCONJ	_	_	17	comp:obj	_	WordAlignmentBegin=285041|WordAlignmentEnd=285081
+19	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	20	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=285081|WordAlignmentEnd=285111
+20	enfant	enfant	NOUN	_	_	21	subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=285111|WordAlignmentEnd=285351
+21	restera	rester	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	18	comp	_	WordAlignmentBegin=285351|WordAlignmentEnd=285791
+22	déjeuner	déjeuner	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=285791|WordAlignmentEnd=286161
+23	là-bas	là-bas	ADV	_	_	22	mod	_	SpaceAfter=No|WordAlignmentBegin=286161|WordAlignmentEnd=286561
+24	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=286561|WordAlignmentEnd=286561
+25	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=286561|WordAlignmentEnd=286651
+26	mamans	maman	NOUN	_	_	30	dislocated:subj	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=286651|WordAlignmentEnd=286871
+27	africaines	africain	ADJ	_	Gender=Fem	26	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=286871|WordAlignmentEnd=287361
+28	,	,	PUNCT	_	_	26	punct	_	WordAlignmentBegin=287361|WordAlignmentEnd=287361
+29	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	30	subj	_	Person[lex]=3|WordAlignmentBegin=287361|WordAlignmentEnd=287491
+30	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=287491|WordAlignmentEnd=287691
+31	pas	pas	ADV	_	Polarity=Neg	30	mod	_	SpaceAfter=No|WordAlignmentBegin=287691|WordAlignmentEnd=287939
+32	.	.	PUNCT	_	_	30	punct	_	WordAlignmentBegin=287939|WordAlignmentEnd=287939
+
+# sent_id = Rhap_D0002-113
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = ( $L2 { mh | mh | mh } ) ( $L3 mh // ) -$
+# text = mh, mh, mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-112::30|Overlap=Rhap_D0002-114|SpaceAfter=No|WordAlignmentBegin=288254|WordAlignmentEnd=288444
+2	,	,	PUNCT	_	_	3	punct	_	Overlap=Rhap_D0002-79ter|WordAlignmentBegin=288850|WordAlignmentEnd=288254
+3	mh	mh	INTJ	_	_	1	conj:coord	_	Overlap=Rhap_D0002-114|SpaceAfter=No|WordAlignmentBegin=288444|WordAlignmentEnd=288624
+4	,	,	PUNCT	_	_	5	punct	_	Overlap=Rhap_D0002-79ter|WordAlignmentBegin=288850|WordAlignmentEnd=288254
+5	mh	mh	INTJ	_	_	3	conj:coord	_	Overlap=Rhap_D0002-114|SpaceAfter=No|WordAlignmentBegin=288624|WordAlignmentEnd=288850
+6	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-79ter|WordAlignmentBegin=288850|WordAlignmentEnd=288850
+
+# sent_id = Rhap_D0002-114
+# prosodic_annotation = no
+# speaker = L3
+# speaker_id = §LM2
+# macrosyntax = ( $L2 { mh | mh | mh } ) ( $L3 mh // ) -$
+# text = mh.
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=Rhap_D0002-112::30|Overlap=Rhap_D0002-113|SpaceAfter=No|WordAlignmentBegin=288254|WordAlignmentEnd=288850
+2	.	.	PUNCT	_	_	1	punct	_	Overlap=Rhap_D0002-79bis|WordAlignmentBegin=288850|WordAlignmentEnd=288850
+
+# sent_id = Rhap_D0002-115
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF1
+# macrosyntax = elles veulent pas //
+# text = elles veulent pas.
+1	elles	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Plur|PronType=Prs	2	subj	_	Person[lex]=3|WordAlignmentBegin=289007|WordAlignmentEnd=289167
+2	veulent	vouloir	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=289167|WordAlignmentEnd=289377
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No|WordAlignmentBegin=289377|WordAlignmentEnd=289622
+4	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=289622|WordAlignmentEnd=289622
+
+# sent_id = Rhap_D0002-116
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LF3
+# macrosyntax = $L2 d'accord //
+# text = d'accord.
+1	d'	de	ADP	_	ExtPos=ADJ	0	root	_	Backchannel=Rhap_D0002-115::2|Idiom=Yes|SpaceAfter=No|WordAlignmentBegin=289940|WordAlignmentEnd=290070
+2	accord	accord	NOUN	_	_	1	comp	_	Gender[lex]=Masc|InIdiom=Yes|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=290070|WordAlignmentEnd=290264
+3	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=290676|WordAlignmentEnd=290676
+

@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The maths, step by step</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../vendor/plotly.min.js"></script>
+<script src="../assets/build.js"></script>
+<script src="../assets/common.js"></script>
+<style>
+  .math p, .math li, .math dd { text-align: justify; hyphens: auto; }
+  .eq { font-family: Georgia, "Times New Roman", serif; font-size: 18px; text-align: center; margin: 14px 0; }
+  .eq .big { font-size: 22px; }
+  table.t { border-collapse: collapse; font-family: var(--sans); font-size: 13px; margin: 10px 0; }
+  table.t td, table.t th { border: 1px solid var(--border); padding: 3px 8px; text-align: right; }
+  table.t th { background: var(--surface); font-weight: 600; }
+  table.t td:first-child, table.t th:first-child { text-align: left; }
+  table.t td.sig { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+  table.t td.ns { color: var(--muted); }
+  .readout { font-family: var(--sans); font-size: 13px; display: flex; gap: 18px; flex-wrap: wrap; margin: 6px 0 10px; }
+  .readout b { font-weight: 600; }
+  .toc a { margin-right: 12px; white-space: nowrap; }
+  dl.gloss dt { font-weight: 600; margin-top: 10px; }
+  dl.gloss dd { margin: 2px 0 0 0; }
+  .plot { min-height: 280px; }
+  h2 { margin-top: 44px; }
+  .decoder li { margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<main class="narrow math">
+<h1>The maths, step by step</h1>
+<p class="lede">What the site and the French article compute, explained for readers who are not statisticians: what a distribution is, why the plots use
+logarithmic axes and what they would look like without them, what the model <i>p</i>(<i>n</i>) ∝ <i>n</i><sup>−β</sup>e<sup>−λ<i>n</i></sup> and its two parameters mean,
+how the fit is done and how sure we can be of it, and the statistics a statistical reviewer would ask for. All the numbers
+below are computed on the data of the article: the five French corpora, SUD trees, units of 10–19 words (written corpora re-segmented); “micro” means
+microsyntax only, i.e. macro-syntactic segments cut out as in the article.</p>
+<p class="toc small"><a href="#s1">1 Histogram</a><a href="#s2">2 Log axes</a><a href="#s3">3 The model</a><a href="#s4">4 The fit</a><a href="#s5">5 Reading λ</a>
+<a href="#s6">6 How sure</a><a href="#s7">7 Comparing</a><a href="#s8">8 Length</a><a href="#s10">9 Glossary</a></p>
+
+<h2 id="s1">1. A distribution is a histogram</h2>
+<p>Take a measure, say the flux size, and a set of sentences. At every position between two words, the flux has a value <i>n</i> = 1, 2, 3, … Count how
+many positions have each value. These counts, divided by the total number of positions <i>N</i>, are the <b>probabilities</b> <i>p</i>(<i>n</i>): they sum to 1.
+The <b>mean</b> is Σ <i>n</i>·<i>p</i>(<i>n</i>); the <b>mode</b> is the most frequent value; the <b>tail</b> is the set of large, rare values. For dependency length,
+the observations are dependencies instead of positions, but the arithmetic is the same (and, with all relations kept, mean length = mean flux, see
+Measures). Choose a running example; the next three sections use it.</p>
+<div class="controls" id="ctl"></div>
+<div id="histTable"></div>
+
+<h2 id="s2">2. Three ways to draw the same histogram</h2>
+<div class="grid c3">
+  <div class="card"><b>Linear axes</b><div class="plot" id="axLin"></div></div>
+  <div class="card"><b>Logarithmic <i>y</i></b><div class="plot" id="axLogy"></div></div>
+  <div class="card"><b>Logarithmic <i>x</i> and <i>y</i> (log–log)</b><div class="plot" id="axLoglog"></div></div>
+</div>
+<p class="small muted">Points: observed probabilities (hollow when fewer than 5 observations). Line: the fitted model of section 3.</p>
+<p><b>Linear axes</b> show the bulk of the distribution and hide the tail: a value with probability 0.5 % is half a pixel high, and everything beyond the mode
+looks like “nothing”. Yet the tail is what the whole study is about: how fast do large flux values become rare?</p>
+<p><b>A logarithmic <i>y</i> axis</b> gives the same vertical space to each factor of 10: 10 %, 1 %, 0.1 %, 0.01 % are evenly spaced. A tail that decays
+<b>exponentially</b>, <i>p</i>(<i>n</i>) ∝ e<sup>−λ<i>n</i></sup>, becomes a straight line: each extra unit of <i>n</i> divides the probability by the same factor
+e<sup>λ</sup>, so each step down is the same height. The slope of that line is λ (in natural-log units; on a base-10 axis the line drops λ/2.30 decades per unit).</p>
+<p><b>Log–log axes</b> also give equal space to each factor of 10 on the <i>x</i> axis: 1, 10, 100 are evenly spaced. A <b>power law</b>, <i>p</i>(<i>n</i>) ∝ <i>n</i><sup>−β</sup>,
+becomes a straight line of slope −β: doubling <i>n</i> always divides the probability by the same factor 2<sup>β</sup>, wherever you are. This is what
+dependency length looks like over most of its range, which is why the length plots of this site and of the literature (Ferrer-i-Cancho 2004; Petrini &
+Ferrer-i-Cancho 2025) are drawn this way: a long tail that is still roughly straight at length 30 or 40. A power law <i>with</i> an exponential cut-off is a straight
+line that bends downwards at the right; a distribution that rises to a mode and then falls (flux, weight) is a hump.</p>
+<p><b>Which one to use?</b> For dependency length (values from 1 to 30 and beyond) log–log is the informative choice. For flux size and weight the values run
+only from 1 to about 9: on a log <i>x</i> axis they are squeezed into less than one decade, the points bunch up on the right and the hump is distorted; a
+linear <i>x</i> with a log <i>y</i> shows the same information more honestly. The French article draws Figure 2 in log–log for consistency with the length plots;
+the statistician's review asks for linear <i>x</i>, and this page shows both so that the choice can be made knowingly. Whatever the axes, the
+<i>numbers</i> (means, λ) do not change: only what the eye can see.</p>
+
+<h2 id="s3">3. The model, term by term</h2>
+<div class="eq"><i>p</i>(<i>n</i>) = <i>C</i> · <i>n</i><sup>−β</sup> · e<sup>−λ<i>n</i></sup> &nbsp; for <i>n</i> = 1, 2, …, <i>n</i><sub>max</sub></div>
+<ul>
+<li><b>e<sup>−λ<i>n</i></sup></b>, the exponential part. Going from <i>n</i> to <i>n</i> + 1 multiplies the probability by e<sup>−λ</sup>, the same factor at every step:
+λ = 0.5 divides by 1.6, λ = 1 by 2.7, λ = 2 by 7.4, λ = 4 by 55. The larger λ, the faster large values disappear. λ is the <b>cut-off</b>, or decay rate.</li>
+<li><b><i>n</i><sup>−β</sup></b>, the power-law part. Going from <i>n</i> to <i>n</i> + 1 multiplies the probability by ((<i>n</i>+1)/<i>n</i>)<sup>−β</sup>, a factor that is
+strong for small <i>n</i> (from 1 to 2: 2<sup>−β</sup>) and fades for large <i>n</i> (from 10 to 11: 1.1<sup>−β</sup>). With β &gt; 0 it pulls the distribution down
+at the start and lets it decay slowly afterwards: a long tail. With β &lt; 0 it pushes the distribution <i>up</i> at the start: the curve rises until
+<i>n</i> ≈ −β/λ (the mode) and then the exponential takes over. This is the shape of flux and weight.</li>
+<li><b><i>C</i></b>, the normalising constant: the probabilities must sum to 1 over the values that can occur, 1 to <i>n</i><sub>max</sub> (the largest value observed in that
+cell). <i>C</i> is just 1 divided by the sum of the unnormalised weights <i>n</i><sup>−β</sup>e<sup>−λ<i>n</i></sup>; it has no interpretation, but its dependence on
+<i>n</i><sub>max</sub> is one of the statistician's points (section 4).</li>
+</ul>
+<p><b>Why this family?</b> Because one formula covers the three shapes we meet: dependency length is close to a power law with a soft cut-off
+(β ≈ 1.8, λ ≈ 0.1 in GSD); flux size rises to a mode of 2 and then decays fast (β ≈ −3, λ ≈ 2); weight is almost all 1 and 2 and decays even faster
+(β ≈ −6, λ ≈ 4.6). The special cases are: λ = 0, a pure power law; β = 0, a pure exponential (a <i>geometric</i> distribution on integers); β &lt; 0, a
+<i>discrete gamma</i> shape. The last name matters: when β is negative the model is not a power law at all, and the review is right that “truncated power law”
+is then a misnomer. Fit the model by hand below: move the sliders and watch the misfit (section 4 explains the number).</p>
+<div class="controls">
+  <label>β <input type="range" id="sbeta" min="-8" max="3" step="0.05"> <span id="vbeta"></span></label>
+  <label>λ <input type="range" id="slam" min="0" max="5" step="0.01"> <span id="vlam"></span></label>
+  <button class="btn" id="bestBtn">best fit</button>
+</div>
+<div class="readout" id="readout"></div>
+<div class="grid c2">
+  <div class="card"><b>Linear <i>y</i></b><div class="plot" id="modelLin"></div></div>
+  <div class="card"><b>Logarithmic <i>y</i></b><div class="plot" id="modelLog"></div></div>
+</div>
+
+<h2 id="s4">4. The fit: maximum likelihood</h2>
+<p>How do we choose β and λ? By <b>maximum likelihood</b>: among all pairs (β, λ), take the one under which the observed counts were the most probable.
+If the model gives probability <i>p</i>(<i>n</i>) to value <i>n</i>, and value <i>n</i> was observed <i>c<sub>n</sub></i> times, the probability of the whole sample is the
+product of <i>p</i>(<i>n</i>)<sup><i>c<sub>n</sub></i></sup> over all <i>n</i>. Products of thousands of small numbers are unmanageable, so one takes the logarithm
+and changes the sign:</p>
+<div class="eq">NLL(β, λ) = − Σ<sub><i>n</i></sub> <i>c<sub>n</sub></i> · log <i>p</i>(<i>n</i> | β, λ)</div>
+<p>The <b>negative log-likelihood</b> NLL is a misfit score: the smaller, the better. The computer searches for the minimum (here with the Nelder–Mead method,
+started from four different points to avoid getting stuck). The readout under the sliders above shows NLL(β, λ) − NLL<sub>min</sub>: how much worse your
+hand-made curve is than the best one. A difference of 2 is already a clearly worse model; a difference of 1.92 is the conventional edge of the 95 % interval
+(section 6).</p>
+<h3>The landscape, and why β and λ are not independent</h3>
+<div class="card"><div class="plot" id="landscape"></div></div>
+<p class="small muted">Misfit NLL(β, λ) − NLL<sub>min</sub> for the flux size of GSD (all relations). The star is the best fit; contour levels double from 1 to 1024.</p>
+<p>The valley is diagonal: a larger λ with a more negative β gives almost the same curve as a smaller λ with a less negative β. The two parameters <b>trade
+off</b>; this is what the review means by “β and λ are strongly correlated”. Consequences: λ on its own does not describe the shape, so the article should print β
+next to it; the standard error of λ is larger than it would be if β were known; and two corpora can have different λ but nearly the same distribution. The
+Cut-off λ page reports the same thing between languages as a correlation of −0.8 between λ and the mean.</p>
+<h3>The dependence on <i>n</i><sub>max</sub></h3>
+<p>The probabilities are normalised on 1 … <i>n</i><sub>max</sub>. If one chooses a larger support than the observed maximum, the model has to put some mass on
+values that never occur, and the fit changes. The table refits the same counts with different <i>n</i><sub>max</sub>:</p>
+<div id="nmaxTable"></div>
+<h3>Why not a regression on the log counts?</h3>
+<p>The June pages fitted the straight line of log <i>p</i>(<i>n</i>) against (log <i>n</i>, <i>n</i>) by ordinary least squares. That gives every observed value the same
+weight: the point <i>n</i> = 9, observed three times, counts as much as <i>n</i> = 2, observed forty thousand times, so the estimate is pulled by the
+noisiest points. Maximum likelihood weighs each <i>observation</i>, which is what we want. On these corpora the two methods agree for dependency length, whose
+tail has many points, and differ by 0.3 to 0.6 for flux and weight, where OLS fits a line through only six or seven points (table). The site uses maximum
+likelihood; the regression estimates remain available as an option in the tables.</p>
+<div id="olsTable"></div>
+
+<h2 id="s5">5. Reading λ: an asymptotic rate, not the ratio you see</h2>
+<p>With β ≠ 0, the factor from <i>n</i> to <i>n</i> + 1 is ((<i>n</i>+1)/<i>n</i>)<sup>−β</sup>·e<sup>−λ</sup>: it only <i>converges</i> to e<sup>−λ</sup> as <i>n</i> grows.
+For flux (β ≈ −3) the fitted ratio at <i>n</i> = 2 is much larger than e<sup>−λ</sup>, and the observed distribution is still rising there. So λ is the decay rate
+of the far tail, and “each extra unit divides the probability by e<sup>λ</sup>” is only true far out, where there are few data. The table compares the ratios
+<i>p</i>(<i>n</i>+1)/<i>p</i>(<i>n</i>) observed in the data with the fitted ones:</p>
+<div class="controls"><label>Corpus <select id="ratioCorpus"><option>GSD</option><option>ParisStories</option></select></label>
+<label>Measure <select id="ratioMetric"><option value="flux">flux size</option><option value="weight">flux weight</option><option value="len">dependency length</option></select></label></div>
+<div id="ratioTable"></div>
+<p>For flux weight, the observed ratios fall faster and faster (about 0.34, then 0.04, then 0.007): the decay is <i>faster than exponential</i>. The fitted model
+bends too, but only through a very negative β (about −7), and its asymptotic factor e<sup>−λ</sup> (about 0.002) lies far below every ratio actually observed:
+λ<sub>weight</sub> then describes no step seen in the data and is best read as an index of how sharply the weight is bounded, not as a rate. The psycholinguist's
+point about “a limit rather than a rate” is this observation; section 7 shows a family whose ratios can keep falling.</p>
+<h3>λ and the mean, and the random baseline</h3>
+<p>A corpus with a larger mean flux usually has a smaller λ: the two measure related things (how far the distribution extends). So a difference in λ between two
+corpora may just restate a difference in means. The answer used on the full flux site is a random baseline: put the words of each sentence in a random
+projective order, keep the same tree, and fit again. The random λ is what the tree shapes alone would give; the distance between the observed and the random λ
+is what word order adds. For the running example:</p>
+<div id="randomTable"></div>
+
+<h2 id="s6">6. How sure are we? Standard errors</h2>
+<p>A <b>standard error</b> (SE) answers: if we had another corpus of the same kind and size, by how much would the estimate typically move? About 95 % of
+the time, the true value lies within ±2 SE of the estimate (the <b>95 % confidence interval</b>). Two estimates are said to differ <i>significantly</i> (at the 5 %
+level) when their difference exceeds about 2 × √(SE<sub>a</sub>² + SE<sub>b</sub>²). Three ways to get an SE for λ:</p>
+<ol>
+<li><b>Curvature of the likelihood</b> (the Hessian, the second derivatives of NLL at the minimum): a sharp valley means a precise estimate. This assumes
+that every position is an independent draw. It is not: the positions of one sentence rise and fall together (a long sentence with a deep embedding has many
+high positions). The Hessian SE is therefore too small.</li>
+<li><b>Profile likelihood</b>: for each candidate λ, refit β and record the misfit; the 95 % interval is where the misfit exceeds the minimum by less than 1.92
+(half of the 3.84 of a χ² with one degree of freedom). It accounts for the β–λ trade-off, but still assumes independence.</li>
+<li><b>Sentence bootstrap</b>: draw sentences at random with replacement until the corpus has its original size, refit, repeat 200 times; the spread of the 200 λ
+is the SE. It respects the dependence between positions of a sentence; on the whole-language distributions of this site it gives errors 3 to 8 times the Hessian
+ones, in the 10–19-word cells of the French corpora <span id="seRatioText"></span> (table). This is what the French article reports.</li>
+</ol>
+<div class="grid c2">
+  <div class="card"><b>Profile likelihood of λ, GSD flux</b><div class="plot" id="profilePlot"></div><div class="small muted" id="profileText"></div></div>
+  <div class="card"><b>Standard errors, 10–19 words, SUD</b><div id="seTable"></div></div>
+</div>
+<h3>Which differences in Table 2 of the article are significant?</h3>
+<p>Each cell gives the difference between two corpora in units of the combined bootstrap SE (a <i>z</i> score); |<i>z</i>| &gt; 2 is highlighted. With all relations
+(upper triangle) and without macro-syntax (lower triangle).</p>
+<div class="controls"><label>Quantity <select id="zMetric"><option value="all|flux|lambda">λ flux</option><option value="all|weight|lambda">λ weight</option>
+<option value="all|len|lambda">λ length</option><option value="all|flux|mean">mean flux</option><option value="all|weight|mean">mean weight</option></select></label></div>
+<div id="zTable"></div>
+
+<h2 id="s7">7. Comparing two distributions</h2>
+<h3>Total variation distance</h3>
+<p>TV(<i>p</i>, <i>q</i>) = ½ Σ |<i>p</i>(<i>n</i>) − <i>q</i>(<i>n</i>)| is the largest share of probability that one would have to move to turn one distribution into the
+other; 0 means identical, 1 means disjoint. The article reports a largest TV of 0.012 between the ContentUD weight distributions of the four corpora and calls them
+“practically identical”. The review's objection is that 0.012 has no scale until we know what TV two samples <i>from the same distribution</i> would show by
+chance. Simulation gives that <b>noise floor</b>:</p>
+<div id="tvTable"></div>
+<p><span id="tvSummary"></span> The distributions are very close; whether they are <i>identical</i> is not what a distance can tell. A
+<b>χ² test</b> on the counts (corpora × values 1, 2, ≥ 3) asks that question: it rejects identity (<span id="chiText"></span>), but the effect size
+<b>Cramér's V</b> is tiny. With tens of thousands of positions, almost any difference is “significant”; the question is whether it is large, and for that one
+needs an effect size or an <b>equivalence test</b>: decide beforehand a margin δ below which two distributions count as the same, and show that the confidence interval
+of the difference lies inside ±δ.</p>
+<h3>Likelihood-ratio test: one model or two?</h3>
+<p>To test whether two corpora have the same distribution, fit the model to both together (one β, one λ: NLL<sub>pooled</sub>) and to each separately
+(NLL<sub>a</sub> + NLL<sub>b</sub>). Separate fits always do at least as well; if the corpora really share the distribution, the gain
+LR = 2 (NLL<sub>pooled</sub> − NLL<sub>a</sub> − NLL<sub>b</sub>) behaves like a χ² with 2 degrees of freedom (two extra parameters), so LR &gt; 6 is significant at 5 %.</p>
+<div id="lrTable"></div>
+<p>With these sample sizes, every pair differs significantly for the flux size, including the two written corpora, and most pairs for the weight: a test
+answers “is there any difference?”, not “does it matter?”. The article's claims should be phrased as sizes of differences with intervals, not as presence or
+absence.</p>
+<h3>Which family fits best? The AIC</h3>
+<p>The <b>Akaike information criterion</b>, AIC = 2<i>k</i> + 2 NLL, trades misfit against the number of parameters <i>k</i>: a model with one more parameter must
+reduce NLL by more than 1 to be preferred. Lower is better; a difference of 10 or more is decisive. The review suggests families made for counts with a positive
+mode. Fitted on the same counts (all normalised on 1 … <i>n</i><sub>max</sub>):</p>
+<div class="controls"><label>Corpus <select id="famCorpus"><option>GSD</option><option>ParisStories</option></select></label>
+<label>Measure <select id="famMetric"><option value="flux">flux size</option><option value="weight">flux weight</option><option value="len">dependency length</option></select></label></div>
+<div class="grid c2">
+  <div class="card"><div id="famTable"></div></div>
+  <div class="card"><div class="plot" id="famPlot"></div></div>
+</div>
+<p>Families: <b>geometric</b>, <i>p</i>(<i>n</i>) ∝ e<sup>−λ<i>n</i></sup> (constant ratio); <b>power law</b>, ∝ <i>n</i><sup>−β</sup>; <b>truncated power law</b>
+(the model of the site); <b>shifted Poisson</b>, <i>n</i> − 1 ~ Poisson(μ), one parameter, ratios that fall like μ/<i>n</i> (faster than exponential);
+<b>shifted negative binomial</b>, a Poisson whose rate varies, two parameters, between Poisson and geometric; <b>discrete Weibull</b>, two parameters, whose
+ratio can fall or rise with <i>n</i>. What matters here is not the winner but the lesson: for dependency length the truncated power law is clearly best; for flux size and weight the
+discrete Weibull, whose ratios keep falling, equals or beats it (decisively for the flux of GSD), which is the quantitative form of “is it a rate or a limit?”.</p>
+
+<h2 id="s8">8. Controlling for sentence length</h2>
+<p>All measures grow with sentence length, so the article compares sentences of 10–19 words. The review's point: inside that bin the corpora are not equally
+distributed. Written corpora have long sentences, so their 10–19-word sentences crowd towards 19; spoken corpora have short units, so theirs crowd towards 10. If
+the mean flux rises by about 0.035 per word, a corpus whose units are one word shorter on average gets a mean flux 0.035 lower <i>for that reason alone</i>, which
+is the size of the differences in Table 2 without macro-syntax. The cure is to compare at each exact length (below), or to fit a regression
+flux<sub>s</sub> = <i>a</i> + <i>b</i>·length<sub>s</sub> + <i>c</i>·corpus<sub>s</sub> per sentence, where <i>c</i> is the corpus effect at equal length; a <b>mixed model</b>
+adds a random term per speaker or text, so that a few talkative speakers do not count as thousands of independent sentences.</p>
+<div class="grid c2">
+  <div class="card"><b>Mean flux at each length, all relations</b><div class="plot" id="lenAll"></div></div>
+  <div class="card"><b>Mean flux at each length, without macro-syntax</b><div class="plot" id="lenMicro"></div></div>
+</div>
+<div id="lenTable"></div>
+<p>A related remark of the review concerns the <b>denominator</b>: without macro-syntax, the dependencies are removed but the words stay, so the spoken
+flux is divided by positions that include the discourse markers. Removing the words as well (and recounting the length) is the other defensible choice;
+the article should show both.</p>
+
+
+<h2 id="s10">9. Glossary</h2>
+<dl class="gloss">
+<dt>Distribution, histogram</dt><dd>For each possible value, how often it occurs; as probabilities, the counts divided by their total.</dd>
+<dt>Support</dt><dd>The set of values a distribution can take; here 1 … <i>n</i><sub>max</sub>.</dd>
+<dt>Normalisation</dt><dd>Scaling the model so that its probabilities sum to 1 over the support.</dd>
+<dt>Mean, mode, median, tail</dt><dd>The average value; the most frequent value; the value that splits the data in half; the region of large, rare values.</dd>
+<dt>Logarithm, log scale</dt><dd>log<sub>10</sub>(1000) = 3: the logarithm counts factors of 10. A log axis gives equal space to equal factors; e is the base of
+natural logarithms (2.718…), used in e<sup>−λ<i>n</i></sup>.</dd>
+<dt>Exponential decay</dt><dd>Each unit step divides the probability by the same factor; a straight line on a log <i>y</i> axis.</dd>
+<dt>Power law</dt><dd>Each doubling divides the probability by the same factor; a straight line on log–log axes; “scale-free”.</dd>
+<dt>Parameter</dt><dd>A number that selects one curve in a family: β and λ here.</dd>
+<dt>Likelihood, NLL, MLE</dt><dd>The probability of the observed data under given parameters; its negative logarithm, used as a misfit score; the
+parameters that minimise it (maximum-likelihood estimate).</dd>
+<dt>Hessian</dt><dd>The matrix of second derivatives of NLL at the minimum; its inverse gives standard errors that assume independent observations.</dd>
+<dt>Bootstrap</dt><dd>Re-creating many fake samples by drawing from the real one with replacement, to see how much an estimate moves.</dd>
+<dt>Standard error, confidence interval</dt><dd>The typical sampling spread of an estimate; the range (about ±2 SE) that contains the true value 95 % of the time.</dd>
+<dt><i>p</i>-value, significance</dt><dd>The probability of a difference at least as large as the observed one if there were no real difference; below 0.05, “significant”.
+Says nothing about the size of the difference.</dd>
+<dt>χ² (chi-square), degrees of freedom</dt><dd>A statistic comparing observed and expected counts, whose reference distribution depends on the number of
+free cells (degrees of freedom); also the reference distribution of the likelihood-ratio statistic.</dd>
+<dt>Effect size, Cramér's V</dt><dd>How large a difference is, independently of the sample size; V rescales χ² between 0 and 1.</dd>
+<dt>AIC</dt><dd>2<i>k</i> + 2 NLL: misfit plus a penalty for the number of parameters; lower is better.</dd>
+<dt>Total variation distance</dt><dd>Half the sum of absolute differences between two probability distributions; the share of mass to move.</dd>
+<dt>Likelihood-ratio test</dt><dd>Compares a model to a more general one containing it, through the gain in log-likelihood.</dd>
+<dt>Equivalence test</dt><dd>Shows that a difference is smaller than a margin fixed in advance, instead of failing to show that it is non-zero.</dd>
+<dt>Regression, covariate, mixed model</dt><dd>A model of one quantity as a function of others (the covariates, e.g. sentence length); a mixed model adds random
+effects for groups such as speakers.</dd>
+<dt>Simpson's paradox, confounding</dt><dd>A comparison that reverses or vanishes once a third variable (here, length within the bin) is controlled.</dd>
+<dt>Random baseline</dt><dd>What the measure would be if the words of each sentence were put in a random projective order with the same tree.</dd>
+</dl>
+<p class="small muted">Computed from <code>mathdata_fr.py</code> (data/math.json) on the article's data; standard errors from <code>bootstrap2.py</code>. The OLS and random-baseline tables are empty here: they belong to the larger study.</p>
+</main>
+<script>
+const COL = { GSD: "#1f4e8c", Sequoia: "#6aa0d8", ParisStories: "#b8452a", Rhapsodie: "#e59a3a", CEFC: "#7a3f8f" };
+const MLAB = { len: "dependency length", flux: "flux size", weight: "flux weight" };
+const FLAB = { all: "all relations", micro: "microsyntax only" };
+let M, st = { corpus: "GSD", metric: "flux", filter: "all" };
+const key = () => `${st.corpus}|${st.filter}|${st.metric}`;
+function tpl(beta, lam, xmax, xs) {
+  let z = 0; for (let x = 1; x <= xmax; x++) z += Math.pow(x, -beta) * Math.exp(-lam * x);
+  return xs.map(x => Math.pow(x, -beta) * Math.exp(-lam * x) / z);
+}
+function nll(beta, lam, counts, xmax) {
+  let z = 0; for (let x = 1; x <= xmax; x++) z += Math.pow(x, -beta) * Math.exp(-lam * x);
+  let s = 0; for (const [n, c] of counts) s -= c * (-beta * Math.log(n) - lam * n - Math.log(z));
+  return s;
+}
+const f = (x, d = 2) => (x === null || x === undefined || Number.isNaN(x)) ? "–" : Number(x).toFixed(d);
+const tbl = (head, rows, cls = "t") => `<table class="${cls}"><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr>${rows.map(r => `<tr>${r.map(c => (typeof c === "object" && c !== null) ? `<td class="${c.cls || ""}">${c.v}</td>` : `<td>${c}</td>`).join("")}</tr>`).join("")}</table>`;
+const range = (a, b, step) => { const o = []; for (let x = a; x <= b + 1e-9; x += step) o.push(+x.toFixed(6)); return o; };
+
+function histTable() {
+  const d = M.dists[key()], N = d.reduce((s, [, c]) => s + c, 0), fit = M.fits[key()];
+  let cum = 0;
+  const rows = d.map(([n, c]) => { cum += c; return [n, c.toLocaleString("en"), f(100 * c / N, c / N < 0.001 ? 3 : 2), f(100 * cum / N, 1)]; });
+  document.getElementById("histTable").innerHTML = `<p class="small"><b>${st.corpus}</b>, ${MLAB[st.metric]}, ${FLAB[st.filter]}, 10–19 words: <i>N</i> = ${N.toLocaleString("en")} ${st.metric === "len" ? "dependencies" : "positions"},
+    mean ${f(fit.mean)}, mode ${d.reduce((a, b) => b[1] > a[1] ? b : a)[0]}, largest value ${fit.xmax}.</p>` + tbl(["n", "count", "p(n) %", "cumulative %"], rows);
+}
+function axesPlots() {
+  const d = M.dists[key()], N = d.reduce((s, [, c]) => s + c, 0), fit = M.fits[key()];
+  const xs = d.map(([n]) => n), ys = d.map(([, c]) => c / N), small = d.map(([, c]) => c < 5);
+  const cx = range(1, fit.xmax, 0.1), cy = tpl(fit.beta, fit.lambda, fit.xmax, cx);
+  const col = cssVar(`--c-${st.metric}`) || COL[st.corpus];
+  const pts = { x: xs, y: ys, mode: "markers", name: "observed", marker: { color: small.map(s => s ? "rgba(0,0,0,0)" : col), size: 7, line: { color: col, width: 1.5 } } };
+  const cur = { x: cx, y: cy, mode: "lines", name: `fit β=${f(fit.beta)} λ=${f(fit.lambda)}`, line: { color: col, width: 1.5, dash: "dot" } };
+  const base = () => plotLayout({ margin: { l: 48, r: 10, t: 10, b: 40 }, showlegend: false, height: 280, xaxis: { title: "n" } });
+  plotNew("axLin", [pts, cur], Object.assign(base(), { yaxis: { title: "p(n)", rangemode: "tozero" } }));
+  plotNew("axLogy", [pts, cur], Object.assign(base(), { yaxis: { title: "p(n)", type: "log", exponentformat: "power" } }));
+  const ll = base(); ll.xaxis = Object.assign(ll.xaxis, { type: "log", tickvals: [1, 2, 3, 5, 10, 20, 50], ticktext: ["1", "2", "3", "5", "10", "20", "50"] });
+  plotNew("axLoglog", [pts, cur], Object.assign(ll, { yaxis: { title: "p(n)", type: "log", exponentformat: "power" } }));
+}
+function modelPlots() {
+  const d = M.dists[key()], N = d.reduce((s, [, c]) => s + c, 0), fit = M.fits[key()];
+  const beta = +document.getElementById("sbeta").value, lam = +document.getElementById("slam").value;
+  document.getElementById("vbeta").textContent = f(beta); document.getElementById("vlam").textContent = f(lam);
+  const xs = d.map(([n]) => n), ys = d.map(([, c]) => c / N);
+  const cx = range(1, fit.xmax, 0.1);
+  const col = cssVar(`--c-${st.metric}`) || COL[st.corpus];
+  const pts = { x: xs, y: ys, mode: "markers", name: "observed", marker: { color: col, size: 7 } };
+  const you = { x: cx, y: tpl(beta, lam, fit.xmax, cx), mode: "lines", name: "your curve", line: { color: cssVar("--accent"), width: 2 } };
+  const best = { x: cx, y: tpl(fit.beta, fit.lambda, fit.xmax, cx), mode: "lines", name: "best fit", line: { color: col, width: 1, dash: "dot" } };
+  const lay = h => plotLayout({ margin: { l: 48, r: 10, t: 10, b: 50 }, height: 300, xaxis: { title: "n" }, legend: { orientation: "h", y: -0.25 } });
+  plotNew("modelLin", [pts, you, best], Object.assign(lay(), { yaxis: { title: "p(n)", rangemode: "tozero" } }));
+  plotNew("modelLog", [pts, you, best], Object.assign(lay(), { yaxis: { title: "p(n)", type: "log", exponentformat: "power", range: [Math.log10(Math.min(...ys)) - 0.8, 0.1] } }));
+  const dn = nll(beta, lam, d, fit.xmax) - nll(fit.beta, fit.lambda, d, fit.xmax);
+  const mode = lam > 0 && beta < 0 ? -beta / lam : (beta <= 0 ? "∞ (rises)" : 1);
+  const p = tpl(beta, lam, fit.xmax, [1, 2, 3]);
+  document.getElementById("readout").innerHTML = `<span>mode −β/λ = <b>${typeof mode === "number" ? f(mode) : mode}</b></span>
+    <span>asymptotic factor e<sup>−λ</sup> = <b>${f(Math.exp(-lam), 3)}</b> (÷${f(Math.exp(lam), 1)} per unit)</span>
+    <span>p(2)/p(1) = <b>${f(p[1] / p[0])}</b>, p(3)/p(2) = <b>${f(p[2] / p[1])}</b></span>
+    <span>misfit NLL − NLL<sub>min</sub> = <b>${f(dn, 1)}</b></span>`;
+}
+function landscape() {
+  const g = M.grid;
+  const z = g.dnll.map(row => row.map(v => Math.log2(1 + v)));
+  const levels = [1, 2, 4, 8, 16, 32, 64, 128, 256, 512, 1024].map(v => Math.log2(1 + v));
+  const data = [{ type: "contour", x: g.beta, y: g.lambda, z, contours: { start: levels[0], end: levels[levels.length - 1], size: 1, coloring: "heatmap", showlabels: false },
+    colorscale: "Viridis", reversescale: true, colorbar: { title: "ΔNLL", tickvals: levels.filter((_, i) => i % 2 === 0), ticktext: [1, 4, 16, 64, 256, 1024].map(String) }, hovertemplate: "β %{x:.2f}, λ %{y:.2f}<br>ΔNLL %{text}<extra></extra>",
+    text: g.dnll.map(r => r.map(v => v.toFixed(1))) },
+    { x: [g.beta_hat], y: [g.lambda_hat], mode: "markers", marker: { symbol: "star", size: 14, color: "#fff", line: { color: "#000", width: 1 } }, name: "best fit", hovertemplate: `β ${f(g.beta_hat)}, λ ${f(g.lambda_hat)}<extra>best fit</extra>` }];
+  plotNew("landscape", data, plotLayout({ height: 380, margin: { l: 50, r: 10, t: 10, b: 44 }, showlegend: false, xaxis: { title: "β" }, yaxis: { title: "λ" } }));
+}
+function nmaxTable() {
+  let h = "";
+  for (const [k, o] of Object.entries(M.nmax)) {
+    const [name, metric] = k.split("|");
+    h += `<p class="small"><b>${name}</b>, ${MLAB[metric]}, all relations (largest observed value ${o.observed_max}):</p>` +
+      tbl(["n_max", "β", "λ", "mode −β/λ"], o.rows.map(r => [r.xmax, f(r.beta), f(r.lambda), f(r.mode)]));
+  }
+  const spread = o => { const ls = o.rows.map(r => r.lambda); return Math.max(...ls) - Math.min(...ls); };
+  document.getElementById("nmaxTable").innerHTML = h + `<p class="small muted">With the support fixed at the observed maximum (what the site does), λ is defined
+    by the data in hand. Enlarging the support changes λ by ${Object.values(M.nmax).map(o => f(spread(o), 3)).join(", ")} here: when the fitted tail is steep, the values
+    beyond the observed maximum carry almost no probability. The review's request is that <i>n</i><sub>max</sub> be printed so that the reader can check this.</p>`;
+}
+function olsTable() {
+  if (!Object.keys(M.ols).length) { document.getElementById('olsTable').innerHTML = '<p class="small muted">Not computed on the article data.</p>'; return; }
+  const rows = [];
+  for (const c of M.corpora) for (const m of ["len", "flux", "weight"]) for (const b of ["", "|allbin"]) {
+    const o = M.ols[`${c}|all|${m}${b}`]; if (!o) continue;
+    rows.push([`${c} · ${MLAB[m]} · ${b ? "all sentences" : "10–19 words"}`, f(o.mle_beta), f(o.mle_lambda), f(o.ols_beta), f(o.ols_lambda), f(o.ols_npoints, 0)]);
+  }
+  document.getElementById("olsTable").innerHTML = tbl(["corpus · measure · sentences", "β (MLE)", "λ (MLE)", "β (OLS)", "λ (OLS)", "points used by OLS"], rows);
+}
+function ratioTable() {
+  const c = document.getElementById("ratioCorpus").value, m = document.getElementById("ratioMetric").value;
+  const R = M.ratios[`${c}|${m}`], fit = M.families[`${c}|${m}`].models.tpl.params;
+  document.getElementById("ratioTable").innerHTML = `<p class="small">${c}, ${MLAB[m]}, all relations: β = ${f(fit.beta)}, λ = ${f(fit.lambda)}, e<sup>−λ</sup> = ${f(Math.exp(-fit.lambda), 3)}.</p>` +
+    tbl(["n", "p(n) %", "observed p(n+1)/p(n)", "fitted ratio ((n+1)/n)^−β e^−λ"], R.map(r => [r.n, f(100 * r.p, r.p < 0.001 ? 3 : 2), f(r.emp, 3), f(r.tpl, 3)]));
+}
+function randomTable() {
+  if (!Object.keys(M.random).length) { document.getElementById('randomTable').innerHTML = '<p class="small muted">Not computed on the article data; see the article\'s discussion of the random baseline.</p>'; return; }
+  const rows = [];
+  for (const m of ["len", "flux", "weight"]) {
+    const o = M.fits[`${st.corpus}|all|${m}`], r = M.random[`${st.corpus}|all|${m}`]; if (!o || !r) continue;
+    rows.push([MLAB[m], f(o.mean), f(r.mean), f(o.lambda), f(r.lambda), f(o.lambda / r.lambda, 1)]);
+  }
+  document.getElementById("randomTable").innerHTML = `<p class="small"><b>${st.corpus}</b>, all relations, 10–19 words: observed order against one random projective order per sentence.</p>` +
+    tbl(["measure", "mean (observed)", "mean (random)", "λ (observed)", "λ (random)", "ratio"], rows);
+}
+function profilePlot() {
+  const P = M.profile, fit = M.fits["GSD|all|flux"], B = M.bootstrap.GSD["all|flux"];
+  plotNew("profilePlot", [{ x: P.lambda, y: P.dnll, mode: "lines", line: { color: cssVar("--c-flux") } },
+    { x: [P.lambda[0], P.lambda[P.lambda.length - 1]], y: [1.92, 1.92], mode: "lines", line: { color: cssVar("--muted"), dash: "dot" } }],
+    plotLayout({ height: 240, margin: { l: 48, r: 10, t: 10, b: 40 }, showlegend: false, xaxis: { title: "λ" }, yaxis: { title: "NLL − NLL min", range: [0, 6] } }));
+  document.getElementById("profileText").innerHTML = `λ = ${f(fit.lambda, 3)}. 95 % interval from the profile: ${f(P.ci95[0], 3)} – ${f(P.ci95[1], 3)} (half-width ${f((P.ci95[1] - P.ci95[0]) / 2, 3)});
+    Hessian SE ${f(fit.se_lambda, 4)} (×1.96 = ${f(1.96 * fit.se_lambda, 3)}); sentence-bootstrap SE ${f(B.se_lambda, 3)} (×1.96 = ${f(1.96 * B.se_lambda, 3)}).`;
+}
+function seTable() {
+  const rows = [];
+  for (const c of M.corpora) for (const fl of ["all", "micro"]) for (const m of ["flux", "weight"]) {
+    const o = M.fits[`${c}|${fl}|${m}`], B = M.bootstrap[c][`${fl}|${m}`]; if (!o || !B) continue;
+    rows.push([`${c} · ${m} · ${fl === "all" ? "all" : "micro"}`, f(o.lambda), f(o.se_lambda, 3), f(B.se_lambda, 3), f(B.se_lambda / o.se_lambda, 1), f(B.mean), f(B.se_mean, 3)]);
+  }
+  document.getElementById("seTable").innerHTML = tbl(["cell", "λ", "SE Hessian", "SE bootstrap", "ratio", "mean", "SE mean"], rows);
+  const ratios = rows.map(r => +r[4]);
+  document.getElementById("seRatioText").textContent = `${f(Math.min(...ratios), 1)} to ${f(Math.max(...ratios), 1)} times`;
+}
+function zTable() {
+  const [, m, q] = document.getElementById("zMetric").value.split("|");
+  const C = M.corpora, get = (c, fl) => M.bootstrap[c][`${fl}|${m}`];
+  const head = ["", ...C];
+  const rows = C.map((a, i) => [a, ...C.map((b, j) => {
+    if (i === j) return { v: `<b>${f(get(a, "all")[q])} / ${f(get(a, "micro")[q])}</b>`, cls: "" };
+    const fl = i < j ? "all" : "micro", A = get(a, fl), Bb = get(b, fl);
+    const z = (A[q] - Bb[q]) / Math.sqrt(A["se_" + q] ** 2 + Bb["se_" + q] ** 2);
+    return { v: f(z, 1), cls: Math.abs(z) > 1.96 ? "sig" : "ns" };
+  })]);
+  document.getElementById("zTable").innerHTML = tbl(head, rows) + `<p class="small muted">Diagonal: the value with all relations / without macro-syntax. Upper triangle: <i>z</i> with all relations; lower triangle: without macro-syntax. Positive means row &gt; column.</p>`;
+}
+function tvTable() {
+  const T = M.tv, names = Object.keys(T.shares);
+  const rows = T.pairs.map(([a, b, v]) => { const s = T.sims[`${a}|${b}`]; return [`${a} vs ${b}`, T.sizes[a].toLocaleString("en"), T.sizes[b].toLocaleString("en"), f(v, 4), f(s.mean, 4), f(s.q95, 4), { v: v > s.q95 ? "yes" : "no", cls: v > s.q95 ? "sig" : "ns" }]; });
+  const above = T.pairs.filter(([a, b, v]) => v > T.sims[`${a}|${b}`].q95).length;
+  document.getElementById("tvTable").innerHTML = `<p class="small">ContentUD flux weight, 10–19 words, shares of weight ${T.values.join(", ")}: ` +
+    names.map(n => `${n} ${T.shares[n].map(v => f(100 * v, 2)).join(" / ")} %`).join("; ") + `.</p>` +
+    tbl(["pair", "positions a", "positions b", "observed TV", "noise: mean TV", "noise: 95th percentile", "above noise?"], rows) +
+    `<p class="small muted">Noise: 3,000 pairs of samples of the same sizes drawn from the pooled distribution (what identical distributions would show).</p>`;
+  document.getElementById("tvSummary").textContent = `The largest observed distance (${f(Math.max(...T.pairs.map(p => p[2])), 4)}) is two to three times the average noise, but ${above} of the ${T.pairs.length} pairs exceed the 95th percentile of their noise, and barely: with corpora of this size, a distance of 0.01 is at the edge of what sampling alone produces.`;
+  const c = T.chi2;
+  document.getElementById("chiText").textContent = `χ² = ${f(c.stat, 1)}, ${c.dof} degrees of freedom, p ${c.p < 1e-4 ? "< 0.0001" : "= " + f(c.p, 4)}, Cramér's V = ${f(c.cramers_v, 3)}`;
+}
+function lrTable() {
+  const rows = M.lrtests.map(t => [`${t.a} vs ${t.b}`, `${MLAB[t.metric]}, ${t.filter === "all" ? "all" : "micro"}`, f(t.lambda_a), f(t.lambda_b), f(t.lambda_pooled), f(t.LR, 1),
+    { v: t.p < 1e-4 ? "< 0.0001" : f(t.p, 4), cls: t.p < 0.05 ? "sig" : "ns" }]);
+  document.getElementById("lrTable").innerHTML = tbl(["pair", "cell", "λ a", "λ b", "λ pooled", "LR", "p"], rows);
+}
+function famTable() {
+  const c = document.getElementById("famCorpus").value, m = document.getElementById("famMetric").value;
+  const F = M.families[`${c}|${m}`], d = M.dists[`${c}|all|${m}`], N = d.reduce((s, [, x]) => s + x, 0);
+  const names = { tpl: "truncated power law", geometric: "geometric (exponential)", powerlaw: "power law", poisson: "shifted Poisson", negbin: "shifted negative binomial", dweibull: "discrete Weibull" };
+  const order = Object.entries(F.models).sort((a, b) => a[1].aic - b[1].aic);
+  const best = order[0][1].aic;
+  const pf = p => Object.entries(p).map(([k, v]) => (k === "r" && v >= 1000) ? "r ≥ 1000 (Poisson limit)" : `${k} = ${f(v, 3)}`).join(", ");
+  document.getElementById("famTable").innerHTML = `<p class="small"><b>${c}</b>, ${MLAB[m]}, all relations, N = ${N.toLocaleString("en")}, support 1 … ${F.xmax}.</p>` +
+    tbl(["family", "k", "parameters", "NLL", "AIC − best"], order.map(([k, o]) => [names[k], o.k, pf(o.params), f(o.nll, 1), { v: f(o.aic - best, 1), cls: o.aic - best < 10 ? "sig" : "" }])) +
+    `<p class="small muted">Highlighted: within 10 of the best AIC.</p>`;
+  const xs = d.map(([n]) => n), ys = d.map(([, x]) => x / N);
+  const sup = range(1, F.xmax, 1);
+  const cols = { tpl: cssVar("--c-flux"), geometric: "#888", powerlaw: "#bbb", poisson: "#2a9d8f", negbin: "#e76f51", dweibull: "#8e44ad" };
+  const data = [{ x: xs, y: ys, mode: "markers", name: "observed", marker: { color: cssVar("--text"), size: 8 } }];
+  for (const [k, o] of order) data.push({ x: sup, y: o.p, mode: "lines", name: names[k], line: { color: cols[k], width: k === "tpl" ? 2 : 1.3 } });
+  plotNew("famPlot", data, plotLayout({ height: 320, margin: { l: 48, r: 10, t: 10, b: 40 }, legend: { orientation: "h", y: -0.2 },
+    xaxis: { title: "n", type: m === "len" ? "log" : "linear" }, yaxis: { title: "p(n)", type: "log", exponentformat: "power", range: [Math.log10(Math.min(...ys.filter(v => v > 0))) - 0.8, 0.1] } }));
+}
+function lengthPlots() {
+  const B = M.bylength;
+  const mk = k => M.corpora.map(c => { const R = B[c].rows, ns = Object.keys(R).map(Number).sort((a, b) => a - b);
+    return { x: ns, y: ns.map(n => R[n][k]), mode: "lines+markers", name: c, line: { color: COL[c] }, marker: { size: 6 } }; });
+  const lay = () => plotLayout({ height: 300, margin: { l: 48, r: 10, t: 10, b: 50 }, xaxis: { title: "sentence length (words)", dtick: 1 }, yaxis: { title: "mean flux", range: [1.5, 2.45] }, legend: { orientation: "h", y: -0.3 } });
+  plotNew("lenAll", mk("flux"), lay()); plotNew("lenMicro", mk("micro"), lay());
+  // slope per word from GSD, all relations
+  const R = B.GSD.rows, ns = Object.keys(R).map(Number), mx = ns.reduce((a, b) => a + b, 0) / ns.length, my = ns.reduce((a, n) => a + R[n].flux, 0) / ns.length;
+  const slope = ns.reduce((a, n) => a + (n - mx) * (R[n].flux - my), 0) / ns.reduce((a, n) => a + (n - mx) ** 2, 0);
+  const rows = M.corpora.map(c => [c, B[c].units.toLocaleString("en"), f(B[c].mean_len, 2), f(B[c].rows[10].micro), f(B[c].rows[14].micro), f(B[c].rows[19].micro)]);
+  document.getElementById("lenTable").innerHTML = tbl(["corpus", "units of 10–19 words", "mean length in the bin", "micro flux at 10", "at 14", "at 19"], rows) +
+    `<p class="small muted">In GSD the mean flux rises by ${f(slope, 3)} per word between 10 and 19 words. The spoken corpora are ${f(B.GSD.mean_len - (B.ParisStories.mean_len + B.Rhapsodie.mean_len + B.CEFC.mean_len) / 3, 1)} words shorter
+    on average inside the bin than GSD, worth about ${f(slope * (B.GSD.mean_len - (B.ParisStories.mean_len + B.Rhapsodie.mean_len + B.CEFC.mean_len) / 3), 3)} of mean flux.</p>`;
+}
+function refreshExample() {
+  histTable(); axesPlots();
+  const fit = M.fits[key()];
+  document.getElementById("sbeta").value = fit.beta.toFixed(2); document.getElementById("slam").value = fit.lambda.toFixed(2);
+  modelPlots(); randomTable();
+}
+document.addEventListener("DOMContentLoaded", async () => {
+  M = await getJSON("data/math.json");
+  makeControls(document.getElementById("ctl"), st, [
+    { k: "corpus", label: "Corpus", type: "select", options: Object.fromEntries(M.corpora.map(c => [c, c])) },
+    { k: "metric", label: "Measure", type: "seg", options: MLAB },
+    { k: "filter", label: "Relations", type: "seg", options: FLAB }], refreshExample);
+  refreshExample();
+  document.getElementById("sbeta").oninput = modelPlots; document.getElementById("slam").oninput = modelPlots;
+  document.getElementById("bestBtn").onclick = () => { const fit = M.fits[key()]; document.getElementById("sbeta").value = fit.beta.toFixed(2); document.getElementById("slam").value = fit.lambda.toFixed(2); modelPlots(); };
+  landscape(); nmaxTable(); olsTable();
+  document.getElementById("ratioCorpus").onchange = ratioTable; document.getElementById("ratioMetric").onchange = ratioTable; ratioTable();
+  profilePlot(); seTable();
+  document.getElementById("zMetric").onchange = zTable; zTable();
+  tvTable(); lrTable();
+  document.getElementById("famCorpus").onchange = famTable; document.getElementById("famMetric").onchange = famTable; famTable();
+  lengthPlots();
+});
+</script>
+</body>
+</html>

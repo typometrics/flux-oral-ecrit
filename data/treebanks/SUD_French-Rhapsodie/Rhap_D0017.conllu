@@ -1,0 +1,213 @@
+# sent_id = Rhap_D0017-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = $L1 "euh" oui //
+# text = euh, oui.
+1	euh	euh	INTJ	_	_	3	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=160|WordAlignmentEnd=620
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=620|WordAlignmentEnd=620
+3	oui	oui	INTJ	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=620|WordAlignmentEnd=1102
+4	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=1102|WordAlignmentEnd=1102
+
+# sent_id = Rhap_D0017-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = { vous | vous | vous } prenez { à droite | la droite } //
+# text = vous, vous, vous prenez à droite, la droite.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	reparandum	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No|WordAlignmentBegin=1102|WordAlignmentEnd=1670
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=1670|WordAlignmentEnd=1670
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	reparandum	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|SpaceAfter=No|WordAlignmentBegin=1670|WordAlignmentEnd=2104
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=2104|WordAlignmentEnd=2104
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=2104|WordAlignmentEnd=2297
+6	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=2297|WordAlignmentEnd=2545
+7	à	à	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=2545|WordAlignmentEnd=2650
+8	droite	droite	NOUN	_	_	7	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=2650|WordAlignmentEnd=3183
+9	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=3183|WordAlignmentEnd=3990
+10	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=3990|WordAlignmentEnd=4244
+11	droite	droite	NOUN	_	_	8	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=4244|WordAlignmentEnd=4752
+12	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=4752|WordAlignmentEnd=4752
+
+# sent_id = Rhap_D0017-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et vous allez tout droit jusqu'au prochain arrêt de tram où il y a Nef Chavant //
+# text = et vous allez tout droit jusqu'au prochain arrêt de tram où il y a Nef Chavant.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=5735|WordAlignmentEnd=5975
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=5975|WordAlignmentEnd=6075
+3	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=6075|WordAlignmentEnd=6355
+4	tout	tout	ADV	_	_	5	mod	_	WordAlignmentBegin=6355|WordAlignmentEnd=6490
+5	droit	droit	ADJ	_	Gender=Masc	3	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=6490|WordAlignmentEnd=6857
+6	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No|WordAlignmentBegin=6857|WordAlignmentEnd=7235
+7	au	au	ADP	_	_	6	comp	_	WordAlignmentBegin=7235|WordAlignmentEnd=7828
+8	prochain	prochain	ADJ	_	Number=Sing	9	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=7828|WordAlignmentEnd=8142
+9	arrêt	arrêt	NOUN	_	_	7	comp	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=8142|WordAlignmentEnd=8405
+10	de	de	ADP	_	_	9	udep	_	WordAlignmentBegin=8405|WordAlignmentEnd=8485
+11	tram	tram	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=8485|WordAlignmentEnd=8795
+12	où	où	ADV	_	PronType=Rel	15	mod	_	WordAlignmentBegin=9639|WordAlignmentEnd=9730
+13	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	15	subj@expl	_	Person[lex]=3|WordAlignmentBegin=9730|WordAlignmentEnd=9772
+14	y	y	PRON	_	PronType=Prs	15	comp@expl	_	Person[lex]=3|WordAlignmentBegin=9772|WordAlignmentEnd=9876
+15	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	mod@relcl	_	WordAlignmentBegin=9876|WordAlignmentEnd=10393
+16	Nef	Nef	PROPN	_	Number=Sing	15	comp:obj	_	Gender[lex]=Fem|WordAlignmentBegin=10393|WordAlignmentEnd=10643
+17	Chavant	Chavant	PROPN	_	_	16	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=10643|WordAlignmentEnd=11043
+18	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=11043|WordAlignmentEnd=11043
+
+# sent_id = Rhap_D0017-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et vous continuez tout droit jusqu'au deuxième arrêt //
+# text = et vous continuez tout droit jusqu'au deuxième arrêt.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=12043|WordAlignmentEnd=12296
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=12296|WordAlignmentEnd=12428
+3	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=12428|WordAlignmentEnd=12812
+4	tout	tout	ADV	_	_	5	mod	_	WordAlignmentBegin=12812|WordAlignmentEnd=12943
+5	droit	droit	NOUN	_	_	3	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=12943|WordAlignmentEnd=13348
+6	jusqu'	jusque	ADP	_	_	3	mod	_	SpaceAfter=No|WordAlignmentBegin=13348|WordAlignmentEnd=13743
+7	au	au	ADP	_	_	6	comp	_	WordAlignmentBegin=13743|WordAlignmentEnd=14016
+8	deuxième	deuxième	ADJ	_	Number=Sing	9	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=14016|WordAlignmentEnd=14347
+9	arrêt	arrêt	NOUN	_	_	7	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=14347|WordAlignmentEnd=14643
+10	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=14643|WordAlignmentEnd=14643
+
+# sent_id = Rhap_D0017-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et avant d'arriver au troisième <+ vous prenez à droite là où il y a { les intersions | les intersections } //
+# text = et avant d'arriver au troisième, vous prenez à droite là où il y a les intersions, les intersections.
+1	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=15513|WordAlignmentEnd=16148
+2	avant	avant	NOUN	_	_	9	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=16148|WordAlignmentEnd=16483
+3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No|WordAlignmentBegin=16483|WordAlignmentEnd=16523
+4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp	_	Subject=NoRaising|WordAlignmentBegin=16523|WordAlignmentEnd=16913
+5	au	au	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=16913|WordAlignmentEnd=17073
+6	troisième	troisième	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=17073|WordAlignmentEnd=17753
+7	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=17753|WordAlignmentEnd=17753
+8	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=17753|WordAlignmentEnd=17879
+9	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=17879|WordAlignmentEnd=18411
+10	à	à	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=18411|WordAlignmentEnd=18820
+11	droite	droite	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=18820|WordAlignmentEnd=19307
+12	là	là	ADV	_	_	11	mod	_	WordAlignmentBegin=20074|WordAlignmentEnd=20287
+13	où	où	ADV	_	PronType=Rel	16	mod	_	WordAlignmentBegin=20287|WordAlignmentEnd=20391
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	16	subj@expl	_	Person[lex]=3|WordAlignmentBegin=20391|WordAlignmentEnd=20446
+15	y	y	PRON	_	PronType=Prs	16	comp@expl	_	Person[lex]=3|WordAlignmentBegin=20446|WordAlignmentEnd=20532
+16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	WordAlignmentBegin=20532|WordAlignmentEnd=20882
+17	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art|Shared=No	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=20882|WordAlignmentEnd=20986
+18	intersions	*intersion	NOUN	_	_	21	reparandum	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=20986|WordAlignmentEnd=21764
+19	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=21764|WordAlignmentEnd=21922
+20	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=21922|WordAlignmentEnd=22086
+21	intersections	intersection	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=22086|WordAlignmentEnd=22785
+22	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=22785|WordAlignmentEnd=22785
+
+# sent_id = Rhap_D0017-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et vous marchez sur deux cents mètres <
+# text = et vous marchez sur deux cents mètres.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=24295|WordAlignmentEnd=24375
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=24375|WordAlignmentEnd=24483
+3	marchez	marcher	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=24483|WordAlignmentEnd=24985
+4	sur	sur	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=24985|WordAlignmentEnd=25288
+5	deux	deux	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur|WordAlignmentBegin=25288|WordAlignmentEnd=25445
+6	cents	cents	NUM	_	ExtPos=DET	5	flat	_	Number[lex]=Plur|WordAlignmentBegin=25445|WordAlignmentEnd=25645
+7	mètres	mètre	NOUN	_	_	4	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=25645|WordAlignmentEnd=26114
+8	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=26114|WordAlignmentEnd=26114
+
+# sent_id = Rhap_D0017-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et vous y êtes //
+# text = et vous y êtes.
+1	et	et	CCONJ	_	_	4	cc	_	WordAlignmentBegin=26114|WordAlignmentEnd=26225
+2	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=26225|WordAlignmentEnd=26419
+3	y	y	PRON	_	PronType=Prs	4	comp:pred	_	Person[lex]=3|WordAlignmentBegin=26466|WordAlignmentEnd=26548
+4	êtes	être	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=26548|WordAlignmentEnd=26835
+5	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=26835|WordAlignmentEnd=26835
+
+# sent_id = Rhap_D0017-8
+# prosodic_annotation = yes
+# speaker = L2
+# speaker_id = §LM7
+# macrosyntax = $L2 "euh" ^mais { au | au } prochain arrêt <+ { je | je } continue //
+# text = euh, mais au, au prochain arrêt, je, je continue ?
+1	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=27936|WordAlignmentEnd=28367
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=28367|WordAlignmentEnd=28367
+3	mais	mais	CCONJ	_	_	13	cc	_	WordAlignmentBegin=28367|WordAlignmentEnd=28654
+4	au	au	ADP	_	_	6	reparandum	_	WordAlignmentBegin=28654|WordAlignmentEnd=28826
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=28826|WordAlignmentEnd=29016
+6	au	au	ADP	_	_	13	mod	_	WordAlignmentBegin=29016|WordAlignmentEnd=29132
+7	prochain	prochain	ADJ	_	Number=Sing	8	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=29132|WordAlignmentEnd=29542
+8	arrêt	arrêt	NOUN	_	_	6	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=29542|WordAlignmentEnd=29873
+9	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=29873|WordAlignmentEnd=29873
+10	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=29873|WordAlignmentEnd=30230
+11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=30230|WordAlignmentEnd=30515
+12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=30515|WordAlignmentEnd=30704
+13	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=30704|WordAlignmentEnd=31332
+14	?	?	PUNCT	_	_	13	punct	_	WordAlignmentBegin=31332|WordAlignmentEnd=31332
+
+# sent_id = Rhap_D0017-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = $L1 "euh" au prochain arrêt <+ "oui" vous continuez //+ jusqu'au deuxième //
+# text = euh, au prochain arrêt, oui, vous continuez, jusqu'au deuxième.
+1	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=32019|WordAlignmentEnd=32288
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=32288|WordAlignmentEnd=32802
+3	au	au	ADP	_	_	10	mod	_	WordAlignmentBegin=32802|WordAlignmentEnd=33049
+4	prochain	prochain	ADJ	_	Number=Sing	5	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=33049|WordAlignmentEnd=33511
+5	arrêt	arrêt	NOUN	_	_	3	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=33511|WordAlignmentEnd=33948
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=33948|WordAlignmentEnd=33948
+7	oui	oui	INTJ	_	_	5	discourse	_	SpaceAfter=No|WordAlignmentBegin=33948|WordAlignmentEnd=34311
+8	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=34311|WordAlignmentEnd=34311
+9	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=34311|WordAlignmentEnd=34618
+10	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=34618|WordAlignmentEnd=35254
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=35254|WordAlignmentEnd=35942
+12	jusqu'	jusque	ADP	_	_	10	comp:obl	_	SpaceAfter=No|WordAlignmentBegin=35942|WordAlignmentEnd=36999
+13	au	au	ADP	_	_	12	comp	_	WordAlignmentBegin=36999|WordAlignmentEnd=37104
+14	deuxième	deuxième	NOUN	_	_	13	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=37104|WordAlignmentEnd=37600
+15	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=37600|WordAlignmentEnd=37600
+
+# sent_id = Rhap_D0017-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et avant d'arriver au troisième <+ il y aura une intersection des voies //
+# text = et avant d'arriver au troisième, il y aura une intersection des voies.
+1	et	et	CCONJ	_	_	10	cc	_	WordAlignmentBegin=38373|WordAlignmentEnd=38758
+2	avant	avant	NOUN	_	_	10	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=38758|WordAlignmentEnd=39061
+3	d'	de	ADP	_	_	2	udep	_	SpaceAfter=No|WordAlignmentBegin=39061|WordAlignmentEnd=39087
+4	arriver	arriver	VERB	_	VerbForm=Inf	3	comp	_	Subject=NoRaising|WordAlignmentBegin=39087|WordAlignmentEnd=39343
+5	au	au	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=39343|WordAlignmentEnd=39511
+6	troisième	troisième	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=39511|WordAlignmentEnd=40174
+7	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=40174|WordAlignmentEnd=40174
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	10	subj@expl	_	Person[lex]=3|WordAlignmentBegin=40174|WordAlignmentEnd=40283
+9	y	y	PRON	_	PronType=Prs	10	comp@expl	_	Person[lex]=3|WordAlignmentBegin=40283|WordAlignmentEnd=40343
+10	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	WordAlignmentBegin=40343|WordAlignmentEnd=40704
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	LiaisonAfter=Yes|WordAlignmentBegin=40704|WordAlignmentEnd=40863
+12	intersection	intersection	NOUN	_	_	10	comp:obj	_	cdet=No|Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=40863|WordAlignmentEnd=41902
+13	des	de	ADP	_	_	12	udep	_	WordAlignmentBegin=41902|WordAlignmentEnd=42002
+14	voies	voie	NOUN	_	_	13	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=42002|WordAlignmentEnd=42273
+15	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=42273|WordAlignmentEnd=42273
+
+# sent_id = Rhap_D0017-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM6
+# macrosyntax = ^et là <+ vous prenez à droite jusqu'à voir la cathédrale //
+# text = et là, vous prenez à droite jusqu'à voir la cathédrale.
+1	et	et	CCONJ	_	_	5	cc	_	WordAlignmentBegin=43034|WordAlignmentEnd=43314
+2	là	là	ADV	_	_	5	mod	_	SpaceAfter=No|WordAlignmentBegin=43314|WordAlignmentEnd=43872
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=43872|WordAlignmentEnd=43872
+4	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=43872|WordAlignmentEnd=44187
+5	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=44187|WordAlignmentEnd=44615
+6	à	à	ADP	_	_	5	comp:obl	_	WordAlignmentBegin=44615|WordAlignmentEnd=44875
+7	droite	droite	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=44875|WordAlignmentEnd=45390
+8	jusqu'	jusque	ADP	_	_	5	mod	_	SpaceAfter=No|WordAlignmentBegin=45390|WordAlignmentEnd=45622
+9	à	à	ADP	_	_	8	comp	_	WordAlignmentBegin=45622|WordAlignmentEnd=45694
+10	voir	voir	VERB	_	VerbForm=Inf	9	comp	_	Subject=SubjRaising|WordAlignmentBegin=45694|WordAlignmentEnd=45834
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=45834|WordAlignmentEnd=45954
+12	cathédrale	cathédrale	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=45954|WordAlignmentEnd=46556
+13	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=46556|WordAlignmentEnd=46556
+

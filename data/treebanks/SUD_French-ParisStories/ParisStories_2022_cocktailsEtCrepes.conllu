@@ -1,0 +1,744 @@
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__1
+# speaker = 0
+# text = elle en garde pas un bon souvenir.
+1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	3	subj	_	Person[lex]=3|WordAlignmentBegin=1073|WordAlignmentEnd=1293
+2	en	en	PRON	_	PronType=Prs	3	comp:obl	_	Person[lex]=3|WordAlignmentBegin=1293|WordAlignmentEnd=1513
+3	garde	garder	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=1513|WordAlignmentEnd=1733
+4	pas	pas	ADV	_	Polarity=Neg	3	mod	_	WordAlignmentBegin=1733|WordAlignmentEnd=1954
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	WordAlignmentBegin=1954|WordAlignmentEnd=2174
+6	bon	bon	ADJ	_	Gender=Masc	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=2174|WordAlignmentEnd=2394
+7	souvenir	souvenir	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=2394|WordAlignmentEnd=2614
+8	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=2614|WordAlignmentEnd=2614
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__2
+# speaker = 0
+# text = contrairement à moi, qui, bah, en fait, j'ai adoré ce moment, tu vois.
+1	contrairement	contrairement	ADV	_	_	0	root	_	WordAlignmentBegin=2951|WordAlignmentEnd=3203
+2	à	à	ADP	_	_	1	comp:obl	_	WordAlignmentBegin=3203|WordAlignmentEnd=3203
+3	moi	moi	PRON	_	Emph=Yes|PronType=Prs	2	comp	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=3203|WordAlignmentEnd=3455
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=3455|WordAlignmentEnd=3455
+5	qui	qui	PRON	_	PronType=Rel	13	reparandum	_	Promotion=subj|SpaceAfter=No|WordAlignmentBegin=3455|WordAlignmentEnd=3707
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=3707|WordAlignmentEnd=3707
+7	bah	bah	INTJ	_	_	13	discourse	_	SpaceAfter=No|WordAlignmentBegin=3707|WordAlignmentEnd=3959
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=3959|WordAlignmentEnd=3959
+9	en	en	ADP	_	ExtPos=ADV	13	discourse	_	Idiom=Yes|WordAlignmentBegin=3959|WordAlignmentEnd=4211
+10	fait	fait	NOUN	_	_	9	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=4211|WordAlignmentEnd=4463
+11	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=4463|WordAlignmentEnd=4463
+12	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=4463|WordAlignmentEnd=4714
+13	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	WordAlignmentBegin=4714|WordAlignmentEnd=4966
+14	adoré	adorer	VERB	_	VerbForm=Part|Voice=Act	13	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=4966|WordAlignmentEnd=5218
+15	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=5218|WordAlignmentEnd=5470
+16	moment	moment	NOUN	_	_	14	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=5470|WordAlignmentEnd=5722
+17	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=5722|WordAlignmentEnd=5722
+18	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	19	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=5722|WordAlignmentEnd=5974
+19	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	13	discourse	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=5974|WordAlignmentEnd=6226
+20	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=6226|WordAlignmentEnd=6226
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__3
+# speaker = 0
+# text = après, euh, bah, c'est vrai que, euh, il y avait pas mal de monde, ce soir-là.
+1	après	après	ADV	_	_	8	mod	_	SpaceAfter=No|WordAlignmentBegin=6708|WordAlignmentEnd=6950
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=6950|WordAlignmentEnd=6950
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=6950|WordAlignmentEnd=7191
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=7191|WordAlignmentEnd=7191
+5	bah	bah	INTJ	_	_	1	discourse	_	SpaceAfter=No|WordAlignmentBegin=7191|WordAlignmentEnd=7433
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=7433|WordAlignmentEnd=7433
+7	c'	ce	PRON	_	PronType=Dem	8	subj@expl	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=7433|WordAlignmentEnd=7674
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=7674|WordAlignmentEnd=7916
+9	vrai	vrai	ADJ	_	_	8	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=7916|WordAlignmentEnd=8157
+10	que	que	SCONJ	_	_	9	comp:obj@agent	_	SpaceAfter=No|WordAlignmentBegin=8157|WordAlignmentEnd=8399
+11	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=8399|WordAlignmentEnd=8399
+12	euh	euh	INTJ	_	_	16	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=8399|WordAlignmentEnd=8640
+13	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=8640|WordAlignmentEnd=8640
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	16	subj@expl	_	Person[lex]=3|WordAlignmentBegin=8640|WordAlignmentEnd=8882
+15	y	y	PRON	_	PronType=Prs	16	comp@expl	_	Person[lex]=3|WordAlignmentBegin=8882|WordAlignmentEnd=9124
+16	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	10	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=9124|WordAlignmentEnd=9365
+17	pas	pas	ADV	_	Polarity=Neg	18	mod	_	InIdiom=Yes|WordAlignmentBegin=9365|WordAlignmentEnd=9607
+18	mal	mal	ADV	_	ExtPos=ADV|Gender=Masc|Number=Sing	16	comp:obj	_	Idiom=Yes|WordAlignmentBegin=9607|WordAlignmentEnd=9848
+19	de	de	ADP	_	_	18	comp:obl	_	WordAlignmentBegin=9848|WordAlignmentEnd=10090
+20	monde	monde	NOUN	_	_	19	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=10090|WordAlignmentEnd=10331
+21	,	,	PUNCT	_	_	23	punct	_	WordAlignmentBegin=10331|WordAlignmentEnd=10331
+22	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=10331|WordAlignmentEnd=10573
+23	soir	soir	NOUN	_	_	16	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=10573|WordAlignmentEnd=10814
+24	-là	là	ADV	_	_	23	mod	_	SpaceAfter=No|WordAlignmentBegin=10814|WordAlignmentEnd=11056
+25	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=11056|WordAlignmentEnd=11056
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__4
+# speaker = 0
+# text = on s'attendait vraiment pas qu'il y ait autant de monde, tu vois.
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	3	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=11070|WordAlignmentEnd=11257
+2	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	3	comp@expl	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=11257|WordAlignmentEnd=11443
+3	attendait	attendre	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=11443|WordAlignmentEnd=11630
+4	vraiment	vraiment	ADV	_	_	3	mod	_	WordAlignmentBegin=11630|WordAlignmentEnd=11817
+5	pas	pas	ADV	_	Polarity=Neg	3	mod	_	WordAlignmentBegin=11817|WordAlignmentEnd=12004
+6	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=12004|WordAlignmentEnd=12190
+7	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	subj@expl	_	Person[lex]=3|WordAlignmentBegin=12190|WordAlignmentEnd=12377
+8	y	y	PRON	_	PronType=Prs	9	comp@expl	_	Person[lex]=3|WordAlignmentBegin=12377|WordAlignmentEnd=12564
+9	ait	avoir	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	comp	_	WordAlignmentBegin=12564|WordAlignmentEnd=12750
+10	autant	autant	ADV	_	_	9	comp:obj	_	WordAlignmentBegin=12750|WordAlignmentEnd=12937
+11	de	de	ADP	_	_	10	comp:obl	_	WordAlignmentBegin=12937|WordAlignmentEnd=13124
+12	monde	monde	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=13124|WordAlignmentEnd=13311
+13	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=13311|WordAlignmentEnd=13311
+14	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=13311|WordAlignmentEnd=13497
+15	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	discourse	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=13497|WordAlignmentEnd=13684
+16	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=13684|WordAlignmentEnd=13684
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__5
+# speaker = 0
+# text = et, et je crois, qu'avec le recul maintenant, euh, si j'aurais dû le faire, moi aussi, euh, je pense que j'aurais été incapable de monter.
+1	et	et	CCONJ	_	_	5	cc	_	SpaceAfter=No|WordAlignmentBegin=14195|WordAlignmentEnd=14463
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=14463|WordAlignmentEnd=14463
+3	et	et	CCONJ	_	_	1	conj:coord	_	WordAlignmentBegin=14463|WordAlignmentEnd=14730
+4	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=14730|WordAlignmentEnd=14998
+5	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=14998|WordAlignmentEnd=15265
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=15265|WordAlignmentEnd=15265
+7	qu'	que	SCONJ	_	_	5	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=15265|WordAlignmentEnd=15533
+8	avec	avec	ADP	_	_	28	mod	_	WordAlignmentBegin=15533|WordAlignmentEnd=15801
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=15801|WordAlignmentEnd=16068
+10	recul	recul	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=16068|WordAlignmentEnd=16336
+11	maintenant	maintenant	ADV	_	_	10	mod	_	SpaceAfter=No|WordAlignmentBegin=16336|WordAlignmentEnd=16603
+12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=16603|WordAlignmentEnd=16603
+13	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=16603|WordAlignmentEnd=16871
+14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=16871|WordAlignmentEnd=16871
+15	si	si	SCONJ	_	_	28	mod	_	WordAlignmentBegin=16871|WordAlignmentEnd=17139
+16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	17	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=17139|WordAlignmentEnd=17406
+17	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	comp	_	WordAlignmentBegin=17406|WordAlignmentEnd=17674
+18	dû	devoir	VERB	_	VerbForm=Part|Voice=Act	17	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=17674|WordAlignmentEnd=17942
+19	le	lui	PRON	_	Case=Acc|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	20	comp:obj	_	Person[lex]=3|WordAlignmentBegin=17942|WordAlignmentEnd=18209
+20	faire	faire	VERB	_	VerbForm=Inf	18	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=18209|WordAlignmentEnd=18477
+21	,	,	PUNCT	_	_	22	punct	_	WordAlignmentBegin=18477|WordAlignmentEnd=18477
+22	moi	moi	PRON	_	Emph=Yes|PronType=Prs	17	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=18477|WordAlignmentEnd=18744
+23	aussi	aussi	ADV	_	_	22	mod	_	SpaceAfter=No|WordAlignmentBegin=18744|WordAlignmentEnd=19012
+24	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=19012|WordAlignmentEnd=19012
+25	euh	euh	INTJ	_	_	23	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=19012|WordAlignmentEnd=19280
+26	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=19280|WordAlignmentEnd=19280
+27	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	28	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=19280|WordAlignmentEnd=19547
+28	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp	_	Person[ctxt]=1|WordAlignmentBegin=19547|WordAlignmentEnd=19815
+29	que	que	SCONJ	_	_	28	comp:obj	_	WordAlignmentBegin=19815|WordAlignmentEnd=20082
+30	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	31	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=20082|WordAlignmentEnd=20350
+31	aurais	avoir	AUX	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	comp	_	WordAlignmentBegin=20350|WordAlignmentEnd=20618
+32	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	31	comp:aux@tense	_	Tense[denom]=Past|WordAlignmentBegin=20618|WordAlignmentEnd=20885
+33	incapable	incapable	ADJ	_	_	32	comp:pred	_	HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=20885|WordAlignmentEnd=21153
+34	de	de	ADP	_	_	33	mod	_	WordAlignmentBegin=21153|WordAlignmentEnd=21420
+35	monter	monter	VERB	_	VerbForm=Inf	34	comp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=21420|WordAlignmentEnd=21688
+36	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=21688|WordAlignmentEnd=21688
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__6
+# speaker = 0
+# text = mais du coup, en fait, euh, c'est ça, je pense.
+1	mais	mais	CCONJ	_	_	11	cc	_	WordAlignmentBegin=21688|WordAlignmentEnd=21958
+2	du	du	ADP	_	_	11	discourse	_	WordAlignmentBegin=21958|WordAlignmentEnd=22228
+3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=22228|WordAlignmentEnd=22498
+4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=22498|WordAlignmentEnd=22498
+5	en	en	ADP	_	ExtPos=ADV	11	discourse	_	Idiom=Yes|WordAlignmentBegin=22498|WordAlignmentEnd=22768
+6	fait	fait	NOUN	_	_	5	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=22768|WordAlignmentEnd=23038
+7	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=23038|WordAlignmentEnd=23038
+8	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=23038|WordAlignmentEnd=23308
+9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=23308|WordAlignmentEnd=23308
+10	c'	ce	PRON	_	PronType=Dem	11	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=23308|WordAlignmentEnd=23578
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=23578|WordAlignmentEnd=23848
+12	ça	ça	PRON	_	PronType=Dem	11	comp:pred	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=23848|WordAlignmentEnd=24118
+13	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=24118|WordAlignmentEnd=24118
+14	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=24118|WordAlignmentEnd=24388
+15	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	11	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=24388|WordAlignmentEnd=24658
+16	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=24658|WordAlignmentEnd=24658
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__7
+# speaker = 0
+# text = elle a vu le monde arriver, elle a été incapable de produire.
+1	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	2	subj	_	Person[lex]=3|WordAlignmentBegin=24658|WordAlignmentEnd=24892
+2	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=24892|WordAlignmentEnd=25125
+3	vu	voir	VERB	_	VerbForm=Part|Voice=Act	2	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=25125|WordAlignmentEnd=25359
+4	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=25359|WordAlignmentEnd=25593
+5	monde	monde	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=25593|WordAlignmentEnd=25826
+6	arriver	arriver	VERB	_	VerbForm=Inf	3	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=25826|WordAlignmentEnd=26060
+7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=26060|WordAlignmentEnd=26060
+8	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	9	subj	_	Person[lex]=3|WordAlignmentBegin=26248|WordAlignmentEnd=26490
+9	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:coord	_	WordAlignmentBegin=26490|WordAlignmentEnd=26732
+10	été	être	AUX	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	comp:aux@tense	_	Tense[denom]=Past|WordAlignmentBegin=26732|WordAlignmentEnd=26975
+11	incapable	incapable	ADJ	_	_	10	comp:pred	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=26975|WordAlignmentEnd=27217
+12	de	de	ADP	_	_	11	mod	_	WordAlignmentBegin=27217|WordAlignmentEnd=27459
+13	produire	produire	VERB	_	VerbForm=Inf	12	comp	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=27459|WordAlignmentEnd=27701
+14	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=27701|WordAlignmentEnd=27701
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__8
+# speaker = 0
+# text = et, et voilà.
+1	et	et	CCONJ	_	_	4	cc	_	SpaceAfter=No|WordAlignmentBegin=28599|WordAlignmentEnd=28844
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=28844|WordAlignmentEnd=28844
+3	et	et	CCONJ	_	_	1	conj:coord	_	WordAlignmentBegin=28844|WordAlignmentEnd=29088
+4	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=29088|WordAlignmentEnd=29333
+5	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=29333|WordAlignmentEnd=29333
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__9
+# speaker = 0
+# text = et du coup, c'est, c'est vraiment, je pense, sa mauvaise expérience.
+1	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=29333|WordAlignmentEnd=29578
+2	du	du	ADP	_	_	9	discourse	_	WordAlignmentBegin=29578|WordAlignmentEnd=29823
+3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=29823|WordAlignmentEnd=30067
+4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=30067|WordAlignmentEnd=30067
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=30067|WordAlignmentEnd=30312
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	reparandum	_	SpaceAfter=No|WordAlignmentBegin=30312|WordAlignmentEnd=30557
+7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=30557|WordAlignmentEnd=30557
+8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=30557|WordAlignmentEnd=30802
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=30802|WordAlignmentEnd=31046
+10	vraiment	vraiment	ADV	_	_	9	mod	_	SpaceAfter=No|WordAlignmentBegin=31046|WordAlignmentEnd=31291
+11	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=31291|WordAlignmentEnd=31291
+12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=31291|WordAlignmentEnd=31536
+13	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=31536|WordAlignmentEnd=31781
+14	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=31781|WordAlignmentEnd=31781
+15	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=31781|WordAlignmentEnd=32025
+16	mauvaise	mauvais	ADJ	_	Gender=Fem|Number=Sing	17	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=32025|WordAlignmentEnd=32270
+17	expérience	expérience	NOUN	_	_	9	comp:pred	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=32270|WordAlignmentEnd=32515
+18	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=32515|WordAlignmentEnd=32515
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__10
+# speaker = 0
+# text = alors que moi, contrairement à elle, bah, j'étais vachement à l'aise.
+1	alors	alors	ADV	_	_	0	root	_	WordAlignmentBegin=32515|WordAlignmentEnd=32760
+2	que	que	SCONJ	_	_	1	unk	_	WordAlignmentBegin=32760|WordAlignmentEnd=33004
+3	moi	moi	PRON	_	Emph=Yes|PronType=Prs	12	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=33004|WordAlignmentEnd=33249
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=33249|WordAlignmentEnd=33249
+5	contrairement	contrairement	ADV	_	_	12	mod	_	WordAlignmentBegin=33249|WordAlignmentEnd=33494
+6	à	à	ADP	_	_	5	comp:obl	_	WordAlignmentBegin=33494|WordAlignmentEnd=33494
+7	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	6	comp	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=33494|WordAlignmentEnd=33739
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=33739|WordAlignmentEnd=33739
+9	bah	bah	INTJ	_	_	5	discourse	_	SpaceAfter=No|WordAlignmentBegin=33739|WordAlignmentEnd=33983
+10	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=33983|WordAlignmentEnd=33983
+11	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=33983|WordAlignmentEnd=34228
+12	étais	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	1	comp:obj	_	WordAlignmentBegin=34228|WordAlignmentEnd=34473
+13	vachement	vachement	ADV	_	_	14	mod	_	WordAlignmentBegin=34473|WordAlignmentEnd=34718
+14	à	à	ADP	_	_	12	comp:pred	_	WordAlignmentBegin=34718|WordAlignmentEnd=34718
+15	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=34718|WordAlignmentEnd=34962
+16	aise	aise	NOUN	_	_	14	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=34962|WordAlignmentEnd=35207
+17	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=35207|WordAlignmentEnd=35207
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__11
+# speaker = 0
+# text = en plus, moi, je servais les boissons.
+1	en	en	ADP	_	_	7	mod	_	WordAlignmentBegin=35690|WordAlignmentEnd=35915
+2	plus	plus	ADV	_	_	1	comp	_	SpaceAfter=No|WordAlignmentBegin=35915|WordAlignmentEnd=36141
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=36141|WordAlignmentEnd=36141
+4	moi	moi	PRON	_	Emph=Yes|PronType=Prs	7	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=36141|WordAlignmentEnd=36366
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=36366|WordAlignmentEnd=36366
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=36366|WordAlignmentEnd=36592
+7	servais	servir	VERB	_	Mood=Ind|Number=Sing|Tense=Imp|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=36592|WordAlignmentEnd=36817
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=36817|WordAlignmentEnd=37042
+9	boissons	boisson	NOUN	_	_	7	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=37042|WordAlignmentEnd=37268
+10	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=37268|WordAlignmentEnd=37268
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__12
+# speaker = 0
+# text = donc, euh, c'était vachement intéréssant.
+1	donc	donc	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=37268|WordAlignmentEnd=37493
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=37493|WordAlignmentEnd=37493
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=37493|WordAlignmentEnd=37718
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=37718|WordAlignmentEnd=37718
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=37718|WordAlignmentEnd=37944
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	WordAlignmentBegin=37944|WordAlignmentEnd=38169
+7	vachement	vachement	ADV	_	_	8	mod	_	WordAlignmentBegin=38169|WordAlignmentEnd=38395
+8	intéréssant	intéréssant	ADJ	_	Gender=Masc	6	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=38395|WordAlignmentEnd=38620
+9	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=38620|WordAlignmentEnd=38620
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__13
+# speaker = 0
+# text = et puis, du coup, euh, c'est ce jour-là où j'ai rencontré Lise.
+1	et	et	CCONJ	_	ExtPos=CCONJ	10	cc	_	Idiom=Yes|WordAlignmentBegin=38943|WordAlignmentEnd=39120
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=39120|WordAlignmentEnd=39297
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=39297|WordAlignmentEnd=39297
+4	du	du	ADP	_	_	10	discourse	_	WordAlignmentBegin=39297|WordAlignmentEnd=39474
+5	coup	coup	NOUN	_	_	4	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=39474|WordAlignmentEnd=39651
+6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=39651|WordAlignmentEnd=39651
+7	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=40178|WordAlignmentEnd=40410
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=40410|WordAlignmentEnd=40410
+9	c'	ce	PRON	_	PronType=Dem	10	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=40410|WordAlignmentEnd=40643
+10	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=40643|WordAlignmentEnd=40875
+11	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=40875|WordAlignmentEnd=41107
+12	jour	jour	NOUN	_	_	10	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=41107|WordAlignmentEnd=41339
+13	-là	là	ADV	_	_	12	mod	_	WordAlignmentBegin=41339|WordAlignmentEnd=41572
+14	où	où	ADV	_	PronType=Rel	16	mod	_	WordAlignmentBegin=41572|WordAlignmentEnd=41804
+15	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=41804|WordAlignmentEnd=42036
+16	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	WordAlignmentBegin=42036|WordAlignmentEnd=42268
+17	rencontré	rencontrer	VERB	_	VerbForm=Part|Voice=Act	16	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=42268|WordAlignmentEnd=42501
+18	Lise	Lise	PROPN	_	_	17	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=42501|WordAlignmentEnd=42733
+19	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=42733|WordAlignmentEnd=42733
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__14
+# speaker = 0
+# text = elle, euh, je l'ai rencontrée, parce qu'elle était venue me demander une boisson, euh.
+1	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	7	dislocated:obj	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=43436|WordAlignmentEnd=43722
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=43722|WordAlignmentEnd=43722
+3	euh	euh	INTJ	_	_	1	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=43722|WordAlignmentEnd=44007
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=44007|WordAlignmentEnd=44007
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=44007|WordAlignmentEnd=44293
+6	l'	lui	PRON	_	Case=Acc|Emph=No|Number=Sing|PronType=Prs	8	comp:obj	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=44293|WordAlignmentEnd=44579
+7	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=44579|WordAlignmentEnd=44864
+8	rencontrée	rencontrer	VERB	_	VerbForm=Part|Voice=Act	7	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=44864|WordAlignmentEnd=45150
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=45150|WordAlignmentEnd=45150
+10	parce	parce	ADV	_	ExtPos=SCONJ	7	mod	_	Idiom=Yes|WordAlignmentBegin=45150|WordAlignmentEnd=45436
+11	qu'	que	SCONJ	_	_	10	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=45436|WordAlignmentEnd=45722
+12	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	13	subj	_	Person[lex]=3|WordAlignmentBegin=45722|WordAlignmentEnd=46007
+13	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	10	comp:obj	_	WordAlignmentBegin=46007|WordAlignmentEnd=46293
+14	venue	venir	VERB	_	VerbForm=Part	13	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=46293|WordAlignmentEnd=46579
+15	me	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	16	comp:obl	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=46579|WordAlignmentEnd=46864
+16	demander	demander	VERB	_	VerbForm=Inf	14	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=46864|WordAlignmentEnd=47150
+17	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	WordAlignmentBegin=47150|WordAlignmentEnd=47436
+18	boisson	boisson	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=47436|WordAlignmentEnd=47721
+19	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=47721|WordAlignmentEnd=47721
+20	euh	euh	INTJ	_	_	18	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=47721|WordAlignmentEnd=48007
+21	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=48007|WordAlignmentEnd=48007
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__15
+# speaker = 0
+# text = et je me souviens c'était très, euh, très bizarre, parce qu'elle m'avait demandé un jus d'orange, de jus d'orange avec un, un autre jus, je sais plus trop quoi.
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=48421|WordAlignmentEnd=48606
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=48606|WordAlignmentEnd=48791
+3	me	moi	PRON	_	Emph=No|PronType=Prs|Reflex=Yes	4	comp@expl	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=48791|WordAlignmentEnd=48975
+4	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	discourse	_	Person[ctxt]=1|WordAlignmentBegin=48975|WordAlignmentEnd=49160
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=49160|WordAlignmentEnd=49345
+6	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	WordAlignmentBegin=49345|WordAlignmentEnd=49530
+7	très	très	ADV	_	_	12	mod	_	SpaceAfter=No|WordAlignmentBegin=49530|WordAlignmentEnd=49714
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=49714|WordAlignmentEnd=49714
+9	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=49714|WordAlignmentEnd=49899
+10	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=49899|WordAlignmentEnd=49899
+11	très	très	ADV	_	_	12	mod	_	WordAlignmentBegin=49899|WordAlignmentEnd=50084
+12	bizarre	bizarre	ADJ	_	_	6	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=50084|WordAlignmentEnd=50269
+13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=50269|WordAlignmentEnd=50269
+14	parce	parce	ADV	_	ExtPos=SCONJ	6	mod	_	Idiom=Yes|WordAlignmentBegin=50269|WordAlignmentEnd=50453
+15	qu'	que	SCONJ	_	_	14	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=50453|WordAlignmentEnd=50638
+16	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	18	subj	_	Person[lex]=3|WordAlignmentBegin=50638|WordAlignmentEnd=50823
+17	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	19	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=50823|WordAlignmentEnd=51008
+18	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	14	comp:obj	_	WordAlignmentBegin=51008|WordAlignmentEnd=51192
+19	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	18	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=51192|WordAlignmentEnd=51377
+20	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	WordAlignmentBegin=51377|WordAlignmentEnd=51562
+21	jus	jus	NOUN	_	_	19	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=51562|WordAlignmentEnd=51747
+22	d'	de	ADP	_	_	21	udep	_	SpaceAfter=No|WordAlignmentBegin=51747|WordAlignmentEnd=51931
+23	orange	orange	NOUN	_	_	22	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=51931|WordAlignmentEnd=52116
+24	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=52116|WordAlignmentEnd=52116
+25	de	un	DET	_	PronType=Art	21	unk	_	Scrap=Yes|WordAlignmentBegin=52598|WordAlignmentEnd=52945
+26	jus	jus	NOUN	_	_	21	conj:appos	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=52945|WordAlignmentEnd=53292
+27	d'	de	ADP	_	_	26	udep	_	SpaceAfter=No|WordAlignmentBegin=53292|WordAlignmentEnd=53638
+28	orange	orange	NOUN	_	_	27	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=53638|WordAlignmentEnd=53985
+29	avec	avec	ADP	_	_	21	udep	_	WordAlignmentBegin=53985|WordAlignmentEnd=54332
+30	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	32	reparandum	_	SpaceAfter=No|WordAlignmentBegin=54332|WordAlignmentEnd=54679
+31	,	,	PUNCT	_	_	30	punct	_	WordAlignmentBegin=54679|WordAlignmentEnd=54679
+32	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	LiaisonAfter=Yes|WordAlignmentBegin=54679|WordAlignmentEnd=55026
+33	autre	autre	ADJ	_	_	34	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=55026|WordAlignmentEnd=55372
+34	jus	jus	NOUN	_	_	29	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=55372|WordAlignmentEnd=55719
+35	,	,	PUNCT	_	_	37	punct	_	WordAlignmentBegin=55719|WordAlignmentEnd=55719
+36	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	37	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=55719|WordAlignmentEnd=56066
+37	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	34	parataxis:parenth	_	Person[ctxt]=1|WordAlignmentBegin=56066|WordAlignmentEnd=56413
+38	plus	plus	ADV	_	_	39	mod	_	WordAlignmentBegin=56413|WordAlignmentEnd=56759
+39	trop	trop	ADV	_	_	37	mod	_	WordAlignmentBegin=56759|WordAlignmentEnd=57106
+40	quoi	quoi	PRON	_	PronType=Int	37	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=57106|WordAlignmentEnd=57453
+41	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=57453|WordAlignmentEnd=57453
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__16
+# speaker = 0
+# text = mais je sais qu'en fait, euh, il y avait plus.
+1	mais	mais	CCONJ	_	_	3	cc	_	WordAlignmentBegin=57453|WordAlignmentEnd=57613
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=57613|WordAlignmentEnd=57773
+3	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=57773|WordAlignmentEnd=57934
+4	qu'	que	SCONJ	_	_	3	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=57934|WordAlignmentEnd=58094
+5	en	en	ADP	_	ExtPos=ADV	12	discourse	_	Idiom=Yes|WordAlignmentBegin=58094|WordAlignmentEnd=58254
+6	fait	fait	NOUN	_	_	5	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=58254|WordAlignmentEnd=58414
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=58414|WordAlignmentEnd=58414
+8	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=58414|WordAlignmentEnd=58574
+9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=58574|WordAlignmentEnd=58574
+10	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	12	subj@expl	_	Person[lex]=3|WordAlignmentBegin=58574|WordAlignmentEnd=58734
+11	y	y	PRON	_	PronType=Prs	12	comp@expl	_	Person[lex]=3|WordAlignmentBegin=58734|WordAlignmentEnd=58895
+12	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	4	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=58895|WordAlignmentEnd=59055
+13	plus	plus	ADV	_	_	12	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=59055|WordAlignmentEnd=59215
+14	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=59215|WordAlignmentEnd=59215
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__17
+# speaker = 0
+# text = et du coup pour rigoler, je lui avais demandé de venir avec moi en réserve.
+1	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=59898|WordAlignmentEnd=60134
+2	du	du	ADP	_	_	9	discourse	_	WordAlignmentBegin=60134|WordAlignmentEnd=60371
+3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=60371|WordAlignmentEnd=60607
+4	pour	pour	ADP	_	_	9	mod	_	WordAlignmentBegin=60607|WordAlignmentEnd=60843
+5	rigoler	rigoler	VERB	_	VerbForm=Inf	4	comp	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=60843|WordAlignmentEnd=61080
+6	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=61080|WordAlignmentEnd=61080
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=61080|WordAlignmentEnd=61316
+8	lui	lui	PRON	_	Case=Dat|Emph=No|Number=Sing|PronType=Prs	10	comp:obl	_	Person[lex]=3|WordAlignmentBegin=61316|WordAlignmentEnd=61552
+9	avais	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	0	root	_	WordAlignmentBegin=61552|WordAlignmentEnd=61789
+10	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=61789|WordAlignmentEnd=62025
+11	de	de	ADP	_	_	10	comp:obl	_	WordAlignmentBegin=62025|WordAlignmentEnd=62261
+12	venir	venir	VERB	_	VerbForm=Inf	11	comp	_	Subject=OblRaising|WordAlignmentBegin=62261|WordAlignmentEnd=62498
+13	avec	avec	ADP	_	_	12	mod	_	WordAlignmentBegin=62498|WordAlignmentEnd=62734
+14	moi	moi	PRON	_	Emph=Yes|PronType=Prs	13	comp	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=62734|WordAlignmentEnd=62970
+15	en	en	ADP	_	_	12	mod	_	WordAlignmentBegin=62970|WordAlignmentEnd=63207
+16	réserve	réserve	NOUN	_	_	15	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=63207|WordAlignmentEnd=63443
+17	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=63443|WordAlignmentEnd=63443
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__18
+# speaker = 0
+# text = et le truc, en fait, c'est que euh, c'est qu'il y a qu'on avait pas les clefs.
+1	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=63443|WordAlignmentEnd=63679
+2	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=63679|WordAlignmentEnd=63916
+3	truc	truc	NOUN	_	_	9	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=63916|WordAlignmentEnd=64152
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=64152|WordAlignmentEnd=64152
+5	en	en	ADP	_	ExtPos=ADV	9	discourse	_	Idiom=Yes|WordAlignmentBegin=64152|WordAlignmentEnd=64388
+6	fait	fait	NOUN	_	_	5	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=64388|WordAlignmentEnd=64625
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=64625|WordAlignmentEnd=64625
+8	c'	ce	PRON	_	PronType=Dem	9	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=64625|WordAlignmentEnd=64861
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=64861|WordAlignmentEnd=65097
+10	que	que	SCONJ	_	_	9	comp:pred	_	WordAlignmentBegin=65097|WordAlignmentEnd=65334
+11	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=65334|WordAlignmentEnd=65570
+12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=65570|WordAlignmentEnd=65570
+13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=66607|WordAlignmentEnd=66728
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	comp	_	WordAlignmentBegin=66728|WordAlignmentEnd=66849
+15	qu'	que	SCONJ	_	_	14	comp:pred	_	SpaceAfter=No|WordAlignmentBegin=66849|WordAlignmentEnd=66970
+16	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	18	subj@expl	_	Person[lex]=3|WordAlignmentBegin=66970|WordAlignmentEnd=67091
+17	y	y	PRON	_	PronType=Prs	18	comp@expl	_	Person[lex]=3|WordAlignmentBegin=67091|WordAlignmentEnd=67212
+18	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	comp	_	WordAlignmentBegin=67212|WordAlignmentEnd=67334
+19	qu'	que	SCONJ	_	_	18	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=67334|WordAlignmentEnd=67455
+20	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	21	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=67455|WordAlignmentEnd=67576
+21	avait	avoir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	19	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=67576|WordAlignmentEnd=67697
+22	pas	pas	ADV	_	Polarity=Neg	21	mod	_	WordAlignmentBegin=67697|WordAlignmentEnd=67818
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=67818|WordAlignmentEnd=67939
+24	clefs	clef	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=67939|WordAlignmentEnd=68060
+25	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=68060|WordAlignmentEnd=68060
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__19
+# speaker = 0
+# text = et du coup, on est restées bloquées en bas, pendant dix minutes, à peu près.
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=68166|WordAlignmentEnd=68381
+2	du	du	ADP	_	_	6	discourse	_	WordAlignmentBegin=68381|WordAlignmentEnd=68596
+3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=68596|WordAlignmentEnd=68810
+4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=68810|WordAlignmentEnd=68810
+5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=68810|WordAlignmentEnd=69025
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=69025|WordAlignmentEnd=69240
+7	restées	rester	VERB	_	VerbForm=Part	6	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=69240|WordAlignmentEnd=69455
+8	bloquées	bloquer	VERB	_	VerbForm=Part	7	comp:pred	_	Gender[ctxt]=Fem|Number[ctxt]=Plur|Tense[denom]=Past|WordAlignmentBegin=69455|WordAlignmentEnd=69670
+9	en	en	ADP	_	_	8	mod	_	WordAlignmentBegin=69670|WordAlignmentEnd=69884
+10	bas	bas	NOUN	_	_	9	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=69884|WordAlignmentEnd=70099
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=70099|WordAlignmentEnd=70099
+12	pendant	pendant	ADP	_	_	7	mod	_	WordAlignmentBegin=70099|WordAlignmentEnd=70314
+13	dix	dix	NUM	_	ExtPos=DET	14	det	_	Number[lex]=Plur|WordAlignmentBegin=70314|WordAlignmentEnd=70529
+14	minutes	minute	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=70529|WordAlignmentEnd=70743
+15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=70743|WordAlignmentEnd=70743
+16	à	à	ADP	_	ExtPos=ADV	14	udep	_	Idiom=Yes|WordAlignmentBegin=70743|WordAlignmentEnd=70743
+17	peu	peu	ADV	_	_	16	unk	_	InIdiom=Yes|WordAlignmentBegin=70743|WordAlignmentEnd=70958
+18	près	près	ADV	_	_	17	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=70958|WordAlignmentEnd=71173
+19	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=71173|WordAlignmentEnd=71173
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__20
+# speaker = 0
+# text = et du coup, on a parlé un petit peu de tout et de rien.
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=71173|WordAlignmentEnd=71343
+2	du	du	ADP	_	_	6	discourse	_	WordAlignmentBegin=71343|WordAlignmentEnd=71512
+3	coup	coup	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=71512|WordAlignmentEnd=71682
+4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=71682|WordAlignmentEnd=71682
+5	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	6	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=71682|WordAlignmentEnd=71851
+6	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=71851|WordAlignmentEnd=72021
+7	parlé	parler	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=72021|WordAlignmentEnd=72190
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	WordAlignmentBegin=72190|WordAlignmentEnd=72360
+9	petit	petit	ADJ	_	Gender=Masc	10	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=72360|WordAlignmentEnd=72530
+10	peu	peu	NOUN	_	_	7	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=72530|WordAlignmentEnd=72699
+11	de	de	ADP	_	_	7	comp:obl	_	WordAlignmentBegin=72699|WordAlignmentEnd=72869
+12	tout	tout	PRON	_	PronType=Ind	11	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=72869|WordAlignmentEnd=73038
+13	et	et	CCONJ	_	_	14	cc	_	WordAlignmentBegin=73038|WordAlignmentEnd=73208
+14	de	de	ADP	_	_	11	conj:coord	_	WordAlignmentBegin=73208|WordAlignmentEnd=73377
+15	rien	rien	PRON	_	PronType=Neg	14	comp	_	Gender[lex]=Masc|Number[lex]=Sing|SpaceAfter=No|WordAlignmentBegin=73377|WordAlignmentEnd=73547
+16	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=73547|WordAlignmentEnd=73547
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__21
+# speaker = 0
+# text = et, euh, le feeling, il est bien passé, tu vois.
+1	et	et	CCONJ	_	_	9	cc	_	SpaceAfter=No|WordAlignmentBegin=73995|WordAlignmentEnd=74191
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=74191|WordAlignmentEnd=74191
+3	euh	euh	INTJ	_	_	9	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=74191|WordAlignmentEnd=74388
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=74388|WordAlignmentEnd=74388
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=74388|WordAlignmentEnd=74584
+6	feeling	feeling	NOUN	_	_	9	dislocated:subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=74584|WordAlignmentEnd=74780
+7	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=74780|WordAlignmentEnd=74780
+8	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	9	subj	_	Person[lex]=3|WordAlignmentBegin=74780|WordAlignmentEnd=74977
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=74977|WordAlignmentEnd=75173
+10	bien	bien	ADV	_	_	9	mod	_	WordAlignmentBegin=75173|WordAlignmentEnd=75369
+11	passé	passer	VERB	_	VerbForm=Part	9	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=75369|WordAlignmentEnd=75565
+12	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=75565|WordAlignmentEnd=75565
+13	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=75565|WordAlignmentEnd=75762
+14	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	9	discourse	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=75762|WordAlignmentEnd=75958
+15	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=75958|WordAlignmentEnd=75958
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__22
+# speaker = 0
+# text = et, euh, mh, et après, elle est revenue souvent nous voir, régulièrement.
+1	et	et	CCONJ	_	_	11	cc	_	SpaceAfter=No|WordAlignmentBegin=76596|WordAlignmentEnd=76983
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=76983|WordAlignmentEnd=76983
+3	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=76983|WordAlignmentEnd=77370
+4	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=77370|WordAlignmentEnd=77370
+5	mh	mh	INTJ	_	_	11	discourse	_	SpaceAfter=No|WordAlignmentBegin=77370|WordAlignmentEnd=77757
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=77757|WordAlignmentEnd=77757
+7	et	et	CCONJ	_	_	11	cc	_	WordAlignmentBegin=77757|WordAlignmentEnd=78144
+8	après	après	ADV	_	_	11	mod	_	SpaceAfter=No|WordAlignmentBegin=78144|WordAlignmentEnd=78531
+9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=78531|WordAlignmentEnd=78531
+10	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	11	subj@pass	_	Person[lex]=3|WordAlignmentBegin=78531|WordAlignmentEnd=78919
+11	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=78919|WordAlignmentEnd=79306
+12	revenue	revenir	VERB	_	Person=1|VerbForm=Part	11	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=79306|WordAlignmentEnd=79693
+13	souvent	souvent	ADV	_	_	12	mod	_	WordAlignmentBegin=79693|WordAlignmentEnd=80080
+14	nous	nous	PRON	_	Case=Acc|Emph=No|PronType=Prs	15	comp:obj	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=80080|WordAlignmentEnd=80467
+15	voir	voir	VERB	_	VerbForm=Inf	12	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=80467|WordAlignmentEnd=80854
+16	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=80854|WordAlignmentEnd=80854
+17	régulièrement	régulièrement	ADV	_	_	15	mod	_	SpaceAfter=No|WordAlignmentBegin=80854|WordAlignmentEnd=81083
+18	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=81083|WordAlignmentEnd=81083
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__23
+# speaker = 0
+# text = et petit à petit, bah, on est devenue amie.
+1	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=81083|WordAlignmentEnd=81312
+2	petit	petit	ADJ	_	Gender=Masc	3	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=81312|WordAlignmentEnd=81540
+3	à	à	ADP	_	_	9	mod	_	WordAlignmentBegin=81540|WordAlignmentEnd=81540
+4	petit	petit	ADJ	_	Gender=Masc	3	comp	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=81540|WordAlignmentEnd=81769
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=81769|WordAlignmentEnd=81769
+6	bah	bah	INTJ	_	_	3	discourse	_	SpaceAfter=No|WordAlignmentBegin=81769|WordAlignmentEnd=81998
+7	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=81998|WordAlignmentEnd=81998
+8	on	on	PRON	_	PronType=Ind	9	subj@pass	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=81998|WordAlignmentEnd=82227
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=82227|WordAlignmentEnd=82455
+10	devenue	devenir	VERB	_	VerbForm=Part	9	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=82455|WordAlignmentEnd=82684
+11	amie	ami	NOUN	_	_	10	comp:pred	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=82684|WordAlignmentEnd=82913
+12	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=82913|WordAlignmentEnd=82913
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__24
+# speaker = 0
+# text = et puis, bah, tu te souviens, en fait, c'est quand j'y repense, c'est grâce à elle, qu'on a connu, euh, mh, qu'on, euh, a connu Paul et ses fameuses crêpes.
+1	et	et	CCONJ	_	ExtPos=CCONJ	21	cc	_	Idiom=Yes|WordAlignmentBegin=83123|WordAlignmentEnd=83310
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=83310|WordAlignmentEnd=83497
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=83497|WordAlignmentEnd=83497
+4	bah	bah	INTJ	_	_	21	discourse	_	SpaceAfter=No|WordAlignmentBegin=83497|WordAlignmentEnd=83685
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=83685|WordAlignmentEnd=83685
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=83685|WordAlignmentEnd=83872
+7	te	toi	PRON	_	Emph=No|PronType=Prs|Reflex=Yes	8	comp@expl	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=83872|WordAlignmentEnd=84059
+8	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	21	discourse	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=84059|WordAlignmentEnd=84246
+9	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=84246|WordAlignmentEnd=84246
+10	en	en	ADP	_	ExtPos=ADV	21	discourse	_	Idiom=Yes|WordAlignmentBegin=84246|WordAlignmentEnd=84433
+11	fait	fait	NOUN	_	_	10	comp	_	Gender[lex]=Masc|InIdiom=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=84433|WordAlignmentEnd=84620
+12	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=84620|WordAlignmentEnd=84620
+13	c'	ce	PRON	_	PronType=Dem	14	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=84620|WordAlignmentEnd=84808
+14	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	reparandum	_	WordAlignmentBegin=84808|WordAlignmentEnd=84995
+15	quand	quand	SCONJ	_	_	21	mod	_	WordAlignmentBegin=84995|WordAlignmentEnd=85182
+16	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=85182|WordAlignmentEnd=85369
+17	y	y	PRON	_	PronType=Prs	18	comp:obl	_	Person[lex]=3|WordAlignmentBegin=85369|WordAlignmentEnd=85556
+18	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	15	comp	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=85556|WordAlignmentEnd=85743
+19	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=85743|WordAlignmentEnd=85743
+20	c'	ce	PRON	_	PronType=Dem	21	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=85743|WordAlignmentEnd=85931
+21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=85931|WordAlignmentEnd=86118
+22	grâce	grâce	NOUN	_	ExtPos=ADV	21	comp:pred	_	Gender[lex]=Fem|WordAlignmentBegin=86118|WordAlignmentEnd=86305
+23	à	à	ADP	_	_	22	comp:obl	_	WordAlignmentBegin=86305|WordAlignmentEnd=86305
+24	elle	lui	PRON	_	Emph=Yes|Gender=Fem|Number=Sing|PronType=Prs	23	comp	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=86305|WordAlignmentEnd=86492
+25	,	,	PUNCT	_	_	26	punct	_	WordAlignmentBegin=86492|WordAlignmentEnd=86492
+26	qu'	que	SCONJ	_	_	21	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=86492|WordAlignmentEnd=86679
+27	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	28	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=86679|WordAlignmentEnd=86866
+28	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	comp	_	WordAlignmentBegin=86866|WordAlignmentEnd=87054
+29	connu	connaître	VERB	_	VerbForm=Part|Voice=Act	28	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=87054|WordAlignmentEnd=87241
+30	,	,	PUNCT	_	_	31	punct	_	WordAlignmentBegin=87241|WordAlignmentEnd=87241
+31	euh	euh	INTJ	_	_	29	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=87241|WordAlignmentEnd=87428
+32	,	,	PUNCT	_	_	33	punct	_	WordAlignmentBegin=87428|WordAlignmentEnd=87428
+33	mh	mh	INTJ	_	_	29	discourse	_	SpaceAfter=No|WordAlignmentBegin=87428|WordAlignmentEnd=87615
+34	,	,	PUNCT	_	_	35	punct	_	WordAlignmentBegin=87615|WordAlignmentEnd=87615
+35	qu'	que	SCONJ	_	_	26	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=87823|WordAlignmentEnd=87986
+36	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	40	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=87986|WordAlignmentEnd=88150
+37	,	,	PUNCT	_	_	38	punct	_	WordAlignmentBegin=88150|WordAlignmentEnd=88150
+38	euh	euh	INTJ	_	_	36	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=88150|WordAlignmentEnd=88313
+39	,	,	PUNCT	_	_	38	punct	_	WordAlignmentBegin=88313|WordAlignmentEnd=88313
+40	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	comp	_	WordAlignmentBegin=88313|WordAlignmentEnd=88476
+41	connu	connaître	VERB	_	VerbForm=Part|Voice=Act	40	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=88476|WordAlignmentEnd=88640
+42	Paul	Paul	PROPN	_	_	41	comp:obj	_	Gender[lex]=Unknown|WordAlignmentBegin=88640|WordAlignmentEnd=88803
+43	et	et	CCONJ	_	_	46	cc	_	WordAlignmentBegin=88803|WordAlignmentEnd=88966
+44	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	46	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=88966|WordAlignmentEnd=89129
+45	fameuses	fameux	ADJ	_	Gender=Fem	46	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=89129|WordAlignmentEnd=89293
+46	crêpes	crêpe	NOUN	_	_	42	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=89293|WordAlignmentEnd=89456
+47	.	.	PUNCT	_	_	21	punct	_	WordAlignmentBegin=89456|WordAlignmentEnd=89456
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__25
+# speaker = 0
+# text = à chaque fois, en fin de service, on allait chez lui.
+1	à	à	ADP	_	_	11	mod	_	WordAlignmentBegin=89904|WordAlignmentEnd=89904
+2	chaque	chaque	DET	_	PronType=Ind	3	det	_	Number[lex]=Sing|WordAlignmentBegin=89904|WordAlignmentEnd=90124
+3	fois	fois	NOUN	_	_	1	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=90124|WordAlignmentEnd=90345
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=90345|WordAlignmentEnd=90345
+5	en	en	ADP	_	_	11	mod	_	WordAlignmentBegin=90345|WordAlignmentEnd=90565
+6	fin	fin	NOUN	_	_	5	comp	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=90565|WordAlignmentEnd=90785
+7	de	de	ADP	_	_	6	udep	_	WordAlignmentBegin=90785|WordAlignmentEnd=91006
+8	service	service	NOUN	_	_	7	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=91006|WordAlignmentEnd=91226
+9	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=91226|WordAlignmentEnd=91226
+10	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	11	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=91226|WordAlignmentEnd=91446
+11	allait	aller	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=91446|WordAlignmentEnd=91666
+12	chez	chez	ADP	_	_	11	comp:obl	_	WordAlignmentBegin=91666|WordAlignmentEnd=91887
+13	lui	lui	PRON	_	Emph=Yes|Gender=Masc|Number=Sing|PronType=Prs	12	comp	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=91887|WordAlignmentEnd=92107
+14	.	.	PUNCT	_	_	11	punct	_	WordAlignmentBegin=92107|WordAlignmentEnd=92107
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__26
+# speaker = 0
+# text = et puis, il nous offrait les meilleures crêpes.
+1	et	et	CCONJ	_	ExtPos=CCONJ	6	cc	_	Idiom=Yes|WordAlignmentBegin=92549|WordAlignmentEnd=92767
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=92767|WordAlignmentEnd=92985
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=92985|WordAlignmentEnd=92985
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	subj	_	Person[lex]=3|WordAlignmentBegin=92985|WordAlignmentEnd=93203
+5	nous	nous	PRON	_	Case=Dat|Emph=No|PronType=Prs	6	comp:obl	_	Number[lex]=Plur|Person[lex]=1|WordAlignmentBegin=93203|WordAlignmentEnd=93421
+6	offrait	offrir	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=93421|WordAlignmentEnd=93639
+7	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=93639|WordAlignmentEnd=93856
+8	meilleures	meilleur	ADJ	_	_	9	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=93856|WordAlignmentEnd=94074
+9	crêpes	crêpe	NOUN	_	_	6	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=94074|WordAlignmentEnd=94292
+10	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=94292|WordAlignmentEnd=94292
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__27
+# speaker = 0
+# text = c'était, euh, c'était un délice.
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=94292|WordAlignmentEnd=94510
+2	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	7	reparandum	_	SpaceAfter=No|WordAlignmentBegin=94510|WordAlignmentEnd=94728
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=94728|WordAlignmentEnd=94728
+4	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=94728|WordAlignmentEnd=94946
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=94946|WordAlignmentEnd=94946
+6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=94946|WordAlignmentEnd=95164
+7	était	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	WordAlignmentBegin=95164|WordAlignmentEnd=95382
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	WordAlignmentBegin=95382|WordAlignmentEnd=95600
+9	délice	délice	NOUN	_	_	7	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=95600|WordAlignmentEnd=95818
+10	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=95818|WordAlignmentEnd=95818
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__28
+# speaker = 0
+# text = et puis même tu vois, quand j'y repense, à ce fameux cocktail qu'elle m'a demandé, bah, elle faisait un peu la même avec les crêpes.
+1	et	et	CCONJ	_	ExtPos=CCONJ	25	cc	_	Idiom=Yes|WordAlignmentBegin=95818|WordAlignmentEnd=96035
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=96035|WordAlignmentEnd=96253
+3	même	même	ADV	_	_	25	mod	_	WordAlignmentBegin=96253|WordAlignmentEnd=96471
+4	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=96471|WordAlignmentEnd=96689
+5	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	25	discourse	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=96689|WordAlignmentEnd=96907
+6	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=96907|WordAlignmentEnd=96907
+7	quand	quand	SCONJ	_	_	25	reparandum	_	WordAlignmentBegin=97197|WordAlignmentEnd=97370
+8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=97370|WordAlignmentEnd=97544
+9	y	y	PRON	_	PronType=Prs	10	comp:obl	_	Person[lex]=3|WordAlignmentBegin=97544|WordAlignmentEnd=97717
+10	repense	repenser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=97717|WordAlignmentEnd=97890
+11	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=97890|WordAlignmentEnd=97890
+12	à	à	ADP	_	_	25	mod	_	WordAlignmentBegin=98120|WordAlignmentEnd=98120
+13	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=98120|WordAlignmentEnd=98368
+14	fameux	fameux	ADJ	_	Gender=Masc	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=98368|WordAlignmentEnd=98616
+15	cocktail	cocktail	NOUN	_	_	12	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=98616|WordAlignmentEnd=98864
+16	qu'	que	PRON	_	PronType=Rel	20	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=98864|WordAlignmentEnd=99112
+17	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	19	subj	_	Person[lex]=3|WordAlignmentBegin=99112|WordAlignmentEnd=99361
+18	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	20	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=99361|WordAlignmentEnd=99609
+19	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	mod@relcl	_	WordAlignmentBegin=99609|WordAlignmentEnd=99857
+20	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	19	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=99857|WordAlignmentEnd=100105
+21	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=100105|WordAlignmentEnd=100105
+22	bah	bah	INTJ	_	_	25	discourse	_	SpaceAfter=No|WordAlignmentBegin=100105|WordAlignmentEnd=100353
+23	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=100353|WordAlignmentEnd=100353
+24	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	25	subj	_	Person[lex]=3|WordAlignmentBegin=100353|WordAlignmentEnd=100487
+25	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=100487|WordAlignmentEnd=100621
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	WordAlignmentBegin=100621|WordAlignmentEnd=100755
+27	peu	peu	NOUN	_	_	25	mod	_	Gender[lex]=Masc|WordAlignmentBegin=100755|WordAlignmentEnd=100889
+28	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=100889|WordAlignmentEnd=101022
+29	même	même	ADJ	_	_	25	comp:obj	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=101022|WordAlignmentEnd=101156
+30	avec	avec	ADP	_	_	25	mod	_	WordAlignmentBegin=101156|WordAlignmentEnd=101290
+31	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	32	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=101290|WordAlignmentEnd=101424
+32	crêpes	crêpe	NOUN	_	_	30	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=101424|WordAlignmentEnd=101558
+33	.	.	PUNCT	_	_	25	punct	_	WordAlignmentBegin=101558|WordAlignmentEnd=101558
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__29
+# speaker = 0
+# text = tu te rappelles quand elle avait demandé un mélange de banane, euh, cacahuète, euh, sirop de fraise, je crois, un truc comme ça.
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=102262|WordAlignmentEnd=102556
+2	te	toi	PRON	_	Case=Acc|Emph=No|PronType=Prs|Reflex=Yes	3	comp:obj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=102556|WordAlignmentEnd=102849
+3	rappelles	rappeler	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|WordAlignmentBegin=102849|WordAlignmentEnd=103143
+4	quand	quand	SCONJ	_	_	3	comp:obj	_	WordAlignmentBegin=103143|WordAlignmentEnd=103436
+5	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	6	subj	_	Person[lex]=3|WordAlignmentBegin=103436|WordAlignmentEnd=103730
+6	avait	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	comp	_	WordAlignmentBegin=103730|WordAlignmentEnd=104023
+7	demandé	demander	VERB	_	VerbForm=Part|Voice=Act	6	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=104023|WordAlignmentEnd=104317
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	9	det	_	WordAlignmentBegin=104317|WordAlignmentEnd=104611
+9	mélange	mélange	NOUN	_	_	7	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=104611|WordAlignmentEnd=104904
+10	de	de	ADP	_	_	9	udep	_	WordAlignmentBegin=104904|WordAlignmentEnd=105198
+11	banane	banane	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=105198|WordAlignmentEnd=105491
+12	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=105491|WordAlignmentEnd=105491
+13	euh	euh	INTJ	_	_	15	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=105491|WordAlignmentEnd=105785
+14	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=105785|WordAlignmentEnd=105785
+15	cacahuète	cacahuète	NOUN	_	_	11	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=105785|WordAlignmentEnd=106078
+16	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=106078|WordAlignmentEnd=106078
+17	euh	euh	INTJ	_	_	19	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=106078|WordAlignmentEnd=106372
+18	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=106372|WordAlignmentEnd=106372
+19	sirop	sirop	NOUN	_	_	15	conj:coord	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=106372|WordAlignmentEnd=106665
+20	de	de	ADP	_	_	19	udep	_	WordAlignmentBegin=106665|WordAlignmentEnd=106959
+21	fraise	fraise	NOUN	_	_	20	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=106959|WordAlignmentEnd=107253
+22	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=107253|WordAlignmentEnd=107253
+23	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	24	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=107253|WordAlignmentEnd=107546
+24	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	19	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=107546|WordAlignmentEnd=107840
+25	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=107840|WordAlignmentEnd=107840
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	WordAlignmentBegin=107840|WordAlignmentEnd=108133
+27	truc	truc	NOUN	_	_	9	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=108133|WordAlignmentEnd=108427
+28	comme	comme	ADP	_	_	27	udep	_	WordAlignmentBegin=108427|WordAlignmentEnd=108720
+29	ça	ça	PRON	_	PronType=Dem	28	comp	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=108720|WordAlignmentEnd=109014
+30	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=109014|WordAlignmentEnd=109014
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__30
+# speaker = 0
+# text = enfin, en tout cas, elle faisait des mélanges, euh, qui étaient vraiment trop drôles.
+1	enfin	enfin	ADV	_	ExtPos=INTJ	8	discourse	_	SpaceAfter=No|WordAlignmentBegin=109014|WordAlignmentEnd=109344
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=109344|WordAlignmentEnd=109344
+3	en	en	ADP	_	_	8	mod	_	WordAlignmentBegin=109344|WordAlignmentEnd=109673
+4	tout	tout	ADJ	_	Gender=Masc	5	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=109673|WordAlignmentEnd=110003
+5	cas	cas	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=110003|WordAlignmentEnd=110332
+6	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=110332|WordAlignmentEnd=110332
+7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	subj	_	Person[lex]=3|WordAlignmentBegin=110332|WordAlignmentEnd=110662
+8	faisait	faire	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=110662|WordAlignmentEnd=110991
+9	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	10	det	_	WordAlignmentBegin=110991|WordAlignmentEnd=111321
+10	mélanges	mélange	NOUN	_	_	8	comp:obl	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=111321|WordAlignmentEnd=111651
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=111651|WordAlignmentEnd=111651
+12	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=111651|WordAlignmentEnd=111980
+13	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=111980|WordAlignmentEnd=111980
+14	qui	qui	PRON	_	PronType=Rel	15	subj	_	WordAlignmentBegin=111980|WordAlignmentEnd=112310
+15	étaient	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	10	mod@relcl	_	WordAlignmentBegin=112310|WordAlignmentEnd=112639
+16	vraiment	vraiment	ADV	_	_	18	mod	_	WordAlignmentBegin=112639|WordAlignmentEnd=112969
+17	trop	trop	ADV	_	_	18	mod	_	WordAlignmentBegin=112969|WordAlignmentEnd=113298
+18	drôles	drôle	ADJ	_	_	15	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=113298|WordAlignmentEnd=113628
+19	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=113628|WordAlignmentEnd=113628
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__31
+# speaker = 0
+# text = et d'ailleurs, tu sais, toi, ce qu'il est devenu Paul ?
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=114541|WordAlignmentEnd=114737
+2	d'	de	ADP	_	ExtPos=ADV	6	mod	_	Idiom=Yes|SpaceAfter=No|WordAlignmentBegin=114737|WordAlignmentEnd=114933
+3	ailleurs	ailleurs	ADV	_	_	2	comp	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=114933|WordAlignmentEnd=115129
+4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=115129|WordAlignmentEnd=115129
+5	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=115129|WordAlignmentEnd=115325
+6	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=115325|WordAlignmentEnd=115521
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=115521|WordAlignmentEnd=115521
+8	toi	toi	PRON	_	Emph=Yes|PronType=Prs	6	dislocated:subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=115521|WordAlignmentEnd=115717
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=115717|WordAlignmentEnd=115717
+10	ce	ce	PRON	_	PronType=Dem	6	comp:obj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=115717|WordAlignmentEnd=115912
+11	qu'	que	PRON	_	PronType=Rel	14	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=115912|WordAlignmentEnd=116108
+12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	13	subj	_	Person[lex]=3|WordAlignmentBegin=116108|WordAlignmentEnd=116304
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	mod@relcl	_	WordAlignmentBegin=116304|WordAlignmentEnd=116500
+14	devenu	devenir	VERB	_	VerbForm=Part	13	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=116500|WordAlignmentEnd=116696
+15	Paul	Paul	PROPN	_	_	13	dislocated:subj	_	Gender[lex]=Unknown|WordAlignmentBegin=116696|WordAlignmentEnd=116892
+16	?	?	PUNCT	_	_	6	punct	_	WordAlignmentBegin=116892|WordAlignmentEnd=116892
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__32
+# speaker = 0
+# text = je crois qu'il a déménagé, non ?
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=117424|WordAlignmentEnd=117571
+2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=117571|WordAlignmentEnd=117718
+3	qu'	que	SCONJ	_	_	2	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=117718|WordAlignmentEnd=117865
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj	_	Person[lex]=3|WordAlignmentBegin=117865|WordAlignmentEnd=118011
+5	a	avoir	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	comp	_	WordAlignmentBegin=118011|WordAlignmentEnd=118158
+6	déménagé	déménager	VERB	_	VerbForm=Part|Voice=Act	5	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=118158|WordAlignmentEnd=118305
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=118305|WordAlignmentEnd=118305
+8	non	non	ADV	_	_	5	discourse:tag	_	WordAlignmentBegin=118305|WordAlignmentEnd=118452
+9	?	?	PUNCT	_	_	2	punct	_	WordAlignmentBegin=118452|WordAlignmentEnd=118452
+
+# sent_id = ParisStories_2022_13_CocktailsEtCrêpes__33
+# speaker = 0
+# text = ouais, bah, je pense, tu as raison, sûrement.
+1	ouais	ouais	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=119290|WordAlignmentEnd=119608
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=119608|WordAlignmentEnd=119608
+3	bah	bah	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=119608|WordAlignmentEnd=119925
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=119925|WordAlignmentEnd=119925
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=119925|WordAlignmentEnd=120243
+6	pense	penser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=120243|WordAlignmentEnd=120561
+7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=120561|WordAlignmentEnd=120561
+8	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=120561|WordAlignmentEnd=120878
+9	as	avoir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis	_	WordAlignmentBegin=120878|WordAlignmentEnd=121196
+10	raison	raison	NOUN	_	_	9	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=121196|WordAlignmentEnd=121513
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=121513|WordAlignmentEnd=121513
+12	sûrement	sûrement	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=121513|WordAlignmentEnd=121831
+13	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=121831|WordAlignmentEnd=121831
+

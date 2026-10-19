@@ -1,0 +1,287 @@
+# sent_id = Rhap_M0011-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = ^alors donc < pour aller de la place Notre-Dame à La Nef Chavant <+ je prolonge la place Notre-Dame par la place Sainte-Claire //
+# text = alors donc, pour aller de la place Notre-Dame à La Nef Chavant, je prolonge la place Notre-Dame par la place Sainte-Claire.
+1	alors	alors	ADV	_	_	16	discourse	_	WordAlignmentBegin=54|WordAlignmentEnd=335
+2	donc	donc	ADV	_	_	16	discourse	_	SpaceAfter=No|WordAlignmentBegin=491|WordAlignmentEnd=661
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=661|WordAlignmentEnd=661
+4	pour	pour	ADP	_	_	16	mod	_	WordAlignmentBegin=661|WordAlignmentEnd=849
+5	aller	aller	VERB	_	VerbForm=Inf	4	comp	_	Subject=NoRaising|WordAlignmentBegin=849|WordAlignmentEnd=1059
+6	de	de	ADP	_	_	5	comp:obl	_	WordAlignmentBegin=1181|WordAlignmentEnd=1481
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=1641|WordAlignmentEnd=1801
+8	place	place	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=1801|WordAlignmentEnd=2051
+9	Notre-Dame	Notre-Dame	PROPN	_	_	8	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=2051|WordAlignmentEnd=2611
+10	à	à	ADP	_	_	6	conj:coord	_	WordAlignmentBegin=2892|WordAlignmentEnd=3142
+11	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=3182|WordAlignmentEnd=3390
+12	Nef	Nef	PROPN	_	Number=Sing	10	comp	_	Gender[lex]=Fem|WordAlignmentBegin=3390|WordAlignmentEnd=3602
+13	Chavant	Chavant	PROPN	_	_	12	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=3602|WordAlignmentEnd=4042
+14	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=4042|WordAlignmentEnd=4914
+15	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	16	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=4914|WordAlignmentEnd=5234
+16	prolonge	prolonger	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=5354|WordAlignmentEnd=5774
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=5774|WordAlignmentEnd=5854
+18	place	place	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=5854|WordAlignmentEnd=6104
+19	Notre-Dame	Notre-Dame	PROPN	_	_	18	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=6104|WordAlignmentEnd=6614
+20	par	par	ADP	_	_	16	comp:obl	_	WordAlignmentBegin=6723|WordAlignmentEnd=6863
+21	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	22	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=6863|WordAlignmentEnd=6978
+22	place	place	NOUN	_	_	20	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=6978|WordAlignmentEnd=7743
+23	Sainte-Claire	Sainte-Claire	PROPN	_	_	22	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=7743|WordAlignmentEnd=8596
+24	.	.	PUNCT	_	_	16	punct	_	WordAlignmentBegin=8596|WordAlignmentEnd=8596
+
+# sent_id = Rhap_M0011-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = je continue tout droit //
+# text = je continue tout droit.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=8596|WordAlignmentEnd=8728
+2	continue	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=8728|WordAlignmentEnd=9156
+3	tout	tout	ADV	_	_	4	mod	_	WordAlignmentBegin=9156|WordAlignmentEnd=9296
+4	droit	droit	ADJ	_	Gender=Masc	2	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=9296|WordAlignmentEnd=9616
+5	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=9616|WordAlignmentEnd=9616
+
+# sent_id = Rhap_M0011-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = j'arrive au lycée Stendhal //
+# text = j'arrive au lycée Stendhal.
+1	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=9616|WordAlignmentEnd=9726
+2	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=9726|WordAlignmentEnd=9946
+3	au	au	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=9946|WordAlignmentEnd=9976
+4	lycée	lycée	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=9976|WordAlignmentEnd=10276
+5	Stendhal	Stendhal	PROPN	_	_	4	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=10276|WordAlignmentEnd=10726
+6	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=10726|WordAlignmentEnd=10726
+
+# sent_id = Rhap_M0011-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = là <+ je tourne dans la rue du nom d'un géographe [ je me souviens plus lequel // ] //
+# text = là, je tourne dans la rue du nom d'un géographe je me souviens plus lequel.
+1	là	là	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=11165|WordAlignmentEnd=11271
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=11271|WordAlignmentEnd=11271
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=11271|WordAlignmentEnd=11345
+4	tourne	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=11345|WordAlignmentEnd=11615
+5	dans	dans	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=11615|WordAlignmentEnd=11735
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=11735|WordAlignmentEnd=11855
+7	rue	rue	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=11855|WordAlignmentEnd=12135
+8	du	du	ADP	_	_	7	udep	_	WordAlignmentBegin=12454|WordAlignmentEnd=12554
+9	nom	nom	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=12554|WordAlignmentEnd=12714
+10	d'	de	ADP	_	_	9	udep	_	SpaceAfter=No|WordAlignmentBegin=12714|WordAlignmentEnd=12774
+11	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	12	det	_	WordAlignmentBegin=12774|WordAlignmentEnd=12845
+12	géographe	géographe	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=12845|WordAlignmentEnd=13243
+13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	15	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=13243|WordAlignmentEnd=13373
+14	me	moi	PRON	_	PronType=Prs	15	comp@expl	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=13373|WordAlignmentEnd=13471
+15	souviens	souvenir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	conj:reform	_	Person[ctxt]=1|WordAlignmentBegin=13471|WordAlignmentEnd=13703
+16	plus	plus	ADV	_	_	15	mod	_	WordAlignmentBegin=13703|WordAlignmentEnd=13983
+17	lequel	lequel	PRON	_	Gender=Masc|Number=Sing|PronType=Rel	15	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=14073|WordAlignmentEnd=14503
+18	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=14503|WordAlignmentEnd=14503
+
+# sent_id = Rhap_M0011-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = ^et je passe sous le lycée Stendhal >
+# text = et je passe sous le lycée Stendhal.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=15230|WordAlignmentEnd=15309
+2	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=15309|WordAlignmentEnd=15408
+3	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=15408|WordAlignmentEnd=15955
+4	sous	sous	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=15955|WordAlignmentEnd=16235
+5	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=16235|WordAlignmentEnd=16305
+6	lycée	lycée	NOUN	_	_	4	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=16305|WordAlignmentEnd=16615
+7	Stendhal	Stendhal	PROPN	_	_	6	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=16615|WordAlignmentEnd=17264
+8	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=17264|WordAlignmentEnd=17264
+
+# sent_id = Rhap_M0011-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = un petit passage qui m'amène vers le square des postes //
+# text = un petit passage qui m'amène vers le square des postes.
+1	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	WordAlignmentBegin=17264|WordAlignmentEnd=17294
+2	petit	petit	ADJ	_	Gender=Masc	3	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=17294|WordAlignmentEnd=17404
+3	passage	passage	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=17404|WordAlignmentEnd=18118
+4	qui	qui	PRON	_	PronType=Rel	6	subj	_	WordAlignmentBegin=18678|WordAlignmentEnd=18798
+5	m'	moi	PRON	_	Case=Dat|Emph=No|PronType=Prs	6	comp:obl	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=18798|WordAlignmentEnd=18868
+6	amène	amener	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=18868|WordAlignmentEnd=19245
+7	vers	vers	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=19245|WordAlignmentEnd=19355
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=19355|WordAlignmentEnd=19435
+9	square	square	NOUN	_	_	7	comp	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=19435|WordAlignmentEnd=19745
+10	des	de	ADP	_	_	9	udep	_	WordAlignmentBegin=19745|WordAlignmentEnd=19855
+11	postes	poste	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=19855|WordAlignmentEnd=20275
+12	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=20275|WordAlignmentEnd=20275
+
+# sent_id = Rhap_M0011-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = du square des postes <+ je peux rejoindre la place de l'Étoile //
+# text = du square des postes, je peux rejoindre la place de l'Étoile.
+1	du	du	ADP	_	_	7	mod	_	WordAlignmentBegin=21063|WordAlignmentEnd=21143
+2	square	square	NOUN	_	_	1	comp	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=21143|WordAlignmentEnd=21363
+3	des	de	ADP	_	_	2	udep	_	WordAlignmentBegin=21363|WordAlignmentEnd=21483
+4	postes	poste	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=21483|WordAlignmentEnd=21875
+5	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=21875|WordAlignmentEnd=21875
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=21875|WordAlignmentEnd=22050
+7	peux	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=22050|WordAlignmentEnd=22250
+8	rejoindre	rejoindre	VERB	_	VerbForm=Inf	7	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=22250|WordAlignmentEnd=22700
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=22700|WordAlignmentEnd=22790
+10	place	place	NOUN	_	_	8	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=22790|WordAlignmentEnd=23090
+11	de	de	ADP	_	_	10	udep	_	WordAlignmentBegin=23090|WordAlignmentEnd=23160
+12	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=23160|WordAlignmentEnd=23200
+13	Étoile	étoile	NOUN	_	Number=Sing	11	comp	_	Gender[lex]=Fem|SpaceAfter=No|WordAlignmentBegin=23200|WordAlignmentEnd=23780
+14	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=23780|WordAlignmentEnd=23780
+
+# sent_id = Rhap_M0011-8
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = ^et là <+ j'ai deux itinéraires
+# text = et là, j'ai deux itinéraires.
+1	et	et	CCONJ	_	_	5	cc	_	WordAlignmentBegin=24472|WordAlignmentEnd=24582
+2	là	là	ADV	_	_	5	mod	_	SpaceAfter=No|WordAlignmentBegin=24582|WordAlignmentEnd=24815
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=24815|WordAlignmentEnd=24815
+4	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	5	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=24815|WordAlignmentEnd=24935
+5	ai	avoir	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=24935|WordAlignmentEnd=25005
+6	deux	deux	NUM	_	ExtPos=DET	7	det	_	Number[lex]=Plur|WordAlignmentBegin=25005|WordAlignmentEnd=25237
+7	itinéraires	itinéraire	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=25237|WordAlignmentEnd=25948
+8	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=25948|WordAlignmentEnd=25948
+
+# sent_id = Rhap_M0011-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = "je crois" //
+# text = je crois.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=25948|WordAlignmentEnd=26054
+2	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=26054|WordAlignmentEnd=26256
+3	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=26256|WordAlignmentEnd=26256
+
+# sent_id = Rhap_M0011-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = ^ou bien je prends { la rue Lesdiguières | ^et le boulevard Edouard Rey } //
+# text = ou bien je prends la rue Lesdiguières et le boulevard Edouard Rey.
+1	ou	ou	CCONJ	_	ExtPos=CCONJ	4	cc	_	Idiom=Yes|WordAlignmentBegin=26396|WordAlignmentEnd=26459
+2	bien	bien	ADV	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=26459|WordAlignmentEnd=26862
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=26862|WordAlignmentEnd=27278
+4	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=27717|WordAlignmentEnd=27977
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Shared=No	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=27977|WordAlignmentEnd=28097
+6	rue	rue	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=28097|WordAlignmentEnd=28277
+7	Lesdiguières	Lesdiguières	PROPN	_	_	6	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=28277|WordAlignmentEnd=29020
+8	et	et	CCONJ	_	_	10	cc	_	WordAlignmentBegin=29289|WordAlignmentEnd=29843
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=29843|WordAlignmentEnd=29958
+10	boulevard	boulevard	NOUN	_	_	6	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=29958|WordAlignmentEnd=30573
+11	Edouard	Edouard	PROPN	_	_	10	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=30573|WordAlignmentEnd=30893
+12	Rey	Rey	PROPN	_	_	11	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=30893|WordAlignmentEnd=31212
+13	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=31212|WordAlignmentEnd=31212
+
+# sent_id = Rhap_M0011-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = ^et "non" c'est plus Edouard Rey //=
+# text = et, non, c'est plus Edouard Rey.
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No|WordAlignmentBegin=32945|WordAlignmentEnd=33148
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=33148|WordAlignmentEnd=33697
+3	non	non	ADV	_	Polarity=Neg	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=33697|WordAlignmentEnd=33887
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=33887|WordAlignmentEnd=33887
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=33887|WordAlignmentEnd=34027
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=34027|WordAlignmentEnd=34077
+7	plus	plus	ADV	_	_	6	mod	_	WordAlignmentBegin=34077|WordAlignmentEnd=34311
+8	Edouard	Edouard	PROPN	_	_	6	comp:pred	_	Gender[lex]=Unknown|WordAlignmentBegin=34311|WordAlignmentEnd=34737
+9	Rey	Rey	PROPN	_	_	8	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=34737|WordAlignmentEnd=34877
+10	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=34877|WordAlignmentEnd=34877
+
+# sent_id = Rhap_M0011-12
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = { c'est Emmanu~ | c'est fils de la Sarce "je crois" } //=
+# text = c'est Emmanu~, c'est fils de la Sarce, je crois.
+1	c'	ce	PRON	_	PronType=Dem	2	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=34877|WordAlignmentEnd=35007
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	WordAlignmentBegin=35007|WordAlignmentEnd=35277
+3	Emmanu~	Emmanu~	X	_	ExtPos=PROPN	2	comp:pred	_	SpaceAfter=No|WordAlignmentBegin=35367|WordAlignmentEnd=35687
+4	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=35687|WordAlignmentEnd=35748
+5	c'	ce	PRON	_	PronType=Dem	6	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=35748|WordAlignmentEnd=35908
+6	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=parataxis:conj::Rhap_M0011-11::6|WordAlignmentBegin=35908|WordAlignmentEnd=36358
+7	fils	fils	NOUN	_	_	6	comp:pred	_	Gender[lex]=Masc|WordAlignmentBegin=36358|WordAlignmentEnd=36648
+8	de	de	ADP	_	_	7	udep	_	WordAlignmentBegin=36648|WordAlignmentEnd=36708
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=36708|WordAlignmentEnd=36828
+10	Sarce	Sarce	PROPN	_	_	8	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=36828|WordAlignmentEnd=37308
+11	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=37308|WordAlignmentEnd=37308
+12	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=37308|WordAlignmentEnd=37439
+13	crois	croire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	discourse	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=37439|WordAlignmentEnd=37785
+14	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=37785|WordAlignmentEnd=37785
+
+# sent_id = Rhap_M0011-13
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = "non" c'est même pas ça //
+# text = non, c'est même pas ça.
+1	non	non	ADV	_	Polarity=Neg	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=38687|WordAlignmentEnd=38875
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=38875|WordAlignmentEnd=38875
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=38875|WordAlignmentEnd=39000
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=39000|WordAlignmentEnd=39030
+5	même	même	ADV	_	_	4	mod	_	WordAlignmentBegin=39030|WordAlignmentEnd=39150
+6	pas	pas	ADV	_	Polarity=Neg	4	mod	_	WordAlignmentBegin=39150|WordAlignmentEnd=39250
+7	ça	ça	PRON	_	PronType=Dem	4	comp:pred	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=39250|WordAlignmentEnd=39440
+8	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=39440|WordAlignmentEnd=39440
+
+# sent_id = Rhap_M0011-14
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = je m'embrouille //
+# text = ou alors il y a une petite rue mais dont je ne sais pas le nom, une petite rue en, qui tourne un peu.
+1	ou	ou	CCONJ	_	ExtPos=CCONJ	5	cc	_	Idiom=Yes|WordAlignmentBegin=41174|WordAlignmentEnd=41214
+2	alors	alors	ADV	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=41214|WordAlignmentEnd=41374
+3	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	5	subj@expl	_	Person[lex]=3|WordAlignmentBegin=41374|WordAlignmentEnd=41424
+4	y	y	PRON	_	PronType=Prs	5	comp@expl	_	Person[lex]=3|WordAlignmentBegin=41424|WordAlignmentEnd=41484
+5	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=41484|WordAlignmentEnd=41514
+6	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Shared=No	8	det	_	WordAlignmentBegin=41514|WordAlignmentEnd=41594
+7	petite	petit	ADJ	_	Gender=Fem	8	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=41594|WordAlignmentEnd=41944
+8	rue	rue	NOUN	_	_	5	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=41944|WordAlignmentEnd=42135
+9	mais	mais	CCONJ	_	_	13	cc	_	WordAlignmentBegin=42135|WordAlignmentEnd=42245
+10	dont	dont	PRON	_	PronType=Rel	13	comp:obl	_	WordAlignmentBegin=42245|WordAlignmentEnd=42375
+11	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=42375|WordAlignmentEnd=42505
+12	ne	ne	ADV	_	Polarity=Neg	13	mod	_	WordAlignmentBegin=42505|WordAlignmentEnd=42545
+13	sais	savoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	Person[ctxt]=1|WordAlignmentBegin=42545|WordAlignmentEnd=42705
+14	pas	pas	ADV	_	Polarity=Neg	13	mod	_	WordAlignmentBegin=42705|WordAlignmentEnd=42861
+15	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=42861|WordAlignmentEnd=42915
+16	nom	nom	NOUN	_	_	13	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=42915|WordAlignmentEnd=43192
+17	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=43192|WordAlignmentEnd=43192
+18	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	20	det	_	WordAlignmentBegin=43192|WordAlignmentEnd=43270
+19	petite	petit	ADJ	_	Gender=Fem	20	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=43270|WordAlignmentEnd=43595
+20	rue	rue	NOUN	_	_	8	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=43595|WordAlignmentEnd=43937
+21	en	en	ADP	_	_	20	udep	_	Scrap=Yes|SpaceAfter=No|WordAlignmentBegin=43937|WordAlignmentEnd=45258
+22	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=45258|WordAlignmentEnd=45258
+23	qui	qui	PRON	_	PronType=Rel	24	subj	_	WordAlignmentBegin=45258|WordAlignmentEnd=45408
+24	tourne	tourner	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	20	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=45408|WordAlignmentEnd=45728
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	InIdiom=Yes|WordAlignmentBegin=45728|WordAlignmentEnd=45808
+26	peu	peu	NOUN	_	ExtPos=ADV	24	mod	_	Gender[lex]=Masc|Idiom=Yes|SpaceAfter=No|WordAlignmentBegin=45808|WordAlignmentEnd=46104
+27	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=46104|WordAlignmentEnd=46104
+
+# sent_id = Rhap_M0011-15
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM41
+# macrosyntax = { { je | j' } arrive | je tombe } sur La Nef Chavant //
+# text = je, j'arrive, je tombe sur La Nef Chavant.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=46634|WordAlignmentEnd=47124
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=47124|WordAlignmentEnd=47124
+3	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=47124|WordAlignmentEnd=47254
+4	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=47254|WordAlignmentEnd=47536
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=47536|WordAlignmentEnd=47536
+6	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=47536|WordAlignmentEnd=47666
+7	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	4	conj:reform	_	Person[ctxt]=1|WordAlignmentBegin=47666|WordAlignmentEnd=47946
+8	sur	sur	ADP	_	_	7	comp:obl	_	WordAlignmentBegin=47946|WordAlignmentEnd=48046
+9	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=48046|WordAlignmentEnd=48365
+10	Nef	Nef	PROPN	_	Number=Sing	8	comp	_	Gender[lex]=Fem|WordAlignmentBegin=48365|WordAlignmentEnd=48556
+11	Chavant	Chavant	PROPN	_	_	10	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=48556|WordAlignmentEnd=48920
+12	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=48920|WordAlignmentEnd=48920
+

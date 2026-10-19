@@ -1,0 +1,510 @@
+# sent_id = Rhap_M2005-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = le succès des réseaux sociaux sur internet n'est plus à démontrer //
+# text = le succès des réseaux sociaux sur internet n'est plus à démontrer.
+1	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=125|WordAlignmentEnd=350
+2	succès	succès	NOUN	_	_	9	subj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=350|WordAlignmentEnd=750
+3	des	de	ADP	_	_	2	udep	_	WordAlignmentBegin=750|WordAlignmentEnd=860
+4	réseaux	réseau	NOUN	_	_	3	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=860|WordAlignmentEnd=1150
+5	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	4	mod	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|WordAlignmentBegin=1150|WordAlignmentEnd=1700
+6	sur	sur	ADP	_	_	4	udep	_	WordAlignmentBegin=1700|WordAlignmentEnd=1900
+7	internet	internet	NOUN	_	_	6	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=1900|WordAlignmentEnd=2402
+8	n'	ne	ADV	_	Polarity=Neg	9	mod	_	SpaceAfter=No|WordAlignmentBegin=2475|WordAlignmentEnd=2570
+9	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=2570|WordAlignmentEnd=2640
+10	plus	plus	ADV	_	Polarity=Neg	9	mod	_	WordAlignmentBegin=2640|WordAlignmentEnd=2810
+11	à	à	ADP	_	_	9	comp:pred	_	WordAlignmentBegin=2810|WordAlignmentEnd=2910
+12	démontrer	démontrer	VERB	_	VerbForm=Inf	11	comp	_	SpaceAfter=No|Subject=NoRaising|WordAlignmentBegin=2910|WordAlignmentEnd=3530
+13	.	.	PUNCT	_	_	9	punct	_	WordAlignmentBegin=3530|WordAlignmentEnd=3530
+
+# sent_id = Rhap_M2005-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = il n'y a qu'à voir les soixante-cinq millions d'utilisateurs de Facebook //
+# text = il n'y a qu'à voir les soixante-cinq millions d'utilisateurs de Facebook.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	4	subj@expl	_	Person[lex]=3|WordAlignmentBegin=3530|WordAlignmentEnd=3665
+2	n'	ne	ADV	_	Polarity=Neg	4	mod	_	SpaceAfter=No|WordAlignmentBegin=3665|WordAlignmentEnd=3665
+3	y	y	PRON	_	PronType=Prs	4	comp@expl	_	Person[lex]=3|WordAlignmentBegin=3695|WordAlignmentEnd=3735
+4	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=3735|WordAlignmentEnd=3785
+5	qu'	que	SCONJ	_	Polarity=Neg	4	mod	_	SpaceAfter=No|WordAlignmentBegin=3785|WordAlignmentEnd=3895
+6	à	à	ADP	_	_	4	comp:obl	_	WordAlignmentBegin=3895|WordAlignmentEnd=3965
+7	voir	voir	VERB	_	VerbForm=Inf	6	comp	_	Subject=NoRaising|WordAlignmentBegin=3965|WordAlignmentEnd=4245
+8	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=4245|WordAlignmentEnd=4365
+9	soixante-cinq	soixante-cinq	NUM	_	ExtPos=DET	10	mod	_	Number[lex]=Plur|WordAlignmentBegin=4365|WordAlignmentEnd=5235
+10	millions	million	NOUN	_	_	7	comp:obj	_	cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=5235|WordAlignmentEnd=5615
+11	d'	de	ADP	_	_	10	udep	_	SpaceAfter=No|WordAlignmentBegin=5615|WordAlignmentEnd=5665
+12	utilisateurs	utilisateur	NOUN	_	_	11	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=5665|WordAlignmentEnd=6215
+13	de	de	ADP	_	_	12	udep	_	WordAlignmentBegin=6215|WordAlignmentEnd=6305
+14	Facebook	Facebook	PROPN	_	_	13	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=6305|WordAlignmentEnd=6805
+15	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=6805|WordAlignmentEnd=6805
+
+# sent_id = Rhap_M2005-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = ^mais connaissez-vous les sites "euh" sociaux spécialisés //
+# text = mais connaissez-vous les sites, euh, sociaux spécialisés ?
+1	mais	mais	CCONJ	_	_	2	cc	_	WordAlignmentBegin=7285|WordAlignmentEnd=7521
+2	connaissez	connaître	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=7674|WordAlignmentEnd=8129
+3	-vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|WordAlignmentBegin=8129|WordAlignmentEnd=8279
+4	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=8279|WordAlignmentEnd=8509
+5	sites	site	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=8509|WordAlignmentEnd=8979
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=8979|WordAlignmentEnd=8979
+7	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=8979|WordAlignmentEnd=9229
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=9229|WordAlignmentEnd=9229
+9	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	5	mod	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|WordAlignmentBegin=9229|WordAlignmentEnd=9794
+10	spécialisés	spécialisé	ADJ	_	_	5	mod	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=9908|WordAlignmentEnd=10860
+11	?	?	PUNCT	_	_	2	punct	_	WordAlignmentBegin=10860|WordAlignmentEnd=10860
+
+# sent_id = Rhap_M2005-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = dans l'ombre de Facebook, il existe ( en effet ) des sites communautaires qui permettent { de communiquer avec des amis | ^ou de faire des rencontres } dans des cercles très fermés //
+# text = il existe, en effet, des sites communautaires qui permettent de communiquer avec des amis ou de faire des rencontres dans des cercles très fermés.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj@expl	_	Person[lex]=3|WordAlignmentBegin=12753|WordAlignmentEnd=12798
+2	existe	exister	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=12798|WordAlignmentEnd=13148
+3	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=13148|WordAlignmentEnd=13148
+4	en	en	ADP	_	_	2	mod	_	WordAlignmentBegin=13148|WordAlignmentEnd=13218
+5	effet	effet	NOUN	_	_	4	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=13218|WordAlignmentEnd=13518
+6	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=13518|WordAlignmentEnd=13518
+7	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	8	det	_	WordAlignmentBegin=13518|WordAlignmentEnd=13628
+8	sites	site	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=13628|WordAlignmentEnd=13888
+9	communautaires	communautaire	ADJ	_	_	8	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=13888|WordAlignmentEnd=14705
+10	qui	qui	PRON	_	PronType=Rel	11	subj	_	WordAlignmentBegin=14751|WordAlignmentEnd=14856
+11	permettent	permettre	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	WordAlignmentBegin=14856|WordAlignmentEnd=15356
+12	de	de	ADP	_	_	11	comp:obl	_	WordAlignmentBegin=15356|WordAlignmentEnd=15526
+13	communiquer	communiquer	VERB	_	VerbForm=Inf	12	comp	_	Subject=SubjRaising|WordAlignmentBegin=15526|WordAlignmentEnd=16026
+14	avec	avec	ADP	_	_	13	comp:obl	_	WordAlignmentBegin=16026|WordAlignmentEnd=16216
+15	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	16	det	_	LiaisonAfter=Yes|WordAlignmentBegin=16216|WordAlignmentEnd=16346
+16	amis	ami	NOUN	_	_	14	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=16346|WordAlignmentEnd=16686
+17	ou	ou	CCONJ	_	_	18	cc	_	WordAlignmentBegin=16686|WordAlignmentEnd=16786
+18	de	de	ADP	_	_	12	conj:coord	_	WordAlignmentBegin=16786|WordAlignmentEnd=16886
+19	faire	faire	VERB	_	VerbForm=Inf	18	comp	_	Subject=SubjRaising|WordAlignmentBegin=16886|WordAlignmentEnd=17066
+20	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	21	det	_	WordAlignmentBegin=17066|WordAlignmentEnd=17176
+21	rencontres	rencontre	NOUN	_	_	19	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=17176|WordAlignmentEnd=17605
+22	dans	dans	ADP	_	_	18	mod	_	WordAlignmentBegin=17975|WordAlignmentEnd=18150
+23	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	24	det	_	WordAlignmentBegin=18150|WordAlignmentEnd=18260
+24	cercles	cercle	NOUN	_	_	22	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=18260|WordAlignmentEnd=18750
+25	très	très	ADV	_	_	26	mod	_	WordAlignmentBegin=18960|WordAlignmentEnd=19185
+26	fermés	fermé	ADJ	_	_	24	mod	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=19185|WordAlignmentEnd=19630
+27	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=19630|WordAlignmentEnd=19630
+
+# sent_id = Rhap_M2005-5
+# text = on peut citer, par exemple, le site A Small World.
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = on peut citer ( par exemple ) le site A Small World //
+1	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	2	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=19981|WordAlignmentEnd=20116
+2	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=20116|WordAlignmentEnd=20306
+3	citer	citer	VERB	_	VerbForm=Inf	2	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=20306|WordAlignmentEnd=20636
+4	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=20636|WordAlignmentEnd=20636
+5	par	par	ADP	_	_	3	mod	_	WordAlignmentBegin=20636|WordAlignmentEnd=20796
+6	exemple	exemple	NOUN	_	_	5	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=20796|WordAlignmentEnd=21326
+7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=21326|WordAlignmentEnd=21326
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=21326|WordAlignmentEnd=21506
+9	site	site	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=21506|WordAlignmentEnd=21914
+10	A	A	X	_	ExtPos=PROPN|Foreign=Yes	9	mod:appos	_	Lang=en|Title=Yes|WordAlignmentBegin=22010|WordAlignmentEnd=22055
+11	Small	Small	X	_	Foreign=Yes	10	flat@foreign	_	InTitle=Yes|Lang=en|WordAlignmentBegin=22055|WordAlignmentEnd=22415
+12	World	World	X	_	Foreign=Yes	11	flat@foreign	_	InTitle=Yes|Lang=en|SpaceAfter=No|WordAlignmentBegin=22415|WordAlignmentEnd=22850
+13	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=22850|WordAlignmentEnd=22850
+
+# sent_id = Rhap_M2005-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = ce serveur américain est une sorte de club VIP réservé à la jet set //
+# text = ce serveur américain est une sorte de club VIP réservé à la jet set.
+1	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	2	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=23193|WordAlignmentEnd=23618
+2	serveur	serveur	NOUN	_	_	4	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=23618|WordAlignmentEnd=23978
+3	américain	américain	ADJ	_	Gender=Masc	2	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=23978|WordAlignmentEnd=24538
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=24538|WordAlignmentEnd=24578
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	WordAlignmentBegin=24578|WordAlignmentEnd=24758
+6	sorte	sorte	NOUN	_	_	4	comp:pred	_	cdet=Ambiguous|Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=24758|WordAlignmentEnd=25168
+7	de	de	ADP	_	_	6	udep	_	WordAlignmentBegin=25168|WordAlignmentEnd=25269
+8	club	club	NOUN	_	_	7	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=25413|WordAlignmentEnd=25678
+9	VIP	VIP	PROPN	_	_	8	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=25678|WordAlignmentEnd=26418
+10	réservé	réserver	VERB	_	VerbForm=Part	8	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=26418|WordAlignmentEnd=27188
+11	à	à	ADP	_	_	10	comp:obl	_	WordAlignmentBegin=27188|WordAlignmentEnd=27228
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=27228|WordAlignmentEnd=27348
+13	jet	jet	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=27348|WordAlignmentEnd=27618
+14	set	set	NOUN	_	_	13	compound	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=27618|WordAlignmentEnd=28098
+15	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=28098|WordAlignmentEnd=28098
+
+# sent_id = Rhap_M2005-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = A Small World compte parmi ses membres des gens comme { Quentin Tarantino | ^ou l'incontournable Paris Hilton | ^ou encore l'indéboulonnable Massimo Gargia } //
+# text = A Small World compte parmi ses membres des gens comme Quentin Tarantino ou l'incontournable Paris Hilton, ou encore l'indéboulonnable Massimo Gargia.
+1	A	A	X	_	Foreign=Yes	4	subj	_	InTitle=Yes|Lang=en|WordAlignmentBegin=28518|WordAlignmentEnd=28573
+2	Small	Small	X	_	Foreign=Yes	1	flat@foreign	_	InTitle=Yes|Lang=en|WordAlignmentBegin=28573|WordAlignmentEnd=28983
+3	World	World	X	_	ExtPos=PROPN|Foreign=Yes	2	flat@foreign	_	Lang=en|Title=Yes|WordAlignmentBegin=28983|WordAlignmentEnd=29283
+4	compte	compter	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=29283|WordAlignmentEnd=29593
+5	parmi	parmi	ADP	_	_	4	mod	_	WordAlignmentBegin=29593|WordAlignmentEnd=29903
+6	ses	son	DET	_	Number=Plur|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=29903|WordAlignmentEnd=30093
+7	membres	membre	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=30093|WordAlignmentEnd=30493
+8	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	9	det	_	WordAlignmentBegin=30493|WordAlignmentEnd=30593
+9	gens	gens	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=30593|WordAlignmentEnd=30763
+10	comme	comme	ADP	_	_	9	udep	_	WordAlignmentBegin=30763|WordAlignmentEnd=31093
+11	Quentin	Quentin	PROPN	_	_	10	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=31093|WordAlignmentEnd=31533
+12	Tarantino	Tarantino	PROPN	_	_	11	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=31533|WordAlignmentEnd=32259
+13	ou	ou	CCONJ	_	_	16	cc	_	WordAlignmentBegin=32625|WordAlignmentEnd=32790
+14	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=32790|WordAlignmentEnd=32840
+15	incontournable	incontournable	ADJ	_	_	16	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=32840|WordAlignmentEnd=33580
+16	Paris	Paris	PROPN	_	_	11	conj:coord	_	Gender[lex]=Unknown|WordAlignmentBegin=33580|WordAlignmentEnd=33960
+17	Hilton	Hilton	PROPN	_	_	16	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=33960|WordAlignmentEnd=34310
+18	,	,	PUNCT	_	_	23	punct	_	WordAlignmentBegin=34310|WordAlignmentEnd=34310
+19	ou	ou	CCONJ	_	_	23	cc	_	WordAlignmentBegin=34310|WordAlignmentEnd=34340
+20	encore	encore	ADV	_	_	23	mod	_	WordAlignmentBegin=34340|WordAlignmentEnd=34660
+21	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=34660|WordAlignmentEnd=34690
+22	indéboulonnable	indéboulonnable	ADJ	_	_	23	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=34690|WordAlignmentEnd=35500
+23	Massimo	Massimo	PROPN	_	_	16	conj:coord	_	Gender[lex]=Unknown|WordAlignmentBegin=35500|WordAlignmentEnd=35980
+24	Gargia	Gargia	PROPN	_	_	23	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=35980|WordAlignmentEnd=36460
+25	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=36460|WordAlignmentEnd=36460
+
+# sent_id = Rhap_M2005-8
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = "bref" que du beau monde version cyber //
+# text = bref, que du beau monde version cyber.
+1	bref	bref	INTJ	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=36838|WordAlignmentEnd=37133
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=37133|WordAlignmentEnd=37133
+3	que	que	ADV	_	_	6	mod	_	WordAlignmentBegin=37133|WordAlignmentEnd=37343
+4	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	WordAlignmentBegin=37343|WordAlignmentEnd=37453
+5	beau	beau	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=37453|WordAlignmentEnd=37613
+6	monde	monde	NOUN	_	_	0	root	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=37613|WordAlignmentEnd=37903
+7	version	version	NOUN	_	_	6	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=37903|WordAlignmentEnd=38253
+8	cyber	cyber	ADJ	_	Gender=Fem	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=38253|WordAlignmentEnd=38857
+9	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=38857|WordAlignmentEnd=38857
+
+# sent_id = Rhap_M2005-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = n'espérez pas y entrer pour "euh" pouvoir { tchater | ^ou échanger vos photos de vacances } avec ces gens-là //
+# text = n'espérez pas y entrer pour, euh, pouvoir tchater ou échanger vos photos de vacances avec ces gens-là.
+1	n'	ne	ADV	_	Polarity=Neg	2	mod	_	SpaceAfter=No|WordAlignmentBegin=39290|WordAlignmentEnd=39425
+2	espérez	espérer	VERB	_	VerbForm=Part	0	root	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=39425|WordAlignmentEnd=39905
+3	pas	pas	ADV	_	Polarity=Neg	2	mod	_	WordAlignmentBegin=39905|WordAlignmentEnd=40155
+4	y	y	PRON	_	PronType=Prs	5	comp:obl	_	Person[lex]=3|WordAlignmentBegin=40155|WordAlignmentEnd=40275
+5	entrer	entrer	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=NoRaising|WordAlignmentBegin=40275|WordAlignmentEnd=40841
+6	pour	pour	ADP	_	_	5	mod	_	SpaceAfter=No|WordAlignmentBegin=40889|WordAlignmentEnd=41134
+7	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=41134|WordAlignmentEnd=41134
+8	euh	euh	INTJ	_	_	11	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=41134|WordAlignmentEnd=41294
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=41294|WordAlignmentEnd=41294
+10	pouvoir	pouvoir	VERB	_	VerbForm=Inf	6	comp	_	Subject=NoRaising|WordAlignmentBegin=41294|WordAlignmentEnd=41644
+11	tchater	tchater	VERB	_	VerbForm=Inf	10	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=41644|WordAlignmentEnd=42274
+12	ou	ou	CCONJ	_	_	13	cc	_	WordAlignmentBegin=42274|WordAlignmentEnd=42364
+13	échanger	échanger	VERB	_	VerbForm=Inf	11	conj:coord	_	Subject=SubjRaising|WordAlignmentBegin=42364|WordAlignmentEnd=42734
+14	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=42734|WordAlignmentEnd=42824
+15	photos	photo	NOUN	_	_	13	comp:obj	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=42824|WordAlignmentEnd=43144
+16	de	de	ADP	_	_	15	udep	_	WordAlignmentBegin=43144|WordAlignmentEnd=43191
+17	vacances	vacance	NOUN	_	_	16	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=43191|WordAlignmentEnd=43613
+18	avec	avec	ADP	_	_	13	mod	_	WordAlignmentBegin=43613|WordAlignmentEnd=43804
+19	ces	ce	DET	_	Number=Plur|PronType=Dem	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=43804|WordAlignmentEnd=43924
+20	gens	gens	NOUN	_	_	18	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=43924|WordAlignmentEnd=44094
+21	-là	là	ADV	_	_	20	mod	_	SpaceAfter=No|WordAlignmentBegin=44094|WordAlignmentEnd=44296
+22	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=44296|WordAlignmentEnd=44296
+
+# sent_id = Rhap_M2005-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = ^car même si internet rapproche le monde < A Small World est accessible uniquement sur invitation //
+# text = car même si internet rapproche le monde, A Small World est accessible uniquement sur invitation.
+1	car	car	CCONJ	_	_	12	cc	_	WordAlignmentBegin=44788|WordAlignmentEnd=44913
+2	même	même	ADV	_	_	3	mod	_	WordAlignmentBegin=44913|WordAlignmentEnd=45113
+3	si	si	SCONJ	_	_	12	mod	_	WordAlignmentBegin=45113|WordAlignmentEnd=45283
+4	internet	internet	NOUN	_	_	5	subj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=45283|WordAlignmentEnd=45723
+5	rapproche	rapprocher	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=45723|WordAlignmentEnd=46103
+6	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=46103|WordAlignmentEnd=46213
+7	monde	monde	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=46213|WordAlignmentEnd=46623
+8	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=46623|WordAlignmentEnd=46670
+9	A	A	X	_	Foreign=Yes	12	subj	_	InTitle=Yes|Lang=en|WordAlignmentBegin=46670|WordAlignmentEnd=46755
+10	Small	Small	X	_	Foreign=Yes	9	flat@foreign	_	InTitle=Yes|Lang=en|WordAlignmentBegin=46755|WordAlignmentEnd=47145
+11	World	World	X	_	ExtPos=PROPN|Foreign=Yes	10	flat@foreign	_	Lang=en|Title=Yes|WordAlignmentBegin=47145|WordAlignmentEnd=47355
+12	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=47355|WordAlignmentEnd=47405
+13	accessible	accessible	ADJ	_	_	12	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=47405|WordAlignmentEnd=47915
+14	uniquement	uniquement	ADV	_	_	12	mod	_	WordAlignmentBegin=47915|WordAlignmentEnd=48365
+15	sur	sur	ADP	_	_	12	mod	_	WordAlignmentBegin=48365|WordAlignmentEnd=48575
+16	invitation	invitation	NOUN	_	_	15	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=48575|WordAlignmentEnd=49300
+17	.	.	PUNCT	_	_	12	punct	_	WordAlignmentBegin=49300|WordAlignmentEnd=49300
+
+# sent_id = Rhap_M2005-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = il faut déjà connaître un people pour avoir le droit de fréquenter les peoples //
+# text = il faut déjà connaître un people pour avoir le droit de fréquenter les peoples.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	2	subj@expl	_	Person[lex]=3|WordAlignmentBegin=49649|WordAlignmentEnd=49724
+2	faut	falloir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=49724|WordAlignmentEnd=49944
+3	déjà	déjà	ADV	_	_	2	mod	_	WordAlignmentBegin=49944|WordAlignmentEnd=50314
+4	connaître	connaître	VERB	_	VerbForm=Inf	2	comp:obj	_	Subject=NoRaising|WordAlignmentBegin=50314|WordAlignmentEnd=50724
+5	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	WordAlignmentBegin=50724|WordAlignmentEnd=50784
+6	people	people	NOUN	_	_	4	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=50784|WordAlignmentEnd=51204
+7	pour	pour	ADP	_	_	4	mod	_	WordAlignmentBegin=51204|WordAlignmentEnd=51354
+8	avoir	avoir	VERB	_	VerbForm=Inf	7	comp	_	Subject=NoRaising|WordAlignmentBegin=51354|WordAlignmentEnd=51594
+9	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=51594|WordAlignmentEnd=51674
+10	droit	droit	NOUN	_	_	8	comp:obj@lvc	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=51674|WordAlignmentEnd=51984
+11	de	de	ADP	_	_	10	udep	_	WordAlignmentBegin=51984|WordAlignmentEnd=52144
+12	fréquenter	fréquenter	VERB	_	VerbForm=Inf	11	comp	_	Subject=NoRaising|WordAlignmentBegin=52144|WordAlignmentEnd=52614
+13	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=52614|WordAlignmentEnd=52704
+14	peoples	people	NOUN	_	_	12	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=52704|WordAlignmentEnd=53048
+15	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=53048|WordAlignmentEnd=53048
+
+# sent_id = Rhap_M2005-12
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = en France <+ { moins branché | ^mais plus accessible au commun des mortels } < on peut citer { ziki point com | Z I K I | >+ un site communautaire dont le but est de vous aider à créer une identité numérique } //
+# text = en France, moins branché mais plus accessible au commun des mortels, on peut citer ziki point com, Z I K I, un site communautaire dont le but est de vous aider à créer une identité numérique.
+1	en	en	ADP	_	_	15	mod	_	WordAlignmentBegin=53626|WordAlignmentEnd=53721
+2	France	France	PROPN	_	_	1	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=53721|WordAlignmentEnd=54085
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=54085|WordAlignmentEnd=54110
+4	moins	moins	ADV	_	_	5	mod	_	WordAlignmentBegin=54110|WordAlignmentEnd=54395
+5	branché	branché	ADJ	_	_	15	mod	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=54395|WordAlignmentEnd=54925
+6	mais	mais	CCONJ	_	_	8	cc	_	WordAlignmentBegin=54925|WordAlignmentEnd=55115
+7	plus	plus	ADV	_	_	8	mod	_	WordAlignmentBegin=55115|WordAlignmentEnd=55325
+8	accessible	accessible	ADJ	_	_	5	conj:coord	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=55325|WordAlignmentEnd=55895
+9	au	au	ADP	_	_	8	mod	_	WordAlignmentBegin=55895|WordAlignmentEnd=55955
+10	commun	commun	NOUN	_	_	9	comp	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=55955|WordAlignmentEnd=56205
+11	des	de	ADP	_	_	10	udep	_	WordAlignmentBegin=56205|WordAlignmentEnd=56305
+12	mortels	mortel	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=56305|WordAlignmentEnd=56675
+13	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=56675|WordAlignmentEnd=56675
+14	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	15	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=56675|WordAlignmentEnd=56750
+15	peut	pouvoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=56750|WordAlignmentEnd=56910
+16	citer	citer	VERB	_	VerbForm=Inf	15	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=56910|WordAlignmentEnd=57270
+17	ziki	ziki	PROPN	_	_	16	comp:obj	_	Gender[lex]=Unknown|WordAlignmentBegin=57270|WordAlignmentEnd=57850
+18	point	point	NOUN	_	_	17	flat	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=57850|WordAlignmentEnd=58120
+19	com	com	X	_	_	18	flat	_	SpaceAfter=No|WordAlignmentBegin=58120|WordAlignmentEnd=58465
+20	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=58465|WordAlignmentEnd=58465
+21	Z	Z	PROPN	_	_	17	conj:reform	_	Gender[lex]=Unknown|WordAlignmentBegin=58465|WordAlignmentEnd=58730
+22	I	I	PROPN	_	_	21	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=58730|WordAlignmentEnd=58930
+23	K	K	PROPN	_	_	22	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=58930|WordAlignmentEnd=59130
+24	I	I	PROPN	_	_	23	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=59130|WordAlignmentEnd=59410
+25	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=59410|WordAlignmentEnd=59815
+26	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	WordAlignmentBegin=59815|WordAlignmentEnd=59910
+27	site	site	NOUN	_	_	21	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=59910|WordAlignmentEnd=60230
+28	communautaire	communautaire	ADJ	_	_	27	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=60230|WordAlignmentEnd=60880
+29	dont	dont	PRON	_	PronType=Rel	31	mod	_	WordAlignmentBegin=60880|WordAlignmentEnd=61040
+30	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	31	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=61040|WordAlignmentEnd=61130
+31	but	but	NOUN	_	_	32	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=61130|WordAlignmentEnd=61480
+32	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	mod@relcl	_	WordAlignmentBegin=61480|WordAlignmentEnd=61590
+33	de	de	ADP	_	_	32	comp:pred	_	WordAlignmentBegin=61590|WordAlignmentEnd=61794
+34	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	35	comp:obl	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=61794|WordAlignmentEnd=62070
+35	aider	aider	VERB	_	VerbForm=Inf	33	comp	_	Subject=ObjRaising|WordAlignmentBegin=62070|WordAlignmentEnd=62540
+36	à	à	ADP	_	_	35	comp:obl	_	WordAlignmentBegin=62540|WordAlignmentEnd=62748
+37	créer	créer	VERB	_	VerbForm=Inf	36	comp	_	Subject=ObjRaising|WordAlignmentBegin=62748|WordAlignmentEnd=63174
+38	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	39	det	_	LiaisonAfter=Yes|WordAlignmentBegin=63174|WordAlignmentEnd=63308
+39	identité	identité	NOUN	_	_	37	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=63308|WordAlignmentEnd=64288
+40	numérique	numérique	ADJ	_	_	39	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=64288|WordAlignmentEnd=64925
+41	.	.	PUNCT	_	_	15	punct	_	WordAlignmentBegin=64925|WordAlignmentEnd=64925
+
+# sent_id = Rhap_M2005-13
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = "eh" "oui" pour éviter qu'on dise n'importe quoi à propos de vous sur internet <+ mieux vaut { prendre les devants | ^et diffuser vous-même les infos qui vous concernent } //
+# text = eh, oui, pour éviter qu'on dise n'importe quoi à propos de vous sur internet, mieux vaut prendre les devants et diffuser vous-même les infos qui vous concernent.
+1	eh	eh	INTJ	_	_	21	discourse	_	SpaceAfter=No|WordAlignmentBegin=65420|WordAlignmentEnd=65535
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=65535|WordAlignmentEnd=65535
+3	oui	oui	INTJ	_	_	21	discourse	_	SpaceAfter=No|WordAlignmentBegin=65535|WordAlignmentEnd=65685
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=65685|WordAlignmentEnd=65685
+5	pour	pour	ADP	_	_	21	mod	_	WordAlignmentBegin=65685|WordAlignmentEnd=65835
+6	éviter	éviter	VERB	_	VerbForm=Inf	5	comp	_	Subject=NoRaising|WordAlignmentBegin=65835|WordAlignmentEnd=66095
+7	qu'	que	SCONJ	_	_	6	comp:obj	_	SpaceAfter=No|WordAlignmentBegin=66095|WordAlignmentEnd=66185
+8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=66185|WordAlignmentEnd=66265
+9	dise	dire	VERB	_	Mood=Sub|Number=Sing|Tense=Pres|VerbForm=Fin	7	comp	_	Person[ctxt]=3|WordAlignmentBegin=66265|WordAlignmentEnd=66435
+10	n'	ne	ADV	_	ExtPos=PRON|Polarity=Neg	9	comp:obj	_	Idiom=Yes|SpaceAfter=No|WordAlignmentBegin=66435|WordAlignmentEnd=66485
+11	importe	importer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	10	unk	_	InIdiom=Yes|Number[ctxt]=Sing|Person[ctxt]=3|Reported=Yes|WordAlignmentBegin=66485|WordAlignmentEnd=66845
+12	quoi	quoi	PRON	_	PronType=Int	11	unk	_	InIdiom=Yes|Person[lex]=3|WordAlignmentBegin=66845|WordAlignmentEnd=67045
+13	à	à	ADP	_	_	9	mod	_	WordAlignmentBegin=67045|WordAlignmentEnd=67085
+14	propos	propos	NOUN	_	_	13	comp	_	Gender[lex]=Masc|WordAlignmentBegin=67085|WordAlignmentEnd=67435
+15	de	de	ADP	_	_	14	udep	_	WordAlignmentBegin=67435|WordAlignmentEnd=67525
+16	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	15	comp	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=67525|WordAlignmentEnd=67725
+17	sur	sur	ADP	_	_	9	mod	_	WordAlignmentBegin=67725|WordAlignmentEnd=67895
+18	internet	internet	NOUN	_	_	17	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=67895|WordAlignmentEnd=68605
+19	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=68605|WordAlignmentEnd=69042
+20	mieux	mieux	ADV	_	_	21	comp:obj	_	WordAlignmentBegin=69042|WordAlignmentEnd=69327
+21	vaut	valoir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=69327|WordAlignmentEnd=69487
+22	prendre	prendre	VERB	_	VerbForm=Inf	21	comp:obj	_	Subject=NoRaising|WordAlignmentBegin=69487|WordAlignmentEnd=69887
+23	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	24	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=69887|WordAlignmentEnd=69987
+24	devants	devant	NOUN	_	_	22	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=69987|WordAlignmentEnd=70494
+25	et	et	CCONJ	_	_	26	cc	_	WordAlignmentBegin=70535|WordAlignmentEnd=70690
+26	diffuser	diffuser	VERB	_	VerbForm=Inf	22	conj:coord	_	Subject=NoRaising|WordAlignmentBegin=70690|WordAlignmentEnd=71250
+27	vous-même	vous-même	PRON	_	Emph=Yes|Number=Plur|PronType=Prs|Reflex=Yes	26	mod	_	Person[lex]=2|WordAlignmentBegin=71250|WordAlignmentEnd=71780
+28	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=71780|WordAlignmentEnd=72080
+29	infos	info	NOUN	_	_	26	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=72080|WordAlignmentEnd=72440
+30	qui	qui	PRON	_	PronType=Rel	32	subj	_	WordAlignmentBegin=72440|WordAlignmentEnd=72600
+31	vous	vous	PRON	_	Case=Acc|Emph=No|PronType=Prs	32	comp:obj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=72600|WordAlignmentEnd=72700
+32	concernent	concerner	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	29	mod@relcl	_	Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=72700|WordAlignmentEnd=73250
+33	.	.	PUNCT	_	_	21	punct	_	WordAlignmentBegin=73250|WordAlignmentEnd=73250
+
+# sent_id = Rhap_M2005-14
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = enfin < tout récemment <+ vient de s'ouvrir le site Famibook point com //
+# text = enfin, tout récemment, vient de s'ouvrir le site Famibook point com.
+1	enfin	enfin	ADV	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=73815|WordAlignmentEnd=74210
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=74210|WordAlignmentEnd=74210
+3	tout	tout	ADV	_	_	4	mod	_	WordAlignmentBegin=74210|WordAlignmentEnd=74390
+4	récemment	récemment	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=74390|WordAlignmentEnd=74810
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=74810|WordAlignmentEnd=74810
+6	vient	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=74810|WordAlignmentEnd=75020
+7	de	de	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=75020|WordAlignmentEnd=75060
+8	s'	soi	PRON	_	PronType=Prs|Reflex=Yes	9	comp@pass	_	Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=75060|WordAlignmentEnd=75140
+9	ouvrir	ouvrir	VERB	_	VerbForm=Inf	7	comp	_	Subject=SubjRaising|WordAlignmentBegin=75140|WordAlignmentEnd=75420
+10	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=75420|WordAlignmentEnd=75500
+11	site	site	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=75500|WordAlignmentEnd=75800
+12	Famibook	Famibook	PROPN	_	_	11	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=76123|WordAlignmentEnd=76760
+13	point	point	NOUN	_	_	12	flat	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=76870|WordAlignmentEnd=77035
+14	com	com	X	_	_	13	flat	_	SpaceAfter=No|WordAlignmentBegin=77035|WordAlignmentEnd=77463
+15	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=77463|WordAlignmentEnd=77463
+
+# sent_id = Rhap_M2005-15
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = Famibook est une sorte de Facebook cent pour cent français réservé aux familles pour partager { vos photos | vos vidéos | ^ou encore { un | un } agenda } avec { vos parents | vos cousins | ^ou vos tontons } //
+# text = Famibook est une sorte de Facebook cent pour cent français réservé aux familles pour partager vos photos, vos vidéos ou encore un, un agenda avec vos parents, vos cousins ou vos tontons.
+1	Famibook	Famibook	PROPN	_	_	2	subj	_	Gender[lex]=Unknown|WordAlignmentBegin=77562|WordAlignmentEnd=78017
+2	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=78017|WordAlignmentEnd=78087
+3	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	WordAlignmentBegin=78087|WordAlignmentEnd=78247
+4	sorte	sorte	NOUN	_	_	2	comp:pred	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=78247|WordAlignmentEnd=78617
+5	de	de	ADP	_	_	4	udep	_	WordAlignmentBegin=78617|WordAlignmentEnd=78775
+6	Facebook	Facebook	PROPN	_	_	5	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=79095|WordAlignmentEnd=79775
+7	cent	cent	NUM	_	ExtPos=DET	8	det	_	InIdiom=Yes|Number[lex]=Plur|WordAlignmentBegin=79896|WordAlignmentEnd=80181
+8	pour	pour	ADP	_	ExtPos=ADV	10	mod	_	Idiom=Yes|WordAlignmentBegin=80181|WordAlignmentEnd=80371
+9	cent	cent	NUM	_	ExtPos=DET	8	comp:obj	_	InIdiom=Yes|Number[lex]=Plur|WordAlignmentBegin=80371|WordAlignmentEnd=80661
+10	français	français	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=80661|WordAlignmentEnd=81219
+11	réservé	réserver	VERB	_	VerbForm=Part	6	mod	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=81600|WordAlignmentEnd=82156
+12	aux	au	ADP	_	_	11	comp:obl	_	WordAlignmentBegin=82287|WordAlignmentEnd=82402
+13	familles	famille	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=82402|WordAlignmentEnd=82962
+14	pour	pour	ADP	_	_	11	mod	_	WordAlignmentBegin=83395|WordAlignmentEnd=83520
+15	partager	partager	VERB	_	VerbForm=Inf	14	comp	_	Subject=NoRaising|WordAlignmentBegin=83520|WordAlignmentEnd=84110
+16	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs|Shared=No	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=84110|WordAlignmentEnd=84410
+17	photos	photo	NOUN	_	_	15	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=84410|WordAlignmentEnd=85010
+18	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=85010|WordAlignmentEnd=85010
+19	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=85010|WordAlignmentEnd=85190
+20	vidéos	vidéo	NOUN	_	_	17	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=85190|WordAlignmentEnd=85770
+21	ou	ou	CCONJ	_	_	26	cc	_	WordAlignmentBegin=85770|WordAlignmentEnd=85800
+22	encore	encore	ADV	_	_	26	mod	_	WordAlignmentBegin=85800|WordAlignmentEnd=86105
+23	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	25	reparandum	_	SpaceAfter=No|WordAlignmentBegin=86105|WordAlignmentEnd=86260
+24	,	,	PUNCT	_	_	23	punct	_	WordAlignmentBegin=86220|WordAlignmentEnd=86260
+25	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	26	det	_	LiaisonAfter=Yes|WordAlignmentBegin=86260|WordAlignmentEnd=86370
+26	agenda	agenda	NOUN	_	_	20	conj:coord	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=86370|WordAlignmentEnd=87010
+27	avec	avec	ADP	_	_	15	comp:obl	_	WordAlignmentBegin=87010|WordAlignmentEnd=87300
+28	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs|Shared=No	29	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=87300|WordAlignmentEnd=87490
+29	parents	parent	NOUN	_	_	27	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=87490|WordAlignmentEnd=87840
+30	,	,	PUNCT	_	_	32	punct	_	WordAlignmentBegin=87840|WordAlignmentEnd=87840
+31	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	32	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=87840|WordAlignmentEnd=87990
+32	cousins	cousin	NOUN	_	_	29	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=87990|WordAlignmentEnd=88465
+33	ou	ou	CCONJ	_	_	35	cc	_	WordAlignmentBegin=88562|WordAlignmentEnd=88647
+34	vos	son	DET	_	Number=Plur|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	35	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=88647|WordAlignmentEnd=88817
+35	tontons	tonton	NOUN	_	_	32	conj:coord	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=88817|WordAlignmentEnd=89276
+36	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=89276|WordAlignmentEnd=89276
+
+# sent_id = Rhap_M2005-16
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = chaque cercle familial est accessible uniquement à ceux qui en sont membres //
+# text = chaque cercle familial est accessible uniquement à ceux qui en sont membres.
+1	chaque	chaque	DET	_	PronType=Ind	2	det	_	Number[lex]=Sing|WordAlignmentBegin=89660|WordAlignmentEnd=89940
+2	cercle	cercle	NOUN	_	_	4	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=89940|WordAlignmentEnd=90330
+3	familial	familial	ADJ	_	Number=Sing	2	mod	_	Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|WordAlignmentBegin=90330|WordAlignmentEnd=90880
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=90880|WordAlignmentEnd=90940
+5	accessible	accessible	ADJ	_	_	4	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=90940|WordAlignmentEnd=91581
+6	uniquement	uniquement	ADV	_	_	7	mod	_	WordAlignmentBegin=91673|WordAlignmentEnd=92200
+7	à	à	ADP	_	_	4	mod	_	WordAlignmentBegin=92279|WordAlignmentEnd=92334
+8	ceux	celui	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	7	comp	_	Person[lex]=3|WordAlignmentBegin=92334|WordAlignmentEnd=92524
+9	qui	qui	PRON	_	PronType=Rel	11	subj	_	WordAlignmentBegin=92524|WordAlignmentEnd=92634
+10	en	en	PRON	_	PronType=Prs	12	mod	_	Person[lex]=3|WordAlignmentBegin=92634|WordAlignmentEnd=92734
+11	sont	être	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	mod@relcl	_	WordAlignmentBegin=92734|WordAlignmentEnd=93034
+12	membres	membre	NOUN	_	_	11	comp:pred	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=93034|WordAlignmentEnd=93492
+13	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=93492|WordAlignmentEnd=93492
+
+# sent_id = Rhap_M2005-17
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = par exemple < pour organiser l'anniversaire de votre arrière-grand-mère <+ il suffit { de donner le code d'accès à tous les membres de votre famille | ^et de vous retrouver tous ensemble sur Famibook point com } //
+# text = par exemple, pour organiser l'anniversaire de votre arrière-grand-mère, il suffit de donner le code d'accès à tous les membres de votre famille et de vous retrouver tous ensemble sur Famibook point com.
+1	par	par	ADP	_	_	13	mod	_	WordAlignmentBegin=93899|WordAlignmentEnd=94004
+2	exemple	exemple	NOUN	_	_	1	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=94004|WordAlignmentEnd=94434
+3	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=94434|WordAlignmentEnd=94434
+4	pour	pour	ADP	_	_	13	mod	_	WordAlignmentBegin=94434|WordAlignmentEnd=94594
+5	organiser	organiser	VERB	_	VerbForm=Inf	4	comp	_	Subject=NoRaising|WordAlignmentBegin=94594|WordAlignmentEnd=95144
+6	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=95144|WordAlignmentEnd=95184
+7	anniversaire	anniversaire	NOUN	_	_	5	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=95184|WordAlignmentEnd=95704
+8	de	de	ADP	_	_	7	udep	_	WordAlignmentBegin=95704|WordAlignmentEnd=95784
+9	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=95784|WordAlignmentEnd=96024
+10	arrière-grand-mère	arrière-grand-mère	NOUN	_	_	8	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=96024|WordAlignmentEnd=96614
+11	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=96614|WordAlignmentEnd=96614
+12	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	13	subj	_	Person[lex]=3|WordAlignmentBegin=96614|WordAlignmentEnd=96704
+13	suffit	suffire	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=96704|WordAlignmentEnd=97054
+14	de	de	ADP	_	_	13	comp:obl	_	WordAlignmentBegin=97054|WordAlignmentEnd=97174
+15	donner	donner	VERB	_	VerbForm=Inf	14	comp	_	Subject=NoRaising|WordAlignmentBegin=97174|WordAlignmentEnd=97404
+16	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=97404|WordAlignmentEnd=97484
+17	code	code	NOUN	_	_	15	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=97484|WordAlignmentEnd=97724
+18	d'	de	ADP	_	_	17	udep	_	SpaceAfter=No|WordAlignmentBegin=97724|WordAlignmentEnd=97794
+19	accès	accès	NOUN	_	_	18	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|WordAlignmentBegin=97794|WordAlignmentEnd=98110
+20	à	à	ADP	_	_	15	comp:obl	_	WordAlignmentBegin=98566|WordAlignmentEnd=98641
+21	tous	tout	ADJ	_	Gender=Masc	23	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=98641|WordAlignmentEnd=98811
+22	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=98811|WordAlignmentEnd=98881
+23	membres	membre	NOUN	_	_	20	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=98881|WordAlignmentEnd=99221
+24	de	de	ADP	_	_	23	udep	_	WordAlignmentBegin=99221|WordAlignmentEnd=99311
+25	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=99311|WordAlignmentEnd=99736
+26	famille	famille	NOUN	_	_	24	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=99736|WordAlignmentEnd=100327
+27	et	et	CCONJ	_	_	28	cc	_	WordAlignmentBegin=100454|WordAlignmentEnd=100579
+28	de	de	ADP	_	_	14	conj:coord	_	WordAlignmentBegin=100579|WordAlignmentEnd=100689
+29	vous	vous	PRON	_	Case=Dat|Emph=No|PronType=Prs	30	comp:obl	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=100689|WordAlignmentEnd=100869
+30	retrouver	retrouver	VERB	_	VerbForm=Inf	28	comp	_	Subject=NoRaising|WordAlignmentBegin=100869|WordAlignmentEnd=101370
+31	tous	tous	PRON	_	Gender=Masc|PronType=Ind	30	mod	_	LiaisonAfter=Yes|Number[lex]=Plur|WordAlignmentBegin=101486|WordAlignmentEnd=101571
+32	ensemble	ensemble	NOUN	_	_	30	mod	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=101571|WordAlignmentEnd=102031
+33	sur	sur	ADP	_	_	30	comp:obl	_	WordAlignmentBegin=102031|WordAlignmentEnd=102218
+34	Famibook	Famibook	PROPN	_	_	33	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=102555|WordAlignmentEnd=103128
+35	point	point	NOUN	_	_	34	flat	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=103282|WordAlignmentEnd=103407
+36	com	com	X	_	_	35	flat	_	SpaceAfter=No|WordAlignmentBegin=103407|WordAlignmentEnd=103698
+37	.	.	PUNCT	_	_	13	punct	_	WordAlignmentBegin=103698|WordAlignmentEnd=103698
+
+# sent_id = Rhap_M2005-18
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM52
+# macrosyntax = { d'autres réseaux sociaux thématiques |} devraient voir le jour prochainement {| >+ ^notamment un site pour les amateurs de sport | ^et un autre pour les clubbers branchés } //
+# text = d'autres réseaux sociaux thématiques devraient voir le jour prochainement, notamment un site pour les amateurs de sport et un autre pour les clubbers branchés.
+1	d'	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	3	det	_	LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=104026|WordAlignmentEnd=104141
+2	autres	autre	ADJ	_	_	3	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=104141|WordAlignmentEnd=104581
+3	réseaux	réseau	NOUN	_	_	6	subj	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=104581|WordAlignmentEnd=104901
+4	sociaux	social	ADJ	_	Gender=Masc|Number=Plur	3	mod	_	HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|WordAlignmentBegin=104901|WordAlignmentEnd=105381
+5	thématiques	thématique	ADJ	_	_	3	mod	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|WordAlignmentBegin=105381|WordAlignmentEnd=105981
+6	devraient	devoir	VERB	_	Mood=Cnd|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Plur|WordAlignmentBegin=105981|WordAlignmentEnd=106251
+7	voir	voir	VERB	_	VerbForm=Inf	6	comp:obj	_	Subject=SubjRaising|WordAlignmentBegin=106251|WordAlignmentEnd=106391
+8	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=106391|WordAlignmentEnd=106481
+9	jour	jour	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=106481|WordAlignmentEnd=106641
+10	prochainement	prochainement	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=106641|WordAlignmentEnd=107161
+11	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=107161|WordAlignmentEnd=107478
+12	notamment	notamment	ADV	_	_	14	cc	_	WordAlignmentBegin=107478|WordAlignmentEnd=107846
+13	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	WordAlignmentBegin=107846|WordAlignmentEnd=107903
+14	site	site	NOUN	_	_	3	conj:appos	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=107903|WordAlignmentEnd=108163
+15	pour	pour	ADP	_	_	14	udep	_	WordAlignmentBegin=108163|WordAlignmentEnd=108333
+16	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	17	det	_	HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=108333|WordAlignmentEnd=108393
+17	amateurs	amateur	NOUN	_	_	15	comp	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Plur|WordAlignmentBegin=108393|WordAlignmentEnd=108803
+18	de	de	ADP	_	_	17	udep	_	WordAlignmentBegin=108803|WordAlignmentEnd=108893
+19	sport	sport	NOUN	_	_	18	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=108893|WordAlignmentEnd=109423
+20	et	et	CCONJ	_	_	22	cc	_	WordAlignmentBegin=109423|WordAlignmentEnd=109483
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	WordAlignmentBegin=109483|WordAlignmentEnd=109593
+22	autre	autre	PRON	_	PronType=Ind	14	conj:coord	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Person[lex]=3|WordAlignmentBegin=109593|WordAlignmentEnd=109891
+23	pour	pour	ADP	_	_	22	mod	_	WordAlignmentBegin=110233|WordAlignmentEnd=110338
+24	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=110338|WordAlignmentEnd=110535
+25	clubbers	clubber	NOUN	_	_	23	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=110535|WordAlignmentEnd=111140
+26	branchés	branché	ADJ	_	_	25	mod	_	Gender[ctxt]=Masc|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=111140|WordAlignmentEnd=111547
+27	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=111547|WordAlignmentEnd=111547
+

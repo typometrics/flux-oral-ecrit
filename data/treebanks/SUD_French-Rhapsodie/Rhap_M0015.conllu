@@ -1,0 +1,135 @@
+# sent_id = Rhap_M0015-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM43
+# macrosyntax = "euh" { je |} { d'ici | du CCJ } <+ {| je } remonte l'avenue Alsace-Lorraine jusqu'à la place Victor Hugo //
+# text = euh, je, d'ici, du CCJ, je remonte l'avenue Alsace-Lorraine jusqu'à la place Victor Hugo.
+1	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=120|WordAlignmentEnd=550
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=550|WordAlignmentEnd=916
+3	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	11	reparandum	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=916|WordAlignmentEnd=1396
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=1396|WordAlignmentEnd=1492
+5	d'	de	ADP	_	_	12	mod	_	SpaceAfter=No|WordAlignmentBegin=1492|WordAlignmentEnd=1532
+6	ici	ici	ADV	_	_	5	comp	_	SpaceAfter=No|WordAlignmentBegin=1532|WordAlignmentEnd=2140
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=2140|WordAlignmentEnd=2270
+8	du	du	ADP	_	_	5	conj:reform	_	WordAlignmentBegin=2270|WordAlignmentEnd=2410
+9	CCJ	CCJ	PROPN	_	_	8	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=2410|WordAlignmentEnd=3130
+10	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=3130|WordAlignmentEnd=3130
+11	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	12	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=3130|WordAlignmentEnd=4113
+12	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=4113|WordAlignmentEnd=4470
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=4470|WordAlignmentEnd=4500
+14	avenue	avenue	NOUN	_	_	12	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=4500|WordAlignmentEnd=4663
+15	Alsace-Lorraine	Alsace-Lorraine	PROPN	_	_	14	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=4663|WordAlignmentEnd=5180
+16	jusqu'	jusque	ADP	_	_	12	mod	_	SpaceAfter=No|WordAlignmentBegin=5180|WordAlignmentEnd=5410
+17	à	à	ADP	_	_	16	comp	_	WordAlignmentBegin=5410|WordAlignmentEnd=5440
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=5440|WordAlignmentEnd=5520
+19	place	place	NOUN	_	_	17	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=5520|WordAlignmentEnd=5750
+20	Victor	Victor	PROPN	_	_	19	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=5750|WordAlignmentEnd=6060
+21	Hugo	Hugo	PROPN	_	_	20	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=6060|WordAlignmentEnd=6310
+22	.	.	PUNCT	_	_	12	punct	_	WordAlignmentBegin=6310|WordAlignmentEnd=6310
+
+# sent_id = Rhap_M0015-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM43
+# macrosyntax = je traverse { l'avenue Vict~ | "euh" la place Victor Hugo } en diagonale //+ jusqu'à arriver { au | "mh" au } boulevard Agutte Sembat //
+# text = je traverse l'avenue Vict~, euh, la place Victor Hugo en diagonale, jusqu'à arriver au, mh, au boulevard Agutte Sembat.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=6833|WordAlignmentEnd=6947
+2	traverse	traverser	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=6947|WordAlignmentEnd=7387
+3	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art|Shared=No	4	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=7387|WordAlignmentEnd=7417
+4	avenue	avenue	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=7417|WordAlignmentEnd=7907
+5	Vict~	Vict~	X	_	ExtPos=PROPN	4	mod:appos	_	SpaceAfter=No|WordAlignmentBegin=7907|WordAlignmentEnd=8377
+6	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=8377|WordAlignmentEnd=8377
+7	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=8377|WordAlignmentEnd=8630
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=8630|WordAlignmentEnd=8630
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=8630|WordAlignmentEnd=8707
+10	place	place	NOUN	_	_	4	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=8707|WordAlignmentEnd=8927
+11	Victor	Victor	PROPN	_	_	10	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=8927|WordAlignmentEnd=9194
+12	Hugo	Hugo	PROPN	_	_	11	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=9194|WordAlignmentEnd=9503
+13	en	en	ADP	_	_	2	mod	_	WordAlignmentBegin=9503|WordAlignmentEnd=9697
+14	diagonale	diagonale	NOUN	_	_	13	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=9697|WordAlignmentEnd=10459
+15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=10459|WordAlignmentEnd=10909
+16	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No|WordAlignmentBegin=10909|WordAlignmentEnd=11184
+17	à	à	ADP	_	_	16	comp	_	WordAlignmentBegin=11184|WordAlignmentEnd=11234
+18	arriver	arriver	VERB	_	VerbForm=Inf	17	comp	_	Subject=SubjRaising|WordAlignmentBegin=11234|WordAlignmentEnd=11634
+19	au	au	ADP	_	_	23	reparandum	_	WordAlignmentBegin=11634|WordAlignmentEnd=12242
+20	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=12242|WordAlignmentEnd=12242
+21	mh	mh	INTJ	_	_	23	discourse	_	SpaceAfter=No|WordAlignmentBegin=12242|WordAlignmentEnd=12564
+22	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=12564|WordAlignmentEnd=12921
+23	au	au	ADP	_	_	18	comp:obl	_	WordAlignmentBegin=12921|WordAlignmentEnd=12981
+24	boulevard	boulevard	NOUN	_	_	23	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=12981|WordAlignmentEnd=13241
+25	Agutte	Agutte	PROPN	_	_	24	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=13241|WordAlignmentEnd=13439
+26	Sembat	Sembat	PROPN	_	_	25	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=13439|WordAlignmentEnd=13880
+27	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=13880|WordAlignmentEnd=13880
+
+# sent_id = Rhap_M0015-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM43
+# macrosyntax = je remonte le boulevard Agutte Sembat //+ donc < vers le sud "on va dire" //
+# text = je remonte le boulevard Agutte Sembat, donc, vers le sud, on va dire.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=14500|WordAlignmentEnd=14652
+2	remonte	remonter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=14652|WordAlignmentEnd=15019
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=15019|WordAlignmentEnd=15079
+4	boulevard	boulevard	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=15079|WordAlignmentEnd=15399
+5	Agutte	Agutte	PROPN	_	_	4	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=15399|WordAlignmentEnd=15592
+6	Sembat	Sembat	PROPN	_	_	5	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=15592|WordAlignmentEnd=16149
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=16149|WordAlignmentEnd=16329
+8	donc	donc	ADV	_	_	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=16329|WordAlignmentEnd=16586
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=16586|WordAlignmentEnd=16586
+10	vers	vers	ADP	_	_	2	mod	_	WordAlignmentBegin=16586|WordAlignmentEnd=16764
+11	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=16764|WordAlignmentEnd=17281
+12	sud	sud	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=17281|WordAlignmentEnd=17739
+13	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=17739|WordAlignmentEnd=17739
+14	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	15	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=17739|WordAlignmentEnd=17799
+15	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	discourse	_	WordAlignmentBegin=17799|WordAlignmentEnd=17969
+16	dire	dire	VERB	_	VerbForm=Inf	15	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=17969|WordAlignmentEnd=18199
+17	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=18199|WordAlignmentEnd=18199
+
+# sent_id = Rhap_M0015-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM43
+# macrosyntax = ^et { j'arri~ | je passe } devant la grande poste //
+# text = et j'arri~, je passe devant la grande poste.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=18815|WordAlignmentEnd=20045
+2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=20045|WordAlignmentEnd=20225
+3	arri~	arri~	X	_	ExtPos=VERB	6	reparandum	_	SpaceAfter=No|WordAlignmentBegin=20225|WordAlignmentEnd=20615
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=20615|WordAlignmentEnd=20615
+5	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=20615|WordAlignmentEnd=20745
+6	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=20745|WordAlignmentEnd=20955
+7	devant	devant	ADP	_	_	6	mod	_	WordAlignmentBegin=20955|WordAlignmentEnd=21165
+8	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=21165|WordAlignmentEnd=21275
+9	grande	grand	ADJ	_	Gender=Fem	10	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=21275|WordAlignmentEnd=21495
+10	poste	poste	NOUN	_	_	7	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=21495|WordAlignmentEnd=22015
+11	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=22015|WordAlignmentEnd=22015
+
+# sent_id = Rhap_M0015-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM43
+# macrosyntax = ^et après être passé devant la grande poste <+ "eh bien" j'arrive "euh" au cinéma La Nef Chavant //
+# text = et après être passé devant la grande poste, eh bien, j'arrive, euh, au cinéma La Nef Chavant.
+1	et	et	CCONJ	_	_	14	cc	_	WordAlignmentBegin=22747|WordAlignmentEnd=22777
+2	après	après	ADP	_	_	14	mod	_	WordAlignmentBegin=22777|WordAlignmentEnd=22967
+3	être	être	AUX	_	VerbForm=Inf	2	comp	_	Subject=SubjRaising|WordAlignmentBegin=22967|WordAlignmentEnd=23067
+4	passé	passer	VERB	_	VerbForm=Part|Voice=Act	3	comp:aux@tense	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=23067|WordAlignmentEnd=23267
+5	devant	devant	ADP	_	_	3	mod	_	WordAlignmentBegin=23267|WordAlignmentEnd=23437
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=23437|WordAlignmentEnd=23547
+7	grande	grand	ADJ	_	Gender=Fem	8	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=23547|WordAlignmentEnd=23747
+8	poste	poste	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=23747|WordAlignmentEnd=24057
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=24057|WordAlignmentEnd=24057
+10	eh	eh	INTJ	_	_	8	discourse	_	WordAlignmentBegin=24057|WordAlignmentEnd=24147
+11	bien	bien	INTJ	_	_	8	discourse	_	SpaceAfter=No|WordAlignmentBegin=24147|WordAlignmentEnd=24247
+12	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=24247|WordAlignmentEnd=24247
+13	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=24247|WordAlignmentEnd=24357
+14	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=24357|WordAlignmentEnd=24707
+15	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=24707|WordAlignmentEnd=24707
+16	euh	euh	INTJ	_	_	14	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=24707|WordAlignmentEnd=24867
+17	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=24867|WordAlignmentEnd=24867
+18	au	au	ADP	_	_	14	comp:obl	_	WordAlignmentBegin=24867|WordAlignmentEnd=25025
+19	cinéma	cinéma	NOUN	_	_	18	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=25025|WordAlignmentEnd=25377
+20	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=25377|WordAlignmentEnd=25458
+21	Nef	Nef	PROPN	_	Number=Sing	19	mod:appos	_	Gender[lex]=Fem|WordAlignmentBegin=25458|WordAlignmentEnd=25617
+22	Chavant	Chavant	PROPN	_	_	21	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=25617|WordAlignmentEnd=25937
+23	.	.	PUNCT	_	_	14	punct	_	WordAlignmentBegin=25937|WordAlignmentEnd=25937
+

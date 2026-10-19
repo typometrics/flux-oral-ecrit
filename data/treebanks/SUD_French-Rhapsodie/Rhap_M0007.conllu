@@ -1,0 +1,373 @@
+# sent_id = Rhap_M0007-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = "bon" vous prenez la route là //
+# text = bon, vous prenez la route là.
+1	bon	bon	INTJ	_	_	4	discourse	_	SpaceAfter=No|WordAlignmentBegin=160|WordAlignmentEnd=350
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=350|WordAlignmentEnd=350
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=350|WordAlignmentEnd=410
+4	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=410|WordAlignmentEnd=760
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=760|WordAlignmentEnd=907
+6	route	route	NOUN	_	_	4	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=907|WordAlignmentEnd=1125
+7	là	là	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=1125|WordAlignmentEnd=1450
+8	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=1450|WordAlignmentEnd=1450
+
+# sent_id = Rhap_M0007-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous sortez "euh" de la "euh" commune de Pontamafrey //
+# text = vous sortez, euh, de la, euh, commune de Pontamafrey.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=1450|WordAlignmentEnd=1630
+2	sortez	sortir	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=1630|WordAlignmentEnd=2115
+3	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=2115|WordAlignmentEnd=2115
+4	euh	euh	INTJ	_	_	2	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=2115|WordAlignmentEnd=2500
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=2500|WordAlignmentEnd=2670
+6	de	de	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=2670|WordAlignmentEnd=2768
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=2768|WordAlignmentEnd=3085
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=3085|WordAlignmentEnd=3085
+9	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=3085|WordAlignmentEnd=3240
+10	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=3240|WordAlignmentEnd=3695
+11	commune	commune	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=3695|WordAlignmentEnd=3975
+12	de	de	ADP	_	_	11	udep	_	WordAlignmentBegin=3975|WordAlignmentEnd=4115
+13	Pontamafrey	Pontamafrey	PROPN	_	_	12	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=4115|WordAlignmentEnd=4951
+14	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=4951|WordAlignmentEnd=4951
+
+# sent_id = Rhap_M0007-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous allez arriver <
+# text = vous allez arriver.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=4951|WordAlignmentEnd=5019
+2	allez	aller	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=5019|WordAlignmentEnd=5215
+3	arriver	arriver	VERB	_	VerbForm=Inf	2	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=5215|WordAlignmentEnd=5575
+4	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=5575|WordAlignmentEnd=5575
+
+# sent_id = Rhap_M0007-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = à un moment <+ il y aura l'échangeur de l'autoroute //
+# text = à un moment, il y aura l'échangeur de l'autoroute.
+1	à	à	ADP	_	_	7	mod	_	WordAlignmentBegin=5575|WordAlignmentEnd=5625
+2	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	WordAlignmentBegin=5625|WordAlignmentEnd=5705
+3	moment	moment	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=5705|WordAlignmentEnd=6090
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=6090|WordAlignmentEnd=6543
+5	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	7	subj@expl	_	Person[lex]=3|WordAlignmentBegin=6543|WordAlignmentEnd=6554
+6	y	y	PRON	_	PronType=Prs	7	comp@expl	_	Person[lex]=3|WordAlignmentBegin=6564|WordAlignmentEnd=6690
+7	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	WordAlignmentBegin=6564|WordAlignmentEnd=6690
+8	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=6690|WordAlignmentEnd=6739
+9	échangeur	échangeur	NOUN	_	_	7	comp:obj	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=6739|WordAlignmentEnd=7290
+10	de	de	ADP	_	_	9	udep	_	WordAlignmentBegin=7290|WordAlignmentEnd=7350
+11	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=7350|WordAlignmentEnd=7380
+12	autoroute	autoroute	NOUN	_	_	10	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=7380|WordAlignmentEnd=7947
+13	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=7947|WordAlignmentEnd=7947
+
+# sent_id = Rhap_M0007-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous continuez //
+# text = vous continuez.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=8255|WordAlignmentEnd=8385
+2	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=8385|WordAlignmentEnd=8889
+3	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=8889|WordAlignmentEnd=8889
+
+# sent_id = Rhap_M0007-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous prenez le rond-point tout droit //
+# text = vous prenez le rond-point tout droit.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=8889|WordAlignmentEnd=8989
+2	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=8989|WordAlignmentEnd=9309
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=9309|WordAlignmentEnd=9353
+4	rond-point	rond-point	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=9353|WordAlignmentEnd=9811
+5	tout	tout	ADV	_	_	6	mod	_	WordAlignmentBegin=9811|WordAlignmentEnd=9955
+6	droit	droit	ADJ	_	Gender=Masc	2	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=9955|WordAlignmentEnd=10215
+7	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=10215|WordAlignmentEnd=10215
+
+# sent_id = Rhap_M0007-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous passez le pont "euh" au-dessus de la voie ferrée //
+# text = vous passez le pont, euh, au-dessus de la voie ferrée.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=10925|WordAlignmentEnd=11024
+2	passez	passer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=11024|WordAlignmentEnd=11374
+3	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=11374|WordAlignmentEnd=11475
+4	pont	pont	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=11475|WordAlignmentEnd=11819
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=11819|WordAlignmentEnd=11819
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=11819|WordAlignmentEnd=12174
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=12174|WordAlignmentEnd=12668
+8	au	au	ADP	_	_	4	udep	_	WordAlignmentBegin=12668|WordAlignmentEnd=12848
+9	-dessus	dessus	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=12848|WordAlignmentEnd=13068
+10	de	de	ADP	_	_	9	udep	_	WordAlignmentBegin=13068|WordAlignmentEnd=13138
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=13138|WordAlignmentEnd=13268
+12	voie	voie	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=13268|WordAlignmentEnd=13515
+13	ferrée	ferré	ADJ	_	_	12	mod	_	Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=13515|WordAlignmentEnd=13878
+14	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=13878|WordAlignmentEnd=13878
+
+# sent_id = Rhap_M0007-8
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = après <+ vous continuez direction Saint-Jean //
+# text = après, vous continuez direction Saint-Jean.
+1	après	après	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=14499|WordAlignmentEnd=14618
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=14618|WordAlignmentEnd=14618
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=14618|WordAlignmentEnd=14738
+4	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=14738|WordAlignmentEnd=15268
+5	direction	direction	NOUN	_	_	4	mod	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=15268|WordAlignmentEnd=15810
+6	Saint-Jean	Saint-Jean	PROPN	_	_	5	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=15855|WordAlignmentEnd=16278
+7	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=16278|WordAlignmentEnd=16278
+
+# sent_id = Rhap_M0007-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = "euh" c'est direction la piscine "euh" entrée nord //
+# text = euh, c'est direction la piscine, euh, entrée nord.
+1	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=16961|WordAlignmentEnd=17171
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=17171|WordAlignmentEnd=17171
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=17171|WordAlignmentEnd=17291
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=17291|WordAlignmentEnd=17343
+5	direction	direction	ADP	_	_	4	comp:pred	_	WordAlignmentBegin=17343|WordAlignmentEnd=17721
+6	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=17721|WordAlignmentEnd=17841
+7	piscine	piscine	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=17841|WordAlignmentEnd=18320
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=18320|WordAlignmentEnd=18320
+9	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=18320|WordAlignmentEnd=18503
+10	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=18503|WordAlignmentEnd=18503
+11	entrée	entrée	NOUN	_	_	7	mod	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=18503|WordAlignmentEnd=18891
+12	nord	nord	NOUN	_	_	11	mod	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=18891|WordAlignmentEnd=19065
+13	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=19065|WordAlignmentEnd=19065
+
+# sent_id = Rhap_M0007-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = après <+ vous continuez //
+# text = après, vous continuez.
+1	après	après	ADP	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=20113|WordAlignmentEnd=20261
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=20261|WordAlignmentEnd=20261
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=20261|WordAlignmentEnd=20376
+4	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=20376|WordAlignmentEnd=20859
+5	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=20859|WordAlignmentEnd=20859
+
+# sent_id = Rhap_M0007-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous suivez la route //
+# text = vous suivez la route.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=20859|WordAlignmentEnd=20983
+2	suivez	suivre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=20983|WordAlignmentEnd=21335
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=21335|WordAlignmentEnd=21475
+4	route	route	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=21475|WordAlignmentEnd=21845
+5	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=21845|WordAlignmentEnd=21845
+
+# sent_id = Rhap_M0007-12
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = il y a { un grand tournant | ^et une grande ligne droite } //
+# text = il y a un grand tournant et une grande ligne droite.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3|WordAlignmentBegin=21966|WordAlignmentEnd=22066
+2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3|WordAlignmentBegin=22066|WordAlignmentEnd=22096
+3	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=22096|WordAlignmentEnd=22146
+4	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Shared=No	6	det	_	WordAlignmentBegin=22146|WordAlignmentEnd=22216
+5	grand	grand	ADJ	_	Gender=Masc	6	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=22216|WordAlignmentEnd=22446
+6	tournant	tournant	NOUN	_	_	3	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=22446|WordAlignmentEnd=22876
+7	et	et	CCONJ	_	_	10	cc	_	WordAlignmentBegin=22876|WordAlignmentEnd=22906
+8	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	WordAlignmentBegin=22906|WordAlignmentEnd=23006
+9	grande	grand	ADJ	_	Gender=Fem	10	mod	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=23006|WordAlignmentEnd=23306
+10	ligne	ligne	NOUN	_	_	6	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=23306|WordAlignmentEnd=23516
+11	droite	droit	ADJ	_	Gender=Fem	10	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=23516|WordAlignmentEnd=23886
+12	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=23886|WordAlignmentEnd=23886
+
+# sent_id = Rhap_M0007-13
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous arrivez à l'entrée de Saint-Jean-de-Maurienne "euh" où se situe un garage Fiat //
+# text = vous arrivez à l'entrée de Saint-Jean-de-Maurienne, euh, où se situe un garage Fiat.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=24830|WordAlignmentEnd=24948
+2	arrivez	arriver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=24948|WordAlignmentEnd=25216
+3	à	à	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=25216|WordAlignmentEnd=25358
+4	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=25358|WordAlignmentEnd=25388
+5	entrée	entrée	NOUN	_	_	3	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=25388|WordAlignmentEnd=25696
+6	de	de	ADP	_	_	5	udep	_	WordAlignmentBegin=25696|WordAlignmentEnd=25766
+7	Saint-Jean-de-Maurienne	Saint-Jean-de-Maurienne	PROPN	_	_	6	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=25766|WordAlignmentEnd=26136
+8	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=26136|WordAlignmentEnd=26196
+9	euh	euh	INTJ	_	_	7	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=26196|WordAlignmentEnd=26802
+10	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=27066|WordAlignmentEnd=27066
+11	où	où	ADV	_	PronType=Rel	13	comp:obl	_	WordAlignmentBegin=26802|WordAlignmentEnd=27066
+12	se	soi	PRON	_	PronType=Prs|Reflex=Yes	13	comp@pass	_	Person[lex]=3|WordAlignmentBegin=27096|WordAlignmentEnd=27586
+13	situe	situer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	5	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=27096|WordAlignmentEnd=27586
+14	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	WordAlignmentBegin=27586|WordAlignmentEnd=27696
+15	garage	garage	NOUN	_	_	13	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=27696|WordAlignmentEnd=28156
+16	Fiat	Fiat	PROPN	_	_	15	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=28156|WordAlignmentEnd=28396
+17	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=28396|WordAlignmentEnd=28396
+
+# sent_id = Rhap_M0007-14
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous prenez ce rond-point à gauche //
+# text = vous prenez ce rond-point à gauche.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=29288|WordAlignmentEnd=29387
+2	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=29387|WordAlignmentEnd=29702
+3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=29702|WordAlignmentEnd=29802
+4	rond-point	rond-point	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=29802|WordAlignmentEnd=30178
+5	à	à	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=30178|WordAlignmentEnd=30332
+6	gauche	gauche	NOUN	_	_	5	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=30332|WordAlignmentEnd=30772
+7	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=30772|WordAlignmentEnd=30772
+
+# sent_id = Rhap_M0007-15
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = il y aura Géant "euh" juste "euh" sur votre droite //
+# text = il y aura Géant, euh, juste, euh, sur votre droite.
+1	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	3	subj@expl	_	Person[lex]=3|WordAlignmentBegin=30973|WordAlignmentEnd=31033
+2	y	y	PRON	_	PronType=Prs	3	comp@expl	_	Person[lex]=3|WordAlignmentBegin=31033|WordAlignmentEnd=31060
+3	aura	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	WordAlignmentBegin=31060|WordAlignmentEnd=31264
+4	Géant	Géant	PROPN	_	_	3	comp:obj	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=31264|WordAlignmentEnd=31734
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=31734|WordAlignmentEnd=31734
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=31734|WordAlignmentEnd=31883
+7	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=31883|WordAlignmentEnd=31883
+8	juste	juste	ADV	_	_	12	mod	_	SpaceAfter=No|WordAlignmentBegin=31883|WordAlignmentEnd=32113
+9	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=32113|WordAlignmentEnd=32113
+10	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=32113|WordAlignmentEnd=32303
+11	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=32303|WordAlignmentEnd=32303
+12	sur	sur	ADP	_	_	3	mod	_	WordAlignmentBegin=32303|WordAlignmentEnd=32503
+13	votre	son	DET	_	Number=Sing|Number[psor]=Plur|Person[psor]=2|Poss=Yes|PronType=Prs	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=32503|WordAlignmentEnd=32713
+14	droite	droite	NOUN	_	_	12	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=32713|WordAlignmentEnd=33003
+15	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=33003|WordAlignmentEnd=33003
+
+# sent_id = Rhap_M0007-16
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = après <+ vous continuez //
+# text = après, vous continuez.
+1	après	après	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=33889|WordAlignmentEnd=34045
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=34045|WordAlignmentEnd=34045
+3	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=34045|WordAlignmentEnd=34149
+4	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=34149|WordAlignmentEnd=34639
+5	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=34639|WordAlignmentEnd=34639
+
+# sent_id = Rhap_M0007-17
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = au prochain rond-point <+ vous prenez à gauche //
+# text = au prochain rond-point, vous prenez à gauche.
+1	au	au	ADP	_	_	6	mod	_	WordAlignmentBegin=34639|WordAlignmentEnd=34779
+2	prochain	prochain	ADJ	_	Gender=Masc	3	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=34779|WordAlignmentEnd=35189
+3	rond-point	rond-point	NOUN	_	_	1	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=35189|WordAlignmentEnd=35659
+4	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=35659|WordAlignmentEnd=35659
+5	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	6	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=35659|WordAlignmentEnd=35749
+6	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=35749|WordAlignmentEnd=36079
+7	à	à	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=36079|WordAlignmentEnd=36209
+8	gauche	gauche	NOUN	_	_	7	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=36209|WordAlignmentEnd=36600
+9	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=36600|WordAlignmentEnd=36600
+
+# sent_id = Rhap_M0007-18
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous descendez la route "euh" vers les sapeurs pompiers "euh" en bas de la route //
+# text = vous descendez la route, euh, vers les sapeurs pompiers, euh, en bas de la route.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=37215|WordAlignmentEnd=37320
+2	descendez	descendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=37320|WordAlignmentEnd=37845
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=37845|WordAlignmentEnd=38005
+4	route	route	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=38005|WordAlignmentEnd=38371
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=38371|WordAlignmentEnd=38371
+6	euh	euh	INTJ	_	_	4	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=38371|WordAlignmentEnd=38708
+7	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=38708|WordAlignmentEnd=38708
+8	vers	vers	ADP	_	_	4	udep	_	WordAlignmentBegin=38708|WordAlignmentEnd=38965
+9	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=38965|WordAlignmentEnd=39045
+10	sapeurs	sapeur	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=39045|WordAlignmentEnd=39465
+11	pompiers	pompier	NOUN	_	_	10	compound	_	Gender[lex]=Masc|Number[ctxt]=Plur|SpaceAfter=No|WordAlignmentBegin=39465|WordAlignmentEnd=39969
+12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=39969|WordAlignmentEnd=39969
+13	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=39969|WordAlignmentEnd=40373
+14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=40373|WordAlignmentEnd=40729
+15	en	en	ADP	_	_	2	mod	_	WordAlignmentBegin=40729|WordAlignmentEnd=40829
+16	bas	bas	NOUN	_	_	15	comp	_	Gender[lex]=Masc|WordAlignmentBegin=40829|WordAlignmentEnd=40979
+17	de	de	ADP	_	_	16	udep	_	WordAlignmentBegin=40979|WordAlignmentEnd=41039
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=41039|WordAlignmentEnd=41252
+19	route	route	NOUN	_	_	17	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=41252|WordAlignmentEnd=41469
+20	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=41469|WordAlignmentEnd=41469
+
+# sent_id = Rhap_M0007-19
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous arrivez après au fond de la route //
+# text = vous arrivez après au fond de la route.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=42360|WordAlignmentEnd=42413
+2	arrivez	arriver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=42413|WordAlignmentEnd=42655
+3	après	après	ADV	_	_	2	mod	_	WordAlignmentBegin=42655|WordAlignmentEnd=42916
+4	au	au	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=42916|WordAlignmentEnd=42996
+5	fond	fond	NOUN	_	_	4	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=42996|WordAlignmentEnd=43186
+6	de	de	ADP	_	_	5	udep	_	WordAlignmentBegin=43186|WordAlignmentEnd=43246
+7	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=43246|WordAlignmentEnd=43356
+8	route	route	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=43356|WordAlignmentEnd=43576
+9	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=43576|WordAlignmentEnd=43576
+
+# sent_id = Rhap_M0007-20
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous prenez à gauche devant "euh" Dorhôtel //
+# text = vous prenez à gauche devant, euh, Dorhôtel.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=43576|WordAlignmentEnd=43636
+2	prenez	prendre	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=43636|WordAlignmentEnd=43916
+3	à	à	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=43916|WordAlignmentEnd=44106
+4	gauche	gauche	NOUN	_	_	3	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=44106|WordAlignmentEnd=44484
+5	devant	devant	ADP	_	_	2	mod	_	SpaceAfter=No|WordAlignmentBegin=44484|WordAlignmentEnd=44799
+6	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=44799|WordAlignmentEnd=44799
+7	euh	euh	INTJ	_	_	9	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=44799|WordAlignmentEnd=44976
+8	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=44976|WordAlignmentEnd=44976
+9	Dorhôtel	Dorhôtel	PROPN	_	_	5	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=44976|WordAlignmentEnd=45701
+10	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=45701|WordAlignmentEnd=45701
+
+# sent_id = Rhap_M0007-21
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous continuez tout droit //
+# text = vous continuez tout droit.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=45701|WordAlignmentEnd=45915
+2	continuez	continuer	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=45915|WordAlignmentEnd=46486
+3	tout	tout	ADV	_	_	4	mod	_	WordAlignmentBegin=46486|WordAlignmentEnd=46656
+4	droit	droit	ADJ	_	Gender=Masc	2	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=46656|WordAlignmentEnd=46936
+5	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=46936|WordAlignmentEnd=46936
+
+# sent_id = Rhap_M0007-22
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM40
+# macrosyntax = vous arrivez "euh" en face de la gare au bout de la ligne droite //
+# text = vous arrivez, euh, en face de la gare au bout de la ligne droite.
+1	vous	vous	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Plur|Person[lex]=2|Polite=Unknown|WordAlignmentBegin=47781|WordAlignmentEnd=47837
+2	arrivez	arriver	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=47837|WordAlignmentEnd=48379
+3	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=48379|WordAlignmentEnd=48379
+4	euh	euh	INTJ	_	_	2	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=48379|WordAlignmentEnd=48550
+5	,	,	PUNCT	_	_	6	punct	_	WordAlignmentBegin=48550|WordAlignmentEnd=48550
+6	en	en	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=48550|WordAlignmentEnd=48659
+7	face	face	NOUN	_	_	6	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=48659|WordAlignmentEnd=48879
+8	de	de	ADP	_	_	7	udep	_	WordAlignmentBegin=48879|WordAlignmentEnd=49029
+9	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=49029|WordAlignmentEnd=49159
+10	gare	gare	NOUN	_	_	8	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=49159|WordAlignmentEnd=49449
+11	au	au	ADP	_	_	2	mod	_	WordAlignmentBegin=49449|WordAlignmentEnd=49509
+12	bout	bout	NOUN	_	_	11	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=49509|WordAlignmentEnd=49649
+13	de	de	ADP	_	_	12	udep	_	WordAlignmentBegin=49649|WordAlignmentEnd=49719
+14	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=49719|WordAlignmentEnd=49819
+15	ligne	ligne	NOUN	_	_	13	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=49819|WordAlignmentEnd=50009
+16	droite	droit	ADJ	_	Gender=Fem	15	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=50009|WordAlignmentEnd=50430
+17	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=50430|WordAlignmentEnd=50430
+

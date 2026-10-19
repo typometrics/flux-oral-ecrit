@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Données</title>
+<link rel="stylesheet" href="../assets/style.css">
+<script src="../assets/build.js"></script>
+<script src="../assets/common.js"></script>
+
+<style>
+  .paper p { text-align: justify; hyphens: auto; }
+  .paper img { max-width: 100%; display: block; margin: 0 auto; background: #fff; border-radius: 6px; }
+  .paper .authors p { text-align: right; font-family: var(--sans); }
+  .paper .abstract { font-size: 15px; margin: 8px 0; }
+  .paper .ex { margin: 12px 0 12px 1.5em; font-size: 15.5px; }
+  .paper .refs p { padding-left: 1.5em; text-indent: -1.5em; font-size: 14.5px; margin: 4px 0; }
+  .paper table { border-collapse: collapse; font-family: var(--sans); font-size: 13px; margin: 10px auto; }
+  .paper table td, .paper table th { border: 1px solid var(--border); padding: 4px 8px; }
+  .paper table caption { caption-side: top; font-family: var(--sans); font-size: 13px; color: var(--muted); padding: 6px; }
+  .paper figcaption { text-align: center; }
+  .paper section.footnotes { font-size: 14px; border-top: 1px solid var(--border); margin-top: 24px; }
+  table.t { border-collapse: collapse; font-family: var(--sans); font-size: 14px; }
+  table.t td, table.t th { border: 1px solid var(--border); padding: 4px 10px; text-align: left; vertical-align: top; }
+</style>
+</head>
+<body>
+<main class="narrow paper">
+<h1>Données</h1>
+<p>Les corpus exactement tels qu'ils ont été analysés dans l'article, et les unités dérivées sur lesquelles portent les mesures.</p>
+<h2>Corpus sources</h2>
+<table class="t"><tr><th>Corpus</th><th>Contenu</th><th>Version</th><th>Licence</th></tr><tr><td><a href="treebanks/CEFC-gold/">CEFC-gold</a></td><td>1 fichiers CoNLL-U, 11.0 Mo</td><td>cefc-gold as exported from https://gmd-orfeo.grew.fr (corpus cefc-gold), 2026-10-10. Orféo project (Benzitoun, Debaisieux & Deulofeu 2016).</td><td>voir ci-dessous</td></tr><tr><td><a href="treebanks/SUD_French-GSD/">SUD_French-GSD</a></td><td>7 fichiers CoNLL-U, 26.5 Mo</td><td>https://github.com/surfacesyntacticud/SUD_French-GSD commit a8fba5270242f0df5ff8dfaa50b61d6a085385a5 2026-10-07 09:48:08 +0200</td><td><a href="treebanks/SUD_French-GSD/LICENSE.txt">LICENSE.txt</a></td></tr><tr><td><a href="treebanks/SUD_French-ParisStories/">SUD_French-ParisStories</a></td><td>66 fichiers CoNLL-U, 3.8 Mo</td><td>https://github.com/surfacesyntacticud/SUD_French-ParisStories commit e1cdde9ab72ac1542872f9bc742c234c4d590c83 2026-10-14 20:23:39 +0200</td><td><a href="treebanks/SUD_French-ParisStories/LICENSE.txt">LICENSE.txt</a></td></tr><tr><td><a href="treebanks/SUD_French-Rhapsodie/">SUD_French-Rhapsodie</a></td><td>57 fichiers CoNLL-U, 5.9 Mo</td><td>https://github.com/surfacesyntacticud/SUD_French-Rhapsodie commit 57629dfe4805fb9e1dd3213b67e8fe28c6976a75 2026-10-14 20:23:47 +0200</td><td><a href="treebanks/SUD_French-Rhapsodie/LICENSE.txt">LICENSE.txt</a></td></tr><tr><td><a href="treebanks/SUD_French-Sequoia/">SUD_French-Sequoia</a></td><td>5 fichiers CoNLL-U, 4.6 Mo</td><td>https://github.com/surfacesyntacticud/SUD_French-Sequoia commit 18abc468773a72de51cb429a6d5e2051cc447e3b 2026-10-15 16:21:21 +0200</td><td><a href="treebanks/SUD_French-Sequoia/LICENSE.txt">LICENSE.txt</a></td></tr><tr><td><a href="treebanks/UD_French-GSD@conv/">UD_French-GSD@conv</a></td><td>1 fichiers CoNLL-U, 29.1 Mo</td><td>automatic UD conversion of SUD_French-GSD (commit above) by grew-match, corpus UD_French-GSD@conv, downloaded 2026-10-16</td><td>voir ci-dessous</td></tr><tr><td><a href="treebanks/UD_French-ParisStories@conv/">UD_French-ParisStories@conv</a></td><td>1 fichiers CoNLL-U, 4.4 Mo</td><td>automatic UD conversion of SUD_French-ParisStories (commit above) by grew-match, corpus UD_French-ParisStories@conv, downloaded 2026-10-16</td><td>voir ci-dessous</td></tr><tr><td><a href="treebanks/UD_French-Rhapsodie@conv/">UD_French-Rhapsodie@conv</a></td><td>1 fichiers CoNLL-U, 6.5 Mo</td><td>automatic UD conversion of SUD_French-Rhapsodie (commit above) by grew-match, corpus UD_French-Rhapsodie@conv, downloaded 2026-10-16</td><td>voir ci-dessous</td></tr><tr><td><a href="treebanks/UD_French-Sequoia@conv/">UD_French-Sequoia@conv</a></td><td>1 fichiers CoNLL-U, 5.2 Mo</td><td>automatic UD conversion of SUD_French-Sequoia (commit above) by grew-match, corpus UD_French-Sequoia@conv, downloaded 2026-10-16</td><td>voir ci-dessous</td></tr></table>
+<p class="small">GSD, ParisStories et Rhapsodie sont distribués sous licence CC BY-SA 4.0 et Sequoia sous LGPL-LR, par le projet <a href="https://surfacesyntacticud.github.io/">SUD</a> ; les versions <code>@conv</code> sont leur conversion automatique en UD par <a href="https://universal.grew.fr/">grew-match</a>. CEFC-gold est l'échantillon de référence du corpus <a href="https://www.ortolang.fr/market/corpora/cefc-orfeo">CEFC-Orféo</a> ; il est reproduit ici tel qu'exporté de grew-match pour permettre la vérification des calculs ; les conditions d'utilisation du corpus Orféo s'appliquent.</p>
+<h2>Unités et composantes illocutoires</h2>
+<p>Pour chaque corpus, les unités d'au moins trois mots analysées (GSD et Sequoia après segmentation, modifieurs antéposés au sujet réétiquetés <code>mod:periph</code>) et les composantes illocutoires obtenues en coupant les dépendances macrosyntaxiques (section 3.2 de l'article) ; détails dans <a href="derived/README.md">derived/README.md</a>.</p>
+<ul><li><a href="derived/CEFC_composantes_illocutoires.conllu">CEFC_composantes_illocutoires.conllu</a> (8.9 Mo)</li><li><a href="derived/CEFC_unites_illocutoires.conllu">CEFC_unites_illocutoires.conllu</a> (10.1 Mo)</li><li><a href="derived/GSD_composantes_illocutoires.conllu">GSD_composantes_illocutoires.conllu</a> (26.2 Mo)</li><li><a href="derived/GSD_unites_illocutoires.conllu">GSD_unites_illocutoires.conllu</a> (26.4 Mo)</li><li><a href="derived/ParisStories_composantes_illocutoires.conllu">ParisStories_composantes_illocutoires.conllu</a> (3.3 Mo)</li><li><a href="derived/ParisStories_unites_illocutoires.conllu">ParisStories_unites_illocutoires.conllu</a> (3.8 Mo)</li><li><a href="derived/Rhapsodie_composantes_illocutoires.conllu">Rhapsodie_composantes_illocutoires.conllu</a> (4.7 Mo)</li><li><a href="derived/Rhapsodie_unites_illocutoires.conllu">Rhapsodie_unites_illocutoires.conllu</a> (5.3 Mo)</li><li><a href="derived/Sequoia_composantes_illocutoires.conllu">Sequoia_composantes_illocutoires.conllu</a> (4.5 Mo)</li><li><a href="derived/Sequoia_unites_illocutoires.conllu">Sequoia_unites_illocutoires.conllu</a> (4.5 Mo)</li></ul>
+<p class="small muted">Dépôt GitHub : <a href="https://github.com/typometrics/flux-oral-ecrit">typometrics/flux-oral-ecrit</a> (les mêmes fichiers, versionnés).</p>
+</main>
+</body>
+</html>

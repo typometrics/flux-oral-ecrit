@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Le flux de dépendance, une mesure de la complexité syntaxique : l'oral et l'écrit en français</title>
+<link rel="stylesheet" href="assets/style.css">
+<script src="assets/build.js"></script>
+<script src="assets/common.js"></script>
+
+<style>
+  .paper p { text-align: justify; hyphens: auto; }
+  .paper img { max-width: 100%; display: block; margin: 0 auto; background: #fff; border-radius: 6px; }
+  .paper .authors p { text-align: right; font-family: var(--sans); }
+  .paper .abstract { font-size: 15px; margin: 8px 0; }
+  .paper .ex { margin: 12px 0 12px 1.5em; font-size: 15.5px; }
+  .paper .refs p { padding-left: 1.5em; text-indent: -1.5em; font-size: 14.5px; margin: 4px 0; }
+  .paper table { border-collapse: collapse; font-family: var(--sans); font-size: 13px; margin: 10px auto; }
+  .paper table td, .paper table th { border: 1px solid var(--border); padding: 4px 8px; }
+  .paper table caption { caption-side: top; font-family: var(--sans); font-size: 13px; color: var(--muted); padding: 6px; }
+  .paper figcaption { text-align: center; }
+  .paper section.footnotes { font-size: 14px; border-top: 1px solid var(--border); margin-top: 24px; }
+  table.t { border-collapse: collapse; font-family: var(--sans); font-size: 14px; }
+  table.t td, table.t th { border: 1px solid var(--border); padding: 4px 10px; text-align: left; vertical-align: top; }
+</style>
+</head>
+<body>
+<main class="narrow paper">
+<h1>Le flux de dépendance, une mesure de la complexité syntaxique : l'oral et l'écrit en français</h1>
+<p class="lede" style="font-family:var(--sans)">Sylvain Kahane (Université Paris Nanterre, Modyco, CNRS ; IUF) et Kim Gerdes (Université Paris-Saclay, CNRS, LISN). Article pour le numéro de <i>Studii de lingvistică</i> sur la complexité, octobre 2026.</p>
+<p>Le flux de dépendance en un point d'une phrase est l'ensemble des dépendances syntaxiques qui relient un mot situé avant ce point à un mot situé après. Sa taille moyenne est égale à la longueur moyenne des dépendances, mais sa distribution renseigne directement sur la charge de la mémoire de travail. Nous comparons deux corpus écrits (GSD, Sequoia) et trois corpus oraux (ParisStories, Rhapsodie, CEFC-gold) du français annotés en dépendances (SUD), en mesurant pour des unités de même longueur la taille du flux, son poids (le nombre maximal de dépendances disjointes, qui mesure l'enchâssement central) et la longueur des dépendances, ainsi que le paramètre de coupure d'une loi de puissance tronquée, que nous interprétons comme la pression exercée par la mémoire de travail. À longueur égale, l'oral a un flux plus grand que l'écrit. Les relations macrosyntaxiques (marqueurs de discours, dislocations, parenthèses) expliquent la plus grande partie de ce surplus, les modifieurs antéposés au sujet le reste ; le poids du flux est le même partout. Contrairement à l'idée d'un oral syntaxiquement simple, l'oral n'est pas moins complexe que l'écrit au niveau microsyntaxique : sa complexité est seulement distribuée autrement.</p>
+<div class="grid c2">
+<div class="card"><h3><a href="article/index.html">L'article</a></h3><p>Texte intégral avec les figures ; <a href="article/article_flux_oral_ecrit.docx">docx</a>.</p></div>
+<div class="card"><h3><a href="data/index.html">Les données</a></h3><p>Les cinq corpus tels qu'ils ont été analysés (versions exactes), les unités et les composantes illocutoires en CoNLL-U.</p></div>
+<div class="card"><h3><a href="code/index.html">Le code et les résultats</a></h3><p>Les scripts qui produisent les tableaux, les figures et les erreurs types, et leurs sorties.</p></div>
+<div class="card"><h3><a href="maths/index.html">Les statistiques, pas à pas</a></h3><p>Le modèle <i>p</i>(<i>n</i>) ∝ <i>n</i><sup>−β</sup>e<sup>−λ<i>n</i></sup>, l'ajustement, les erreurs types et les tests, expliqués sur les données de l'article (en anglais).</p></div>
+</div>
+<p class="small muted">Ce site est aussi disponible sur <a href="https://typometrics.elizia.net/flux-oral-ecrit/">https://typometrics.elizia.net/flux-oral-ecrit/</a>. Dépôt : <a href="https://github.com/typometrics/flux-oral-ecrit">github.com/typometrics/flux-oral-ecrit</a>. Le flux de dépendance : Kahane, Yan & Botalla (2017), Yan (2021).</p>
+</main>
+</body>
+</html>

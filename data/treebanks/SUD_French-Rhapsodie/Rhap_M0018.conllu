@@ -1,0 +1,400 @@
+# sent_id = Rhap_M0018-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = ^ et ça enchaîne sur une seconde scène où on voit une femme " euh " { qui ( a priori ) est pauvre | " euh " ^et qui passe à l'endroit où un boulanger vient de se stationner avec des baguettes de pain } // qui { prend du pain | traverse | " euh " enfin sort de sa voiture | rentre dans une boutique } //
+# text = et ça enchaîne sur une seconde scène où on voit une femme, euh, qui, a priori, est pauvre, euh, et qui passe à l'endroit où un boulanger vient de se stationner avec des baguettes de pain, qui prend du pain, traverse, euh, enfin sort de sa voiture, rentre dans une boutique.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=695|WordAlignmentEnd=735
+2	ça	ça	PRON	_	PronType=Dem	3	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=735|WordAlignmentEnd=875
+3	enchaîne	enchaîner	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=875|WordAlignmentEnd=1095
+4	sur	sur	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=1095|WordAlignmentEnd=1215
+5	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	7	det	_	WordAlignmentBegin=1215|WordAlignmentEnd=1355
+6	seconde	second	ADJ	_	Gender=Fem	7	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=1355|WordAlignmentEnd=1695
+7	scène	scène	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=1695|WordAlignmentEnd=2305
+8	où	où	ADV	_	PronType=Rel	10	mod	_	WordAlignmentBegin=2950|WordAlignmentEnd=3080
+9	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	10	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=3080|WordAlignmentEnd=3230
+10	voit	voir	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	7	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=3230|WordAlignmentEnd=3690
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	WordAlignmentBegin=3690|WordAlignmentEnd=3800
+12	femme	femme	NOUN	_	_	10	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=3800|WordAlignmentEnd=4280
+13	,	,	PUNCT	_	_	14	punct	_	WordAlignmentBegin=4280|WordAlignmentEnd=4280
+14	euh	euh	INTJ	_	_	12	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=4280|WordAlignmentEnd=4490
+15	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=4490|WordAlignmentEnd=5323
+16	qui	qui	PRON	_	PronType=Rel	21	subj	_	SpaceAfter=No|WordAlignmentBegin=5323|WordAlignmentEnd=5433
+17	,	,	PUNCT	_	_	16	punct	_	WordAlignmentBegin=5433|WordAlignmentEnd=5433
+18	a	a	ADP	_	ExtPos=ADV	21	mod	_	Idiom=Yes|WordAlignmentBegin=5433|WordAlignmentEnd=5485
+19	priori	priori	ADV	_	_	18	comp:obj	_	InIdiom=Yes|SpaceAfter=No|WordAlignmentBegin=5485|WordAlignmentEnd=6043
+20	,	,	PUNCT	_	_	18	punct	_	WordAlignmentBegin=6043|WordAlignmentEnd=6043
+21	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	WordAlignmentBegin=6043|WordAlignmentEnd=6143
+22	pauvre	pauvre	ADJ	_	_	21	comp:pred	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=6523|WordAlignmentEnd=7013
+23	,	,	PUNCT	_	_	24	punct	_	WordAlignmentBegin=7013|WordAlignmentEnd=7013
+24	euh	euh	INTJ	_	_	22	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=7013|WordAlignmentEnd=7433
+25	,	,	PUNCT	_	_	28	punct	_	WordAlignmentBegin=7433|WordAlignmentEnd=8059
+26	et	et	CCONJ	_	_	28	cc	_	WordAlignmentBegin=8129|WordAlignmentEnd=8989
+27	qui	qui	PRON	_	PronType=Rel	28	subj	_	WordAlignmentBegin=8129|WordAlignmentEnd=8929
+28	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	22	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=8989|WordAlignmentEnd=9269
+29	à	à	ADP	_	_	28	comp:obl	_	WordAlignmentBegin=9269|WordAlignmentEnd=9319
+30	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	31	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=9319|WordAlignmentEnd=9349
+31	endroit	endroit	NOUN	_	_	29	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=9349|WordAlignmentEnd=9609
+32	où	où	ADV	_	PronType=Rel	38	mod	_	WordAlignmentBegin=9609|WordAlignmentEnd=9929
+33	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	34	det	_	WordAlignmentBegin=9929|WordAlignmentEnd=9959
+34	boulanger	boulanger	NOUN	_	_	35	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=9959|WordAlignmentEnd=10529
+35	vient	venir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	31	mod@relcl	_	Person[ctxt]=3|WordAlignmentBegin=10529|WordAlignmentEnd=10719
+36	de	de	ADP	_	_	35	comp:obl	_	WordAlignmentBegin=10719|WordAlignmentEnd=10809
+37	se	soi	PRON	_	PronType=Prs|Reflex=Yes	38	comp:obj	_	Person[lex]=3|WordAlignmentBegin=10809|WordAlignmentEnd=10987
+38	stationner	stationner	VERB	_	VerbForm=Inf	36	comp	_	Subject=SubjRaising|WordAlignmentBegin=10987|WordAlignmentEnd=11669
+39	avec	avec	ADP	_	_	38	mod	_	WordAlignmentBegin=11884|WordAlignmentEnd=12119
+40	des	un	DET	_	Definite=Ind|Number=Plur|PronType=Art	41	det	_	WordAlignmentBegin=12119|WordAlignmentEnd=12209
+41	baguettes	baguette	NOUN	_	_	39	comp	_	cdet=No|Gender[lex]=Fem|Number[ctxt]=Plur|WordAlignmentBegin=12209|WordAlignmentEnd=12459
+42	de	de	ADP	_	_	41	udep	_	WordAlignmentBegin=12459|WordAlignmentEnd=12639
+43	pain	pain	NOUN	_	_	42	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=12639|WordAlignmentEnd=12879
+44	,	,	PUNCT	_	_	46	punct	_	WordAlignmentBegin=12879|WordAlignmentEnd=13674
+45	qui	qui	PRON	_	PronType=Rel|Shared=Yes	46	subj	_	WordAlignmentBegin=13674|WordAlignmentEnd=14284
+46	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	Person[ctxt]=3|WordAlignmentBegin=14284|WordAlignmentEnd=14440
+47	du	du	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	48	det	_	WordAlignmentBegin=14440|WordAlignmentEnd=14595
+48	pain	pain	NOUN	_	_	46	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=14595|WordAlignmentEnd=15064
+49	,	,	PUNCT	_	_	50	punct	_	WordAlignmentBegin=15064|WordAlignmentEnd=15064
+50	traverse	traverser	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	46	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=15064|WordAlignmentEnd=15654
+51	,	,	PUNCT	_	_	52	punct	_	WordAlignmentBegin=15654|WordAlignmentEnd=15654
+52	euh	euh	INTJ	_	_	55	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=15654|WordAlignmentEnd=15864
+53	,	,	PUNCT	_	_	52	punct	_	WordAlignmentBegin=15864|WordAlignmentEnd=15864
+54	enfin	enfin	ADV	_	ExtPos=INTJ	55	discourse	_	WordAlignmentBegin=15864|WordAlignmentEnd=16054
+55	sort	sortir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	50	conj:reform	_	Person[ctxt]=3|WordAlignmentBegin=16054|WordAlignmentEnd=16254
+56	de	de	ADP	_	_	55	comp:obl	_	WordAlignmentBegin=16254|WordAlignmentEnd=16324
+57	sa	son	DET	_	Gender=Fem|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	58	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=16324|WordAlignmentEnd=16464
+58	voiture	voiture	NOUN	_	_	56	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=16464|WordAlignmentEnd=16884
+59	,	,	PUNCT	_	_	60	punct	_	WordAlignmentBegin=16884|WordAlignmentEnd=16884
+60	rentre	rentrer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	55	conj:coord	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=16884|WordAlignmentEnd=17064
+61	dans	dans	ADP	_	_	60	comp:obl	_	WordAlignmentBegin=17064|WordAlignmentEnd=17181
+62	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	63	det	_	WordAlignmentBegin=17181|WordAlignmentEnd=17313
+63	boutique	boutique	NOUN	_	_	61	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=17313|WordAlignmentEnd=17974
+64	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=17974|WordAlignmentEnd=17974
+
+# sent_id = Rhap_M0018-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = ^et au moment { où la fille passe | ^et qu'elle voit le manque d'attention du boulanger } <+ elle prend un bout de pain //
+# text = et au moment où la fille passe et qu'elle voit le manque d'attention du boulanger, elle prend un bout de pain.
+1	et	et	CCONJ	_	_	20	cc	_	WordAlignmentBegin=17974|WordAlignmentEnd=18292
+2	au	au	ADP	_	_	20	mod	_	WordAlignmentBegin=18292|WordAlignmentEnd=18392
+3	moment	moment	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=18392|WordAlignmentEnd=18742
+4	où	où	ADV	_	PronType=Rel	7	mod	_	WordAlignmentBegin=18742|WordAlignmentEnd=18952
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=18952|WordAlignmentEnd=19212
+6	fille	fille	NOUN	_	Shared=No	7	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=19212|WordAlignmentEnd=19522
+7	passe	passer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	3	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=19522|WordAlignmentEnd=19912
+8	et	et	CCONJ	_	_	9	cc	_	WordAlignmentBegin=19912|WordAlignmentEnd=19962
+9	qu'	que	SCONJ	_	_	7	conj:coord	_	SpaceAfter=No|WordAlignmentBegin=19962|WordAlignmentEnd=20042
+10	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	11	subj	_	Person[lex]=3|WordAlignmentBegin=20042|WordAlignmentEnd=20152
+11	voit	voir	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	9	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=20152|WordAlignmentEnd=20592
+12	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=20592|WordAlignmentEnd=20715
+13	manque	manque	NOUN	_	_	11	comp:obj	_	cdet=No|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=20715|WordAlignmentEnd=20912
+14	d'	de	ADP	_	_	13	udep	_	SpaceAfter=No|WordAlignmentBegin=20912|WordAlignmentEnd=20962
+15	attention	attention	NOUN	_	_	14	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=20962|WordAlignmentEnd=21732
+16	du	du	ADP	_	_	15	udep	_	WordAlignmentBegin=21732|WordAlignmentEnd=21852
+17	boulanger	boulanger	NOUN	_	_	16	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=21852|WordAlignmentEnd=22402
+18	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=22402|WordAlignmentEnd=22736
+19	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	20	subj	_	Person[lex]=3|WordAlignmentBegin=22736|WordAlignmentEnd=22876
+20	prend	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=3|WordAlignmentBegin=22876|WordAlignmentEnd=23024
+21	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	22	det	_	WordAlignmentBegin=23024|WordAlignmentEnd=23062
+22	bout	bout	NOUN	_	_	20	comp:obj	_	cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=23062|WordAlignmentEnd=23176
+23	de	de	ADP	_	_	22	udep	_	WordAlignmentBegin=23176|WordAlignmentEnd=23222
+24	pain	pain	NOUN	_	_	23	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=23222|WordAlignmentEnd=23401
+25	.	.	PUNCT	_	_	20	punct	_	WordAlignmentBegin=23401|WordAlignmentEnd=23401
+
+# sent_id = Rhap_M0018-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = ^et elle se sauve en courant //
+# text = et elle se sauve en courant.
+1	et	et	CCONJ	_	_	4	cc	_	WordAlignmentBegin=23401|WordAlignmentEnd=23433
+2	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	4	subj	_	Person[lex]=3|WordAlignmentBegin=23433|WordAlignmentEnd=23566
+3	se	soi	PRON	_	PronType=Prs|Reflex=Yes	4	comp@expl	_	Person[lex]=3|WordAlignmentBegin=23566|WordAlignmentEnd=23753
+4	sauve	sauver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=23753|WordAlignmentEnd=23926
+5	en	en	ADP	_	_	4	mod	_	WordAlignmentBegin=23926|WordAlignmentEnd=24036
+6	courant	courir	VERB	_	VerbForm=Part	5	comp	_	SpaceAfter=No|Tense[denom]=Pres|WordAlignmentBegin=24036|WordAlignmentEnd=24326
+7	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=24326|WordAlignmentEnd=24326
+
+# sent_id = Rhap_M0018-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = ^ mais à ce moment-là <+ elle est vue par une dame { { plutôt âgée | ^ et bonne bourgeoise } // " euh " voilà // tout le conflit social dans cette petite anecdote < c'est marrant // ^ et " euh " qui ( bien évidemment ) " euh " délate " euh " le vol " euh " au boulanger lorsqu'il ressort de la boutique //
+# text = mais à ce moment-là, elle est vue par une dame plutôt âgée et bonne bourgeoise, euh, voilà, tout le conflit social dans cette petite anecdote, c'est marrant, et, euh, qui, bien évidemment, euh, délate, euh, le vol, euh, au boulanger lorsqu'il ressort de la boutique.
+1	mais	mais	CCONJ	_	_	8	cc	_	WordAlignmentBegin=25109|WordAlignmentEnd=25209
+2	à	à	ADP	_	_	8	mod	_	WordAlignmentBegin=25209|WordAlignmentEnd=25239
+3	ce	ce	DET	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=25239|WordAlignmentEnd=25317
+4	moment	moment	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=25317|WordAlignmentEnd=25545
+5	-là	là	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=25545|WordAlignmentEnd=25859
+6	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=25859|WordAlignmentEnd=26025
+7	elle	lui	PRON	_	Case=Nom|Emph=No|Gender=Fem|Number=Sing|PronType=Prs	8	subj@pass	_	Person[lex]=3|WordAlignmentBegin=26025|WordAlignmentEnd=26105
+8	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=26105|WordAlignmentEnd=26495
+9	vue	voir	VERB	_	VerbForm=Part|Voice=Pass	8	comp:aux@pass	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Tense[denom]=Past|WordAlignmentBegin=26495|WordAlignmentEnd=26855
+10	par	par	ADP	_	_	9	comp:obl	_	WordAlignmentBegin=26935|WordAlignmentEnd=27055
+11	une	un	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	12	det	_	WordAlignmentBegin=27055|WordAlignmentEnd=27475
+12	dame	dame	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=27715|WordAlignmentEnd=28325
+13	plutôt	plutôt	ADV	_	_	14	mod	_	WordAlignmentBegin=29818|WordAlignmentEnd=30078
+14	âgée	âgé	ADJ	_	_	12	mod	_	Gender[ctxt]=Fem|HasSpokenGender=NotInThisDialect|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=30078|WordAlignmentEnd=30798
+15	et	et	CCONJ	_	_	17	cc	_	WordAlignmentBegin=30798|WordAlignmentEnd=30978
+16	bonne	bon	ADJ	_	Gender=Fem	17	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=30978|WordAlignmentEnd=31238
+17	bourgeoise	bourgeois	NOUN	_	_	14	conj:coord	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=31238|WordAlignmentEnd=32018
+18	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=32018|WordAlignmentEnd=32018
+19	euh	euh	INTJ	_	_	17	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=32018|WordAlignmentEnd=32368
+20	,	,	PUNCT	_	_	47	punct	_	WordAlignmentBegin=32368|WordAlignmentEnd=32679
+21	voilà	voilà	VERB	_	_	47	parataxis:parenth	_	Graft=Yes|SpaceAfter=No|WordAlignmentBegin=32679|WordAlignmentEnd=32999
+22	,	,	PUNCT	_	_	25	punct	_	WordAlignmentBegin=32999|WordAlignmentEnd=33409
+23	tout	tout	ADJ	_	Gender=Masc	25	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=33409|WordAlignmentEnd=33559
+24	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	25	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=33559|WordAlignmentEnd=33668
+25	conflit	conflit	NOUN	_	_	21	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=34039|WordAlignmentEnd=34399
+26	social	social	ADJ	_	Number=Sing	25	mod	_	Gender[ctxt]=Masc|HasSpokenGender=OnlyPlur|HasSpokenNumber=AlwaysMasc|WordAlignmentBegin=34399|WordAlignmentEnd=35089
+27	dans	dans	ADP	_	_	21	mod	_	WordAlignmentBegin=35089|WordAlignmentEnd=35149
+28	cette	ce	DET	_	Gender=Fem|Number=Sing|PronType=Dem	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=35149|WordAlignmentEnd=35339
+29	petite	petit	ADJ	_	Number=Sing	30	mod	_	Gender[ctxt]=Fem|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|LiaisonAfter=Yes|WordAlignmentBegin=35449|WordAlignmentEnd=35669
+30	anecdote	anecdote	NOUN	_	_	27	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=35669|WordAlignmentEnd=36149
+31	,	,	PUNCT	_	_	21	punct	_	WordAlignmentBegin=36089|WordAlignmentEnd=36149
+32	c'	ce	PRON	_	PronType=Dem	33	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=36149|WordAlignmentEnd=36219
+33	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	parataxis:parenth	_	WordAlignmentBegin=36219|WordAlignmentEnd=36249
+34	marrant	marrant	ADJ	_	Gender=Masc	33	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=36249|WordAlignmentEnd=36439
+35	,	,	PUNCT	_	_	33	punct	_	WordAlignmentBegin=36439|WordAlignmentEnd=37100
+36	et	et	CCONJ	_	_	47	cc	_	SpaceAfter=No|WordAlignmentBegin=37100|WordAlignmentEnd=37490
+37	,	,	PUNCT	_	_	36	punct	_	WordAlignmentBegin=37490|WordAlignmentEnd=37490
+38	euh	euh	INTJ	_	_	47	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=37490|WordAlignmentEnd=38093
+39	,	,	PUNCT	_	_	38	punct	_	WordAlignmentBegin=38093|WordAlignmentEnd=38093
+40	qui	qui	PRON	_	PronType=Rel	47	subj	_	SpaceAfter=No|WordAlignmentBegin=38093|WordAlignmentEnd=38478
+41	,	,	PUNCT	_	_	40	punct	_	WordAlignmentBegin=38478|WordAlignmentEnd=38478
+42	bien	bien	ADV	_	_	47	mod	_	WordAlignmentBegin=38478|WordAlignmentEnd=38618
+43	évidemment	évidemment	ADV	_	_	42	mod	_	SpaceAfter=No|WordAlignmentBegin=38618|WordAlignmentEnd=39298
+44	,	,	PUNCT	_	_	45	punct	_	WordAlignmentBegin=39298|WordAlignmentEnd=39448
+45	euh	euh	INTJ	_	_	43	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=39448|WordAlignmentEnd=39478
+46	,	,	PUNCT	_	_	42	punct	_	WordAlignmentBegin=39478|WordAlignmentEnd=39478
+47	délate	délater	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	17	mod@relcl	_	Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=39478|WordAlignmentEnd=39988
+48	,	,	PUNCT	_	_	49	punct	_	WordAlignmentBegin=39988|WordAlignmentEnd=39988
+49	euh	euh	INTJ	_	_	47	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=39988|WordAlignmentEnd=40338
+50	,	,	PUNCT	_	_	52	punct	_	WordAlignmentBegin=40338|WordAlignmentEnd=40338
+51	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	52	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=40338|WordAlignmentEnd=40518
+52	vol	vol	NOUN	_	_	47	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=40518|WordAlignmentEnd=40868
+53	,	,	PUNCT	_	_	54	punct	_	WordAlignmentBegin=40868|WordAlignmentEnd=40868
+54	euh	euh	INTJ	_	_	52	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=40868|WordAlignmentEnd=41028
+55	,	,	PUNCT	_	_	56	punct	_	WordAlignmentBegin=41028|WordAlignmentEnd=41028
+56	au	au	ADP	_	_	47	comp:obl	_	WordAlignmentBegin=41028|WordAlignmentEnd=41178
+57	boulanger	boulanger	NOUN	_	_	56	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=41178|WordAlignmentEnd=41588
+58	lorsqu'	lorsque	SCONJ	_	_	47	mod	_	SpaceAfter=No|WordAlignmentBegin=41588|WordAlignmentEnd=41738
+59	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	60	subj	_	Person[lex]=3|WordAlignmentBegin=41738|WordAlignmentEnd=41888
+60	ressort	ressortir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	58	comp	_	Person[ctxt]=3|WordAlignmentBegin=41888|WordAlignmentEnd=42138
+61	de	de	ADP	_	_	60	comp:obl	_	WordAlignmentBegin=42138|WordAlignmentEnd=42218
+62	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	63	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=42218|WordAlignmentEnd=42320
+63	boutique	boutique	NOUN	_	_	61	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=42320|WordAlignmentEnd=42998
+64	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=42998|WordAlignmentEnd=42998
+
+# sent_id = Rhap_M0018-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = ^et "euh" voilà //
+# text = et, euh, voilà.
+1	et	et	CCONJ	_	_	5	cc	_	SpaceAfter=No|WordAlignmentBegin=43955|WordAlignmentEnd=44385
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=44385|WordAlignmentEnd=44385
+3	euh	euh	INTJ	_	_	5	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=44385|WordAlignmentEnd=45085
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=45085|WordAlignmentEnd=45395
+5	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=45395|WordAlignmentEnd=45665
+6	.	.	PUNCT	_	_	5	punct	_	WordAlignmentBegin=45665|WordAlignmentEnd=45665
+
+# sent_id = Rhap_M0018-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = réaction du boulanger //
+# text = réaction du boulanger.
+1	réaction	réaction	NOUN	_	_	0	root	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=45989|WordAlignmentEnd=46429
+2	du	du	ADP	_	_	1	udep	_	WordAlignmentBegin=46429|WordAlignmentEnd=46529
+3	boulanger	boulanger	NOUN	_	_	2	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=46529|WordAlignmentEnd=47029
+4	.	.	PUNCT	_	_	1	punct	_	WordAlignmentBegin=47029|WordAlignmentEnd=47029
+
+# sent_id = Rhap_M0018-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = [ pendant que ça se passait > ça ] <+ ( j'ai pas fait dans l'ordre // ) on voit la fille { qui | donc qui } part "euh" avec son bout de pain au moment où Charlie Chaplin arrive sur le trottoir où ils { se heurtent sauvagement | ^et tombent par terre dans les bras l'un de l'autre } //
+# text = pendant que ça se passait ça, j'ai pas fait dans l'ordre, on voit la fille qui, donc qui part, euh, avec son bout de pain au moment où Charlie Chaplin arrive sur le trottoir où ils se heurtent sauvagement et tombent par terre dans les bras l'un de l'autre.
+1	pendant	pendant	ADP	_	_	17	mod	_	WordAlignmentBegin=47704|WordAlignmentEnd=48034
+2	que	que	SCONJ	_	_	1	comp	_	WordAlignmentBegin=48034|WordAlignmentEnd=48424
+3	ça	ça	PRON	_	PronType=Dem	5	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=48614|WordAlignmentEnd=48768
+4	se	soi	PRON	_	PronType=Prs|Reflex=Yes	5	comp@expl	_	Person[lex]=3|WordAlignmentBegin=48768|WordAlignmentEnd=48864
+5	passait	passer	VERB	_	Mood=Ind|Tense=Imp|VerbForm=Fin	2	comp	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=48864|WordAlignmentEnd=49124
+6	ça	ça	PRON	_	PronType=Dem	5	dislocated:subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=49124|WordAlignmentEnd=49544
+7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=49544|WordAlignmentEnd=51099
+8	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	9	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=51099|WordAlignmentEnd=51189
+9	ai	avoir	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis:parenth	_	WordAlignmentBegin=51189|WordAlignmentEnd=51242
+10	pas	pas	ADV	_	Polarity=Neg	9	mod	_	WordAlignmentBegin=51242|WordAlignmentEnd=51322
+11	fait	faire	VERB	_	Gender=Masc|VerbForm=Part|Voice=Act	9	comp:aux@tense	_	Number[ctxt]=Sing|PastPartHasSpokenGender=Yes|Tense[denom]=Past|WordAlignmentBegin=51322|WordAlignmentEnd=51482
+12	dans	dans	ADP	_	_	9	mod	_	WordAlignmentBegin=51482|WordAlignmentEnd=51623
+13	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=51623|WordAlignmentEnd=51671
+14	ordre	ordre	NOUN	_	_	12	comp	_	Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=51671|WordAlignmentEnd=52068
+15	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=52068|WordAlignmentEnd=53153
+16	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	17	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=53153|WordAlignmentEnd=53253
+17	voit	voir	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=53253|WordAlignmentEnd=53353
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=53353|WordAlignmentEnd=53443
+19	fille	fille	NOUN	_	_	17	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=53443|WordAlignmentEnd=53633
+20	qui	qui	PRON	_	PronType=Rel	23	reparandum	_	SpaceAfter=No|WordAlignmentBegin=53633|WordAlignmentEnd=53693
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=53693|WordAlignmentEnd=53693
+22	donc	donc	ADV	_	_	24	discourse	_	WordAlignmentBegin=53693|WordAlignmentEnd=53943
+23	qui	qui	PRON	_	PronType=Rel	24	subj	_	WordAlignmentBegin=53943|WordAlignmentEnd=54083
+24	part	partir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	19	mod@relcl	_	Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=54083|WordAlignmentEnd=54442
+25	,	,	PUNCT	_	_	26	punct	_	WordAlignmentBegin=54442|WordAlignmentEnd=54442
+26	euh	euh	INTJ	_	_	24	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=54442|WordAlignmentEnd=54937
+27	,	,	PUNCT	_	_	28	punct	_	WordAlignmentBegin=54937|WordAlignmentEnd=55082
+28	avec	avec	ADP	_	_	24	mod	_	WordAlignmentBegin=55082|WordAlignmentEnd=55272
+29	son	son	DET	_	Gender=Masc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Poss=Yes|PronType=Prs	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=55272|WordAlignmentEnd=55442
+30	bout	bout	NOUN	_	_	28	comp	_	cdet=Ambiguous|Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=55442|WordAlignmentEnd=55532
+31	de	de	ADP	_	_	30	udep	_	WordAlignmentBegin=55532|WordAlignmentEnd=55642
+32	pain	pain	NOUN	_	_	31	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=55642|WordAlignmentEnd=55823
+33	au	au	ADP	_	_	24	mod	_	WordAlignmentBegin=55823|WordAlignmentEnd=55912
+34	moment	moment	NOUN	_	_	33	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=55912|WordAlignmentEnd=56222
+35	où	où	ADV	_	PronType=Rel	38	mod	_	WordAlignmentBegin=56222|WordAlignmentEnd=56392
+36	Charlie	Charlie	PROPN	_	_	38	subj	_	Gender[lex]=Unknown|WordAlignmentBegin=56392|WordAlignmentEnd=56687
+37	Chaplin	Chaplin	PROPN	_	_	36	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=56687|WordAlignmentEnd=57122
+38	arrive	arriver	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	34	mod@relcl	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=57122|WordAlignmentEnd=57562
+39	sur	sur	ADP	_	_	38	comp:obl	_	WordAlignmentBegin=57562|WordAlignmentEnd=57772
+40	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	41	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=57772|WordAlignmentEnd=57842
+41	trottoir	trottoir	NOUN	_	_	39	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=57842|WordAlignmentEnd=58422
+42	où	où	ADV	_	PronType=Rel	45	mod	_	WordAlignmentBegin=59056|WordAlignmentEnd=59176
+43	ils	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Plur|PronType=Prs	45	subj	_	Person[lex]=3|WordAlignmentBegin=59176|WordAlignmentEnd=59275
+44	se	soi	PRON	_	PronType=Prs|Reflex=Yes	45	comp:obj	_	Person[lex]=3|WordAlignmentBegin=59275|WordAlignmentEnd=59513
+45	heurtent	heurter	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	38	conj:coord	_	Number[ctxt]=Plur|WordAlignmentBegin=59513|WordAlignmentEnd=60397
+46	sauvagement	sauvagement	ADV	_	_	45	mod	_	WordAlignmentBegin=60397|WordAlignmentEnd=61046
+47	et	et	CCONJ	_	_	48	cc	_	WordAlignmentBegin=61046|WordAlignmentEnd=61136
+48	tombent	tomber	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	45	conj:coord	_	Number[ctxt]=Plur|WordAlignmentBegin=61136|WordAlignmentEnd=61436
+49	par	par	ADP	_	_	48	mod	_	WordAlignmentBegin=61436|WordAlignmentEnd=61596
+50	terre	terre	NOUN	_	_	49	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=61596|WordAlignmentEnd=62026
+51	dans	dans	ADP	_	_	48	mod	_	WordAlignmentBegin=62026|WordAlignmentEnd=62146
+52	les	le	DET	_	Definite=Def|Number=Plur|PronType=Art	53	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=62146|WordAlignmentEnd=62256
+53	bras	bras	NOUN	_	_	51	comp	_	Gender[lex]=Masc|Number[ctxt]=Plur|WordAlignmentBegin=62256|WordAlignmentEnd=62396
+54	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	55	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=62396|WordAlignmentEnd=62436
+55	un	un	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	58	mod	_	Person[lex]=3|WordAlignmentBegin=62436|WordAlignmentEnd=62536
+56	de	de	ADP	_	_	53	udep	_	WordAlignmentBegin=62536|WordAlignmentEnd=62596
+57	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	58	det	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=62596|WordAlignmentEnd=62646
+58	autre	autre	PRON	_	PronType=Ind	56	comp	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=62646|WordAlignmentEnd=63131
+59	.	.	PUNCT	_	_	17	punct	_	WordAlignmentBegin=63131|WordAlignmentEnd=63131
+
+# sent_id = Rhap_M0018-8
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = { ^et " euh " | ^et } voilà //
+# text = et, euh, et voilà.
+1	et	et	CCONJ	_	_	6	cc	_	SpaceAfter=No|WordAlignmentBegin=63959|WordAlignmentEnd=64294
+2	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=64294|WordAlignmentEnd=64294
+3	euh	euh	INTJ	_	_	6	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=64294|WordAlignmentEnd=65444
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=65444|WordAlignmentEnd=67038
+5	et	et	CCONJ	_	_	1	conj:coord	_	WordAlignmentBegin=67038|WordAlignmentEnd=67118
+6	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=67118|WordAlignmentEnd=67348
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=67348|WordAlignmentEnd=67348
+
+# sent_id = Rhap_M0018-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = ^et ^puis à la fin <+ je suis un peu déconcentré //
+# text = et puis à la fin, je suis un peu déconcentré.
+1	et	et	CCONJ	_	ExtPos=CCONJ	8	cc	_	Idiom=Yes|WordAlignmentBegin=67348|WordAlignmentEnd=67438
+2	puis	puis	CCONJ	_	_	1	unk	_	InIdiom=Yes|WordAlignmentBegin=67438|WordAlignmentEnd=67568
+3	à	à	ADP	_	_	8	mod	_	WordAlignmentBegin=67568|WordAlignmentEnd=67598
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=67598|WordAlignmentEnd=67678
+5	fin	fin	NOUN	_	_	3	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=67678|WordAlignmentEnd=67918
+6	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=67918|WordAlignmentEnd=67918
+7	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=67918|WordAlignmentEnd=67998
+8	suis	être	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=68013|WordAlignmentEnd=68054
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes|WordAlignmentBegin=68054|WordAlignmentEnd=68158
+10	peu	peu	NOUN	_	ExtPos=ADV	11	mod	_	Gender[lex]=Masc|Idiom=Yes|WordAlignmentBegin=68158|WordAlignmentEnd=68268
+11	déconcentré	déconcentrer	VERB	_	VerbForm=Part	8	comp:pred	_	Gender[ctxt]=Masc|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=68268|WordAlignmentEnd=68898
+12	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=68898|WordAlignmentEnd=68898
+
+# sent_id = Rhap_M0018-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = { ^mais "euh" | ^et } ça se termine un peu en coupure où "euh" { { le boulanger | "enfin" { la | la } vieille dame } rejoint | la bourgeoise rejoint } le boulanger après que { { la fille soit par terre | ^et Charlie ESPERLUETTE } | ^ou { Charlie Chaplin soit par terre | ^et la fille soit partie } } //
+# text = mais, euh, et ça se termine un peu en coupure où, euh, le boulanger, enfin, la, la vieille dame rejoint, la bourgeoise rejoint le boulanger après que la fille soit par terre et Charlie, ou Charlie Chaplin soit par terre et la fille soit partie.
+1	mais	mais	CCONJ	_	_	8	cc	_	SpaceAfter=No|WordAlignmentBegin=70934|WordAlignmentEnd=71203
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=71203|WordAlignmentEnd=71203
+3	euh	euh	INTJ	_	_	8	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=71203|WordAlignmentEnd=71464
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=71464|WordAlignmentEnd=71464
+5	et	et	CCONJ	_	_	8	cc	_	WordAlignmentBegin=71464|WordAlignmentEnd=71764
+6	ça	ça	PRON	_	PronType=Dem	8	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=71764|WordAlignmentEnd=71904
+7	se	soi	PRON	_	PronType=Prs|Reflex=Yes	8	comp@pass	_	Person[lex]=3|WordAlignmentBegin=71904|WordAlignmentEnd=71984
+8	termine	terminer	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	Number[ctxt]=Sing|Person[ctxt]=3|WordAlignmentBegin=71984|WordAlignmentEnd=72364
+9	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	InIdiom=Yes|WordAlignmentBegin=72364|WordAlignmentEnd=72514
+10	peu	peu	NOUN	_	ExtPos=ADV	11	mod	_	Gender[lex]=Masc|Idiom=Yes|WordAlignmentBegin=72514|WordAlignmentEnd=72934
+11	en	en	ADP	_	_	8	mod	_	WordAlignmentBegin=72934|WordAlignmentEnd=73154
+12	coupure	coupure	NOUN	_	_	11	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=73154|WordAlignmentEnd=73664
+13	où	où	ADV	_	PronType=Rel	27	mod	_	SpaceAfter=No|WordAlignmentBegin=73664|WordAlignmentEnd=73944
+14	,	,	PUNCT	_	_	15	punct	_	WordAlignmentBegin=73944|WordAlignmentEnd=73944
+15	euh	euh	INTJ	_	_	13	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=73944|WordAlignmentEnd=74064
+16	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=74064|WordAlignmentEnd=74064
+17	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Shared=No	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=74064|WordAlignmentEnd=74154
+18	boulanger	boulanger	NOUN	_	_	27	subj	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=74154|WordAlignmentEnd=74764
+19	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=74764|WordAlignmentEnd=74764
+20	enfin	enfin	ADV	_	_	26	discourse	_	SpaceAfter=No|WordAlignmentBegin=74764|WordAlignmentEnd=74914
+21	,	,	PUNCT	_	_	20	punct	_	WordAlignmentBegin=74914|WordAlignmentEnd=74914
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=74914|WordAlignmentEnd=74974
+23	,	,	PUNCT	_	_	22	punct	_	WordAlignmentBegin=74974|WordAlignmentEnd=74974
+24	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=74974|WordAlignmentEnd=75094
+25	vieille	vieux	ADJ	_	Gender=Fem	26	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=75094|WordAlignmentEnd=75614
+26	dame	dame	NOUN	_	_	18	conj:reform	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=75614|WordAlignmentEnd=75995
+27	rejoint	rejoindre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	Person[ctxt]=3|SpaceAfter=No|WordAlignmentBegin=75995|WordAlignmentEnd=76591
+28	,	,	PUNCT	_	_	27	punct	_	WordAlignmentBegin=76884|WordAlignmentEnd=77234
+29	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=77234|WordAlignmentEnd=77354
+30	bourgeoise	bourgeois	NOUN	_	_	31	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=77354|WordAlignmentEnd=77794
+31	rejoint	rejoindre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	27	conj:reform	_	Person[ctxt]=3|WordAlignmentBegin=77794|WordAlignmentEnd=78094
+32	le	le	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	33	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=78094|WordAlignmentEnd=78174
+33	boulanger	boulanger	NOUN	_	_	31	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=78174|WordAlignmentEnd=78780
+34	après	après	ADP	_	_	31	mod	_	WordAlignmentBegin=79896|WordAlignmentEnd=80217
+35	que	que	SCONJ	_	_	34	comp	_	WordAlignmentBegin=80217|WordAlignmentEnd=80962
+36	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	37	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=81115|WordAlignmentEnd=81205
+37	fille	fille	NOUN	_	_	38	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=81205|WordAlignmentEnd=81384
+38	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	reparandum	_	WordAlignmentBegin=81384|WordAlignmentEnd=81535
+39	par	par	ADP	_	_	38	comp:obl	_	WordAlignmentBegin=81535|WordAlignmentEnd=81755
+40	terre	terre	NOUN	_	_	39	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=81755|WordAlignmentEnd=82045
+41	et	et	CCONJ	_	_	47	cc	_	WordAlignmentBegin=82045|WordAlignmentEnd=82175
+42	Charlie	Charlie	PROPN	_	_	47	subj	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=82175|WordAlignmentEnd=82445
+43	,	,	PUNCT	_	_	45	punct	_	WordAlignmentBegin=82445|WordAlignmentEnd=82445
+44	ou	ou	CCONJ	_	_	45	cc	_	WordAlignmentBegin=82445|WordAlignmentEnd=82665
+45	Charlie	Charlie	PROPN	_	_	42	conj:reform	_	Gender[lex]=Unknown|WordAlignmentBegin=82665|WordAlignmentEnd=82925
+46	Chaplin	Chaplin	PROPN	_	_	45	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=82925|WordAlignmentEnd=83315
+47	soit	être	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	conj:coord	_	WordAlignmentBegin=83315|WordAlignmentEnd=83465
+48	par	par	ADP	_	_	47	comp:obl	_	WordAlignmentBegin=83465|WordAlignmentEnd=83615
+49	terre	terre	NOUN	_	_	48	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=83615|WordAlignmentEnd=83845
+50	et	et	CCONJ	_	_	53	cc	_	WordAlignmentBegin=83845|WordAlignmentEnd=83875
+51	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	52	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=83875|WordAlignmentEnd=83985
+52	fille	fille	NOUN	_	_	53	subj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=83985|WordAlignmentEnd=84174
+53	soit	être	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	47	conj:coord	_	WordAlignmentBegin=84174|WordAlignmentEnd=84315
+54	partie	partir	VERB	_	VerbForm=Part|Voice=Act	53	comp:aux@tense	_	Gender[ctxt]=Fem|Number[ctxt]=Sing|PastPartHasSpokenGender=NotInThisDialect|SpaceAfter=No|Tense[denom]=Past|WordAlignmentBegin=84315|WordAlignmentEnd=84848
+55	.	.	PUNCT	_	_	8	punct	_	WordAlignmentBegin=84848|WordAlignmentEnd=84848
+
+# sent_id = Rhap_M0018-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = je vois plus //
+# text = je vois plus.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=85635|WordAlignmentEnd=85726
+2	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=85726|WordAlignmentEnd=85886
+3	plus	plus	ADV	_	_	2	mod	_	SpaceAfter=No|WordAlignmentBegin=85886|WordAlignmentEnd=86136
+4	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=86136|WordAlignmentEnd=86136
+
+# sent_id = Rhap_M0018-12
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM44
+# macrosyntax = "bon" en gros < c'est ça //
+# text = bon, en gros, c'est ça.
+1	bon	bon	INTJ	_	_	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=87107|WordAlignmentEnd=87287
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=87287|WordAlignmentEnd=87287
+3	en	en	ADP	_	_	7	mod	_	WordAlignmentBegin=87287|WordAlignmentEnd=87417
+4	gros	gros	ADJ	_	Gender=Masc	3	comp	_	HasSpokenGender=Yes|HasSpokenNumber=OnlyFemWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=87417|WordAlignmentEnd=87557
+5	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=87557|WordAlignmentEnd=87557
+6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=87557|WordAlignmentEnd=87677
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=87677|WordAlignmentEnd=87777
+8	ça	ça	PRON	_	PronType=Dem	7	comp:pred	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=87777|WordAlignmentEnd=88088
+9	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=88088|WordAlignmentEnd=88088
+

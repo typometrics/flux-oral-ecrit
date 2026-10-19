@@ -1,0 +1,223 @@
+# sent_id = Rhap_M0006-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = "ouais" "ben" pour aller à La Nef Chavant <+ c'est très simple //
+# text = ouais, ben, pour aller à La Nef Chavant, c'est très simple.
+1	ouais	ouais	INTJ	_	_	13	discourse	_	SpaceAfter=No|WordAlignmentBegin=1057|WordAlignmentEnd=1217
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=1217|WordAlignmentEnd=1217
+3	ben	ben	INTJ	_	_	13	discourse	_	SpaceAfter=No|WordAlignmentBegin=1217|WordAlignmentEnd=1453
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=1361|WordAlignmentEnd=1453
+5	pour	pour	ADP	_	_	13	mod	_	WordAlignmentBegin=1453|WordAlignmentEnd=1563
+6	aller	aller	VERB	_	VerbForm=Inf	5	comp	_	Subject=NoRaising|WordAlignmentBegin=1563|WordAlignmentEnd=1653
+7	à	à	ADP	_	_	6	comp:obl	_	WordAlignmentBegin=1653|WordAlignmentEnd=1703
+8	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=1703|WordAlignmentEnd=1803
+9	Nef	Nef	PROPN	_	Number=Sing	7	comp	_	Gender[lex]=Fem|WordAlignmentBegin=1803|WordAlignmentEnd=1984
+10	Chavant	Chavant	PROPN	_	_	9	flat@name	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=1984|WordAlignmentEnd=2316
+11	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=2316|WordAlignmentEnd=2316
+12	c'	ce	PRON	_	PronType=Dem	13	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=2316|WordAlignmentEnd=2411
+13	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=2411|WordAlignmentEnd=2506
+14	très	très	ADV	_	_	15	mod	_	WordAlignmentBegin=2506|WordAlignmentEnd=2647
+15	simple	simple	ADJ	_	_	13	comp:pred	_	Gender[ctxt]=Masc|HasSpokenGender=No|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=2647|WordAlignmentEnd=3007
+16	.	.	PUNCT	_	_	13	punct	_	WordAlignmentBegin=3007|WordAlignmentEnd=3007
+
+# sent_id = Rhap_M0006-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = tu prends tout droit là "tu vois" //
+# text = tu prends tout droit là, tu vois.
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=3617|WordAlignmentEnd=3717
+2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|WordAlignmentBegin=3717|WordAlignmentEnd=4087
+3	tout	tout	ADV	_	_	4	mod	_	WordAlignmentBegin=4087|WordAlignmentEnd=4237
+4	droit	droit	NOUN	_	_	2	comp:obj	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=4237|WordAlignmentEnd=4536
+5	là	là	ADV	_	_	2	mod	_	SpaceAfter=No|WordAlignmentBegin=4536|WordAlignmentEnd=4723
+6	,	,	PUNCT	_	_	8	punct	_	WordAlignmentBegin=4723|WordAlignmentEnd=4723
+7	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	8	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=4723|WordAlignmentEnd=4883
+8	vois	voir	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	discourse	_	Person[ctxt]=2|SpaceAfter=No|WordAlignmentBegin=4883|WordAlignmentEnd=5119
+9	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=5119|WordAlignmentEnd=5119
+
+# sent_id = Rhap_M0006-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = ^et "euh" quand tu arrives { au bout de { la | la } ligne droite | "euh" à l'intersection | au carrefour } <+ tu tournes à droite //
+# text = et, euh, quand tu arrives au bout de la, la ligne droite, euh, à l'intersection, au carrefour, tu tournes à droite.
+1	et	et	CCONJ	_	_	27	cc	_	SpaceAfter=No|WordAlignmentBegin=5812|WordAlignmentEnd=6006
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=6006|WordAlignmentEnd=6006
+3	euh	euh	INTJ	_	_	27	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=6006|WordAlignmentEnd=6540
+4	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=6540|WordAlignmentEnd=6540
+5	quand	quand	SCONJ	_	_	27	mod	_	WordAlignmentBegin=6540|WordAlignmentEnd=6660
+6	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	7	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=6660|WordAlignmentEnd=6737
+7	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	5	comp	_	Person[ctxt]=2|WordAlignmentBegin=6737|WordAlignmentEnd=7000
+8	au	au	ADP	_	_	7	comp:obl	_	WordAlignmentBegin=7000|WordAlignmentEnd=7100
+9	bout	bout	NOUN	_	_	8	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=7100|WordAlignmentEnd=7250
+10	de	de	ADP	_	_	9	udep	_	WordAlignmentBegin=7250|WordAlignmentEnd=7280
+11	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	reparandum	_	HasSpokenGender=OnlySingExceptWithLiaison|SpaceAfter=No|WordAlignmentBegin=7280|WordAlignmentEnd=8000
+12	,	,	PUNCT	_	_	11	punct	_	WordAlignmentBegin=8000|WordAlignmentEnd=8000
+13	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=8000|WordAlignmentEnd=8173
+14	ligne	ligne	NOUN	_	_	10	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=8173|WordAlignmentEnd=8330
+15	droite	droit	ADJ	_	Gender=Fem	14	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=8330|WordAlignmentEnd=8670
+16	,	,	PUNCT	_	_	17	punct	_	WordAlignmentBegin=8670|WordAlignmentEnd=8779
+17	euh	euh	INTJ	_	_	15	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=8779|WordAlignmentEnd=8899
+18	,	,	PUNCT	_	_	19	punct	_	WordAlignmentBegin=8899|WordAlignmentEnd=8899
+19	à	à	ADP	_	_	8	conj:appos	_	WordAlignmentBegin=8899|WordAlignmentEnd=9049
+20	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	21	det	_	Gender[ctxt]=Fem|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=9049|WordAlignmentEnd=9089
+21	intersection	intersection	NOUN	_	_	19	comp	_	Gender[lex]=Fem|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=9089|WordAlignmentEnd=9675
+22	,	,	PUNCT	_	_	23	punct	_	WordAlignmentBegin=9675|WordAlignmentEnd=9675
+23	au	au	ADP	_	_	19	conj:reform	_	WordAlignmentBegin=9675|WordAlignmentEnd=9725
+24	carrefour	carrefour	NOUN	_	_	23	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=9725|WordAlignmentEnd=10191
+25	,	,	PUNCT	_	_	5	punct	_	WordAlignmentBegin=10191|WordAlignmentEnd=10261
+26	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	27	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=10261|WordAlignmentEnd=10341
+27	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|WordAlignmentBegin=10341|WordAlignmentEnd=10725
+28	à	à	ADP	_	_	27	comp:obl	_	WordAlignmentBegin=10725|WordAlignmentEnd=10914
+29	droite	droite	NOUN	_	_	28	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=11503|WordAlignmentEnd=11963
+30	.	.	PUNCT	_	_	27	punct	_	WordAlignmentBegin=11963|WordAlignmentEnd=11963
+
+# sent_id = Rhap_M0006-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = ensuite <+ tu continues tout droit jusqu'à Albert Premier de Belgique //
+# text = ensuite, tu continues tout droit jusqu'à Albert Premier de Belgique.
+1	ensuite	ensuite	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=12010|WordAlignmentEnd=12300
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=12300|WordAlignmentEnd=12300
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=12300|WordAlignmentEnd=12410
+4	continues	continuer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|WordAlignmentBegin=12410|WordAlignmentEnd=12810
+5	tout	tout	ADV	_	_	6	mod	_	WordAlignmentBegin=12810|WordAlignmentEnd=12950
+6	droit	droit	ADV	_	_	4	comp:obj	_	WordAlignmentBegin=12950|WordAlignmentEnd=13195
+7	jusqu'	jusque	ADP	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=13195|WordAlignmentEnd=13455
+8	à	à	ADP	_	_	7	comp	_	WordAlignmentBegin=13455|WordAlignmentEnd=13505
+9	Albert	Albert	PROPN	_	_	8	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=13505|WordAlignmentEnd=13745
+10	Premier	Premier	ADJ	_	Gender=Masc	9	mod	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|WordAlignmentBegin=13745|WordAlignmentEnd=14012
+11	de	de	ADP	_	_	9	mod	_	WordAlignmentBegin=14012|WordAlignmentEnd=14080
+12	Belgique	Belgique	PROPN	_	_	11	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=14080|WordAlignmentEnd=14615
+13	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=14615|WordAlignmentEnd=14615
+
+# sent_id = Rhap_M0006-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = donc < c'est tout droit //
+# text = donc, c'est tout droit.
+1	donc	donc	ADV	_	_	4	mod	_	SpaceAfter=No|WordAlignmentBegin=15008|WordAlignmentEnd=15108
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=15108|WordAlignmentEnd=15108
+3	c'	ce	PRON	_	PronType=Dem	4	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=15108|WordAlignmentEnd=15168
+4	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=15168|WordAlignmentEnd=15218
+5	tout	tout	ADV	_	_	6	mod	_	WordAlignmentBegin=15218|WordAlignmentEnd=15378
+6	droit	droit	ADJ	_	Gender=Masc	4	comp:pred	_	HasSpokenGender=YesExceptSingWithLiaison|HasSpokenNumber=OnlyWithLiaison|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=15378|WordAlignmentEnd=15738
+7	.	.	PUNCT	_	_	4	punct	_	WordAlignmentBegin=15738|WordAlignmentEnd=15738
+
+# sent_id = Rhap_M0006-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = "tu verras" il y a un arrêt de tram //
+# text = tu verras, il y a un arrêt de tram.
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=15738|WordAlignmentEnd=15888
+2	verras	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	6	discourse	_	SpaceAfter=No|WordAlignmentBegin=15888|WordAlignmentEnd=16138
+3	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=16138|WordAlignmentEnd=16138
+4	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	6	subj@expl	_	Person[lex]=3|WordAlignmentBegin=16138|WordAlignmentEnd=16178
+5	y	y	PRON	_	PronType=Prs	6	comp@expl	_	Person[lex]=3|WordAlignmentBegin=16178|WordAlignmentEnd=16225
+6	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=16225|WordAlignmentEnd=16278
+7	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	8	det	_	LiaisonAfter=Yes|WordAlignmentBegin=16278|WordAlignmentEnd=16406
+8	arrêt	arrêt	NOUN	_	_	6	comp:obj	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=16406|WordAlignmentEnd=16556
+9	de	de	ADP	_	_	8	udep	_	WordAlignmentBegin=16556|WordAlignmentEnd=16608
+10	tram	tram	NOUN	_	_	9	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=16608|WordAlignmentEnd=16912
+11	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=16912|WordAlignmentEnd=16912
+
+# sent_id = Rhap_M0006-7
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = quand tu arrives à l'arrêt de tram <+ là <+ tu tournes à gauche //
+# text = quand tu arrives à l'arrêt de tram, là, tu tournes à gauche.
+1	quand	quand	SCONJ	_	_	13	mod	_	WordAlignmentBegin=17473|WordAlignmentEnd=17543
+2	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=17543|WordAlignmentEnd=17591
+3	arrives	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	1	comp	_	Person[ctxt]=2|WordAlignmentBegin=17591|WordAlignmentEnd=17799
+4	à	à	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=17799|WordAlignmentEnd=17873
+5	l'	le	DET	_	Definite=Def|Number=Sing|PronType=Art	6	det	_	Gender[ctxt]=Masc|HasSpokenGender=OnlySingExceptWithLiaison|LiaisonAfter=Yes|SpaceAfter=No|WordAlignmentBegin=17873|WordAlignmentEnd=17903
+6	arrêt	arrêt	NOUN	_	_	4	comp	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=17903|WordAlignmentEnd=18073
+7	de	de	ADP	_	_	6	udep	_	WordAlignmentBegin=18073|WordAlignmentEnd=18133
+8	tram	tram	NOUN	_	_	7	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=18133|WordAlignmentEnd=18562
+9	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=18562|WordAlignmentEnd=19249
+10	là	là	ADV	_	_	13	mod	_	SpaceAfter=No|WordAlignmentBegin=19249|WordAlignmentEnd=19329
+11	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=19329|WordAlignmentEnd=19329
+12	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	13	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=19329|WordAlignmentEnd=19449
+13	tournes	tourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|WordAlignmentBegin=19449|WordAlignmentEnd=19669
+14	à	à	ADP	_	_	13	comp:obl	_	WordAlignmentBegin=19669|WordAlignmentEnd=19759
+15	gauche	gauche	NOUN	_	_	14	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=19759|WordAlignmentEnd=20095
+16	.	.	PUNCT	_	_	13	punct	_	WordAlignmentBegin=20060|WordAlignmentEnd=20060
+
+# sent_id = Rhap_M0006-8
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = tu suis la ligne du tram { jusqu'à | jusqu'à | "ben" jusqu'à } La Nef Chavant //
+# text = tu suis la ligne du tram jusqu'à, jusqu'à, ben, jusqu'à La Nef Chavant.
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=20095|WordAlignmentEnd=20165
+2	suis	suivre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=2|WordAlignmentBegin=20165|WordAlignmentEnd=20375
+3	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=20375|WordAlignmentEnd=20493
+4	ligne	ligne	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=20493|WordAlignmentEnd=20715
+5	du	du	ADP	_	_	4	udep	_	WordAlignmentBegin=20715|WordAlignmentEnd=20794
+6	tram	tram	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=20794|WordAlignmentEnd=21135
+7	jusqu'	jusque	ADP	_	_	10	reparandum	_	SpaceAfter=No|WordAlignmentBegin=21135|WordAlignmentEnd=21465
+8	à	à	ADP	_	_	7	comp	_	SpaceAfter=No|WordAlignmentBegin=21465|WordAlignmentEnd=22256
+9	,	,	PUNCT	_	_	7	punct	_	WordAlignmentBegin=22256|WordAlignmentEnd=22904
+10	jusqu'	jusque	ADP	_	_	15	reparandum	_	SpaceAfter=No|WordAlignmentBegin=22904|WordAlignmentEnd=23164
+11	à	à	ADP	_	_	10	comp	_	SpaceAfter=No|WordAlignmentBegin=23164|WordAlignmentEnd=23250
+12	,	,	PUNCT	_	_	13	punct	_	WordAlignmentBegin=23250|WordAlignmentEnd=23250
+13	ben	ben	INTJ	_	_	11	discourse	_	SpaceAfter=No|WordAlignmentBegin=23250|WordAlignmentEnd=23340
+14	,	,	PUNCT	_	_	10	punct	_	WordAlignmentBegin=23340|WordAlignmentEnd=23340
+15	jusqu'	jusque	ADP	_	_	2	mod	_	SpaceAfter=No|WordAlignmentBegin=23340|WordAlignmentEnd=23580
+16	à	à	ADP	_	_	15	comp	_	WordAlignmentBegin=23580|WordAlignmentEnd=23630
+17	La	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=23630|WordAlignmentEnd=23700
+18	Nef	Nef	PROPN	_	Number=Sing	16	comp	_	Gender[lex]=Fem|WordAlignmentBegin=23700|WordAlignmentEnd=23895
+19	Chavant	Chavant	PROPN	_	_	18	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=23895|WordAlignmentEnd=24190
+20	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=24190|WordAlignmentEnd=24190
+
+# sent_id = Rhap_M0006-9
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = ^et "tu verras" c'est un arrêt de tram aussi //
+# text = et, tu verras, c'est un arrêt de tram aussi.
+1	et	et	CCONJ	_	_	7	cc	_	SpaceAfter=No|WordAlignmentBegin=24439|WordAlignmentEnd=24538
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=24538|WordAlignmentEnd=24538
+3	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	4	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=24538|WordAlignmentEnd=24684
+4	verras	voir	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	7	discourse	_	SpaceAfter=No|WordAlignmentBegin=24684|WordAlignmentEnd=24913
+5	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=24913|WordAlignmentEnd=24913
+6	c'	ce	PRON	_	PronType=Dem	7	subj	_	Gender[lex]=Masc|Number[lex]=Sing|Person[lex]=3|SpaceAfter=No|WordAlignmentBegin=24913|WordAlignmentEnd=25003
+7	est	être	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	WordAlignmentBegin=25003|WordAlignmentEnd=25043
+8	un	un	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	LiaisonAfter=Yes|WordAlignmentBegin=25043|WordAlignmentEnd=25133
+9	arrêt	arrêt	NOUN	_	_	7	comp:pred	_	cdet=No|Gender[lex]=Masc|LiaisonPossibleBefore=Yes|Number[ctxt]=Sing|WordAlignmentBegin=25133|WordAlignmentEnd=25313
+10	de	de	ADP	_	_	9	udep	_	WordAlignmentBegin=25313|WordAlignmentEnd=25343
+11	tram	tram	NOUN	_	_	10	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|WordAlignmentBegin=25343|WordAlignmentEnd=25643
+12	aussi	aussi	ADV	_	_	7	mod	_	SpaceAfter=No|WordAlignmentBegin=25643|WordAlignmentEnd=26000
+13	.	.	PUNCT	_	_	7	punct	_	WordAlignmentBegin=26000|WordAlignmentEnd=26000
+
+# sent_id = Rhap_M0006-10
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = ^et donc < "euh" voilà //
+# text = et donc, euh, voilà.
+1	et	et	CCONJ	_	_	6	cc	_	WordAlignmentBegin=26000|WordAlignmentEnd=26061
+2	donc	donc	ADV	_	_	6	mod	_	SpaceAfter=No|WordAlignmentBegin=26061|WordAlignmentEnd=26341
+3	,	,	PUNCT	_	_	4	punct	_	WordAlignmentBegin=26341|WordAlignmentEnd=26341
+4	euh	euh	INTJ	_	_	2	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=26341|WordAlignmentEnd=26782
+5	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=26782|WordAlignmentEnd=26782
+6	voilà	voilà	VERB	_	_	0	root	_	SpaceAfter=No|WordAlignmentBegin=26782|WordAlignmentEnd=27073
+7	.	.	PUNCT	_	_	6	punct	_	WordAlignmentBegin=26999|WordAlignmentEnd=26999
+
+# sent_id = Rhap_M0006-11
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LM39
+# macrosyntax = tu y seras //
+# text = tu y seras.
+1	tu	toi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=2|WordAlignmentBegin=27073|WordAlignmentEnd=27085
+2	y	y	PRON	_	PronType=Prs	3	comp:pred	_	Person[lex]=3|WordAlignmentBegin=27085|WordAlignmentEnd=27128
+3	seras	être	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No|WordAlignmentBegin=27128|WordAlignmentEnd=27414
+4	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=27414|WordAlignmentEnd=27414
+

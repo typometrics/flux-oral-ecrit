@@ -1,0 +1,133 @@
+# sent_id = Rhap_M0014-1
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF29
+# macrosyntax = ^alors en partant de la place Paul Vallier pour aller à la place Notre-Dame // ^alors j'emprunte la rue de Strasbourg //
+# text = alors en partant de la place Paul Vallier pour aller à la place Notre-Dame, alors j'emprunte la rue de Strasbourg.
+1	alors	alors	ADV	_	_	18	discourse	_	WordAlignmentBegin=1467|WordAlignmentEnd=1677
+2	en	en	ADP	_	_	18	mod	_	WordAlignmentBegin=1677|WordAlignmentEnd=1747
+3	partant	partir	VERB	_	VerbForm=Part	2	comp	_	Tense[denom]=Pres|WordAlignmentBegin=1747|WordAlignmentEnd=2037
+4	de	de	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=2037|WordAlignmentEnd=2097
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=2097|WordAlignmentEnd=2167
+6	place	place	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=2167|WordAlignmentEnd=2417
+7	Paul	Paul	PROPN	_	_	6	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=2417|WordAlignmentEnd=2587
+8	Vallier	Vallier	PROPN	_	_	7	flat@name	_	Gender[lex]=Unknown|WordAlignmentBegin=2587|WordAlignmentEnd=2942
+9	pour	pour	ADP	_	_	3	mod	_	WordAlignmentBegin=2942|WordAlignmentEnd=3042
+10	aller	aller	VERB	_	VerbForm=Inf	9	comp	_	Subject=NoRaising|WordAlignmentBegin=3042|WordAlignmentEnd=3132
+11	à	à	ADP	_	_	10	comp:obl	_	WordAlignmentBegin=3132|WordAlignmentEnd=3242
+12	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=3242|WordAlignmentEnd=3362
+13	place	place	NOUN	_	_	11	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=3362|WordAlignmentEnd=3672
+14	Notre-Dame	Notre-Dame	PROPN	_	_	13	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=3672|WordAlignmentEnd=4276
+15	,	,	PUNCT	_	_	2	punct	_	WordAlignmentBegin=4276|WordAlignmentEnd=4369
+16	alors	alors	ADV	_	_	18	discourse	_	WordAlignmentBegin=4369|WordAlignmentEnd=4619
+17	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	18	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=4679|WordAlignmentEnd=4769
+18	emprunte	emprunter	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=4769|WordAlignmentEnd=5189
+19	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=5189|WordAlignmentEnd=5279
+20	rue	rue	NOUN	_	_	18	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=5279|WordAlignmentEnd=5359
+21	de	de	ADP	_	_	20	udep	_	WordAlignmentBegin=5359|WordAlignmentEnd=5419
+22	Strasbourg	Strasbourg	PROPN	_	_	21	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=5419|WordAlignmentEnd=6269
+23	.	.	PUNCT	_	_	18	punct	_	WordAlignmentBegin=6269|WordAlignmentEnd=6269
+
+# sent_id = Rhap_M0014-2
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF29
+# macrosyntax = je passe par la place Vaucanson //
+# text = je passe par la place Vaucanson.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=6834|WordAlignmentEnd=6944
+2	passe	passer	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=6944|WordAlignmentEnd=7144
+3	par	par	ADP	_	_	2	comp:obl	_	WordAlignmentBegin=7144|WordAlignmentEnd=7284
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=7284|WordAlignmentEnd=7384
+5	place	place	NOUN	_	_	3	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=7384|WordAlignmentEnd=7714
+6	Vaucanson	Vaucanson	PROPN	_	_	5	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=7714|WordAlignmentEnd=8474
+7	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=8474|WordAlignmentEnd=8474
+
+# sent_id = Rhap_M0014-3
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF29
+# macrosyntax = je prends direction Maison du tourisme //
+# text = je prends direction Maison du tourisme.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=9143|WordAlignmentEnd=9523
+2	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=9946|WordAlignmentEnd=11236
+3	direction	direction	NOUN	_	_	2	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=11236|WordAlignmentEnd=11716
+4	Maison	Maison	PROPN	_	_	3	mod:appos	_	Gender[lex]=Unknown|WordAlignmentBegin=11716|WordAlignmentEnd=12046
+5	du	du	ADP	_	_	4	mod	_	WordAlignmentBegin=12046|WordAlignmentEnd=12166
+6	tourisme	tourisme	NOUN	_	_	5	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=12166|WordAlignmentEnd=13048
+7	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=13048|WordAlignmentEnd=13048
+
+# sent_id = Rhap_M0014-4
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF29
+# macrosyntax = "euh" à la Maison du tourisme <+ { je contourne | enfin je prends } la rue de la République en remontant la rue de la République //
+# text = euh, à la Maison du tourisme, je contourne, enfin je prends la rue de la République en remontant la rue de la République.
+1	euh	euh	INTJ	_	_	10	discourse:filler	_	SpaceAfter=No|WordAlignmentBegin=14205|WordAlignmentEnd=14575
+2	,	,	PUNCT	_	_	1	punct	_	WordAlignmentBegin=14575|WordAlignmentEnd=14799
+3	à	à	ADP	_	_	10	mod	_	WordAlignmentBegin=14799|WordAlignmentEnd=14899
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=14899|WordAlignmentEnd=14999
+5	Maison	Maison	PROPN	_	_	3	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=14999|WordAlignmentEnd=15279
+6	du	du	ADP	_	_	5	mod	_	WordAlignmentBegin=15279|WordAlignmentEnd=15389
+7	tourisme	tourisme	NOUN	_	_	6	comp	_	Gender[lex]=Masc|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=15389|WordAlignmentEnd=16254
+8	,	,	PUNCT	_	_	3	punct	_	WordAlignmentBegin=16254|WordAlignmentEnd=16254
+9	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	10	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=16254|WordAlignmentEnd=16574
+10	contourne	contourner	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|SpaceAfter=No|WordAlignmentBegin=16754|WordAlignmentEnd=18843
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=18843|WordAlignmentEnd=18925
+12	enfin	enfin	ADV	_	_	10	discourse	_	WordAlignmentBegin=18925|WordAlignmentEnd=19165
+13	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	14	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=19165|WordAlignmentEnd=19345
+14	prends	prendre	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	10	conj:reform	_	Person[ctxt]=1|WordAlignmentBegin=19345|WordAlignmentEnd=19565
+15	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=19565|WordAlignmentEnd=19695
+16	rue	rue	NOUN	_	_	14	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=19695|WordAlignmentEnd=19785
+17	de	de	ADP	_	_	16	udep	_	WordAlignmentBegin=19785|WordAlignmentEnd=19845
+18	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=19845|WordAlignmentEnd=19935
+19	République	République	PROPN	_	_	17	comp	_	Gender[lex]=Unknown|WordAlignmentBegin=19935|WordAlignmentEnd=20477
+20	en	en	ADP	_	_	14	mod	_	WordAlignmentBegin=20477|WordAlignmentEnd=20587
+21	remontant	remonter	VERB	_	VerbForm=Part	20	comp	_	Tense[denom]=Pres|WordAlignmentBegin=20587|WordAlignmentEnd=21027
+22	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=21027|WordAlignmentEnd=21137
+23	rue	rue	NOUN	_	_	21	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=21137|WordAlignmentEnd=21277
+24	de	de	ADP	_	_	23	udep	_	WordAlignmentBegin=21277|WordAlignmentEnd=21337
+25	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	26	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=21337|WordAlignmentEnd=21447
+26	République	République	PROPN	_	_	24	comp	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=21447|WordAlignmentEnd=22157
+27	.	.	PUNCT	_	_	10	punct	_	WordAlignmentBegin=22157|WordAlignmentEnd=22157
+
+# sent_id = Rhap_M0014-5
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF29
+# macrosyntax = je tombe sur la place Sainte-Claire ( on va dire ) là où il y a la halle //
+# text = je tombe sur la place Sainte-Claire, on va dire, là où il y a la halle.
+1	je	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	2	subj	_	Number[lex]=Sing|Person[lex]=1|WordAlignmentBegin=22837|WordAlignmentEnd=23017
+2	tombe	tomber	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=23017|WordAlignmentEnd=23367
+3	sur	sur	ADP	_	_	2	mod	_	WordAlignmentBegin=23367|WordAlignmentEnd=23567
+4	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=23567|WordAlignmentEnd=23677
+5	place	place	NOUN	_	_	3	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=23677|WordAlignmentEnd=24137
+6	Sainte-Claire	Sainte-Claire	PROPN	_	_	5	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=24137|WordAlignmentEnd=25211
+7	,	,	PUNCT	_	_	9	punct	_	WordAlignmentBegin=25141|WordAlignmentEnd=25211
+8	on	on	PRON	_	Case=Nom|Emph=No|PronType=Ind	9	subj	_	Gender[ctxt]=Masc|Number[lex]=Sing|Person[lex]=3|WordAlignmentBegin=25211|WordAlignmentEnd=25271
+9	va	aller	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	discourse	_	WordAlignmentBegin=25271|WordAlignmentEnd=25411
+10	dire	dire	VERB	_	VerbForm=Inf	9	comp:obj	_	SpaceAfter=No|Subject=SubjRaising|WordAlignmentBegin=25411|WordAlignmentEnd=25708
+11	,	,	PUNCT	_	_	12	punct	_	WordAlignmentBegin=25708|WordAlignmentEnd=25708
+12	là	là	ADV	_	_	2	mod	_	WordAlignmentBegin=25708|WordAlignmentEnd=25843
+13	où	où	ADV	_	PronType=Rel	16	mod	_	WordAlignmentBegin=25843|WordAlignmentEnd=25918
+14	il	lui	PRON	_	Case=Nom|Emph=No|Gender=Masc|Number=Sing|PronType=Prs	16	subj@expl	_	Person[lex]=3|WordAlignmentBegin=25918|WordAlignmentEnd=25964
+15	y	y	PRON	_	PronType=Prs	16	comp@expl	_	Person[lex]=3|WordAlignmentBegin=25964|WordAlignmentEnd=26021
+16	a	avoir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	mod@relcl	_	WordAlignmentBegin=26021|WordAlignmentEnd=26088
+17	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=26088|WordAlignmentEnd=26184
+18	halle	halle	NOUN	_	_	16	comp:obj	_	Gender[lex]=Fem|Number[ctxt]=Sing|SpaceAfter=No|WordAlignmentBegin=26184|WordAlignmentEnd=26519
+19	.	.	PUNCT	_	_	2	punct	_	WordAlignmentBegin=26519|WordAlignmentEnd=26519
+
+# sent_id = Rhap_M0014-6
+# prosodic_annotation = yes
+# speaker = L1
+# speaker_id = §LF29
+# macrosyntax = ^et j'arrive à la place Notre-Dame //
+# text = et j'arrive à la place Notre-Dame.
+1	et	et	CCONJ	_	_	3	cc	_	WordAlignmentBegin=26985|WordAlignmentEnd=27055
+2	j'	moi	PRON	_	Case=Nom|Emph=No|PronType=Prs	3	subj	_	Number[lex]=Sing|Person[lex]=1|SpaceAfter=No|WordAlignmentBegin=27055|WordAlignmentEnd=27115
+3	arrive	arriver	VERB	_	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	0	root	_	Person[ctxt]=1|WordAlignmentBegin=27115|WordAlignmentEnd=27361
+4	à	à	ADP	_	_	3	comp:obl	_	WordAlignmentBegin=27361|WordAlignmentEnd=27390
+5	la	le	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	HasSpokenGender=OnlySingExceptWithLiaison|WordAlignmentBegin=27390|WordAlignmentEnd=27465
+6	place	place	NOUN	_	_	4	comp	_	Gender[lex]=Fem|Number[ctxt]=Sing|WordAlignmentBegin=27465|WordAlignmentEnd=27715
+7	Notre-Dame	Notre-Dame	PROPN	_	_	6	mod:appos	_	Gender[lex]=Unknown|SpaceAfter=No|WordAlignmentBegin=27715|WordAlignmentEnd=28147
+8	.	.	PUNCT	_	_	3	punct	_	WordAlignmentBegin=28147|WordAlignmentEnd=28147
+
