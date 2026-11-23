@@ -180,5 +180,32 @@ for rel in d.part.rels.values():
         reorder(root, "rPr", RPR)
         if not hasattr(rel.target_part, "element"):
             rel.target_part._blob = etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True)
+# 3. styles that pandoc uses but the journal template does not define (Compact in the table cells, TableCaption, VerbatimChar, Table...).
+#    Word falls back on Normal; LibreOffice empties the tables and pulls the neighbouring paragraphs into them (tested 24/11 with
+#    LibreOffice 26.2, docx_libreoffice_debug/). Each one gets an empty definition based on Normal, so nothing changes in Word.
+from docx.oxml import parse_xml
+from docx.oxml.ns import nsdecls
+styles = d.styles.element
+defined = {s.get(qn("w:styleId")) for s in styles.findall(qn("w:style"))}
+names = {s.find(qn("w:name")).get(qn("w:val")) for s in styles.findall(qn("w:style")) if s.find(qn("w:name")) is not None}
+roots = [d.element]
+for rel in d.part.rels.values():
+    if "footnotes" in rel.reltype:
+        from lxml import etree
+        roots.append(rel.target_part.element if hasattr(rel.target_part, "element") else etree.fromstring(rel.target_part.blob))
+used = {}
+for root in roots:
+    for tag, kind in (("pStyle", "paragraph"), ("rStyle", "character"), ("tblStyle", "table")):
+        for el in root.iter(W + tag):
+            used.setdefault(el.get(W + "val"), kind)
+BASE = {"paragraph": "Normal", "character": "DefaultParagraphFont", "table": "TableNormal"}
+for sid, kind in sorted(used.items()):
+    if sid in defined:
+        continue
+    name = re.sub(r"(?<=[a-z])(?=[A-Z])", " ", sid)     # TableCaption -> Table Caption
+    name = sid if name in names else name
+    styles.append(parse_xml(f'<w:style {nsdecls("w")} w:type="{kind}" w:customStyle="1" w:styleId="{sid}">'
+                            f'<w:name w:val="{name}"/><w:basedOn w:val="{BASE[kind]}"/></w:style>'))
+    print("style defined:", sid)
 d.save(OUT)
 print("written", OUT)
