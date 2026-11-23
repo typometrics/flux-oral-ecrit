@@ -140,5 +140,45 @@ for rel in d.part.rels.values():
         if hasattr(rel.target_part, "_blob"):
             from lxml import etree
             rel.target_part._blob = etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True)
+# --- LibreOffice compatibility (23 November 2026): Word accepts what follows, LibreOffice may not.
+# 1. pandoc puts the section bookmarks directly in the body, around headings and tables; there are no internal links, so they are removed.
+W = "{http://schemas.openxmlformats.org/wordprocessingml/2006/main}"
+body = d.element.body
+for el in list(body):
+    if el.tag in (W + "bookmarkStart", W + "bookmarkEnd"):
+        body.remove(el)
+# 2. children of tblPr and rPr in the order of the schema (pandoc writes tblLook before jc; the borders above are appended at the end).
+TBLPR = ["tblStyle", "tblpPr", "tblOverlap", "bidiVisual", "tblStyleRowBandSize", "tblStyleColBandSize", "tblW", "jc", "tblCellSpacing", "tblInd", "tblBorders",
+         "shd", "tblLayout", "tblCellMar", "tblLook", "tblCaption", "tblDescription"]
+RPR = ["rStyle", "rFonts", "b", "bCs", "i", "iCs", "caps", "smallCaps", "strike", "dstrike", "outline", "shadow", "emboss", "imprint", "noProof", "snapToGrid",
+       "vanish", "webHidden", "color", "spacing", "w", "kern", "position", "sz", "szCs", "highlight", "u", "effect", "bdr", "shd", "fitText", "vertAlign", "rtl",
+       "cs", "em", "lang", "eastAsianLayout", "specVanish", "oMath"]
+
+
+def reorder(root, tag, order):
+    rank = {W + t: k for k, t in enumerate(order)}
+    for el in root.iter(W + tag):
+        kids = list(el)
+        seen, uniq = set(), []
+        for k in kids:                      # a repeated property (rFonts, sz added twice) keeps its last value
+            if k.tag in seen:
+                uniq = [u for u in uniq if u.tag != k.tag]
+            seen.add(k.tag)
+            uniq.append(k)
+        for k in kids:
+            el.remove(k)
+        for k in sorted(uniq, key=lambda e: rank.get(e.tag, len(order))):
+            el.append(k)
+
+
+reorder(d.element, "tblPr", TBLPR)
+reorder(d.element, "rPr", RPR)
+for rel in d.part.rels.values():
+    if "footnotes" in rel.reltype:
+        from lxml import etree
+        root = etree.fromstring(rel.target_part.blob) if not hasattr(rel.target_part, "element") else rel.target_part.element
+        reorder(root, "rPr", RPR)
+        if not hasattr(rel.target_part, "element"):
+            rel.target_part._blob = etree.tostring(root, xml_declaration=True, encoding="UTF-8", standalone=True)
 d.save(OUT)
 print("written", OUT)
