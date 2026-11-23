@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Code et résultats</title>
+<title>Code and results</title>
 <link rel="stylesheet" href="../assets/style.css">
 <script src="../assets/build.js"></script>
 <script src="../assets/common.js"></script>
@@ -25,39 +25,43 @@
 </head>
 <body>
 <main class="narrow paper">
-<h1>Code et résultats</h1>
-<p>Les scripts Python qui produisent les chiffres, les figures et le docx de l'article, et les fichiers de résultats qu'ils écrivent. Dépendances : Python 3, NumPy, SciPy, pandas, Matplotlib, python-docx, pandoc.</p>
+<h1>Code and results</h1>
+<p>The Python scripts that produce the numbers, figures and docx of the article, and the result files they write. Requirements: Python 3, NumPy, SciPy, pandas, Matplotlib, python-docx, pandoc.</p>
 <h2>Scripts</h2>
 <table class="t">
-<tr><th>Fichier</th><th>Rôle</th></tr>
-<tr><td><a href="compute2.py">compute2.py</a>, <a href="compute.py">compute.py</a></td><td>lecture des CoNLL-U, contraction des arbres (ponctuation retirée), calcul du flux (taille, poids), segmentation de l'écrit (<code>resegment</code>), conversion SUD → ContentUD</td></tr>
-<tr><td><a href="fit.py">fit.py</a></td><td>ajustement de la loi de puissance tronquée par maximum de vraisemblance (Nelder–Mead, SciPy)</td></tr>
-<tr><td><a href="variants.py">variants.py</a></td><td>tableaux 1 et 2 : unités d'au moins trois mots, marquage des <code>mod:periph</code>, découpage en composantes illocutoires, distributions et ajustements par corpus et par tranche de longueur → <code>variants.json</code></td></tr>
-<tr><td><a href="bootstrap2.py">bootstrap2.py</a></td><td>erreurs types par rééchantillonnage des unités (200 réplicats) → <code>bootstrap2.json</code></td></tr>
-<tr><td><a href="extras.py">extras.py</a></td><td>décomposition du flux (figure 8), figure 9, liste des unités de poids 4 et 5 → <code>extras.json</code>, <code>poids4.txt</code></td></tr>
-<tr><td><a href="pairs_content.py">pairs_content.py</a></td><td>paires de dépendances disjointes par catégorie des gouverneurs sur ContentUD (section 4.3) → <code>pairs_content.json</code></td></tr>
-<tr><td><a href="figs.py">figs.py</a>, <a href="figs2.py">figs2.py</a></td><td>figures 1 à 7</td></tr>
-<tr><td><a href="export_data.py">export_data.py</a></td><td>export des corpus tels qu'analysés (unités et composantes illocutoires)</td></tr>
-<tr><td><a href="mathdata_fr.py">mathdata_fr.py</a>, <a href="mathdata.py">mathdata.py</a></td><td>données de la page <a href="../maths/index.html">Statistiques</a></td></tr>
-<tr><td><a href="make_docx.py">make_docx.py</a>, <a href="nbsp_pass.py">nbsp_pass.py</a>, <a href="build_companion.py">build_companion.py</a></td><td>docx selon la feuille de style de la revue, espaces insécables, construction de ce site</td></tr>
-<tr><td><a href="get_grew_corpus.py">get_grew_corpus.py</a></td><td>export d'un corpus depuis un serveur grew-match (versions UD <code>@conv</code>, CEFC-gold)</td></tr>
+<tr><th>File</th><th>Role</th></tr>
+<tr><td><a href="compute2.py">compute2.py</a>, <a href="compute.py">compute.py</a></td><td>reading CoNLL-U, contracting the trees (punctuation removed), computing the flux (size, weight), segmenting the written corpora (<code>resegment</code>), ContentSUD (<code>sud_to_content(..., chains=True)</code>)</td></tr>
+<tr><td><a href="fit.py">fit.py</a></td><td>maximum-likelihood fit of the power law with exponential cut-off (Nelder–Mead, SciPy)</td></tr>
+<tr><td><a href="variants.py">variants.py</a></td><td>Tables 1 and 3: sentences of at least three words, <code>mod:periph</code>, illocutionary components, distributions and fits by corpus and length class → <code>variants.json</code></td></tr>
+<tr><td><a href="lengths.py">lengths.py</a></td><td>Table 2: shares of short and long dependencies, observed and predicted by the fitted curve → <code>length_shares.json</code></td></tr>
+<tr><td><a href="structure.py">structure.py</a></td><td>sections 4.3 and 4.4: weight on ContentSUD, pairs of disjoint dependencies by category of the governors and by relation, random orders of the same trees with the same total length, direction of the pending dependencies, bouquets (Table 4) → <code>structure.json</code></td></tr>
+<tr><td><a href="bootstrap2.py">bootstrap2.py</a></td><td>standard errors by resampling the sentences (200 replicates) → <code>bootstrap2.json</code></td></tr>
+<tr><td><a href="extras.py">extras.py</a></td><td>Figure 9, list of the sentences of weight 4 and 5 → <code>extras.json</code>, <code>poids4.txt</code></td></tr>
+<tr><td><a href="figs.py">figs.py</a>, <a href="figs2.py">figs2.py</a>, <a href="figs_en.py">figs_en.py</a></td><td>figures (<code>FIGLANG=en</code> for the English labels)</td></tr>
+<tr><td><a href="export_data.py">export_data.py</a></td><td>export of the corpora as analyzed (sentences and illocutionary components)</td></tr>
+<tr><td><a href="mathdata_fr.py">mathdata_fr.py</a>, <a href="mathdata.py">mathdata.py</a></td><td>data of the <a href="../maths/index.html">Statistics</a> page</td></tr>
+<tr><td><a href="make_docx.py">make_docx.py</a>, <a href="nbsp_pass.py">nbsp_pass.py</a>, <a href="build_companion.py">build_companion.py</a></td><td>docx in the journal's style, French non-breaking spaces, this site</td></tr>
+<tr><td><a href="pairs_content.py">pairs_content.py</a></td><td>pairs of disjoint dependencies on ContentUD (French version of October)</td></tr>
+<tr><td><a href="get_grew_corpus.py">get_grew_corpus.py</a></td><td>export of a corpus from a grew-match server (UD <code>@conv</code> versions, CEFC-gold)</td></tr>
 </table>
-<h2>Résultats</h2>
+<h2>Results</h2>
 <ul>
-<li><a href="../results/variants.json">variants.json</a> : pour chaque corpus, traitement (toutes les relations, microsyntaxe seule, variantes) et tranche de longueur, le nombre d'unités, les moyennes, les distributions et les paramètres ajustés (β, λ).</li>
-<li><a href="../results/bootstrap2.json">bootstrap2.json</a> : erreurs types du tableau 2.</li>
-<li><a href="../results/extras.json">extras.json</a> : décomposition du flux par nature des dépendances.</li>
-<li><a href="../results/pairs_content.json">pairs_content.json</a> : paires disjointes sur ContentUD, en positions et en paires distinctes.</li>
-<li><a href="../results/poids4.txt">poids4.txt</a> : les unités dont le poids du flux atteint 4 ou 5.</li>
+<li><a href="../results/variants.json">variants.json</a>: for each corpus, treatment (all relations, microsyntax only, variants) and length class, the number of sentences, the means, the distributions and the fitted parameters.</li>
+<li><a href="../results/length_shares.json">length_shares.json</a>: Table 2.</li>
+<li><a href="../results/structure.json">structure.json</a>: Table 4 and section 4.4 (pairs, relations, occurrences, examples).</li>
+<li><a href="../results/bootstrap2.json">bootstrap2.json</a>: standard errors.</li>
+<li><a href="../results/extras.json">extras.json</a>, <a href="../results/pairs_content.json">pairs_content.json</a>: results of the French version of October.</li>
+<li><a href="../results/poids4.txt">poids4.txt</a>: the sentences whose flux weight reaches 4 or 5.</li>
 </ul>
-<h2>Reproduire</h2>
-<pre>python3 variants.py          # tableaux 1-2, distributions
-python3 bootstrap2.py        # erreurs types
-python3 extras.py            # figures 8-9, poids4.txt
-python3 pairs_content.py     # section 4.3
-python3 figs.py; python3 figs2.py
-python3 make_docx.py         # article.md -> docx</pre>
-<p class="small muted">Les scripts attendent les corpus dans les chemins de <code>variants.CORPORA</code> (à adapter) et <code>compute2.py</code>, <code>fit.py</code> dans le même dossier.</p>
+<h2>Reproduce</h2>
+<pre>python3 variants.py          # Tables 1 and 3, distributions
+python3 lengths.py           # Table 2
+python3 structure.py         # Table 4, section 4.4
+python3 bootstrap2.py        # standard errors
+python3 extras.py            # Figure 9, poids4.txt
+FIGLANG=en python3 figs2.py; python3 figs_en.py
+python3 make_docx.py article_en.md article_flux_spoken_written.docx</pre>
+<p class="small muted">The scripts expect the corpora at the paths of <code>variants.CORPORA</code> (to be adapted), and <code>compute2.py</code>, <code>compute.py</code>, <code>fit.py</code> in the same folder.</p>
 </main>
 </body>
 </html>

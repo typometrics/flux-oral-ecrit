@@ -15,7 +15,18 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle, Ellipse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = os.path.join(HERE, "fig")
+OUT = os.path.join(HERE, "fig_en" if os.environ.get("FIGLANG") == "en" else "fig")
+
+EN = os.environ.get("FIGLANG") == "en"          # English figures for the English version of the article, in fig_en/
+TR = {"flux": "size", "poids": "weight", "longueur": "length", "fréquence relative": "relative frequency", "taille du flux": "flux size",
+      "toutes les relations": "all relations", "microsyntaxe seulement": "microsyntax only", "longueur des dépendances": "dependency length",
+      "poids du flux": "flux weight",
+      "matrice du flux entre un et très\n(lignes : mots de gauche, du plus proche au plus éloigné ; colonnes : mots de droite ; > < : direction de la dépendance)":
+      "matrix of the flux between un and très\n(rows: words on the left, from the closest to the farthest; columns: words on the right; > <: direction of the dependency)"}
+
+
+def T(s):
+    return TR.get(s, s) if EN else s
 plt.rcParams.update({"font.family": "DejaVu Serif", "font.size": 9, "axes.spines.top": False, "axes.spines.right": False,
                      "figure.dpi": 300, "legend.frameon": False})
 V = json.load(open(os.path.join(HERE, "variants.json")))
@@ -89,7 +100,7 @@ def draw_tree(ax, forms, upos, heads, rels, cuts=(), show_pos=True, highlight=()
 def fig_exemple():
     e = example("Rhap_D0001-44")
     f, w = e["flux"], e["weight"]
-    cuts = [(8, f"flux {f[7]}, poids {w[7]}", "#1f4e8c"), (6, f"flux {f[5]}, poids {w[5]}", RED)]
+    cuts = [(8, f"{T('flux')} {f[7]}, {T('poids')} {w[7]}", "#1f4e8c"), (6, f"{T('flux')} {f[5]}, {T('poids')} {w[5]}", RED)]
     fig, ax = plt.subplots(figsize=(7.0, 2.9))
     draw_tree(ax, e["forms"], e["upos"], e["heads"], e["rel"], cuts=cuts)
     fig.tight_layout()
@@ -114,7 +125,7 @@ def fig_poids():
     lab = lambda k: f"{forms[k - 1]}_{e['upos'][k - 1]}"
     fig = plt.figure(figsize=(7.0, 4.1))
     ax = fig.add_axes([0.01, 0.42, 0.98, 0.56])
-    draw_tree(ax, forms, e["upos"], heads, e["rel"], cuts=[(i, f"flux {f}, poids {w}", RED)])
+    draw_tree(ax, forms, e["upos"], heads, e["rel"], cuts=[(i, f"{T('flux')} {f}, {T('poids')} {w}", RED)])
     ax2 = fig.add_axes([0.22, 0.02, 0.62, 0.36])
     ax2.axis("off")
     nr, nc = len(left), len(right)
@@ -133,7 +144,7 @@ def fig_poids():
                 ax2.text(cw * (j + 0.5), y + 0.5, rel_of[(l, r)], ha="center", va="center", fontsize=7, color="black")
                 if (l, r) in matching:
                     ax2.add_patch(Ellipse((cw * (j + 0.5), y + 0.5), 1.6, 0.8, fc="none", ec=RED, lw=1.2))
-    ax2.text(cw * nc / 2, -0.15, "matrice du flux entre un et très\n(lignes : mots de gauche, du plus proche au plus éloigné ; colonnes : mots de droite ; > < : direction de la dépendance)",
+    ax2.text(cw * nc / 2, -0.15, T("matrice du flux entre un et très\n(lignes : mots de gauche, du plus proche au plus éloigné ; colonnes : mots de droite ; > < : direction de la dépendance)"),
              ha="center", va="top", fontsize=7, color="#444")
     fig.savefig(os.path.join(OUT, "fig_poids.png"))
     plt.close(fig)
@@ -149,7 +160,7 @@ def fig_rhap_dist():
     D = V["dists"]["Rhapsodie|all|10-19"]
     C = V["cells"]["Rhapsodie|all|10-19"]
     fig, ax = plt.subplots(figsize=(5.2, 3.2))
-    titles = {"len": "longueur des dépendances", "flux": "taille du flux", "weight": "poids du flux"}
+    titles = {"len": T("longueur des dépendances"), "flux": T("taille du flux"), "weight": T("poids du flux")}
     for m in ("len", "flux", "weight"):
         d = np.array(D[m], dtype=float)
         d = d[d[:, 0] >= 1]
@@ -168,7 +179,7 @@ def fig_rhap_dist():
     ax.set_xticklabels(["1", "2", "3", "5", "10", "18"])
     ax.set_xlabel("n")
     ax.legend(fontsize=7, loc="lower left")
-    ax.set_ylabel("fréquence relative")
+    ax.set_ylabel(T("fréquence relative"))
     fig.tight_layout()
     fig.savefig(os.path.join(OUT, "fig_rhap_dist.png"))
     plt.close(fig)
@@ -190,7 +201,7 @@ def fig_rep():
 
 
 def fig_flux_dist():
-    panels = [("all", "toutes les relations"), ("periph_split", "microsyntaxe seulement")]
+    panels = [("all", T("toutes les relations")), ("periph_split", T("microsyntaxe seulement"))]
     fig, axes = plt.subplots(1, 2, figsize=(6.3, 2.6), sharey=True)
     for ax, (tr, title) in zip(axes, panels):
         for u in NAME:
@@ -212,8 +223,8 @@ def fig_flux_dist():
         ax.set_xlim(0.5, 10.5)
         ax.set_xticks(range(1, 11))
         ax.set_title(title, fontsize=8.5)
-        ax.set_xlabel("taille du flux")
-    axes[0].set_ylabel("fréquence relative")
+        ax.set_xlabel(T("taille du flux"))
+    axes[0].set_ylabel(T("fréquence relative"))
     axes[-1].legend(fontsize=7, loc="upper right")
     fig.tight_layout()
     fig.savefig(os.path.join(OUT, "fig_flux_dist.png"))

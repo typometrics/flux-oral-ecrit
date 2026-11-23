@@ -140,8 +140,8 @@ SUD_FUNC_UPOS = {"ADP", "AUX", "SCONJ"}
 SUD_COMP = ("comp:obj", "comp:aux", "comp:pred", "comp", "comp:obl", "comp:cleft")
 
 
-def sud_to_content(toks):
-    """SUD tree -> content-word skeleton comparable to ContentUD.
+def sud_to_content(toks, chains=False):
+    """SUD tree -> content-word skeleton comparable to ContentUD (chains=True: ContentSUD, step 2 skipped).
     1. Function heads (ADP, AUX, SCONJ) with a comp* dependent: the complement (resolved
        recursively, e.g. AUX -> AUX -> VERB) takes the place of the function word; the other
        dependents of the function word are re-attached to it (subject of an auxiliary ->
@@ -194,7 +194,7 @@ def sud_to_content(toks):
         for i, h in heads.items():
             kids[h].append(i)
     # coordination / flat chains -> bouquets (UD attaches every conjunct to the first one)
-    for i in sorted(heads):
+    for i in sorted(heads) if not chains else ():
         if rel[i] in ("conj", "conj:coord") or base(rel[i]) == "flat":
             h = heads[i]
             while h and rel.get(h) == rel[i] and heads[h]:

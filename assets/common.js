@@ -1,10 +1,10 @@
 /* Shared helpers for the flux site (version 2, October 2026). */
 const NAV = [
-  ["index.html", "Accueil"],
+  ["index.html", "Home"],
   ["article/index.html", "Article"],
-  ["maths/index.html", "Statistiques"],
-  ["data/index.html", "Données"],
-  ["code/index.html", "Code et résultats"],
+  ["maths/index.html", "Statistics"],
+  ["data/index.html", "Data"],
+  ["code/index.html", "Code and results"],
 ];
 const PART_A = [];
 
@@ -85,12 +85,42 @@ function header() {
   const inA = PART_A.some(([f]) => f === here);
   const h = document.createElement("header");
   h.className = "top";
-  h.innerHTML = `<div class="inner"><a class="brand" href="${location.pathname.includes("/article/") || location.pathname.includes("/maths/") || location.pathname.includes("/data/") || location.pathname.includes("/code/") ? "../" : ""}index.html">Le flux de dépendance · oral et écrit</a>
-    <nav>${NAV.map(([f, t, part]) => `<a href="${(location.pathname.match(/\/(article|maths|data|code)\//) ? "../" : "") + f}" class="${location.pathname.endsWith("/" + f) || (f === "index.html" && !location.pathname.match(/\/(article|maths|data|code)\//)) ? "active" : ""}">${t}</a>`).join("")}</nav>
+  h.innerHTML = `<div class="inner"><a class="brand" href="${location.pathname.includes("/article/") || location.pathname.includes("/maths/") || location.pathname.includes("/data/") || location.pathname.includes("/code/") ? "../" : ""}index.html">The dependency flux · spoken and written French</a>
+    <nav>${NAV.map(([f, t, part]) => {
+      if (Array.isArray(t)) {           // a group: label + submenu
+        const act = t.some(([g, , p]) => g === here || (p === "A" && inA));
+        return `<div class="dd${act ? " active" : ""}"><button class="ddb" type="button" aria-haspopup="true">${f} ▾</button><div class="menu">` +
+          t.map(([g, u, p]) => `<a href="${g}" class="${g === here || (p === "A" && inA) ? "active" : ""}${p === "sub" ? " sub" : ""}">${u}</a>`).join("") + `</div></div>`;
+      }
+      return `<a href="${(location.pathname.match(/\/(article|maths|data|code)\//) ? "../" : "") + f}" class="${location.pathname.endsWith("/" + f) || (f === "index.html" && !location.pathname.match(/\/(article|maths|data|code)\//)) ? "active" : ""}">${t}</a>`;
+    }).join("")}</nav>
     <span class="spacer"></span><button class="btn" id="themeBtn" title="Toggle light/dark">◐</button></div>
     ${inA ? `<div class="subnav"><span class="muted small">Part A · flux size, flux weight, dependency length:</span>
       ${PART_A.map(([f, t]) => `<a href="${f}" class="${f === here ? "active" : ""}">${t}</a>`).join("")}</div>` : ""}`;
   document.body.prepend(h);
+  // submenus: open on click (touch screens), close when clicking elsewhere; on desktop they also open on hover (CSS)
+  h.querySelectorAll(".dd").forEach(dd => dd.querySelector(".ddb").addEventListener("click", ev => {
+    ev.stopPropagation();
+    const was = dd.classList.contains("open");
+    h.querySelectorAll(".dd.open").forEach(x => x.classList.remove("open"));
+    if (!was) dd.classList.add("open");
+  }));
+  document.addEventListener("click", () => h.querySelectorAll(".dd.open").forEach(x => x.classList.remove("open")));
+  // anchors: keep targets below the sticky header (html { scroll-padding-top: var(--header-h) }), also after the header grows
+  const setH = () => document.documentElement.style.setProperty("--header-h", h.offsetHeight + "px");
+  setH();
+  if (window.ResizeObserver) new ResizeObserver(setH).observe(h);
+  // a target directly under its heading (e.g. <h2> followed by <div id="r2">): show the heading too
+  const toHash = () => {
+    if (!location.hash) return;
+    let t = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (!t) return;
+    const p = t.previousElementSibling;
+    if (p && /^H[1-4]$/.test(p.tagName) && t.getBoundingClientRect().top - p.getBoundingClientRect().top < 150) t = p;
+    t.scrollIntoView();
+  };
+  requestAnimationFrame(toHash);
+  window.addEventListener("hashchange", toHash);
   const saved = (() => { try { return localStorage.getItem("flux-theme"); } catch (e) { return null; } })();
   if (saved) document.documentElement.setAttribute("data-theme", saved);
   h.querySelector("#themeBtn").onclick = () => {
@@ -102,7 +132,7 @@ function header() {
     location.reload();
   };
   const f = document.createElement("footer");
-  f.innerHTML = `Sylvain Kahane & Kim Gerdes · site compagnon de l'article « Le flux de dépendance, une mesure de la complexité syntaxique : l'oral et l'écrit en français » · <a href="https://github.com/typometrics/flux-oral-ecrit">github.com/typometrics/flux-oral-ecrit</a>`;
+  f.innerHTML = `Sylvain Kahane & Kim Gerdes · companion site of the article “The dependency flux as a measure of syntactic complexity: spoken and written French” · <a href="https://github.com/typometrics/flux-oral-ecrit">github.com/typometrics/flux-oral-ecrit</a>`;
   document.body.append(f);
 }
 document.addEventListener("DOMContentLoaded", header);

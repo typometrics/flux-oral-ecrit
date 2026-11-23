@@ -11,8 +11,11 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml.ns import qn
 from docx.oxml import OxmlElement
 
+import sys
 SRC, REF, OUT = "article.md", "feuille-de-style-SL.docx", "article_flux_oral_ecrit.docx"
-subprocess.run(["pandoc", SRC, "--reference-doc", REF, "-o", OUT], check=True)
+if len(sys.argv) == 3:                  # the English version: python3 make_docx.py article_en.md article_flux_spoken_written.docx
+    SRC, OUT = sys.argv[1], sys.argv[2]
+subprocess.run(["pandoc", SRC, "--reference-doc", REF, "--resource-path=.", "-o", OUT], check=True)
 d = docx.Document(OUT)
 TNR = "Times New Roman"
 
@@ -60,7 +63,7 @@ for p in d.paragraphs:
         font(p, 12, True)
         state = "body"
         continue
-    if t.startswith("Références bibliographiques"):
+    if t.startswith("Références bibliographiques") or (t == "References" and sty == "Heading 1"):
         p.style = d.styles["Heading 1"]
         font(p, 12, True)
         state = "refs"
@@ -72,7 +75,7 @@ for p in d.paragraphs:
         p.paragraph_format.space_after = Pt(12)
         font(p, 11)
         continue
-    if re.match(r"^(Figure|Tableau) \d", t):
+    if re.match(r"^(Figure|Tableau|Table) \d", t):
         p.alignment = WD_ALIGN_PARAGRAPH.CENTER
         font(p, 11)
         continue

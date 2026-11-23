@@ -145,3 +145,40 @@ header.top nav a { padding: 4px 7px; font-size: 13.5px; }
 table.matrix td, table.matrix th { text-align: center; }
 table.matrix th .sub { display: block; font-size: 10px; color: var(--muted); }
 .dots { overflow-x: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 8px; }
+
+/* header, 19 October: compact header, theme button floating in the top right corner, anchors land below the sticky header
+   (--header-h is set by common.js from the real header height) */
+html { scroll-padding-top: calc(var(--header-h, 52px) + 10px); }
+header.top .inner { max-width: 1600px; padding: 5px 64px 5px 16px; gap: 14px; flex-wrap: nowrap; align-items: baseline; }
+header.top .brand { white-space: nowrap; flex: none; }
+header.top nav { gap: 2px; flex: 1 1 auto; min-width: 0; }
+header.top nav a { padding: 3px 7px; font-size: 13.5px; line-height: 1.45; }
+header.top .spacer { display: none; }
+#themeBtn { position: fixed; top: 7px; right: 14px; z-index: 40; padding: 2px 9px; line-height: 1.45; box-shadow: 0 1px 4px rgba(0,0,0,.15); }
+@media (max-width: 900px) {
+  header.top .inner { flex-wrap: nowrap; padding-right: 56px; }
+  header.top .brand { white-space: nowrap; }
+  header.top nav, .subnav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  header.top nav::-webkit-scrollbar, .subnav::-webkit-scrollbar { display: none; }
+  header.top nav a, .subnav a, .subnav span { white-space: nowrap; }
+}
+/* text pages: wide tables scroll inside the column instead of widening the page on phones */
+main.narrow table { display: block; max-width: 100%; overflow-x: auto; }
+main.narrow pre { overflow-x: auto; }
+main img { max-width: 100%; height: auto; }
+
+/* navigation groups (21 October): Analyses, Papers, Reviews */
+header.top nav .dd { position: relative; display: inline-block; }
+header.top nav .ddb { background: none; border: 0; padding: 3px 7px; font: inherit; font-size: 13.5px; line-height: 1.45; color: var(--muted); cursor: pointer; border-radius: 6px; white-space: nowrap; }
+header.top nav .dd.active > .ddb, header.top nav .ddb:hover, header.top nav .dd.open > .ddb { background: var(--accent-soft); color: var(--accent); }
+header.top nav .menu { display: none; position: absolute; top: 100%; left: 0; min-width: 240px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px; box-shadow: 0 6px 20px rgba(0,0,0,.15); padding: 4px; z-index: 50; }
+header.top nav .menu a { display: block; padding: 5px 10px; white-space: nowrap; }
+header.top nav .menu a.sub { padding-left: 22px; font-size: 12.5px; }
+@media (hover: hover) { header.top nav .dd:hover .menu { display: block; } }
+header.top nav .dd.open .menu { display: block; }
+@media (max-width: 900px) {
+  header.top nav .dd.open .menu { position: fixed; top: var(--header-h, 44px); left: 0; right: 0; border-radius: 0; display: flex; flex-wrap: wrap; gap: 2px; }
+  header.top nav .menu a { white-space: normal; }
+}
+main.narrow li, main.narrow small { overflow-wrap: anywhere; }

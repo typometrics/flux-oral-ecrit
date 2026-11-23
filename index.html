@@ -1,8 +1,8 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Le flux de dépendance, une mesure de la complexité syntaxique : l'oral et l'écrit en français</title>
+<title>The dependency flux as a measure of syntactic complexity: spoken and written French</title>
 <link rel="stylesheet" href="assets/style.css">
 <script src="assets/build.js"></script>
 <script src="assets/common.js"></script>
@@ -25,16 +25,16 @@
 </head>
 <body>
 <main class="narrow paper">
-<h1>Le flux de dépendance, une mesure de la complexité syntaxique : l'oral et l'écrit en français</h1>
-<p class="lede" style="font-family:var(--sans)">Sylvain Kahane (Université Paris Nanterre, Modyco, CNRS ; IUF) et Kim Gerdes (Université Paris-Saclay, CNRS, LISN). Article pour le numéro de <i>Studii de lingvistică</i> sur la complexité, octobre 2026.</p>
-<p>Le flux de dépendance en un point d'une phrase est l'ensemble des dépendances syntaxiques qui relient un mot situé avant ce point à un mot situé après. Sa taille moyenne est égale à la longueur moyenne des dépendances, mais sa distribution renseigne directement sur la charge de la mémoire de travail. Nous comparons deux corpus écrits (GSD, Sequoia) et trois corpus oraux (ParisStories, Rhapsodie, CEFC-gold) du français annotés en dépendances (SUD), en mesurant pour des unités de même longueur la taille du flux, son poids (le nombre maximal de dépendances disjointes, qui mesure l'enchâssement central) et la longueur des dépendances, ainsi que le paramètre de coupure d'une loi de puissance tronquée, que nous interprétons comme la pression exercée par la mémoire de travail. À longueur égale, l'oral a un flux plus grand que l'écrit. Les relations macrosyntaxiques (marqueurs de discours, dislocations, parenthèses) expliquent la plus grande partie de ce surplus, les modifieurs antéposés au sujet le reste ; le poids du flux est le même partout. Contrairement à l'idée d'un oral syntaxiquement simple, l'oral n'est pas moins complexe que l'écrit au niveau microsyntaxique : sa complexité est seulement distribuée autrement.</p>
+<h1>The dependency flux as a measure of syntactic complexity: spoken and written French</h1>
+<p class="lede" style="font-family:var(--sans)">Sylvain Kahane (Modyco (CNRS), Université Paris Nanterre; IUF) and Kim Gerdes (LISN (CNRS), Université Paris-Saclay). Article for the issue of <i>Studii de lingvistică</i> on complexity, version of 23 November 2026.</p>
+<p>Sentence length, a common measure of complexity (François 2011), cannot be used to compare speech and writing, because the maximal syntactic unit of speech is difficult to define (Pietrandrea et al. 2014). Mean dependency length (Liu 2008; Ouyang et al. 2022) and the proportion of dependencies longer than a threshold (Niu et al. 2023) have been proposed instead. We introduce related measures based on the dependency flux. The flux at a point of a sentence is the set of syntactic dependencies that link a word before this point to a word after it. We first consider the size of the flux: its mean is equal to the mean dependency length, but its large values are much more constrained. We then consider finer measures of the composition of the flux, which could not be defined in terms of dependency length. On treebanks of spoken and written French, we show that the syntactic complexity of speech is as high as that of writing when only microsyntax is considered, that it lies in different places (in verbal rather than nominal constructions), and that it is even higher when the macrosyntactic relations, much more frequent in speech, are taken into account (Blanche-Benveniste 1990).</p>
 <div class="grid c2">
-<div class="card"><h3><a href="article/index.html">L'article</a></h3><p>Texte intégral avec les figures ; <a href="article/article_flux_oral_ecrit.docx">docx</a>.</p></div>
-<div class="card"><h3><a href="data/index.html">Les données</a></h3><p>Les cinq corpus tels qu'ils ont été analysés (versions exactes), les unités et les composantes illocutoires en CoNLL-U.</p></div>
-<div class="card"><h3><a href="code/index.html">Le code et les résultats</a></h3><p>Les scripts qui produisent les tableaux, les figures et les erreurs types, et leurs sorties.</p></div>
-<div class="card"><h3><a href="maths/index.html">Les statistiques, pas à pas</a></h3><p>Le modèle <i>p</i>(<i>n</i>) ∝ <i>n</i><sup>−β</sup>e<sup>−λ<i>n</i></sup>, l'ajustement, les erreurs types et les tests, expliqués sur les données de l'article (en anglais).</p></div>
+<div class="card"><h3><a href="article/index.html">The article</a></h3><p>Full text with the figures. Download: <a href="article/article_flux_spoken_written.pdf">PDF</a> · <a href="article/article_flux_spoken_written.docx">docx</a>. <a href="article/fr.html">French version of October 2026</a>.</p></div>
+<div class="card"><h3><a href="data/index.html">The data</a></h3><p>The five corpora as they were analyzed (exact versions), the sentences and the illocutionary components in CoNLL-U.</p></div>
+<div class="card"><h3><a href="code/index.html">The code and the results</a></h3><p>The scripts that produce the tables, the figures and the standard errors, and their outputs.</p></div>
+<div class="card"><h3><a href="maths/index.html">The statistics, step by step</a></h3><p>The model <i>p</i>(<i>n</i>) ∝ <i>n</i><sup>−β</sup>e<sup>−λ<i>n</i></sup>, the fit, the standard errors and the tests, explained on the data of the article.</p></div>
 </div>
-<p class="small muted">Ce site est aussi disponible sur <a href="https://typometrics.elizia.net/flux-oral-ecrit/">https://typometrics.elizia.net/flux-oral-ecrit/</a>. Dépôt : <a href="https://github.com/typometrics/flux-oral-ecrit">github.com/typometrics/flux-oral-ecrit</a>. Le flux de dépendance : Kahane, Yan & Botalla (2017), Yan (2021).</p>
+<p class="small muted">This site is also available at <a href="https://typometrics.elizia.net/flux-oral-ecrit/">https://typometrics.elizia.net/flux-oral-ecrit/</a>. Repository: <a href="https://github.com/typometrics/flux-oral-ecrit">github.com/typometrics/flux-oral-ecrit</a>. The dependency flux: Kahane, Yan & Botalla (2017), Yan (2021).</p>
 </main>
 </body>
 </html>

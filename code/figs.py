@@ -9,7 +9,18 @@ import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 V2 = "/bigstorage/kim/typometrics/dataanalysis/flux/v218"
-OUT = os.path.join(HERE, "fig")
+OUT = os.path.join(HERE, "fig_en" if os.environ.get("FIGLANG") == "en" else "fig")
+
+EN = os.environ.get("FIGLANG") == "en"          # English figures for the English version of the article, in fig_en/
+TR = {"flux": "size", "poids": "weight", "longueur": "length", "fréquence relative": "relative frequency", "taille du flux": "flux size",
+      "toutes les relations": "all relations", "microsyntaxe seulement": "microsyntax only", "longueur des dépendances": "dependency length",
+      "poids du flux": "flux weight",
+      "matrice du flux entre un et très\n(lignes : mots de gauche, du plus proche au plus éloigné ; colonnes : mots de droite ; > < : direction de la dépendance)":
+      "matrix of the flux between un and très\n(rows: words on the left, from the closest to the farthest; columns: words on the right; > <: direction of the dependency)"}
+
+
+def T(s):
+    return TR.get(s, s) if EN else s
 os.makedirs(OUT, exist_ok=True)
 plt.rcParams.update({"font.family": "DejaVu Serif", "font.size": 9, "axes.spines.top": False, "axes.spines.right": False,
                      "figure.dpi": 300, "legend.frameon": False})
@@ -79,8 +90,8 @@ def fig_dots():
         ax.text(X(i), base - 0.18, w, ha="center", va="top", fontsize=8)
         L = next((a[1] - a[0] for a in arcs if a[2] == i), None)
         ax.text(X(i), base - 0.62, "–" if L is None else str(L), ha="center", va="top", color="#1f4e8c", fontsize=9, fontweight="bold")
-    ax.text(-0.15, top - 0.1, "flux", ha="right", va="bottom", color="#b5651d", fontsize=7.5)
-    ax.text(-0.15, base - 0.62, "longueur", ha="right", va="top", color="#1f4e8c", fontsize=7.5)
+    ax.text(-0.15, top - 0.1, T("flux"), ha="right", va="bottom", color="#b5651d", fontsize=7.5)
+    ax.text(-0.15, base - 0.62, T("longueur"), ha="right", va="top", color="#1f4e8c", fontsize=7.5)
     ax.set_xlim(-1.0, x + 0.1)
     ax.set_ylim(base - 1.0, top + 0.3)
     ax.axis("off")
@@ -151,6 +162,6 @@ def fig_decomp():
 if __name__ == "__main__":
     fig_dots()
     # written corpora in their re-segmented version (11 October); fig2 (flux) is now made by figs2.py from variants.json
-    fig_dist("weight", [("SUD", "all", "SUD"), ("ContentUD", "all", "ContentUD")], "fig3_poids.png", "fréquence relative")
+    fig_dist("weight", [("SUD", "all", "SUD"), ("ContentUD", "all", "ContentUD")], "fig3_poids.png", T("fréquence relative"))
     fig_decomp()
     print(os.listdir(OUT))
